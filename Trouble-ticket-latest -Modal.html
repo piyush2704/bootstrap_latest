@@ -1,0 +1,694 @@
+<html>
+<head>
+<title> Tata Communications </title>
+<!-- Latest compiled and minified CSS -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="css/fonts/font-awesome.css" type="text/css">
+<link rel="stylesheet" href="css/fonts/Gotham-medium.css" type="text/css">
+<link rel="stylesheet" href="css/fonts/Gotham-light.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+ <script src="https://code.jquery.com/jquery.js"></script>
+
+ 
+<script>
+
+$(document).ready(function() {
+    $("#TT-Btn-filter").click(function(){
+	$("#firstFilterCntnr").toggle();
+	$('#filterButtons').toggle();
+});
+
+$("#showAll").click(function(){
+	$("#secndFltrCntnr").css("display","block");
+	$("#showAll").css("display","none");
+	$("#hideAll").css("display","block");
+});
+$("#hideAll").click(function(){
+	$("#secndFltrCntnr").css("display","none");
+	$("#filterButtons").addClass("flagrelease");
+	$("#firstFilterCntnr").css("display","none");
+	$("#filterButtons").css("display","none");
+	
+});
+
+});
+</script>
+
+
+</head>
+
+	
+
+<body>
+<div class="container-fluid">
+<div class="row topmargin1">
+ <div class="pull-left col-xs-12 col-sm-6 col-md-6 custom_imgdiv ">
+ <img src="Tata-Logo.png" class="img-responsive customimg"/>
+ </div>
+ 
+
+
+ <div class=" col-md-6 col-xs-12 col-sm-6 font-blue  theme-text text-uppercase theme-font  pull-right ">
+ Partner Portal
+ </div>
+</div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="#">Home<span class="sr-only">(current)</span></a></li>
+       
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marketing <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Training</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">My Srvices</a></li>
+            <li role="separator" class="divider"></li>
+          
+			
+          </ul>
+		  
+        </li>
+		  <li><a href="#">Services</a></li>
+			<li><a href="#">Sales</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Trainings</a></li>
+			<li><a href="#">My Sevices</a></li>
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Support</a></li>
+		<li><a href="#">Need Assistance</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- content container starts here-->
+
+
+<div id="troubleGrid" class="portletBody row">
+		<div class="portletTitle font-blue page-header clearfix col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<span class="headingText ">Trouble Ticket</span>
+		</div>
+		<!-- Button container-->
+	<div class="portletContainer">
+		<div class="openTicketsPermission row pull-left col-lg-12 col-md-12 col-sm-12 col-xs-11" name="openTicketsPermission"> 
+			<span class="open_tickt col-lg-2 col-md-3 col-sm-4 col-xs-11  second-level-subheading pull-left ">Open a ticket: </span> 
+ 
+			<div class="btnDefaultSubmit col-lg-2 col-md-2 col-sm-6 col-xs-9 col-md-offset-0 col-lg-offset-0 col-sm-offset-4 col-xs-offset-2  text-uppercase pull-left ">
+					<i class="fa fa-tags" id="TT_icon"> </i> 
+					<a type="button" class="Btn-anchor " href="#" data-toggle="modal" data-target="#myModal">New Trouble Ticket</a>
+			</div>
+			
+			<div class="btnDefaultSubmit col-lg-2 col-md-2 col-sm-6 col-xs-9 col-md-offset-1 col-lg-offset-1 col-sm-offset-4 col-xs-offset-2  text-uppercase pull-left ">
+				<a type="button" class="Btn-anchor" href="#">New Change Request</a>
+			</div>
+			
+			<div class="btnDefaultSubmit col-lg-2 col-md-2 col-sm-6 col-xs-9 col-md-offset-1 col-lg-offset-1 col-sm-offset-4 col-xs-offset-2 text-uppercase pull-left ">
+				<a type="button" class="Btn-anchor" href="#">Reason For Outage</a>
+			</div>
+			
+		</div>
+		
+		<!-- Button container ends here-->
+		<div class="portletSubTitle pull-left col-lg-12 col-md-12 col-sm-12 col-xs-11 row">
+			<span class="headingWithBackground">INVOICES</span>
+		</div>
+		<div class="portletFilters pull-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<div class="filterStatusBarContainer pull-left ">
+				<div class="statusBar col-lg-8  col-md-8 col-sm-8 col-xs-8">
+					<p id="statusBarText">Filter applied: Invoice Date Range:From:02-Jul-2015 To: 02-Oct-2015</p>
+				</div>
+				<div class="filterBtnContainer  text-uppercase pull-right " id="TT-Btn-filter">
+				<i class="fa fa-filter" id="TTfilter_icon"> </i>
+					<a type="button" class="Btn-anchor" href="#">Filter</a>	
+				</div>
+			</div>
+			<!-- filters div-->
+			<!-- First filter row starts-->
+			<div id="firstFilterCntnr" name="firstFilterCntnr" style="display: none;"> 
+								 
+								<div class=" bottom-buffer col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 filterOptions" id="filterByservice"> 
+									<span>  
+										<h4>Ticket Number</h4>										
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div> 										
+										</span>
+									 
+							      </div>
+								 
+								 
+								<div class="bottom-buffer col-lg-3  col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 col-md-offset-1  filterOptions" id="filterByCountry"> 
+									<span>  
+										<h4>Service Name</h4>
+										<select class="select trouble-select"></select>								
+														
+								</span> 
+								 		</div>
+								 
+								 
+								<div class="bottom-buffer col-lg-3 col-md-3 col-sm-8 col-sm-offset-2  col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="filterByAccessnumber"> 
+									<span>  
+										<h4>Creation Period</h4>
+										<div class="row">
+									 <div class="input-group calender-group col-md-5 date col-sm-5 col-lg-5 col-xs-5 pull-left" id="datetimepicker2">
+										<input type="text" class="form-control calender-class" placeholder="DD-MM-YYYY" aria-describedby="basic-addon1">
+										<span class="input-group-addon date" id="datetimepicker1"><i class="fa fa-calendar"></i></span>
+										</div> 
+										<div class="input-group calender-group col-md-5 col-sm-5 col-lg-5 col-xs-5" data-provide="datepicker">
+										<input type="text" class="form-control calender-class" placeholder="DD-MM-YYYY" aria-describedby="basic-addon1">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+										</div>
+										</div>
+										</span>
+																		
+									</div>
+									
+				</div>
+				
+			<!-- First filter row ends-->
+			<!--  Second filter row starts-->
+			
+			
+			<div id="secndFltrCntnr" name="secndFltrCntnr" style="display:none;"> 
+							 <div >
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 filterOptions" id="filterByAccessnumber"> 
+									<span>  
+										<h4>Last Updated</h4>
+									<div class="row">
+									 <div class="input-group calender-group col-md-5 date col-sm-5 col-lg-5 col-xs-5 pull-left" id="datetimepicker2">
+										<input type="text" class="form-control calender-class" placeholder="DD-MM-YYYY" aria-describedby="basic-addon1">
+										<span class="input-group-addon date" id="datetimepicker1"><i class="fa fa-calendar"></i></span>
+										</div> 
+										<div class="input-group calender-group col-md-5 col-sm-5 col-lg-5 col-xs-5" data-provide="datepicker">
+										<input type="text" class="form-control calender-class" placeholder="DD-MM-YYYY" aria-describedby="basic-addon1">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-calendar"></i></span>
+										</div>
+										</div>
+									</span>										
+									</div>
+							 
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="filterByOrderNumber"> 
+									<span>  
+										<h4>Service ID</h4>
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div> 									
+										</span>
+									 
+									</div>
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="filterByNetwork"> 
+									<span>  
+										<h4>Status</h4>
+										
+										<div class="filterInput_Active">
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+									</div>
+									<div >
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 filterOptions" id="filterByEndUser"> 
+									<span>  
+									<h4>Status</h4>
+										
+										<div class="filterInput_Active">
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="filterBycity"> 
+									<span>  
+									<h4>Severity</h4>
+										<div class="filterInput_Active">
+										
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="filterByNetwork"> 
+									<span>  
+									<h4>Description Contains</h4>
+										
+										
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div>
+																				
+										</span>
+									 
+									</div>
+							</div>
+							<div >
+						    <div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 filterOptions" id="filterByinvoiceGrp"> 
+									<span>  
+											<h4>Internal Reference#</h4>
+										
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div>								
+										</span>
+									 
+									</div>
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+										<h4>Contact</h4>
+										
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div>	 										
+										</span>
+									 
+									</div>
+							<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+											<h4>Type of Ticket</h4>
+										
+										<div class="filterInput_Active">
+										
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+							</div>
+							<div>
+									<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 filterOptions" id="CircuitId"> 
+									<span> 
+										<h4>Service Alias</h4>
+										
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div>										
+										</span>
+									 
+									</div>
+									<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+										<h4>Ticket Opened By(E-Mail)</h4>
+										
+										
+										<div class="input-group">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										</div>	
+																			
+										</span>
+									 
+									</div>
+									<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+										<h4>Legal Entity</h4>
+										<label class="label"></label> 
+										<div class="filterInput_Active">
+										
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+								</div>
+								<div>
+									<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+										<h4>Circle Filter</h4>
+										
+										<div class="filterInput_Active">
+										
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+									<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+										<h4>Type of Change</h4>
+										
+										<div class="filterInput_Active">
+										
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+									<div class="jumbotron col-lg-3 col-md-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1 col-lg-offset-1 filterOptions" id="CircuitId"> 
+									<span>  
+										<h4>Organization Name/#</h4>
+										
+										<div class="filterInput_Active">
+										
+										<select class="select trouble-select"><option>All</option></select>
+										</div> 										
+										</span>
+									 
+									</div>
+								</div>
+									
+						</div> 
+			
+			
+			<!-- second filter row ends-->
+			<div id="filterButtons" style="display:none" class="filter-button bottom-buffer flagrelease  row">
+			<div class="btnDefaultSubmit   text-uppercase  col-lg-2 col-md-2 col-sm-2 col-xs-8 col-md-offset-1 col-sm-offset-1 col-lg-offset-1 col-xs-offset-1 " id="showAll">
+					<i class="fa fa-tags" id="TT_icon"> </i> 
+					<a type="button" class="Btn-anchor " href="#">Show All Filter</a>
+			</div>
+			<!--<span class="btnnwrdr col-lg-2 col-md-2 col-sm-2 col-xs-10 col-md-offset-1 col-sm-offset-1 col-lg-offset-1 col-xs-offset-1" id="showAll">
+			<i class="fa fa-caret-square-o-down font-awesome-tags"></i>Show All Filter</span>-->
+			<div class="btnDefaultSubmit  clearboth text-uppercase  col-lg-2 col-md-2 col-xs-8 col-sm-2 col-xs-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-offset-1" id="hideAll" style="display:none;">
+					<i class="fa fa-tags" id="TT_icon"> </i> 
+					<a type="button" class="Btn-anchor " href="#">Hide All Filter</a>
+			</div>
+			<!--<span class="btnnwrdr col-lg-2 col-md-2 col-xs-10 col-sm-2 col-xs-offset-1 col-md-offset-1 col-sm-offset-1 col-lg-offset-1" id="hideAll" style="display:none;">
+			<i class="fa fa-caret-square-o-up font-awesome-tags"></i>Hide All Filter</span>-->
+			
+			<div class="btnDefaultSubmit   text-uppercase  col-lg-2 col-xs-8 col-md-2 col-sm-2 col-md-offset-4 col-xs-offset-1 col-sm-offset-4 col-lg-offset-5" >
+					<i class="fa fa-check font-awesome-tags"></i>
+					<a type="button" class="Btn-anchor " href="#">Apply Filter</a>
+			</div>
+			<span class=" cancelFilter col-lg-1 col-md-1 col-sm-1 col-xs-10 col-xs-offset-3 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 link-blue ">Cancel</span>
+			
+			
+			<!--<span class="btnnwrdr col-lg-2 col-xs-10 col-md-2 col-sm-2 col-xs-offset-1 col-lg-offset-0"><i class="fa fa-check font-awesome-tags"></i>Apply Filter</span>-->
+			</div>
+			</div>
+		</div>
+			<!-- filters end-->
+		</div>
+		<!--<div class="portletGrid">
+			<table class="gridTable">
+				<thead class="gridTableHeader">
+					<tr>
+						<th>Invoice Date</th>
+						<th>Service</th>
+						<th>Invoice ID</th>
+						<th>Amount</th>
+						<th>Due Date</th>
+						<th>Payment Status</th>
+					</tr>
+				</thead>
+				<tbody class="gridTableBody" id="gridTableBody"></tbody>
+			</table>
+		</div>-->
+		<div class="TroubleGrid  top-buffer table-responsive    pull-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+			<table class="gridTable table table-striped table-bordered">
+				<thead class="gridTableHeader ">
+					<tr class="blue-border-bottom">
+				<th class="thead_head font-blue blue-border-bottom"><div class="table-inner-wrapper">Service<i class="fa fa-chevron-down invoice_date"></i></div></th>
+				<th class="thead_head font-blue blue-border-bottom hidden-sm hidden-xs"><div class="table-inner-wrapper">Service ID</div></th>
+				<th class="thead_head font-blue blue-border-bottom hidden-sm hidden-xs"><div class="table-inner-wrapper">Service Alias</div></th>
+				<th class="thead_head font-blue blue-border-bottom"><div class="table-inner-wrapper">Ticket Number</div></th>
+				<th class="thead_head font-blue blue-border-bottom"><div class="table-inner-wrapper">Status</div></th>
+				<th class="thead_head font-blue blue-border-bottom hidden-xs"><div class="table-inner-wrapper">Severity</div></th>
+				<th class="thead_head font-blue blue-border-bottom hidden-xs"><div class="table-inner-wrapper">Create Date</div></th>
+				<th class="thead_head font-blue blue-border-bottom"><div class="table-inner-wrapper">&nbsp;</div></th>
+					</tr>
+				</thead>
+				<tbody class="gridTableBody" id="gridTableBody">
+				<tr>
+				<td>DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td  class="hidden-xs" >...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td  class="hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr>
+				<tr id="openup" class="flagrelease"  style="display:none">
+					<td colspan="8">
+						<h5>Internal Reference#: Not applicable</h5>
+						<div class="row">
+						<div class="col-lg-11 col-md-11 col-sm-11 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 tr-open top-buffer">
+								<h5 class="col-lg-2 col-sm-2 col-md-2 col-xs-11">Description</h5>
+								<textarea class="col-lg-8 col-sm-8 col-md-8 col-xs-10 " rows="4" cols="120"></textarea>
+						</div>
+						
+						<div class="col-lg-11 col-md-11 col-sm-11 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 tr-open top-buffer">
+								<h5 class="col-lg-2 col-sm-2  col-md-2 col-xs-11">Latest Update</h5>
+								<textarea class="col-lg-8 col-sm-8 col-xs-10 col-md-8 " rows="4" cols="120"></textarea>
+						</div>
+						
+						<div class="col-lg-11  col-md-11 col-sm-11 col-md-offset-1 col-sm-offset-1 col-lg-offset-1 tr-open top-buffer">
+						<h5 class="col-lg-2 col-sm-2 col-md-2 col-xs-11">Update</h5>
+						<textarea class="col-lg-8 col-sm-8 col-md-8 col-xs-10" rows="4" cols="120"></textarea>
+						</div>
+						<div class="btnDefaultSubmit margin-upperclass col-lg-2 col-md-2 col-sm-3 col-xs-7 col-lg-offset-9 col-sm-offset-7 col-xs-offset-2 text-uppercase ">
+							<a type="button" class="Btn-anchor" href="#">Submit Update</a>
+						</div>
+						<div class="col-lg-11 col-md-9 col-sm-10 col-xs-11">
+						<a  href="#" id="viewTicketDetailsLink" class=" pull-right top-buffer default-link">View ticket details</a>
+						</div>
+						</div>
+						
+						
+						</div>
+					</td>
+				</tr>
+				<tr>
+				<td>DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td class=" hidden-xs">...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td class=" hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr>
+				<tr>
+				<td >DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td class=" hidden-xs">...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td class=" hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr>
+				<tr>
+				<tr>
+				<td >DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td class=" hidden-xs">...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td class=" hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr>
+				<tr>
+				<td >DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td class=" hidden-xs">...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td class=" hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr><tr>
+				<td >DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td class=" hidden-xs">...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td class=" hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr>
+				<tr>
+				<td >DSX</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td class="hidden-sm hidden-xs">NA</td>
+				<td>NET012232</td>
+				<td class=" hidden-xs">...</td>
+				<td><span class="fa fa-circle" id="fa_circleCD" style="color:red"></span>Open</td>
+				<td class=" hidden-xs">NA</td>
+				<td> <i id="clickme" class="fa fa-plus-circle plusminus"></i></td> 
+				</tr>
+				</tbody>
+			</table>
+		</div>
+		<nav class="col-lg-offset-9 col-md-offset-8 col-sm-offset-8 col-xs-offset-2">
+			<ul class="pagination">
+				<li>
+				<a href="#" aria-label="Previous">
+				<span aria-hidden="true">&laquo;</span>
+				</a>
+			</li>
+			<li><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li>
+			<a href="#" aria-label="Next">
+			<span aria-hidden="true">&raquo;</span>
+			</a>
+			</li>
+			</ul>
+			</nav>
+		<!-- <div class="TroublePagination col-md-offset-8 col-sm-offset-8  col-lg-offset-9">
+			<select id="paginationPerPageSelect" class="paginationPerPageSelect ">
+				<option selected="" value="5">5</option>
+				<option value="10">10</option>
+				<option value="15">15</option>
+			</select> 
+			<span class="paginationPreviousPage" id="paginationPreviousPage"> <i class="fa fa-angle-left" id="previousPage"></i> </span>
+			<span class="paginationPerPageTxt">per Page</span>
+			<input class="paginationInput" name="paginationInput" value="1"> 
+			<span class="paginationOf">of</span>
+			<span clas="paginationTotalPage">18473</span> 
+			<span class="paginationNextPage" id="paginationNextPage"> <i class="fa fa-angle-right" id="nextPage"></i> </span>
+		</div> -->
+		<div class="portletButtonContainer top-buffer bottom-buffer row">
+			<div class="downloadDocuments">
+			<div class="btnDefaultSubmit   text-uppercase col-lg-2 col-sm-3 col-xs-6 col-md-2 col-lg-offset-9 col-md-offset-9 col-sm-offset-8 col-xs-offset-2 ">
+					<i class="fa fa-download" id="download_icon"></i>
+					<a type="button" class="Btn-anchor " href="#">Export To Excel</a>
+			</div>
+				
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+
+<!-- content container ends here-->
+
+
+			
+
+</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery.js"></script>
+<script>
+$("#clickme").click(function(){
+$("#openup").slideToggle();
+});
+</script>
+
+<div class="modal fade " id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg " role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+      
+		<div id="content">
+		<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+        <li class="active"><a href="#legalentity" data-toggle="tab">Search By Legal Entity</a></li>
+        <li><a href="#ServiceID" data-toggle="tab">Search By Service ID</a></li>
+        <li><a href="#bulkBooking" data-toggle="tab">Bulk Ticket Booking</a></li>
+        <li><a href="#serviceType" data-toggle="tab">Search By Service/Product</a></li>
+        
+    </ul>
+    <div id="my-tab-content" class="tab-content">
+        <div class="tab-pane active" id="legalentity">
+				<div class="jumbotron">
+				<div class="container">
+					<label class="col-lg-5">Regarding Legal Entity</label>
+					<select class="select col-lg-5"><option>2 Degree Mobile</option></select>
+					<label class="col-lg-5">Service</label>
+					<select class="select col-lg-5"><option>2 Degree Mobile</option></select>
+					<label class="col-lg-5">Service ID</label>
+					<select class="select col-lg-5"><option>2 Degree Mobile</option></select>
+				</div>
+				</div>
+			</div>
+        <div class="tab-pane" id="ServiceID">
+           <div class="jumbotron">
+				<div class="container">
+				<label>Service ID</label>
+					<div class="input-group">
+										
+										<input type="text" class="form-control form-text" placeholder="Ticket Number" aria-describedby="basic-addon1">
+										<span class="input-group-addon" id="basic-addon1"><i class="fa fa-search"></i></span>
+										</div> 
+				</div>
+				</div>
+        </div>
+        <div class="tab-pane" id="bulkBooking">
+           <div class="jumbotron">
+				<div class="container">
+				</div>
+				<textarea col="4" row="100"></textarea>
+				</div>
+        </div>
+        <div class="tab-pane" id="serviceType">
+            
+        </div>
+        
+    </div>
+	</div>
+	
+	<div class="jumbotron">
+				<div class="container">
+				</div>
+				
+				</div>
+	<div class="jumbotron">
+				<div class="container">
+				</div>
+				</div>
+				
+	<div class="jumbotron">
+				<div class="container">
+				</div>
+				</div>
+	
+	<div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+
+
+
+
+</html>

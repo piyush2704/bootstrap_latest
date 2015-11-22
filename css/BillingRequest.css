@@ -1,0 +1,1212 @@
+#billingTrans_btn {
+	background: rgb(175, 188, 36) !important; margin: 20px 0px 20px 2%; outline: rgb(175, 188, 36) double 7px !important; border: currentColor; width: 235px; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 14px !important; font-weight: bold; float: left; -webkit-appearance: none; -webkt-border-radius: 0;
+}
+#billingTrans_btn:hover {
+	border: 1px solid rgb(51, 51, 51) !important;
+}
+#btn_raiseDispute:hover {
+	border: 1px solid rgb(51, 51, 51) !important;
+}
+.lotusui30dojo .dijitDialogPaneContent {
+	height: 285px !important; -ms-overflow-y: scroll !important;
+}
+.wpf_progress_indicator_box {
+	background: white !important; border-radius: 12px !important; border: 1px solid rgb(51, 51, 51) !important; left: 43% !important; top: 40% !important; width: 162px; position: fixed !important; z-index: 999 !important;
+}
+#loading_gfilter {
+	background: white !important; border-radius: 12px !important; border: 1px solid rgb(51, 51, 51) !important; left: 43% !important; top: 40% !important; width: 162px; position: fixed !important; z-index: 999 !important;
+}
+.wpf_progress_indicator_box img {
+	margin: 5px 0px 5px 5px !important; float: left !important;
+}
+#loading_gfilter img {
+	margin: 5px 0px 5px 5px !important; float: left !important;
+}
+.wpf_progress_indicator_box i {
+	margin: 29px 0px 0px 10px !important; text-align: center !important; color: black !important; line-height: normal; font-family: GothamMedium !important; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; float: left !important; font-size-adjust: none; font-stretch: normal;
+}
+#loading_gfilter i {
+	margin: 29px 0px 0px 10px !important; text-align: center !important; color: black !important; line-height: normal; font-family: GothamMedium !important; font-size: 15px; font-style: normal; font-variant: normal; font-weight: 400; float: left !important; font-size-adjust: none; font-stretch: normal;
+}
+.dijitDialogTitleBar {
+	background: rgb(255, 255, 255) !important; padding: 10px 15px !important; color: rgb(61, 134, 198); font-family: GothamMedium !important; font-size: 14px !important;
+}
+#multipleServiceIds_title {
+	width: 97.6%; color: rgb(61, 134, 198); clear: left; font-family: "GothamMedium"; font-size: 1.4em; font-weight: normal; border-bottom-color: currentColor; border-bottom-width: 2px; border-bottom-style: solid;
+}
+.dijitDialogTitle {
+	width: 97.6%; color: rgb(61, 134, 198); clear: left; font-family: "GothamMedium"; font-size: 1.4em; font-weight: normal; border-bottom-color: currentColor; border-bottom-width: 2px; border-bottom-style: solid;
+}
+#my_table {
+	border: 1px solid silver;
+}
+#firstRow {
+	border: 1px solid silver;
+}
+#secondRow {
+	border: 1px solid silver;
+}
+#my_table td {
+	padding: 4px; border: 1px solid silver;
+}
+#multipleServiceIds {
+	left: 29% !important;
+}
+.dijitDialog {
+	left: 29% !important;
+}
+.dijitButtonNode.dijitInline.dijitReset {
+	border: currentColor !important; font-family: "GothamMedium"; font-size: 0.9em; text-decoration: underline;
+}
+i.fa-calendar.fa {
+	margin: 30px 0px 0px 7px; font-size: 12px; float: left; position: absolute; background-size: 11px;
+}
+#export_dropdownDiv {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 22px 18px 0px 0px; border-radius: 5px; height: 30px; float: right; cursor: pointer; min-width: 60px; font-size-adjust: none; font-stretch: normal;
+}
+#export_dropdown {
+	background: rgb(246, 246, 246); font: 12px/normal GothamMedium; border-radius: 5px; border: 1px solid rgb(169, 169, 169); width: 90px; height: 34px; padding-left: 14px; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#billingReqDetails {
+	
+}
+#arrowUpdate {
+	
+}
+.invoice_dropdown1 {
+	padding: 0px 0px 0px 8% !important;
+}
+.tkt_text {
+	padding: 0px 0px 0px 8% !important;
+}
+.service_dropdown1 {
+	padding: 0px 0px 0px 8% !important;
+}
+@media only screen and (max-width:600px) and (min-width:0px)
+{
+.backopnque {
+	float: none;
+}
+#export_dropdownDiv {
+	margin: 17px 13px 0px 0px;
+}
+#billingReqDetails {
+	padding: 0px; width: 96%; clear: both; margin-left: 2%; float: left;
+}
+#mainHeading {
+	color: rgb(61, 134, 198); font-family: "GothamLight"; font-size: 32px !important; margin-top: 0px !important; margin-bottom: 20px; float: left;
+}
+.tkts {
+	width: 99%; height: 30px; color: white; padding-top: 10px; padding-left: 1%; font-family: "Gothammedium"; font-size: 16px; font-weight: normal; margin-top: 14px; float: left; background-color: rgb(61, 134, 198);
+}
+.clear_filters {
+	font: 10px/normal GothamMedium; color: rgb(61, 134, 198); margin-top: 17px; margin-right: 1%; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.filtertext {
+	margin: 5px 1% 20px 3%; border-radius: 12px; border: 2px solid rgb(113, 113, 113); width: 93%; font-size: 1em; float: left; display: inline-block; -ms-word-wrap: break-word;
+}
+#filterStatusBarShaded {
+	border-radius: 11px; width: 100%; font-family: Arial; font-size: 0.9em; float: left; min-height: 50px; max-height: 50px; background-color: rgb(217, 217, 217);
+}
+#filterStatusBar {
+	width: 62%; padding-bottom: 16px; clear: left; font-family: arial; font-size: 12px; margin-top: 16px; margin-left: 2%; float: left;
+}
+.filterbtn_div {
+	float: right;
+}
+#filtericon {
+	left: 17%; top: 18px; color: rgb(255, 255, 255); font-size: 17px; float: left; position: relative;
+}
+.filterbtn {
+	border-width: 2px; border-style: solid; border-color: rgb(176, 188, 37) !important; border-radius: 10px; width: 90px; height: 50px; text-align: center; color: rgb(255, 255, 255); padding-top: 7px; padding-bottom: 4px; font-family: "GothamMedium"; font-size: 14px; font-weight: bold; margin-right: 0% !important; float: right; background-image: none !important; background-color: rgb(176, 188, 37) !important;
+}
+.openReq {
+	width: 98%; height: 104px; margin-left: 1%; float: left; background-color: rgb(246, 246, 246);
+}
+.rd1 h4 {
+	font-family: GothamMedium; font-size: 22px; margin-top: 44px; margin-right: 5%; margin-left: 1%; float: left;
+}
+i#dispute_icon {
+	left: 2%; top: 49px; color: rgb(246, 246, 246); font-size: 11.5px; float: left; position: relative;
+}
+i#chat_font {
+	left: 4%; top: 50px; color: rgb(61, 134, 198); font-size: 11.5px; float: left; position: relative;
+}
+#btn_raiseDispute {
+	outline: rgb(176, 188, 37) double 4px; border: 1px solid rgb(176, 188, 37); width: 93%; height: 21px; text-align: center; color: rgb(255, 255, 255) !important; padding-top: 8px; font-family: "GothamMedium"; font-size: 12px; font-weight: bold; margin-top: 27px; margin-right: 2px; margin-left: 3%; float: left; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#AskQuestion {
+	width: 48%; float: right;
+}
+#AskQuestion .wpfBlueButton {
+	border: 2px solid rgb(251, 169, 30) !important; width: 96%; height: 35px; color: rgb(61, 134, 198); padding-top: 5px; padding-right: 2px; font-family: "GothamMedium"; font-size: 12px; font-weight: bold; margin-top: 24px; margin-right: 3% !important; float: right; background-image: none !important; background-color: rgb(246, 246, 246) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#gridDiv > div {
+	width: 100% !important; float: left;
+}
+.BillingQuestionsContainer {
+	width: 100% !important; overflow: inherit; float: left;
+}
+#BillingQuestionsContainerId {
+	width: 100% !important; overflow: inherit; float: left;
+}
+.hideOpenQuestionsTable {
+	width: 100%; float: left;
+}
+.hideOpenQuestionsTable {
+	border: 1px solid rgb(217, 217, 217); width: 98%; margin-top: 20px; margin-left: 1%; float: left;
+}
+#questions_table {
+	top: 0px; width: 100%; color: rgb(61, 134, 198); clear: left; font-family: gothammedium; font-size: 1em !important; border-bottom-color: rgb(61, 140, 198); border-bottom-width: 2px; border-bottom-style: solid; float: left; position: relative;
+}
+#dojox_grid__View_1 {
+	width: 100% !important;
+}
+.dojoxGridView {
+	width: 100% !important;
+}
+.dojoxGridContent {
+	width: 100% !important;
+}
+.dojoxGrid {
+	border: 0px currentColor !important; top: 0px !important; width: 100% !important; float: left;
+}
+th#header1 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header2 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header3 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header4 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header5 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header6 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header7 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+th#header8 {
+	padding: 9px 0px 9px 2% !important; width: 25% !important; text-align: left; font-size: 0.9em; cursor: pointer;
+}
+.dojoxGridMasterHeader {
+	display: none !important;
+}
+.highlightRow {
+	width: 100% !important; float: left;
+}
+.dojoxGridRowTable {
+	border: currentColor !important; top: 0px !important; width: 100% !important; float: left;
+}
+.dojoxGridRowTable tr td {
+	font: 12px/normal gothammedium; padding: 12px 0px 0px 2% !important; border: 0px currentColor !important; width: 25% !important; vertical-align: middle; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#exportBtnDiv {
+	clear: right; margin-right: 1%; margin-bottom: 1%; float: right;
+}
+#exporticon_CD {
+	left: 2%; top: -19px; color: rgb(255, 255, 255); font-size: 14px; float: left; position: relative;
+}
+.btn_exportOpen {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; border: currentColor !important; width: 98%; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 14px; font-weight: 700; margin-top: 20px; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.SubDiv {
+	border: 1px solid rgb(113, 113, 113); width: 90%; height: 86px; margin-top: 24px; margin-left: 4.3%; float: left; background-color: rgb(246, 246, 246);
+}
+.blocksubheading {
+	color: rgb(51, 51, 51); font-family: GothamMedium; font-size: 14px; margin-top: 8px; margin-left: 5%; float: left;
+}
+.description_span {
+	width: 100%; clear: left; float: left;
+}
+#filterTicketIcon {
+	width: 100%; clear: left; float: left;
+}
+.description_span1 {
+	width: 100%; clear: left; float: left;
+}
+#search {
+	left: 6%; top: 28px; color: rgb(61, 134, 198); font-size: 0.8em; float: left; position: relative; cursor: auto !important;
+}
+#search1 {
+	left: 6%; top: 28px; color: rgb(61, 134, 198); font-size: 0.8em; float: left; position: relative; cursor: auto !important;
+}
+.tkt_text {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.invoice_dropdown1 {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown1 {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown {
+	width: 85%; height: 37px; margin-top: 17px;
+}
+.calenderdivbilling {
+	width: 97%; margin-left: 3%; float: left;
+}
+.frombilling_id {
+	clear: left; font-family: GothamMedium; font-size: 10px; margin-top: 31px; margin-left: 1%; float: left;
+}
+.dijitTextBox {
+	border: 1px solid rgb(217, 217, 217); width: 34%; height: 30px; padding-left: 1px !important; margin-top: 20px; margin-left: 1%; float: left; background-color: rgb(255, 255, 255);
+}
+.dijitComboBox .dijitButtonNode {
+	padding: 0px !important; font-size: 10px; margin-top: 9px; margin-left: -1px; float: left; background-size: 11px;
+}
+.lotusui30dojo .dijitComboBox .dijitArrowButtonInner {
+	width: 13px !important; margin-top: 3px; background-image: none;
+}
+.dijitInputContainer {
+	margin: 9px 0px 0px 0%; width: 83%; padding-left: 0px; font-family: GothamMedium; font-size: 10px; float: left !important;
+}
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	padding: 0px !important;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	padding: 0px !important;
+}
+.tobilling_id {
+	clear: right; font-family: GothamMedium; font-size: 10px; margin-top: 31px; margin-left: 1%; float: left;
+}
+.clearSingleFilter1 {
+	color: rgb(51, 51, 51); margin-top: 28px; margin-right: 1%; float: right;
+}
+.clearSingleFilter_dscrptnctn {
+	margin: -26px 4% 0px 0px; color: rgb(51, 51, 51); font-size: 16px; float: right;
+}
+.clearSingleFilter_tktno {
+	margin: -26px 4% 0px 0px; color: rgb(51, 51, 51); font-size: 16px; float: right;
+}
+.clearSingleFilter {
+	margin: -26px 4% 0px 0px; color: rgb(51, 51, 51); font-size: 16px; float: right;
+}
+.show_div {
+	width: 213px; font-size: 12px !important; margin-top: 14px; margin-right: 4% !important; margin-bottom: 14px; margin-left: 14px; float: right;
+}
+#down_show {
+	top: 23px; right: 21px; color: rgb(246, 246, 246); font-size: 22px; font-weight: bold; float: right; position: relative; pointer-events: none;
+}
+.show_filters {
+	outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37) !important; width: 94%; height: 25px; text-align: center; color: rgb(255, 255, 255) !important; font-family: GothamMedium !important; font-size: 14px; font-weight: bold !important; float: left; background-image: none !important; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.apply_div {
+	width: 214px; clear: right; font-size: 12px !important; margin-top: 4px; margin-right: 4% !important; margin-bottom: 20px; float: right;
+}
+#tickAwosome {
+	left: 4%; top: 19px; color: rgb(255, 255, 255); font-size: 14px; float: left; position: relative;
+}
+#raiseDispute {
+	width: 48%; float: left;
+}
+.apply_filters {
+	border: 1px solid rgb(176, 188, 37) !important; width: 94%; height: 25px; text-align: center; color: rgb(255, 255, 255) !important; font-family: GothamMedium !important; font-size: 12px !important; font-weight: bold !important; margin-right: 12px !important; float: right; outline-style: double; outline-color: rgb(176, 188, 37); background-image: none !important; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+.hide_div {
+	margin: 1% 7% 4%; width: 199px; height: 40px; clear: left; float: right;
+}
+.hide_filters {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; border: 1px solid rgb(176, 188, 37) !important; width: 100%; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 12px !important; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+#down_hide {
+	top: 24px; right: 6%; color: rgb(255, 255, 255); font-size: 23px; font-weight: bold; float: right; position: relative;
+}
+.cancel {
+	margin: 28px 3% 15px 0px; color: rgb(61, 134, 198); font-family: "GothamMedium"; font-size: 16px; font-weight: bold; float: right; cursor: pointer;
+}
+.cancel:hover {
+	text-decoration: underline;
+}
+.open_page {
+	width: 248px; clear: both; margin-top: 20px; margin-bottom: 20px; float: right;
+}
+#openRecordsPerPage {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 2px 0px 5px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); height: 30px; float: left; cursor: pointer; min-width: 30px; font-size-adjust: none; font-stretch: normal;
+}
+#openQuestionsPerPage {
+	font: 14px/normal GothamMedium; margin: 10px 3px 0px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#backopnque {
+	margin: 6px 10px 0px 0px; color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; float: left; cursor: pointer;
+}
+#current {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 0px 0px; padding: 0px 0px 0px 3px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); width: 50px; height: 28px; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.openOf {
+	font: 14px/normal GothamMedium; margin: 10px 3px 0px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#total {
+	font: 14px/normal GothamMedium; margin: 10px 3px 0px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#nxtopnque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; cursor: pointer;
+}
+.error_record {
+	width: 100%; text-align: center; color: red; padding-top: 2px; font-family: "GothamMedium"; font-size: 16px; margin-top: 39px; margin-bottom: 20px; float: left; position: relative;
+}
+.statusDetails {
+	margin: 0px 0px 20px 3%; border: 1px solid rgb(217, 217, 217); width: 94%; padding-top: 6px; padding-bottom: 6px; float: left;
+}
+#updateBtn {
+	background: rgb(176, 188, 37); font: 0.87em/normal GothamMedium; margin: 0px 1% 15px 0px; outline: rgb(176, 188, 37) solid 2px; border: 2px solid rgb(255, 255, 255); width: 150px; height: 36px; color: rgb(255, 255, 255); float: right; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#Viewdtls_link {
+	margin: 1px 14% 10px 0px; color: rgb(61, 134, 198); clear: right; font-family: gothammedium; float: right;
+}
+.clearfilter_text {
+	font: 12px/normal gothammedium; font-size-adjust: none; font-stretch: normal;
+}
+th#header8 {
+	display: none;
+}
+th#header4 {
+	display: none;
+}
+th#header2 {
+	display: none;
+}
+th#header3 {
+	display: none;
+}
+th#header1 {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(2) {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(3) {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(6) {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(5) {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(7) {
+	display: none;
+}
+th#header6 {
+	display: table-cell;
+}
+.nxtopnque {
+	margin: -27px 6% 0px 0px; clear: both; float: right;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(8) {
+	width: 20% !important; text-align: center;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(1) {
+	width: 32% !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(4) {
+	width: 40% !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(9) {
+	width: 25% !important;
+}
+.gridSubRow tr:nth-child(1) td:nth-child(2) {
+	display: table-cell !important;
+}
+.gridSubRow tr:nth-child(1) td:nth-child(3) {
+	display: table-cell !important;
+}
+.gridSubRow tr td:nth-child(1) {
+	display: none;
+}
+.gridSubRow tr td:nth-child(2) {
+	width: 50% !important;
+}
+.gridSubRow tr td:nth-child(3) {
+	width: 50% !important;
+}
+.dijitButton.dijitInline.dijitReset.dijit {
+	border: currentColor !important;
+}
+#addComment {
+	vertical-align: middle;
+}
+#openQuesPagNo {
+	float: left;
+}
+}
+@media only screen and (max-width:999px) and (min-width:601px)
+{
+#export_dropdownDiv {
+	margin: 17px 13px 0px 0px;
+}
+#billingReqDetails {
+	padding: 0px; width: 96%; clear: both; margin-left: 2%; float: left;
+}
+#mainHeading {
+	color: rgb(61, 134, 198); font-family: "GothamLight"; font-size: 32px !important; margin-top: 0px !important; margin-bottom: 20px; float: left;
+}
+.tkts {
+	width: 99%; height: 30px; color: white; padding-top: 10px; padding-left: 1%; font-family: "Gothammedium"; font-size: 16px; font-weight: normal; margin-top: 14px; float: left; background-color: rgb(61, 134, 198);
+}
+.clear_filters {
+	font: 14px/normal GothamMedium; color: rgb(61, 134, 198); margin-top: 14px; margin-right: 1%; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.filtertext {
+	margin: 15px 1% 20px 3%; border-radius: 12px; border: 2px solid rgb(113, 113, 113); width: 94%; font-size: 1em; float: left; display: inline-block; -ms-word-wrap: break-word;
+}
+#filterStatusBarShaded {
+	border-radius: 11px; width: 100%; font-family: Arial; font-size: 0.9em; float: left; min-height: 50px; max-height: 50px; background-color: rgb(217, 217, 217);
+}
+#filterStatusBar {
+	width: 60%; overflow: hidden; padding-bottom: 16px; clear: left; font-family: arial; font-size: 12px; margin-top: 16px; margin-left: 2%; float: left; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.filterbtn_div {
+	float: right;
+}
+#filtericon {
+	left: 22%; top: 18px; color: rgb(255, 255, 255); font-size: 17px; float: left; position: relative;
+}
+.filterbtn {
+	border-width: 2px; border-style: solid; border-color: rgb(176, 188, 37) !important; border-radius: 10px; width: 140px; height: 50px; text-align: center; color: rgb(255, 255, 255); padding-top: 7px; padding-bottom: 4px; font-family: "GothamMedium"; font-size: 14px; font-weight: bold; margin-right: 0% !important; float: right; background-image: none !important; background-color: rgb(176, 188, 37) !important;
+}
+.openReq {
+	width: 98%; height: 104px; margin-left: 1%; float: left; background-color: rgb(246, 246, 246);
+}
+.rd1 h4 {
+	font-family: GothamMedium; font-size: 22px; margin-top: 44px; margin-right: 5%; margin-left: 1%; float: left;
+}
+i#dispute_icon {
+	left: 7.5%; top: 52px; color: rgb(246, 246, 246); font-size: 11.5px; float: left; position: relative;
+}
+i#chat_font {
+	top: 53px; right: 210px; color: rgb(61, 134, 198); font-size: 11.5px; float: right; position: relative;
+}
+#btn_raiseDispute {
+	outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37); width: 210px; height: 21px; text-align: center; color: rgb(255, 255, 255) !important; padding-top: 8px; font-family: "GothamMedium"; font-size: 14px; font-weight: bold; margin-top: 41px; margin-left: 3%; float: left; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#AskQuestion .wpfBlueButton {
+	border: 2px solid rgb(251, 169, 30) !important; width: 210px; height: 38px; text-align: center; color: rgb(61, 134, 198); font-family: "GothamMedium"; font-size: 14px; font-weight: bold; margin-top: 41px; margin-right: 2%; float: right; background-image: none !important; background-color: rgb(246, 246, 246) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#gridDiv > div {
+	width: 100% !important; float: left;
+}
+.BillingQuestionsContainer {
+	width: 100% !important; overflow: inherit; float: left;
+}
+#BillingQuestionsContainerId {
+	width: 100% !important; overflow: inherit; float: left;
+}
+.hideOpenQuestionsTable {
+	width: 100%; float: left;
+}
+.hideOpenQuestionsTable {
+	border: 1px solid rgb(217, 217, 217); width: 98%; margin-top: 20px; margin-left: 1%; float: left;
+}
+#questions_table {
+	top: 0px; width: 100%; color: rgb(61, 134, 198); clear: left; font-family: gothammedium; font-size: 1em !important; border-bottom-color: rgb(61, 140, 198); border-bottom-width: 2px; border-bottom-style: solid; float: left; position: relative;
+}
+#dojox_grid__View_1 {
+	width: 100% !important;
+}
+.dojoxGridView {
+	width: 100% !important;
+}
+.dojoxGridContent {
+	width: 100% !important;
+}
+.dojoxGrid {
+	border: 0px currentColor !important; top: 0px !important; width: 100% !important; float: left;
+}
+th#header1 {
+	padding: 9px 0px 9px 1% !important; text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header3 {
+	padding: 9px 0px 9px 1% !important; text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header5 {
+	padding: 9px 0px 9px 1% !important; text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header6 {
+	padding: 9px 0px 9px 1% !important; text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header7 {
+	padding: 9px 0px 9px 1% !important; text-align: left; font-size: 14px; cursor: pointer;
+}
+.dojoxGridMasterHeader {
+	display: none !important;
+}
+.highlightRow {
+	width: 100% !important; float: left;
+}
+.dojoxGridRowTable {
+	border: currentColor !important; top: 0px !important; width: 100% !important; float: left;
+}
+.dojoxGridRowTable tr td {
+	font: 12px/normal gothammedium; padding: 12px 0px 0px 2% !important; border: 0px currentColor; vertical-align: middle; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#exportBtnDiv {
+	clear: right; margin-right: 1%; margin-bottom: 1%; float: right;
+}
+#exporticon_CD {
+	left: 2%; top: -19px; color: rgb(255, 255, 255); font-size: 14px; float: left; position: relative;
+}
+.btn_exportOpen {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; border: currentColor !important; width: 100%; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 14px; font-weight: 700; margin-top: 20px; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.SubDiv {
+	border: 1px solid rgb(113, 113, 113); width: 46%; height: 86px; margin-top: 24px; margin-left: 2.3%; float: left; background-color: rgb(246, 246, 246);
+}
+.blocksubheading {
+	color: rgb(51, 51, 51); font-family: GothamMedium; font-size: 14px; margin-top: 8px; margin-left: 5%; float: left;
+}
+.description_span {
+	width: 100%; clear: left; float: left;
+}
+#filterTicketIcon {
+	width: 100%; clear: left; float: left;
+}
+.description_span1 {
+	width: 100%; clear: left; float: left;
+}
+#search {
+	left: 6%; top: 28px; color: rgb(61, 134, 198); font-size: 14px; float: left; position: relative; cursor: auto !important;
+}
+#search1 {
+	left: 6%; top: 28px; color: rgb(61, 134, 198); font-size: 14px; float: left; position: relative; cursor: auto !important;
+}
+.tkt_text {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.invoice_dropdown1 {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown1 {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 12px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown {
+	width: 85%; height: 37px; margin-top: 17px;
+}
+.calenderdivbilling {
+	width: 97%; margin-left: 3%; float: left;
+}
+.frombilling_id {
+	font: 10px/normal GothamMedium; margin: 31px 0px 0px 1%; clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.dijitTextBox {
+	padding: 0px !important; border: 1px solid rgb(217, 217, 217); width: 34%; height: 30px; margin-top: 20px; margin-left: 1%; float: left; background-color: rgb(255, 255, 255);
+}
+.dijitComboBox .dijitButtonNode {
+	padding: 0px !important; font-size: 10px; margin-top: 9px; margin-left: 0px; float: left; background-size: 11px;
+}
+.lotusui30dojo .dijitComboBox .dijitArrowButtonInner {
+	width: 13px !important; margin-top: 3px; background-image: none;
+}
+.dijitInputContainer {
+	margin: 9px 0px 0px 0%; width: 83%; padding-left: 0px; font-family: GothamMedium; font-size: 10px; float: left !important;
+}
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	font: 12px/normal gothammedium; padding: 0px 0px 2px 5px !important; height: 18px; font-size-adjust: none; font-stretch: normal;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	font: 12px/normal gothammedium; padding: 0px 0px 2px 5px !important; height: 18px; font-size-adjust: none; font-stretch: normal;
+}
+.tobilling_id {
+	clear: right; font-family: GothamMedium; font-size: 10px; margin-top: 31px; margin-left: 1%; float: left;
+}
+.clearSingleFilter1 {
+	color: rgb(51, 51, 51); margin-top: 28px; margin-right: 1%; float: right;
+}
+.clearSingleFilter_dscrptnctn {
+	color: rgb(51, 51, 51); font-size: 16px; margin-top: -25px; margin-right: 9px; float: right;
+}
+.clearSingleFilter_tktno {
+	color: rgb(51, 51, 51); font-size: 16px; margin-top: -25px; margin-right: 9px; float: right;
+}
+.clearSingleFilter {
+	color: rgb(51, 51, 51); font-size: 16px; margin-top: -25px; margin-right: 9px; float: right;
+}
+.show_div {
+	width: 240px; clear: both; margin-top: 11px; margin-bottom: 20px; margin-left: 2%; float: left;
+}
+#down_show {
+	top: 25px; right: 21px; color: rgb(246, 246, 246); font-size: 22px; font-weight: bold; float: right; position: relative; pointer-events: none;
+}
+.show_filters {
+	margin: 0px 0px 0px 3%; outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37) !important; width: 93%; height: 25px; color: rgb(255, 255, 255) !important; font-family: GothamMedium !important; font-size: 14px !important; font-weight: bold !important; float: left; background-image: none !important; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.apply_div {
+	margin: 20px 3.5% 0px 0px; width: 233px; height: 25px; float: right;
+}
+#tickAwosome {
+	left: 25px; top: 19px; color: rgb(255, 255, 255); font-size: 14px; float: left; position: relative;
+}
+.apply_filters {
+	outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37) !important; width: 100%; height: 25px; text-align: center; color: rgb(255, 255, 255) !important; font-family: GothamMedium !important; font-size: 14px !important; font-weight: bold !important; margin-right: 0px !important; float: right; background-image: none !important; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.hide_div {
+	margin: 10px 0px 43px 3.8%; width: 233px; height: 40px; clear: left; float: left;
+}
+.hide_filters {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; border: 1px solid rgb(176, 188, 37) !important; width: 100%; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 14px !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+#down_hide {
+	left: 190px; top: 24px; color: rgb(255, 255, 255); font-size: 23px; font-weight: bold; float: left; position: relative;
+}
+.cancel {
+	font: bold 14px/normal "GothamMedium"; margin: 35px 3% 15px 0px; color: rgb(61, 134, 198); float: right; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.cancel:hover {
+	text-decoration: underline;
+}
+.open_page {
+	width: 320px; clear: both; margin-top: 20px; margin-bottom: 20px; float: right;
+}
+#openRecordsPerPage {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 5px 0px 0px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); height: 30px; float: left; cursor: pointer; min-width: 60px; font-size-adjust: none; font-stretch: normal;
+}
+#openQuestionsPerPage {
+	font: 14px/normal GothamMedium; margin: 10px 10px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#backopnque {
+	margin: 6px 10px 0px 0px; color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; float: left; cursor: pointer;
+}
+#current {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 0px 0px; padding: 0px 0px 0px 3px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); width: 50px; height: 28px; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+.openOf {
+	font: 14px/normal GothamMedium; margin: 10px 6px 0px 10px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#total {
+	font: 14px/normal GothamMedium; margin: 10px 10px 0px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#nxtopnque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; margin-top: 6px; cursor: pointer;
+}
+.error_record {
+	width: 100%; text-align: center; color: red; padding-top: 2px; font-family: "GothamMedium"; font-size: 16px; margin-top: 39px; margin-bottom: 20px; float: left; position: relative;
+}
+.statusDetails {
+	margin: 0px 0px 20px 3%; border: 1px solid rgb(217, 217, 217); width: 94%; padding-top: 6px; padding-bottom: 6px; float: left;
+}
+#fa_circleCD1 {
+	margin-right: 5px; float: left;
+}
+#fa_circleCD2 {
+	margin-right: 5px; float: left;
+}
+#fa_circleCD3 {
+	margin-right: 5px; float: left;
+}
+#fa_circleCD4 {
+	margin-right: 5px; float: left;
+}
+#status1CD {
+	font: 14px/normal GothamMedium; margin: 0px 2% 0px 0px; width: 80px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#status2CD {
+	font: 14px/normal GothamMedium; margin: 0px 2% 0px 0px; width: 80px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#status3CD {
+	font: 14px/normal GothamMedium; margin: 0px 2% 0px 0px; width: 80px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#status4CD {
+	font: 14px/normal GothamMedium; margin: 0px 2% 0px 0px; width: 80px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#updateBtn {
+	background: rgb(176, 188, 37); font: 0.87em/normal GothamMedium !important; margin: 0px 4% 15px 2% !important; outline: rgb(176, 188, 37) solid 2px; border: 2px solid rgb(255, 255, 255); width: 152px; height: 36px; color: rgb(255, 255, 255); float: right; cursor: pointer; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#Viewdtls_link {
+	margin: 1px 4% 10px 0px; color: rgb(61, 134, 198); clear: right; font-family: gothammedium; float: right;
+}
+.dijitPlaceHolder {
+	font-size: 9px !important; margin-top: -3px !important;
+}
+th#header8 {
+	display: none;
+}
+th#header4 {
+	display: none;
+}
+th#header2 {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(2) {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(3) {
+	display: none;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(6) {
+	display: none;
+}
+.gridSubRow tr:nth-child(1) td:nth-child(2) {
+	width: 98%; text-align: left !important; font-weight: 700 !important; display: block;
+}
+.gridSubRow tr:nth-child(1) td:nth-child(3) {
+	width: 98%; text-align: left !important; font-weight: 700 !important; display: block;
+}
+th#header6 {
+	display: table-cell;
+}
+th#header1 {
+	width: 18%;
+}
+th#header5 {
+	width: 18%;
+}
+th#header3 {
+	width: 23%;
+}
+th#header6 {
+	width: 21%;
+}
+th#header7 {
+	width: 21%;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(1) {
+	width: 18% !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(4) {
+	width: 22% !important; padding-left: 0px !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(5) {
+	width: 23% !important; padding-left: 0px !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(7) {
+	width: 18% !important; padding-left: 0px !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(8) {
+	width: 6% !important; text-align: center; padding-left: 0px !important;
+}
+.dojoxGridRowTable tr:nth-child(1) td:nth-child(9) {
+	width: 13% !important; text-align: right !important; padding-right: 1% !important;
+}
+.dijitButton.dijitInline.dijitReset.dijit {
+	margin: 0px !important; border: currentColor !important; width: 45% !important; height: 22px !important; font-size: 14px !important;
+}
+#multipleServiceIds {
+	left: 182px !important; top: 62% !important; width: 50% !important; height: 326px !important;
+}
+.lotusui30dojo .dijitDialogPaneContent {
+	width: 100% !important;
+}
+.lotusui30dojo .dijitDialogCloseIcon {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/ClosePopup32.png");
+}
+#addComment {
+	text-align: left; vertical-align: middle;
+}
+#openQuesPagNo {
+	float: none;
+}
+.nxtopnque {
+	clear: both; float: none;
+}
+.backopnque {
+	float: none;
+}
+}
+@media only screen and (min-width:1000px)
+{
+.gridSubRow #cmt {
+	text-indent: 0px;
+}
+#billingReqDetails {
+	padding: 0px; width: 98%; clear: both; float: left;
+}
+#mainHeading {
+	color: rgb(61, 134, 198); font-family: "GothamLight"; font-size: 32px !important; margin-top: 0px !important; margin-bottom: 20px; float: left;
+}
+.tkts {
+	width: 99%; height: 30px; color: white; padding-top: 10px; padding-left: 1%; font-family: "Gothammedium"; font-size: 16px; font-weight: normal; margin-top: 14px; float: left; background-color: rgb(61, 134, 198);
+}
+.clear_filters {
+	font: 14px/normal GothamMedium; color: rgb(61, 134, 198); margin-top: 17px; margin-right: 1%; float: right; font-size-adjust: none; font-stretch: normal;
+}
+.filtertext {
+	margin: 18px 1% 1.5% 2.3%; border-radius: 15px; border: 2px solid rgb(113, 113, 113); width: 95%; float: left;
+}
+#filterStatusBarShaded {
+	border-radius: 13px; width: 100%; height: 50px; background-color: rgb(217, 217, 217);
+}
+#filterStatusBar {
+	width: 66%; clear: left; font-family: arial; font-size: 12px; margin-top: 16px; margin-left: 2%; float: left;
+}
+.filterbtn_div {
+	float: right;
+}
+#filtericon {
+	left: 22%; top: 18px; color: rgb(255, 255, 255); font-size: 17px; float: left; position: relative;
+}
+.filterbtn {
+	border-width: 2px; border-style: solid; border-color: rgb(176, 188, 37) !important; outline: 0px !important; border-radius: 10px; width: 140px; height: 50px; font-family: "GothamMedium"; font-size: 14px !important; margin-right: 0% !important; float: right; background-image: none !important; background-color: rgb(176, 188, 37) !important; outline-offset: 0;
+}
+.openReq {
+	width: 100%; height: 104px; float: left; background-color: rgb(246, 246, 246);
+}
+.rd1 h4 {
+	font-family: GothamMedium; font-size: 22px; margin-top: 44px; margin-right: 5%; margin-left: 1%; float: left;
+}
+#dispute_icon {
+	left: 57px; top: 48px; color: rgb(246, 246, 246); font-size: 11.5px; float: left; position: relative;
+}
+i#chat_font {
+	top: 53px; right: 235px; color: rgb(61, 134, 198); font-size: 11.5px; float: right; position: relative;
+}
+#btn_raiseDispute {
+	outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37); width: 240px; height: 21px; text-align: center; color: rgb(255, 255, 255) !important; padding-top: 4px; font-family: "GothamMedium"; font-size: 14px; font-weight: bold; margin-top: 41px; margin-left: 2%; float: left; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#AskQuestion .wpfBlueButton {
+	outline: 0px !important; border: 2px solid rgb(251, 169, 30) !important; width: 240px; height: 38px; color: rgb(61, 134, 198); font-family: "GothamMedium"; font-size: 14px; font-weight: bold; margin-top: 41px; margin-right: 2%; float: right; background-image: none !important; background-color: rgb(246, 246, 246) !important; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#gridDiv > div {
+	width: 100% !important; float: left;
+}
+.BillingQuestionsContainer {
+	width: 100% !important; overflow: inherit; float: left;
+}
+#BillingQuestionsContainerId {
+	width: 100% !important; overflow: inherit; float: left;
+}
+.hideOpenQuestionsTable {
+	width: 100%; float: left;
+}
+.hideOpenQuestionsTable {
+	border: 1px solid rgb(217, 217, 217); width: 99.8%; margin-top: 20px; float: left;
+}
+#questions_table {
+	top: 0px !important; width: 100%; color: rgb(61, 134, 198); font-family: gothammedium; font-size: 14px !important; border-bottom-color: rgb(61, 140, 198); border-bottom-width: 2px; border-bottom-style: solid; float: left; position: relative;
+}
+#dojox_grid__View_1 {
+	width: 100% !important;
+}
+.dojoxGridView {
+	width: 100% !important;
+}
+.dojoxGridContent {
+	width: 100% !important; float: left !important;
+}
+.dojoxGridScrollbox {
+	width: 100% !important; float: left !important;
+}
+.dojoxGridMasterView {
+	width: 100% !important; float: left !important;
+}
+.dojoxGrid {
+	border: 0px currentColor !important; top: 0px !important; width: 100% !important; float: left;
+}
+th#header1 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header2 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header3 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header4 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header5 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header6 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header7 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header8 {
+	text-align: left; font-size: 14px; cursor: pointer;
+}
+th#header5 {
+	padding: 9px 0px 9px 2%; width: 12%;
+}
+th#header8 {
+	padding: 9px 0px 9px 2.3%; width: 8%;
+}
+th#header4 {
+	padding: 9px 0px 9px 2%; width: 11% !important;
+}
+th#header7 {
+	padding: 9px 0px 9px 4.3%; width: 17%;
+}
+th#header3 {
+	padding: 9px 0px 9px 1%; width: 15%;
+}
+th#header2 {
+	width: 9%;
+}
+th#header1 {
+	width: 10%;
+}
+.dojoxGridRowTable tr td:nth-child(1) {
+	text-indent: 2%;
+}
+th#header6 {
+	text-indent: 1%;
+}
+.dojoxGridMasterHeader {
+	display: none !important;
+}
+.highlightRow {
+	width: 100% !important; float: left;
+}
+.dojoxGridRowTable {
+	border: currentColor !important; width: 100% !important; float: left;
+}
+.dojoxGridRowTable tr td {
+	padding: 12px 0px 0px !important; border: currentColor !important; font-size: 14px; vertical-align: middle; cursor: pointer;
+}
+.dojoxGridRowTable tr td:nth-child(1) {
+	width: 14.5% !important;
+}
+.dojoxGridRowTable tr td:nth-child(2) {
+	width: 7.5% !important;
+}
+.dojoxGridRowTable tr td:nth-child(3) {
+	width: 14% !important;
+}
+.dojoxGridRowTable tr td:nth-child(4) {
+	width: 14% !important;
+}
+.dojoxGridRowTable tr td:nth-child(5) {
+	width: 15% !important;
+}
+.dojoxGridRowTable tr td:nth-child(6) {
+	width: 9% !important;
+}
+.dojoxGridRowTable tr td:nth-child(7) {
+	width: 9% !important;
+}
+.dojoxGridRowTable tr td:nth-child(8) {
+	border: currentColor; width: 9.5% !important;
+}
+.dojoxGridRowTable tr td:nth-child(9) {
+	border: currentColor; width: 9.5% !important;
+}
+.dojoxGridRowTable tr td:nth-child(8) {
+	text-align: center;
+}
+#exportBtnDiv {
+	width: 182px; clear: right; font-size: 14px; margin-top: 5px; margin-right: 3%; float: right;
+}
+#exporticon_CD {
+	left: 4%; top: -20px; color: rgb(255, 255, 255); font-size: 14px; float: left; position: relative;
+}
+.btn_exportOpen {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; border: currentColor !important; width: 100%; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 14px; font-weight: 700; margin-top: 20px; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.SubDiv {
+	border: 1px solid rgb(113, 113, 113); width: 31%; height: 103px !important; margin-top: 24px; margin-left: 1.5%; float: left; background-color: rgb(246, 246, 246);
+}
+.blocksubheading {
+	margin: 11px 0px 0px 4%; color: rgb(51, 51, 51); font-family: GothamMedium; font-size: 14px; float: left;
+}
+.description_span {
+	width: 100%; clear: left; float: left;
+}
+#filterTicketIcon {
+	width: 100%; clear: left; float: left;
+}
+.description_span1 {
+	width: 100%; clear: left; float: left;
+}
+#search {
+	left: 6%; top: 28px; color: rgb(61, 134, 198); font-size: 14px; float: left; position: relative; cursor: auto !important;
+}
+#search1 {
+	left: 6%; top: 28px; color: rgb(61, 134, 198); font-size: 14px; float: left; position: relative; cursor: auto !important;
+}
+.tkt_text {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 14px; float: left; background-color: rgb(255, 255, 255);
+}
+.invoice_dropdown1 {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 14px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown1 {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 14px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown {
+	margin: 1% 0px 0px 4%; border: 1px solid rgb(217, 217, 217); width: 77%; height: 33px; color: rgb(51, 51, 51); clear: left; font-family: "GothamMedium"; font-size: 14px; float: left; background-color: rgb(255, 255, 255);
+}
+.service_dropdown {
+	width: 85%; height: 37px; margin-top: 17px;
+}
+.calenderdivbilling {
+	width: 97%; margin-left: 3%; float: left;
+}
+.frombilling_id {
+	clear: left; font-family: GothamMedium; font-size: 12px; margin-top: 29px; margin-left: 1%; float: left;
+}
+.dijitTextBox {
+	padding: 0px; border: 1px solid rgb(217, 217, 217); width: 34%; height: 30px; margin-top: 20px; margin-left: 1%; float: left; background-color: rgb(255, 255, 255);
+}
+.dijitComboBox .dijitButtonNode {
+	margin-top: 2px; margin-left: 0px; float: left; background-size: 11px;
+}
+.lotusui30dojo .dijitComboBox .dijitArrowButtonInner {
+	width: 13px !important; margin-top: 3px; background-image: none;
+}
+.dijitInputContainer {
+	margin: 9px 0px 0px 0%; width: 79%; padding-left: 3%; font-family: GothamMedium; font-size: 11px; float: left !important;
+}
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	padding: 0px !important;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	padding: 0px !important;
+}
+.tobilling_id {
+	clear: right; font-family: GothamMedium; font-size: 12px; margin-top: 29px; margin-left: 1%; float: left;
+}
+.clearSingleFilter1 {
+	color: rgb(51, 51, 51); font-size: 16px; margin-top: 28px; margin-right: 6%; float: right;
+}
+.clearSingleFilter_dscrptnctn {
+	margin: -26px 4% 0px 0px; color: rgb(51, 51, 51); font-size: 16px; float: right;
+}
+.clearSingleFilter_tktno {
+	margin: -26px 4% 0px 0px; color: rgb(51, 51, 51); font-size: 16px; float: right;
+}
+.clearSingleFilter {
+	margin: -26px 4% 0px 0px; color: rgb(51, 51, 51); font-size: 16px; float: right;
+}
+.show_div {
+	margin: 11px 0px 0px 2%; width: 240px; float: left;
+}
+#down_show {
+	top: 23px; right: 21px; color: rgb(246, 246, 246); font-size: 22px; font-weight: bold; float: right; position: relative; pointer-events: none;
+}
+.show_filters {
+	outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37) !important; width: 100%; height: 25px; color: rgb(255, 255, 255) !important; font-family: GothamMedium !important; font-size: 14px !important; font-weight: bold !important; float: left; background-image: none !important; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.apply_div {
+	margin: 1% 2.5% 4% 1.8%; width: 240px; height: 25px; float: right;
+}
+#tickAwosome {
+	left: 37px; top: 19px; color: rgb(255, 255, 255); font-size: 14px; float: left; position: relative;
+}
+.apply_filters {
+	outline: rgb(176, 188, 37) double 7px; border: 1px solid rgb(176, 188, 37) !important; width: 100%; height: 25px; text-align: center; color: rgb(255, 255, 255) !important; font-family: GothamMedium !important; font-size: 14px !important; font-weight: bold !important; margin-right: 0px !important; float: right; background-image: none !important; background-color: rgb(177, 188, 37) !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+.hide_div {
+	margin: 1% 1% 4% 1.8%; width: 240px; height: 40px; clear: left; float: left;
+}
+.hide_filters {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; border: 1px solid rgb(176, 188, 37) !important; width: 100%; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 14px !important; -webkit-border-radius: 0; -webkit-appearance: none; outline-offset: 0;
+}
+#down_hide {
+	left: 195px; top: 23px; color: rgb(255, 255, 255); font-size: 22px; font-weight: bold; float: left; position: relative;
+}
+.cancel {
+	margin: 31px 1% 0px 0px !important; color: rgb(61, 134, 198); font-family: "GothamMedium"; font-size: 16px; font-weight: bold; float: right; cursor: pointer;
+}
+.cancel:hover {
+	text-decoration: underline;
+}
+.open_page {
+	width: 320px; clear: both; margin-top: 20px; margin-bottom: 20px; float: right;
+}
+#openRecordsPerPage {
+	border-radius: 4px; border: 1px solid rgb(170, 170, 170); height: 30px; color: rgb(0, 0, 0); text-indent: 0.01px; font-weight: 700; margin-top: 5px; float: left; min-width: 60px; background-color: rgb(250, 250, 250);
+}
+#openQuestionsPerPage {
+	font: 14px/normal GothamMedium; margin: 11px 0px 0px 2%; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#backopnque {
+	margin: 8px 0px 0px 6px; color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; float: left !important; cursor: pointer;
+}
+.backopnque {
+	float: none !important;
+}
+#current {
+	padding: 0px 0px 0px 3px; border-radius: 4px; border: 1px solid rgb(175, 175, 175); width: 54px !important; height: 29px; color: rgb(0, 0, 0); font-weight: 700; margin-top: 4px; margin-left: 4%; float: left; background-color: rgb(250, 250, 250);
+}
+.openOf {
+	font: 14px/normal GothamMedium; margin: 11px 6px 0px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#total {
+	font: 14px/normal GothamMedium; margin: 11px 7px 0px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#nxtopnque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; margin-top: 7px; cursor: pointer;
+}
+.error_record {
+	width: 100%; text-align: center; color: red; padding-top: 2px; font-family: "GothamMedium"; font-size: 16px; margin-top: 41px; margin-bottom: 20px; float: left; position: relative;
+}
+.statusDetails {
+	background: rgba(255, 255, 255, 0.9); font: 0.87em/normal Arial; padding: 10px 1%; width: 95.85%; color: rgb(51, 51, 51); clear: right; border-top-color: currentColor !important; border-right-color: rgb(217, 217, 217); border-bottom-color: rgb(217, 217, 217); border-left-color: rgb(217, 217, 217); border-top-width: medium !important; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: none !important; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#fa_circleCD1 {
+	margin-right: 5px; float: left;
+}
+#fa_circleCD2 {
+	margin-right: 5px; float: left;
+}
+#fa_circleCD3 {
+	margin-right: 5px; float: left;
+}
+#fa_circleCD4 {
+	margin-right: 5px; float: left;
+}
+#status1CD {
+	font: 14px/normal GothamMedium; width: 80px; margin-top: -2px; margin-right: 15px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#status2CD {
+	font: 14px/normal GothamMedium; width: 80px; margin-top: -2px; margin-right: 15px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#status3CD {
+	font: 14px/normal GothamMedium; width: 80px; margin-top: -2px; margin-right: 15px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#status4CD {
+	font: 14px/normal GothamMedium; width: 80px; margin-top: -2px; margin-right: 15px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#updateBtn {
+	background: rgb(176, 188, 37); font: 14px/normal GothamMedium; margin: 0px 25% 15px 0px; outline: rgb(176, 188, 37) solid 2px; border: 2px solid rgb(255, 255, 255); width: 25%; height: 31px; color: rgb(255, 255, 255); float: right; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#Viewdtls_link {
+	margin: 1px 21.5% 10px 0px; width: 25%; color: rgb(61, 134, 198); clear: right; font-family: gothammedium; font-size: 14px; float: right;
+}
+span.dijitButton.dijitInline.dijitReset.dijit {
+	margin: 0px !important; border: currentColor !important; width: 45% !important; height: 22px !important; font-size: 14px !important;
+}
+#textArea {
+	margin: 0px !important; width: auto !important; float: left;
+}
+#lastComment {
+	font: bold 14px/normal Arial; text-align: right; padding-right: 2% !important; vertical-align: top; position: relative; font-size-adjust: none; font-stretch: normal;
+}
+#addComment {
+	font: bold 1em/normal Arial; text-align: right; padding-right: 2% !important; font-size-adjust: none; font-stretch: normal;
+}
+.dijitInputField.dijitPlaceHolder {
+	margin-top: 3px !important; margin-left: 3px !important;
+}
+#calendertext {
+	margin-top: -2px !important;
+}
+#calendertext1 {
+	margin-top: -2px !important;
+}
+#openQuesPagNo {
+	margin: 0px; float: none;
+}
+.nxtopnque {
+	margin: 0px; float: none;
+}
+#errorCmtVal {
+	width: 30% !important; text-align: left !important; clear: both; font-weight: bold; float: left;
+}
+span#arrowTicketNo {
+	left: 14px; bottom: 14px; float: right; position: relative;
+}
+}

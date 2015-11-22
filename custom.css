@@ -1,0 +1,380 @@
+
+/***--------------------------- Custom changes by team--------------------------------------**/
+#firstFilterCntnr {
+    clear: left;
+    float: left;
+    width: 100%;
+    margin-top: 12px;
+}
+#secndFltrCntnr .calender-group {
+    margin: 0 2% 0 0;
+}
+.clearboth
+{
+clear:both;
+}
+.cancelFilter
+{
+   /*  margin-left: 51%; */
+   margin-bottom:3%;
+    cursor: pointer;
+    font-weight: bold;
+    color: #3D86C6;
+    font: 16px gothammedium;
+}
+.filterOptions, .filter_sub {
+    /* width: 31%;
+    height: 103px;
+    margin-left: 1.5%;
+    margin-top: 24px; */
+	height: 103px;
+    float: left;
+    background-color: #f6f6f6;
+    border: 1px solid #717171;
+} 
+.trouble-select {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 96% !important;
+    background-color: white !important;
+    margin-top: 3px !important;
+    margin-left: 2px;
+    height: 32px;
+    border-radius: 5px;
+}
+#firstFilterCntnr .input-group .form-text{
+ width: 96% !important;
+}
+#firstFilterCntnr .calender-group{
+margin:0 2% 0 0;
+}
+
+.filterOptions {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 0px 0px 0px 4px !important;
+    border-radius: 0px !important;
+}
+.portletTitle
+{
+font:32px gothamlight;
+}
+.top-buffer
+{
+margin-top:20px;
+}
+.bottom-buffer
+{
+margin-bottom:20px;
+}
+textarea
+{ resize:none; }
+.paginationPerPageSelect, .paginationInput {
+    height: 32px;
+    border: #ccc 1px solid;
+    border-radius: 4px;
+}
+.paginationInput {
+    width: 4%;
+    text-align: center;
+}
+.filterBtnContainer
+{
+        font: bold 14px 'GothamMedium';
+    background-color: #3d86c6 !important;
+    color: #ffffff;
+    border: 2px solid #3d86c6;
+    text-align: center;
+    /*border-radius: 10px;*/
+    width: 12%;
+    height: 48px;
+    vertical-align: middle;
+    padding: 14.5px 13px 17.5px 18px;
+    cursor: pointer;
+}
+.filterStatusBarContainer 
+{
+background-color: #d9d9d9;
+    
+    width: 100%;
+    /*border-radius: 10px;*/
+}
+.portletFilters
+{
+    /*border-radius: 11px;*/
+    border: 2px solid #717171;
+   padding: 0px;
+   margin: 2% 2% 0 2%;
+    width: 95%;
+	font: 12px gothammedium;
+}
+.statusBar
+{
+padding:1%;
+font: 12px gothammedium;
+}
+.Btn-anchor:hover
+{
+text-decoration:none;
+
+}
+.btnDefaultSubmit:hover{
+border:1px solid #333;
+}
+.font-blue
+{
+color: #3D86C6;
+}
+.portletContainer
+{
+padding-left: 15px;
+padding-right: 15px;
+}
+.blue-border-bottom
+{
+border-bottom:1px solid #3D86C6;
+}
+.portletSubTitle
+{
+	background-color: #3D86C6;
+    color: white;
+    font: normal 16px 'Gothammedium';
+    padding: 0.5%;
+    margin: 2% 1% 0 0;
+}
+.openTicketsPermission
+{
+	background-color: #F6F6F6;
+    padding: 3% 6% 3% 1%;
+	margin: 0 1% 0 0;
+}
+/* .btnDefaultSubmit
+{
+    background-color: #3d86c6;
+    border: 1px solid #3d86c6;
+    color: #fff !important;
+    outline: 7px double #3d86c6;
+    font: bold 14px gothammedium;
+    margin: 0 2% 0 1.5%;
+    padding: 4px 17px 4px 17px;
+} */
+
+.btnDefaultSubmit
+{
+    background-color: #3d86c6;
+    border: 1px solid #3d86c6;
+    color: #fff !important;
+    outline: 7px double #3d86c6;
+    font: bold .8em gothammedium;
+    /* margin: 0 2% 0 1.5%; */
+    padding: 4px 17px 4px 17px;
+	text-align:center;
+	
+}
+.Btn-anchor 
+{
+color: #fff !important;
+}
+.margin-upperclass
+{
+	margin-top:4%;
+	margin-bottom:3% !important;
+}
+.subheading-large
+{
+font:16px Arial;
+}
+.theme-font{
+font:19px Arial;
+}
+.second-level-subheading{font:1.5em gothammedium;}
+.custom-btn-login
+{
+border: 2px solid #B0BC25;
+padding: 12px;
+background: #FFFFFF;
+-webkit-appearance: none;
+-webkit-border-radius: 0;
+}
+.openfilters .SubDiv
+{
+	background-color: #f6f6f6;
+    border: 1px solid #717171;
+} 
+.openfilters
+{
+margin: 2% 0 0 3%;
+}
+@media (min-width: 1200px)
+{
+	.filterOptions, .filter_sub {
+    width: 31%;
+    height: 103px;
+    margin-left: 1.5%;
+    margin-top: 24px;
+    float: left;
+    background-color: #f6f6f6;
+    border: 1px solid #717171;
+}
+.theme-text
+{
+text-align:right;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.filterOptions, .filter_sub {
+    width: 31%;
+    height: 103px;
+    margin-left: 1.5%;
+    margin-top: 24px;
+    float: left;
+    background-color: #f6f6f6;
+    border: 1px solid #717171;
+}
+.theme-text
+{
+text-align:right;
+}
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+	/* .filterOptions, .filter_sub {
+    width: 31%;
+    height: 103px;
+    margin-left: 1.5%;
+    margin-top: 24px;
+    float: left;
+    background-color: #f6f6f6;
+    border: 1px solid #717171;
+} */
+.btnDefaultSubmit
+{font: bold 12px gothammedium;
+    margin-bottom: 5%;
+  
+	} 
+	/* .filterOptions, .filter_sub
+	{
+	width:47%;
+	} */
+	
+.second-level-subheading{font:1em gothammedium;}
+.theme-text
+{
+text-align:right;
+}
+.openTicketsPermission
+{
+padding: 3% 2% 3% 1%;
+}
+.filterBtnContainer
+{
+width:16%;
+}
+}
+@media (max-width: 767px)
+{
+.TroubleGrid
+{
+padding: 0px;
+    width: 87%;
+    margin-left: 2%;
+}
+/* .filterOptions, .filter_sub
+{
+width: 70%;
+margin-left: 11.5%;
+} */
+.TroublePagination 
+{
+float: left;
+    margin-left: 46%;
+
+}
+.paginationInput {
+    width: 18%;
+	}
+	.downloadDocuments
+	{
+	margin-right:8%;
+	}
+.second-level-subheading {
+    font: 1em gothammedium;
+   margin-bottom: 3%;
+}
+
+ .btnDefaultSubmit
+{
+	margin-bottom:7%;
+}  
+.theme-text
+{
+text-align:center;
+}
+.customimg
+{
+margin:auto;
+}
+.portletFilters
+{
+width:88%;
+}
+.filterBtnContainer
+{
+height:51px;
+width:28%;
+}
+.statusBar
+{
+padding:0.5% 0 0 0.5%;
+}
+}
+
+
+/*** ---------------------------------------End -------------------------------------------------**/
+    .topmargin1
+	{
+		margin-top:2%
+	}
+	.navbar
+	{
+	margin-top: 1.4% !important;
+    background-color: #ffffff !important;
+    border-radius: 0px !important;
+	background-image:none !important;
+	}
+	
+	.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+.navbar-default .navbar-nav > li:hover > a
+{
+background: #0069c5;
+    color: #ffffff;
+}
+
+
+
+
+.back-to-truble-tick i,.back-to-truble-tick
+{
+	color:#3D86C6;
+	font-size:18px;
+	font-weight:bold;
+	
+}
+.ticket-no h2
+{
+	font-family:gothamlight;
+}
+
+.status-span
+{
+	color:white;
+	font:16px gothammedium;
+	background-color:red;
+	padding:10px;
+	text-align:center;
+}
+
+
+
+ 

@@ -1,0 +1,117 @@
+body {
+	color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px;
+}
+.displayPageTable {
+	background-color: rgb(102, 102, 102);
+}
+.dataEntryPageTable {
+	background-color: rgb(102, 102, 102);
+}
+.gridTable {
+	background-color: rgb(221, 221, 221);
+}
+.columnGroupHeadRow {
+	font-size: 14px; background-color: rgb(221, 221, 221);
+}
+.ColumnGroupLabel {
+	border-bottom-color: rgb(128, 128, 128); border-bottom-width: thin; border-bottom-style: solid;
+}
+.ColumnGroupLabelEmpty {
+	border-bottom-color: rgb(221, 221, 221); border-bottom-width: thin; border-bottom-style: solid;
+}
+.spacerColumn {
+	border-left-color: rgb(128, 128, 128); border-left-width: thin; border-left-style: solid;
+}
+.spacerColumnGroupHeader {
+	border-bottom-color: rgb(128, 128, 128); border-left-color: rgb(128, 128, 128); border-bottom-width: thin; border-left-width: thin; border-bottom-style: solid; border-left-style: solid;
+}
+.tableHeadRow {
+	background-color: rgb(221, 221, 221);
+}
+.tableHead {
+	padding: 3px; background-color: rgb(221, 221, 221);
+}
+.tableHeadAsc {
+	padding: 3px; background-color: rgb(221, 221, 221);
+}
+.tableHeadDesc {
+	padding: 3px; background-color: rgb(221, 221, 221);
+}
+.tableHead {
+	font-weight: normal;
+}
+.tableHeadAsc {
+	font-weight: bold;
+}
+.tableHeadDesc {
+	font-weight: lighter;
+}
+.tableHeadText {
+	color: rgb(51, 51, 51); font-size: 11px;
+}
+a.tableHeadSortLink:link {
+	color: rgb(0, 102, 255); font-size: 11px; text-decoration: none;
+}
+a.tableHeadSortLink:active {
+	color: rgb(0, 102, 255); font-size: 11px; text-decoration: none;
+}
+a.tableHeadSortLink:visited {
+	color: rgb(0, 102, 255); font-size: 11px; text-decoration: none;
+}
+a.tableHeadSortLink:hover {
+	font-weight: bold;
+}
+a img {
+	vertical-align: text-bottom;
+}
+.tableRowOdd {
+	color: rgb(0, 0, 0); font-size: 12px; background-color: rgb(255, 255, 255);
+}
+.tableRowEven {
+	color: rgb(0, 0, 0); font-size: 12px; background-color: rgb(243, 243, 243);
+}
+.outputData {
+	color: rgb(0, 0, 0); font-size: 11px;
+}
+a.outputData:link {
+	color: rgb(0, 0, 0); font-size: 11px; text-decoration: underline;
+}
+a.outputData:active {
+	color: rgb(0, 0, 0); font-size: 11px; text-decoration: underline;
+}
+a.outputData:visited {
+	color: rgb(0, 0, 0); font-size: 11px; text-decoration: underline;
+}
+a.outputData:hover {
+	color: rgb(0, 0, 204); font-size: 11px; text-decoration: underline;
+}
+.outputDataRight {
+	text-align: right; color: rgb(0, 0, 0); font-size: 11px;
+}
+.sectionLabel {
+	color: rgb(51, 51, 51); line-height: 15px; font-size: 11px; font-weight: bold;
+}
+.sectionLabelCell {
+	text-indent: 3px; background-color: rgb(221, 221, 221);
+}
+.label {
+	color: rgb(0, 0, 0); text-indent: 3px; font-size: 11px;
+}
+.labelCell {
+	line-height: 19px; background-color: rgb(243, 243, 243);
+}
+.outputDataCell {
+	line-height: 21px; text-indent: 2px; background-color: rgb(255, 255, 255);
+}
+.requiredPrompt {
+	padding: 1px; color: rgb(255, 0, 0); font-size: 12px; font-weight: bold;
+}
+.errorMessage {
+	color: rgb(255, 0, 0); font-size: 11px;
+}
+.vf_smallButton {
+	height: 16px; text-align: center; padding-top: 0px !important; padding-right: 2px; padding-left: 2px; font-size: 0.75em !important; font-weight: bold; margin-top: 0px !important;
+}
+.dsui_full_width table {
+	width: 100%;
+}

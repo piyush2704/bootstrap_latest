@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('gotham-medium-webfont.eot');
+    src: url('gotham-medium-webfont.eot?iefix') format('embedded-opentype'),
+         url('gotham-medium-webfont.woff') format('woff'),
+         url('gotham-medium-webfont.ttf') format('truetype'),
+         url('gotham-medium-webfont.svg#gothamlight') format('svg');}

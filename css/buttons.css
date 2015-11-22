@@ -1,0 +1,27 @@
+.wpfBlueButton:hover {
+	border-color: rgb(16, 57, 95);
+}
+.wpfBlueButton:focus {
+	border-color: rgb(16, 57, 95);
+}
+.wpfBlueButton:hover {
+	border-color: rgb(16, 57, 95);
+}
+.wpfBlueButton:focus {
+	border-color: rgb(16, 57, 95);
+}
+input.wpfBlueButton {
+	margin-right: 15px;
+}
+button.wpfBlueButton {
+	margin-right: 15px;
+}
+input.wpfBlueButton {
+	padding: 2px 7px 3px; cursor: pointer;
+}
+button.wpfBlueButton {
+	padding: 2px 7px 3px; cursor: pointer;
+}
+.wpfBlueButton {
+	outline: rgb(175, 188, 36) solid 2px; border: 1px solid rgb(175, 188, 36); width: 260px; height: 30px; text-align: center !important; color: white; line-height: 1.7em; font-family: GothamMedium; font-size: 1em; font-weight: bold; background-repeat: repeat-x; background-color: rgb(177, 188, 37); outline-offset: 3px;
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Grid</title>
+</head>
+<body>
+	<div id="billingGrid" class="portletBody">
+		<div class="portletTitle">
+			<span class="headingText">Billing </span>
+		</div>
+		<div class="portletSubTitle">
+			<span class="headingWithBackground">INVOICES</span>
+		</div>
+		<div class="portletFilters">
+			<div class="filterStatusBarContainer">
+				<div class="statusBar">
+					<p id="statusBarText">Filter applied: Invoice Date Range:From:02-Jul-2015 To: 02-Oct-2015</p>
+				</div>
+				<div class="filterBtnContainer">
+					<button id="filterButtonId" class="filter-buttons" type="button">
+						<span class="fa fa-filter"></span> 
+						<span class="iconFilterBtn">FILTER</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="portletGrid">
+			<table class="gridTable">
+				<thead class="gridTableHeader">
+					<tr>
+						<th>Invoice Date</th>
+						<th>Service</th>
+						<th>Invoice ID</th>
+						<th>Amount</th>
+						<th>Due Date</th>
+						<th>Payment Status</th>
+					</tr>
+				</thead>
+				<tbody class="gridTableBody" id="gridTableBody"></tbody>
+			</table>
+		</div>
+		<div class="portletPagination">
+			<select id="paginationPerPageSelect" class="paginationPerPageSelect">
+				<option selected="" value="5">5</option>
+				<option value="10">10</option>
+				<option value="15">15</option>
+			</select> 
+			<span class="paginationPreviousPage" id="paginationPreviousPage"> <i class="fa fa-angle-left" id="previousPage"></i> </span>
+			<span class="paginationPerPageTxt" class="per_page">per Page</span>
+			<input class="paginationInput" name="paginationInput" value="1"/> 
+			<span class="paginationOf">of</span>
+			<span clas="paginationTotalPage">18473</span> 
+			<span class="paginationNextPage" id="paginationNextPage"> <i class="fa fa-angle-right" id="nextPage"></i> </span>
+		</div>
+		<div class="portletButtonContainer">
+			<div class="downloadDocuments">
+				<div class="btnDefaultSubmit">
+					<i class="fa fa-download" id="download_icon"></i> 
+					<a type="button" class="left" href="#">Download Mulitple Documents </a>
+				</div>
+			</div>
+			<div class="exportToExcelContainer">
+				<select id="selectexport" class="selectexport" onchange="">
+					<option selected="" value="1-1000">1-1000</option>
+					<option value="1001-2000">1001-2000</option>
+					<option value="2001-3000">2001-3000</option>
+					<option value="3001-4000">3001-4000</option>
+				</select>
+				<button id="exportbutton" class="filter-buttons" type="button">
+					<span id="calicon" class="fa fa-table"></span>
+					<span id="export_span">Export this table</span>
+				</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

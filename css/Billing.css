@@ -1,0 +1,4827 @@
+.lotusRight {
+	text-align: right !important; color: rgb(51, 51, 51); font-family: GothamMedium !important; font-size: 1em; float: right !important;
+}
+#question_example {
+	margin: 6px 0px 6px 1%;
+}
+.dojoxGridError {
+	color: rgb(242, 27, 10);
+}
+#error_message {
+	font: 400 1em/normal GothamMedium; margin: 15px 0px 15px 36%; color: rgb(242, 27, 10); clear: both; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#billingPreferencesHeading {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 24px; font-style: normal; font-weight: 400; text-decoration: none; margin-left: 10px; float: left;
+}
+#selectexport {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 19px 13px 0px 0px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); height: 30px; float: right; cursor: pointer; min-width: 60px; font-size-adjust: none; font-stretch: normal;
+}
+#billingLandingLine {
+	border-width: 2px medium medium; border-style: solid none none; border-color: rgb(61, 134, 198) currentColor currentColor; width: 98%; height: 1px; clear: left; float: left;
+}
+#billingPreferencesText {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 16px; font-style: italic; font-weight: 400; text-decoration: none; margin-top: 10px; margin-left: 20px; float: left;
+}
+#BillingPrefLink {
+	color: rgb(61, 134, 198); clear: left; font-family: Arial; font-size: 14px; font-style: normal; font-weight: 400; text-decoration: underline; margin-top: 10px; margin-left: 5px; float: left;
+}
+.errorStyleClass {
+	border: 2px solid rgb(242, 27, 10) !important; color: rgb(242, 27, 10) !important;
+}
+.lotusui30dojo .dijitCalendarMonthContainer th {
+	text-align: center;
+}
+li.lotusFirst {
+	padding-left: 0px; border-left-width: 0px;
+}
+li.lotusLast {
+	padding-left: 0px; border-left-width: 0px;
+}
+.lotusInlinelist {
+	margin: 0px; padding: 0px; display: inline; list-style-type: none;
+}
+.per_page {
+	font: 14px/normal GothamMedium; margin: 10px 10px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+span.dijitArrowButtonInner.dijitInline.dijitReset {
+	display: none;
+}
+.dijitArrowButtonChar {
+	top: 7px !important; right: 5px !important; font-size: 9px !important; float: right !important; display: inline-block !important; position: relative !important;
+}
+.lotusInlinelist li {
+	margin: 0px; padding: 0px 7px; border-left-width: 1px; border-left-style: solid; display: inline;
+}
+.lotusInlinelist li.lotusFirst {
+	padding-left: 0px; border-left-width: 0px;
+}
+.lotusui .lotusInlinelist li.lotusLast {
+	padding-left: 0px; border-left-width: 0px;
+}
+.lotusInlinelist li.lotusFirst {
+	padding-left: 0px; border-left-width: 0px;
+}
+.lotusInlinelist li.lotusLast {
+	padding-left: 0px; border-left-width: 0px;
+}
+.lotusui30dojo .dijitButtonText {
+	border: currentColor; text-align: center; padding-top: 4px;
+}
+.lotusPaging {
+	border: 1px solid rgb(238, 238, 238); height: 2em; text-align: center; line-height: 2em; padding-bottom: 3px; clear: both; font-size: 0.9em; background-color: rgb(250, 250, 250);
+}
+.lotusPaging input {
+	width: 20px; height: 1em; text-align: center; line-height: 1em; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+.lotusPaging a:active {
+	color: rgb(5, 56, 107); text-decoration: underline;
+}
+.lotusPaging a:focus {
+	color: rgb(5, 56, 107); text-decoration: underline;
+}
+.lotusPaging a:hover {
+	color: rgb(5, 56, 107); text-decoration: underline;
+}
+.lotusPaging a {
+	color: rgb(16, 92, 182);
+}
+.lotusPaging a {
+	font-weight: 700 !important;
+}
+.lotusPaging a:visited {
+	font-weight: 700 !important;
+}
+.lotusPaging a {
+	text-decoration: none;
+}
+.lotusPaging .lotusInlinelist li {
+	padding: 0px 6px;
+}
+.lotusPaging .lotusInlinelist li.lotusLast {
+	padding-left: 0px;
+}
+div.lotusLeft {
+	display: inline;
+}
+div.lotusPaging div {
+	display: inline;
+}
+div.lotusRight {
+	display: inline;
+}
+.lotusLeft {
+	text-align: left; float: left;
+}
+.lotusui30 .lotusPaging {
+	border: currentColor; line-height: 0 !important; background-color: rgb(255, 255, 255);
+}
+.lotusui30 .lotusPaging .lotusInlinelist li.lotusFirst {
+	padding-left: 0px !important; font-size: 14px;
+}
+.lotusui30 .lotusPaging div {
+	padding-left: 0px !important; font-size: 14px;
+}
+.lotusui30dojo .dijitDropDownButton .dijitButtonNode {
+	border-radius: 4px; width: 100%;
+}
+.lotusui30 .lotusLeft {
+	width: 150px; text-align: left; margin-right: 2%; float: right; min-width: 128px;
+}
+.lotusui30 button {
+	font: 600 0.9em/normal GothamMedium; padding: 3px 3px 5px; border-radius: 4px; border: 1px solid rgb(170, 170, 170); height: 28px !important; color: rgb(51, 51, 51); min-width: 60px; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 4px;
+}
+.lotusui30 input {
+	font: 600 0.9em/normal GothamMedium; padding: 3px 3px 5px; border-radius: 4px; border: 1px solid rgb(170, 170, 170); height: 28px !important; color: rgb(51, 51, 51); min-width: 60px; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 4px;
+}
+.lotusui30 select {
+	font: 600 0.9em/normal GothamMedium; padding: 3px 3px 5px; border-radius: 4px; border: 1px solid rgb(170, 170, 170); height: 28px !important; color: rgb(51, 51, 51); min-width: 60px; font-size-adjust: none; font-stretch: normal; -moz-border-radius: 4px;
+}
+.lotusui30 .lotusPaging .lotusRight li {
+	padding: 0px 0px 0px 6px; margin-left: 5px; border-left-color: currentColor; border-left-width: medium; border-left-style: none;
+}
+.lotusui30dojo .dijitButton .dijitButtonNode {
+	height: 22px !important;
+}
+.lotusui30dojo .dijitComboButton .dijitButtonNode {
+	height: 22px !important;
+}
+.lotusui30dojo .dijitDropDownButton .dijitButtonNode {
+	height: 22px !important;
+}
+.lotusui30dojo .dijitToggleButton .dijitButtonNode {
+	height: 22px !important;
+}
+#arrowBack {
+	top: 5px; right: 14px; color: rgb(0, 0, 0); font-size: 22px; font-weight: 700; position: relative; cursor: pointer;
+}
+#arrowFront {
+	top: 3px; right: 9px; color: rgb(0, 0, 0); font-size: 22px; font-weight: 700; position: relative; cursor: pointer;
+}
+ol {
+	list-style: none;
+}
+ul {
+	list-style: none;
+}
+.arial {
+	font-family: Arial;
+}
+.gotham-light {
+	font-family: GothamLight;
+}
+.gotham-medium {
+	font-family: GothamMedium;
+}
+.WebRupee {
+	font-family: WebRupee;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.hidden {
+	display: none !important;
+}
+.dijitContentPane {
+	overflow: visible !important; display: block;
+}
+.due {
+	color: rgb(51, 51, 51); font-weight: 700;
+}
+.odue {
+	color: rgb(242, 27, 10); font-weight: 700;
+}
+.paid {
+	color: grey;
+}
+.lotusLeft .dijitButtonText.dijitInline.dijitReset {
+	margin-top: 0px; float: left;
+}
+.lotusui30dojo .dijitComboButton .dijitButtonNode {
+	padding: 0px !important; outline: 0px !important;
+}
+.lotusui30dojo .dijitDropDownButton .dijitButtonNode {
+	padding: 0px !important; outline: 0px !important;
+}
+.lotusui30dojo .dijitToggleButton .dijitButtonNode {
+	padding: 0px !important; outline: 0px !important;
+}
+lotusui30dojo .dijitButton .dijitButtonNode {
+	padding: 0px !important; outline: 0px !important;
+}
+.claro .dijitCalendar:hover {
+	border: 1px solid rgb(117, 157, 192); background-color: rgb(171, 214, 255);
+}
+.claro .dijitCalendarActive {
+	border: 1px solid rgb(117, 157, 192); background-color: rgb(171, 214, 255);
+}
+.claro .dijitCalendarHover {
+	border: 1px solid rgb(117, 157, 192); background-color: rgb(171, 214, 255);
+}
+.claro .dijitCalendar {
+	background-position: 0px -448px; padding: 6px 5px 3px; border-radius: 4px; border: 1px solid rgb(181, 188, 199); text-align: center; border-collapse: separate; background-image: url("images/calendarContainerImages.png"); background-repeat: repeat-x; background-color: rgb(61, 134, 198);
+}
+.claro .dijitCalendarYearLabel {
+	margin: 0px; padding: 2px 0px 0px; font-size: 1.17em;
+}
+#DownloadInvoiceButton_Hide {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#ViewDispute {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#apply_filter {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#download_all {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#export_all {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#hide_all {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+#show_all {
+	background: rgb(176, 188, 37) !important; outline: rgb(175, 188, 36) double 7px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; -webkit-border-radius: 0; -webkit-appearance: none;
+}
+.lotusLeft .dijitButtonNode.dijitInline.dijitReset {
+	font: 500 1em/normal GothamMedium; padding: 2px 4px 4px !important; border: 1px solid rgb(170, 170, 170); width: 52px !important; font-size-adjust: none; font-stretch: normal;
+}
+.lotusLeft .dijitButtonText.dijitInline.dijitReset {
+	color: rgb(51, 51, 51); font-weight: 700; margin-top: 0px !important;
+}
+#ViewDispute {
+	float: right; outline-offset: 0;
+}
+#para1 {
+	text-align: left;
+}
+#para2 {
+	text-align: left;
+}
+#para3 {
+	text-align: left;
+}
+#para5 {
+	text-align: left;
+}
+#para6 {
+	text-align: left;
+}
+#calendertext_popup {
+	background-position: 0px -448px; padding: 6px 5px 3px; border-radius: 4px; border: 1px solid rgb(181, 188, 199); text-align: center; border-collapse: separate; background-image: url("images/calendarContainerImages.png"); background-repeat: repeat-x; background-color: rgb(61, 134, 198);
+}
+.dijitButtonText.dijitInline.dijitReset {
+	margin-top: 0px !important;
+}
+#calendertext1_popup {
+	background-position: 0px -448px; padding: 6px 5px 3px; border-radius: 4px; border: 1px solid rgb(181, 188, 199); text-align: center; border-collapse: separate; background-image: url("images/calendarContainerImages.png"); background-repeat: repeat-x; background-color: rgb(61, 134, 198);
+}
+#calendertext2_popup {
+	background-position: 0px -448px; padding: 6px 5px 3px; border-radius: 4px; border: 1px solid rgb(181, 188, 199); text-align: center; border-collapse: separate; background-image: url("images/calendarContainerImages.png"); background-repeat: repeat-x; background-color: rgb(61, 134, 198);
+}
+#calendertext3_popup {
+	background-position: 0px -448px; padding: 6px 5px 3px; border-radius: 4px; border: 1px solid rgb(181, 188, 199); text-align: center; border-collapse: separate; background-image: url("images/calendarContainerImages.png"); background-repeat: repeat-x; background-color: rgb(61, 134, 198);
+}
+.dijitComboBox .dijitButtonNode {
+	background-position: 50% 50%; height: 21px; float: left; background-image: url("../images/calendarPicker_wireFrame.jpg") !important; background-repeat: no-repeat; background-size: 100% 18px; background-color: rgb(255, 255, 255);
+}
+.dijitComboBox .dijitArrowButtonInner {
+	background-position: -35px 53%; margin: 0px; border: 1px solid rgb(255, 255, 255); background-image: none !important; background-repeat: no-repeat;
+}
+.dijitTextBox {
+	width: 120px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitInputField .dijitPlaceHolder {
+	padding: 8px !important;
+}
+.lotusui30dojo .dijitTextArea {
+	padding: 8px !important;
+}
+.lotusui30dojo .dijitContentPane {
+	padding: 0px !important;
+}
+.progress-indicator {
+	background: rgb(255, 255, 255); border-radius: 12px; border: 1px solid rgb(51, 51, 51); left: 47%; top: 48%; padding-top: 3px; padding-bottom: 3px; padding-left: 1%; font-family: Arial; font-size: 16px; position: fixed; z-index: 99;
+}
+#StatusBar2::before {
+	color: rgb(51, 51, 51); font-family: FontAwesome; font-size: 1.2em; margin-right: 5%; content: "\f00d";
+}
+#billing {
+	font-size: 14px;
+}
+#invoicedivtitle {
+	font-size: 14px;
+}
+#myFormNew {
+	font-size: 14px;
+}
+#billing > h3 {
+	margin: 1% 0px; color: rgb(61, 134, 198); font-family: GothamLight; font-size: 32px; font-weight: 400;
+}
+#invoicedivtitle {
+	width: 98%; height: 46px; background-color: rgb(61, 134, 198);
+}
+#invoicepara {
+	width: 100%; color: rgb(255, 255, 255); padding-top: 12px; padding-left: 1%; font-family: GothamMedium; font-size: 16px;
+}
+#container {
+	width: 98%;
+}
+#maindiv1 {
+	margin: 18px 1% 1.5% 2.3%; border-radius: 15px; border: 2px solid rgb(113, 113, 113); width: 95%; float: left;
+}
+#statusbardiv {
+	border-radius: 13px; width: 100%; height: 50px; background-color: rgb(217, 217, 217);
+}
+#StatusBar1 {
+	margin: 0px 0px 0px 1%; width: 50%; height: 100%;
+}
+#StatusBar1 > p {
+	font-family: Arial;
+}
+#filter_container {
+	height: 100%;
+}
+#div2id {
+	border: 1px solid rgb(216, 216, 216); width: 99%; float: left;
+}
+#summaryid {
+	font-size: 1.2em;
+}
+#svcid {
+	font-size: 1.2em;
+}
+#paymentDate > span {
+	font-size: 0.87em; font-weight: 400;
+}
+.filter-buttons {
+	background: rgb(176, 188, 37); border: currentColor; width: 97%; height: 88%; color: rgb(255, 255, 255); font-family: GothamMedium; font-weight: 700; margin-top: 2%; cursor: pointer;
+}
+.filter-buttons:hover {
+	border: 1px solid rgb(51, 51, 51) !important;
+}
+#FilterButtonid {
+	border-radius: 12px;
+}
+.filters-container {
+	margin: 0px; padding: 0px; width: 100%;
+}
+.filters-container > li {
+	width: 100%;
+}
+.filters-container > li > div {
+	background: rgb(246, 246, 246); border: 1px solid rgb(113, 113, 113); font-family: GothamMedium;
+}
+.filters-container .dijitTextBox .dijitInputField {
+	font-style: normal;
+}
+.filters-container .dijitComboBox .dijitButtonNode {
+	margin-top: 3px; float: left;
+}
+.filters-container .dijitComboBox .dijitArrowButtonInner {
+	
+}
+.filters-container > li:last-child > div {
+	border: currentColor;
+}
+.filters-container > li:last-child {
+	height: 103px;
+}
+.filters-container #cancelid {
+	margin: 6.5% 0px 0px; color: rgb(61, 134, 198); font-family: GothamMedium; font-weight: 700;
+}
+.filters-container > li > div > p {
+	color: rgb(51, 51, 51); font-size: 1.1em;
+}
+.filters-container > li > div > input[type=text] {
+	font-size: 1em; display: block;
+}
+.filters-container > li > div > select {
+	font-size: 1em; display: block;
+}
+#TUK0214003461 > td > ul > li:nth-child(2) > div.account-summary.wpfListRight {
+	font-family: Arial;
+}
+#invoice_table {
+	text-align: left; border-collapse: collapse;
+}
+#invoice_table {
+	width: 100%; margin-top: 5px;
+}
+#invoice_table tr {
+	width: 100%; margin-top: 5px;
+}
+#invoice_table > tbody {
+	width: 100%; margin-top: 5px;
+}
+#invoice_table > thead {
+	width: 100%; margin-top: 5px;
+}
+#invoice_table > thead > tr {
+	height: 36px; font-family: GothamMedium; border-bottom-color: rgb(61, 134, 198); border-bottom-width: 3px; border-bottom-style: solid;
+}
+#invoice_table > tbody > tr {
+	font-family: Arial;
+}
+#invoice_table > tbody > tr:first-child {
+	display: none;
+}
+#invoice_table tbody tr:nth-child(4n-1) {
+	background: rgb(246, 246, 246);
+}
+#invoice_table tbody tr:nth-child(4n-2) {
+	background: rgb(246, 246, 246);
+}
+#invoice_table tbody tr:nth-child(4n) {
+	background: rgb(255, 255, 255);
+}
+#invoice_table tbody tr:nth-child(4n+1) {
+	background: rgb(255, 255, 255);
+}
+#invoice_table > tbody > tr > td {
+	padding: 0px 1%; vertical-align: middle;
+}
+#invoice_table > thead > tr > th {
+	padding: 0px 1%; vertical-align: middle;
+}
+#invoice_table > thead > tr > th {
+	color: rgb(61, 134, 198); padding-top: 4px; cursor: pointer;
+}
+.table-row-even {
+	height: 48px;
+}
+.table-row-odd {
+	height: 48px;
+}
+#invoice_table .payment-info {
+	width: 75%;
+}
+#invoice_table .table-row-even:hover {
+	background-color: rgb(207, 231, 255);
+}
+#invoice_table .table-row-odd:hover {
+	background-color: rgb(207, 231, 255);
+}
+#invoice_table .table-additional-row-odd {
+	background: rgb(246, 246, 246);
+}
+#invoice_table .table-row-odd {
+	background: rgb(246, 246, 246);
+}
+#invoice_table .table-additional-row-even {
+	background: rgb(255, 255, 255);
+}
+#invoice_table .table-row-even {
+	background: rgb(255, 255, 255);
+}
+#invoice_table .additional-info ul {
+	padding: 0px; width: 100%;
+}
+#invoice_table .additional-info .additional-info-list > li {
+	float: left; display: inline-block;
+}
+#invoice_table .additional-info .additional-info- list > li:nth-child(2) {
+	padding: 0px 1% 0px 0px;
+}
+#invoice_table .additional-info .additional-info-list > li:nth-child(1) {
+	padding: 0px 1% 0px 0px;
+}
+#invoice_table .additional-info .additional-info-list li .heading-container {
+	margin: 0px 0px 3%; font-weight: 700;
+}
+#invoice_table .additional-info .additional-info-list .account-summary > div {
+	margin: 0px 0px 2%; width: 274px;
+}
+#invoice_table .additional-info .additional-info-list .account-summary > div > div.wpfListColumn {
+	width: 49%; display: inline-block;
+}
+#invoice_table .additional-info .additional-info-list .account-summary > div > div:first-child.wpfListColumn {
+	margin: 0px; text-align: right;
+}
+#Credit {
+	width: 22% !important;
+}
+#invoice_table .additional-info #ViewInvoiceDetailsLink_Hide a {
+	width: 100%; text-align: right; color: rgb(61, 134, 198); font-family: GothamMedium; cursor: pointer;
+}
+#ViewInvoiceDetailsLink_Hide:hover {
+	text-decoration: underline;
+}
+#invoice_table .additional-info .amount-container > div {
+	display: inline-block;
+}
+#invoice_table .additional-info .amount-container > span {
+	display: inline-block;
+}
+#invoice_table .additional-info .amount-container > div:first-child {
+	font-size: 1em;
+}
+#cancelid:hover {
+	text-decoration: underline;
+}
+#invoice_table .additional-info .amount-container > div:nth-child(2) {
+	font-size: 1.2em; font-weight: 700;
+}
+#invoice_table .additional-info .amount-container > span {
+	font-size: 1.2em; font-weight: 700;
+}
+#invoice_table .additional-info .button {
+	height: auto; font-size: 1em; font-weight: 400;
+}
+.page-button-container {
+	margin: 1% auto; width: 95%;
+}
+.page-button-container #divpagination {
+	width: 320px; clear: both; margin-bottom: 20px; float: right;
+}
+.page-button-container #down_button_container {
+	margin: 0px 2% 0px 0px;
+}
+.page-button-container .lotusPaging {
+	float: right;
+}
+.page-button-container .filter-buttons {
+	height: 36px;
+}
+#exclamation_circle {
+	cursor: default;
+}
+#fa_check {
+	cursor: default;
+}
+.open_questionsborder .dojoxGridHeader {
+	display: none;
+}
+#openQuestionsPerPage {
+	font: 0.87em/normal GothamMedium; margin: 9px 10px 0px 3px; color: rgb(51, 51, 51); float: right; font-size-adjust: none; font-stretch: normal;
+}
+#current {
+	background: 0px 0px rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: -2px 3px 0px 0px; padding: 0px 0px 0px 3px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); width: 50px; height: 28px; float: right; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#resolvedQuestionsPerPage {
+	font: 0.87em/normal GothamMedium; margin: 9px 10px 0px 3px; color: rgb(51, 51, 51); float: right; font-size-adjust: none; font-stretch: normal;
+}
+.openRecordsPerPage {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 5px 0px 0px; border-radius: 5px; height: 30px; float: right; cursor: pointer; min-width: 60px; font-size-adjust: none; font-stretch: normal;
+}
+.resolved_questionsborder .dojoxGridMasterHeader {
+	display: none !important;
+}
+.open_questionsborder .dojoxGridRowTable {
+	width: 100% !important;
+}
+.resolved_questionsborder .dojoxGridRowTable {
+	width: 100% !important;
+}
+#myForm {
+	font-size: 16px !important;
+}
+#lastCommentRes {
+	font: 1em/normal Arial; padding: 10px 0px 0px; text-align: right; font-size-adjust: none; font-stretch: normal;
+}
+#lastCommentResText {
+	font: italic 1em/normal Arial; padding: 10px 0px 20px 1%; color: rgb(51, 51, 51); vertical-align: top; font-size-adjust: none; font-stretch: normal;
+}
+.imageSortBilling {
+	left: 3px; top: 0px !important; position: relative;
+}
+.open_questionsborder .dojoxGrid {
+	top: -24px !important; clear: left; float: left; position: relative !important;
+}
+.resolved_questionsborder .dojoxGrid {
+	top: 3px; clear: left; float: left; position: relative;
+}
+.backopnque {
+	margin: 3px 4% 0px 0px; float: right;
+}
+.nxtopnque {
+	margin: 3px 8% 0px 0px; float: right;
+}
+#openQuesPagNo {
+	margin: 6px 4% 0px 0px; float: right;
+}
+#cmt {
+	font: italic 1em/normal Arial; color: rgb(51, 51, 51); padding-left: 1%; vertical-align: top; font-size-adjust: none; font-stretch: normal;
+}
+#lastComment {
+	font: 1em/normal Arial; text-align: right; margin-bottom: 20px; font-size-adjust: none; font-stretch: normal;
+}
+#addComment {
+	font: 1em/normal Arial; text-align: right; padding-top: 20px; vertical-align: top; font-size-adjust: none; font-stretch: normal;
+}
+td#data {
+	font: 1em/normal Arial; text-align: right; margin-bottom: 20px; font-size-adjust: none; font-stretch: normal;
+}
+td#last {
+	font: italic 1em/normal Arial; color: rgb(51, 51, 51); padding-left: 1%; vertical-align: top; font-size-adjust: none; font-stretch: normal;
+}
+#textArea {
+	margin: 20px 0px 10px 2% !important; width: 92%; float: left; max-width: 100%;
+}
+#updateBtn {
+	background: rgb(176, 188, 37); font: 1em/normal GothamMedium; margin: 0px 6% 10px 0px; outline: rgb(176, 188, 37) solid 2px; border: 2px solid rgb(255, 255, 255); width: 176px; height: 40px; color: rgb(255, 255, 255); float: right; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#updateBtn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#questions_table {
+	font: 0.87em/normal GothamMedium; top: 19px; width: 100%; color: rgb(61, 134, 198); clear: left; border-bottom-color: rgb(61, 134, 198); border-bottom-width: 3px; border-bottom-style: solid; float: left; position: relative; z-index: 6; font-size-adjust: none; font-stretch: normal;
+}
+.open_questionsborder td.dojoxGridCell {
+	padding-top: 10px; -ms-word-break: break-all;
+}
+.resolved_questionsborder td.dojoxGridCell {
+	padding-top: 10px; -ms-word-break: break-all;
+}
+.open_questionsborder .dojoxGridMasterView {
+	font: 700 0.95em/normal Arial; width: 100%; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+.open_questionsborder .dojoxGridView {
+	width: 100% !important;
+}
+.resolved_questionsborder .dojoxGridView {
+	width: 100% !important;
+}
+.open_questionsborder .dojoxGridScrollbox {
+	width: 100%;
+}
+.resolved_questionsborder .dojoxGridScrollbox {
+	width: 100%;
+}
+.open_questionsborder .dojoxGridContent {
+	width: 100% !important;
+}
+.resolved_questionsborder .dojoxGridContent {
+	width: 100% !important;
+}
+.resolved_questionsborder .dojoxGridMasterView {
+	font: 700 0.95em/normal Arial; width: 100%; color: rgb(51, 51, 51); font-size-adjust: none; font-stretch: normal;
+}
+#resolved_questions_table {
+	font: 1em/normal GothamMedium; top: 3px; width: 100%; color: rgb(61, 134, 198); clear: left; border-top-color: rgb(217, 217, 217); border-bottom-color: rgb(61, 134, 198); border-top-width: 1px; border-bottom-width: 3px; border-top-style: solid; border-bottom-style: solid; float: left; position: relative; z-index: 6; font-size-adjust: none; font-stretch: normal;
+}
+#fa_collapseopen {
+	cursor: pointer;
+}
+#fa_plusopen {
+	cursor: pointer;
+}
+#header1 {
+	padding: 8px 0px 12px 4px; width: 15.3%; cursor: pointer;
+}
+#header1Res {
+	padding: 8px 0px 12px 4px; width: 15.3%; cursor: pointer;
+}
+#header2 {
+	width: 15%; cursor: pointer;
+}
+#header2Res {
+	width: 15%; cursor: pointer;
+}
+#header3 {
+	width: 20%; cursor: pointer;
+}
+#header3Res {
+	width: 20%; cursor: pointer;
+}
+#header4 {
+	width: 25%; cursor: pointer;
+}
+#header4Res {
+	width: 25%; cursor: pointer;
+}
+#header5 {
+	cursor: pointer;
+}
+#header5Res {
+	cursor: pointer;
+}
+.open_page {
+	margin: 10px 0px; width: 360px; clear: both; float: right;
+}
+.resolved_page {
+	margin: 10px 0px; width: 360px; clear: both; float: right;
+}
+#backopnque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; cursor: pointer;
+}
+#back_resolvedQuestions {
+	margin: 3px 4% 0px 0px; float: right;
+}
+#nxtopnque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; cursor: pointer;
+}
+#total {
+	font: 0.87em/normal GothamMedium; margin: 3px 0px 0px; color: rgb(51, 51, 51); float: right; font-size-adjust: none; font-stretch: normal;
+}
+.openOf {
+	font: 0.87em/normal GothamMedium; margin: 3px 6px 0px 0px; color: rgb(51, 51, 51); float: right; font-size-adjust: none; font-stretch: normal;
+}
+#backresolvedque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; cursor: pointer;
+}
+#nxtresolvedque {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; cursor: pointer;
+}
+.open_questionsborder {
+	border: 1px solid rgb(217, 217, 217); width: 98%; float: left;
+}
+.resolved_questionsborder {
+	border: 1px solid rgb(217, 217, 217); width: 98%; float: left;
+}
+.wpf_progress_indicator_box img {
+	margin: 5px 0px 5px 5px; float: left;
+}
+.progress-indicator {
+	width: 160px !important;
+}
+.wpf_progress_indicator_box i {
+	font: 400 15px/normal GothamMedium; margin: 29px 0px 0px 10px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+radio {
+	outline: 0px;
+}
+.errorDivClass {
+	border: 2px solid red !important; color: red !important;
+}
+div > i {
+	color: rgb(0, 0, 0);
+}
+.errorColorHighlite {
+	color: rgb(242, 27, 10);
+}
+#ChangeBillLoading_msg {
+	left: 6px; top: 8px; color: rgb(51, 51, 51); font-family: Arial; font-size: 16px; float: left; position: relative;
+}
+#errorDivBill {
+	font-family: GothamMedium; font-size: 1em; margin-top: 14px; margin-left: 1.7%; float: left;
+}
+#errormagChangeBill {
+	color: red; font-family: GothamMedium; margin-top: 16px; margin-left: 7.5%; float: left;
+}
+#confStmt1 {
+	width: 77%; font-family: arial; font-size: 1.3em; margin-left: 20%; float: left;
+}
+#confStmt2 {
+	width: 77%; font-family: arial; font-size: 1.3em; margin-top: -14px; margin-left: 20%; float: left;
+}
+#changeBillDoneBtn {
+	border: 2px solid rgb(251, 169, 30); width: 31%; height: 40px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.1em; margin-right: 0px; float: right; background-color: rgb(255, 255, 255);
+}
+.ui-resizable.ui-draggable.confirmbillPrefdialog.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog {
+	border-radius: 0px; border: 2px solid currentColor; left: 15% !important; top: 616px !important; width: 70% !important; z-index: 999;
+}
+.ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar {
+	display: none;
+}
+#fa_closeDialogChangeBill {
+	font-size: 36px;
+}
+#loading_ChangeBill_img {
+	padding-top: 4px; padding-bottom: 4px; margin-left: 10%; float: left;
+}
+#loading_ChangeBill {
+	background: rgb(255, 255, 255); border-radius: 12px; border: 1px solid rgb(51, 51, 51); left: 47%; top: 48%; width: 9%; position: fixed; z-index: 99;
+}
+.ColumnCell a {
+	top: -10px; color: rgb(51, 51, 51); position: relative;
+}
+#AskQuesLoading_msg {
+	font: 400 15px/normal GothamMedium; margin: 29px 0px 0px 10px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#brief {
+	font: 400 16px/normal Arial; margin: 2px 0px 0px; text-indent: 20px; clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#mandatoryFieldsAskQn {
+	font: 400 1em/normal GothamMedium; margin: 0px 0px 0px 2%; clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#telephone_block .f16.flag-dropdown {
+	margin: 0px !important; left: 0px; top: 2px; float: left; position: relative;
+}
+.dijitReset .dijitButtonNode.dijitInline {
+	padding: 0px; border: currentColor; width: 100%;
+}
+#countryCodeAsk {
+	border: currentColor; left: 0px; top: 3px; width: 45px; height: 25px; text-indent: 0px; float: left; position: relative;
+}
+#contactPhonereload {
+	width: 50%; margin-left: -45px; float: left;
+}
+#telephone_block #telephonetext {
+	width: 45%; text-indent: 43px !important; letter-spacing: 2px;
+}
+.dijitButtonContents.dijitStretch.dijitReset {
+	width: 100%; height: inherit;
+}
+#imgg {
+	cursor: pointer;
+}
+#errorSpan {
+	font: 1em/normal GothamMedium; left: 100px; top: -7px; float: left; position: relative; font-size-adjust: none; font-stretch: normal;
+}
+.dijitDialogUnderlayWrapper {
+	left: 0px !important; top: 0px !important; width: 100%; height: 100%; position: absolute;
+}
+.lotusui30dojo .dijitDialogUnderlay {
+	left: 0px; top: 0px; width: 100% !important; height: 100% !important; position: absolute; background-size: cover;
+}
+#dropFileArrowDown {
+	margin: 2px 0px 0px; float: left;
+}
+.dijitButtonText.dijitInline.dijitReset {
+	color: rgb(61, 134, 198);
+}
+#close {
+	margin: 0px 0px 0px 2px; color: rgb(113, 113, 113); font-size: 1.87em;
+}
+#filecontainer {
+	margin-top: 0px; float: left;
+}
+#imagecover {
+	float: left;
+}
+#dropFilesAsk {
+	font: 14px/normal GothamMedium; padding: 11px 0px 0px; border: 3px dashed rgb(113, 113, 113); width: 250px; height: 30px; text-align: center; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#dropFilesArrowDown {
+	left: 10px; top: 1px; float: left; position: relative;
+}
+#filecontainerAsk {
+	margin-top: 0px; margin-bottom: 28px; float: left;
+}
+#arrowAttatchAskQues {
+	margin: 13px 0px 0px 5px; float: left;
+}
+#list {
+	font: 1em/normal Arial; margin: 12px 1% 0px 0px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#confirmationStatus .dijitDialogCloseIcon {
+	z-index: 5;
+}
+#confirmationStatus .dijitDialogTitleBar {
+	padding: 0px !important;
+}
+#confirmationStatus .dijitDialogPaneContent {
+	font: 1em/normal Arial; width: 100% !important; color: rgb(51, 51, 51); float: left; min-height: 175px !important; box-sizing: border-box; font-size-adjust: none; font-stretch: normal;
+}
+#confirmationStatus {
+	width: 450px; font-size: 16px !important;
+}
+#confirmationStatus h3 {
+	font: 1em/normal GothamMedium; margin: 0px; color: rgb(61, 134, 198); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#confirmUline {
+	margin: 5px 0px 0px; width: 100%; clear: left; float: left;
+}
+#confirmationStatus p {
+	font: 1em/normal Arial; margin: 15px 0px 10px; color: rgb(188, 0, 113); clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#askAnotherQues {
+	background: rgb(255, 255, 255); font: 0.87em/normal GothamMedium; margin: 15px 0px 0px; padding: 0px 2%; border: 2px solid rgb(251, 169, 30); width: 60%; height: 40px; color: rgb(61, 134, 198); clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#askAnotherQues:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#doneBtn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#doneBtn {
+	background: rgb(255, 255, 255); font: 0.87em/normal GothamMedium; margin: 15px 0px 0px 5%; padding: 0px 2%; border: 2px solid rgb(251, 169, 30); width: 30%; height: 40px; color: rgb(61, 134, 198); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#cancelAskAqn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#loading_AskQues_img {
+	margin: 5px 0px 5px 5px; float: left !important;
+}
+#loading_AskQues {
+	background: rgb(255, 255, 255); border-radius: 12px; border: 1px solid rgb(51, 51, 51); left: 44%; top: 43%; width: auto; position: fixed; z-index: 9999;
+}
+#askQuesCancelBtn_label {
+	font: 1.25em/normal GothamMedium; width: 140px; color: rgb(61, 134, 198); font-size-adjust: none; font-stretch: normal;
+}
+#askQuesRemoveBtn_label {
+	font: 1.25em/normal GothamMedium; width: 140px; color: rgb(61, 134, 198); font-size-adjust: none; font-stretch: normal;
+}
+.dijitButton.dijitInline.dijitReset.dijit {
+	margin: 10px 20px 0px 0px; border: 2px solid rgb(251, 169, 30); width: 150px !important; height: 22px; font-size: 1em !important; float: left;
+}
+.dijitButton.dijitInline.dijitReset.dijit:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+.lotusui30dojo .dijitDialogPaneContent {
+	width: 100% !important; height: 100px !important; color: rgb(51, 51, 51); overflow: visible !important; box-sizing: border-box;
+}
+.dijitDialogCloseIcon {
+	z-index: 2;
+}
+.maindiv {
+	width: 100%; font-size: 14px !important; float: left;
+}
+.underline1 {
+	margin: 0px 0px 0px 2.5%; border: 1px solid rgb(61, 134, 198); width: 95%; float: left;
+}
+#heading {
+	font: 2em/normal GothamLight; margin: 20px 0px 0px 2.5%; color: rgb(61, 134, 198); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#RegLegalEntityTextBox {
+	font: 1em/normal GothamMedium; margin: 9px 0px 5px 1%; width: 90%; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#desc_1 {
+	width: 72%; margin-left: 2%; float: left;
+}
+:-ms-input-placeholder#DescriptionText {
+	font: 1em/normal GothamMedium; color: gray; font-size-adjust: none; font-stretch: normal;
+}
+#fileFormatsdiv {
+	margin: 10px 0px 0px 1% !important; width: 98% !important; clear: left; float: left;
+}
+#attachlable {
+	margin-left: 1%; float: left;
+}
+#errMsgForFiles {
+	font: 1em/normal GothamMedium; margin: 0px 0px 7px; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#uploadDocuments {
+	margin: 15px 0px 5px; width: 100%; clear: left; float: left;
+}
+.ColumnCell {
+	width: 30px;
+}
+#delImg {
+	top: -6px; width: 15px; height: 17px; position: relative; cursor: pointer;
+}
+#attachmentview {
+	background: rgb(246, 246, 246); padding: 4px; margin-left: 1%; word-spacing: 10px; float: left;
+}
+#doc_deleteAsk {
+	background: rgb(246, 246, 246); margin: 0px 10px 0px 0px; border: 1px solid rgb(217, 217, 217); float: left;
+}
+#AskQn {
+	background: rgb(255, 255, 255); border: 2px solid rgb(51, 51, 51); left: 1% !important; top: 145px !important; width: 97% !important; height: auto; overflow: visible; margin-bottom: 30px; display: block; position: absolute !important; min-height: 500px; box-sizing: border-box;
+}
+.AskQuesDialog .dijitDialogTitleBar {
+	padding: 0px !important; width: 100%; float: left;
+}
+.AskQuesDialog .dijitDialogPaneContent {
+	padding: 0px !important; width: 100% !important; height: 0px !important; overflow: visible !important; position: relative; min-height: 0px; max-height: none;
+}
+.AskQuesDialog .tundra .dijitDialogCloseIconHover {
+	background-image: url("images/ClosePopup32.png") !important;
+}
+.AskQuesDialog .dijitDialogCloseIcon {
+	z-index: 5; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/ClosePopup32.png");
+}
+#attach {
+	margin: 10px 0px 0px !important; color: rgb(61, 134, 198); padding-left: 2%; font-family: GothamMedium; font-size: 1.12em; float: left;
+}
+.upload-file-container {
+	width: auto; height: 50px; overflow: hidden; margin-left: 1%; float: left; position: relative;
+}
+#innerdiv3 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-bottom: 10px; margin-left: 2.5%; float: left; min-height: 250px;
+}
+#CntactInfoHeading {
+	margin: 10px 0px 0px 25px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.12em; float: left;
+}
+#cntDesc {
+	font: italic 1em/normal Arial; margin: 5px 0px 0px 50px; color: rgb(51, 51, 51); clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#CntName {
+	width: 24%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; margin-top: 18px; float: left;
+}
+#CntEmail {
+	width: 24%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; margin-top: 25px; float: left;
+}
+#CntTelephone {
+	width: 24%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; margin-top: 18px; float: left;
+}
+#name_1 {
+	width: 67%; margin-left: 2%;
+}
+#CntNameText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); width: 70%; height: 40px; color: gray; text-indent: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 7px; float: left;
+}
+#email_1 {
+	width: 67%; margin-left: 2%;
+}
+#CntEmailText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); width: 70%; height: 40px; color: gray; text-indent: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 15px; float: left;
+}
+#enter1 {
+	font: 400 0.87em/normal Arial; margin: 3px 0px 0px; font-size-adjust: none; font-stretch: normal;
+}
+#telephone_1 {
+	width: 67%; margin-left: 2%;
+}
+#telephone_block .pretty.intl-tel-input {
+	margin: 15px 0px 0px 2%; width: 95px; float: left;
+}
+#errorDiv {
+	font: 1em/normal GothamMedium; left: 20px; top: -2px; float: left; position: relative; font-size-adjust: none; font-stretch: normal;
+}
+#telephone_1 .flag-dropdown {
+	left: 5px !important; margin-top: 15px !important;
+}
+#telephonetext {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); width: 32%; height: 40px; text-indent: 5px !important; padding-left: 47px; font-family: GothamMedium; font-size: 1em; margin-top: 10px; margin-left: -50px; float: left;
+}
+#submitAskAqn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+.ViewDisputeDialog .dijitDialogCloseIcon {
+	background-image: url("images/ClosePopup32.png") !important;
+}
+#viewDisputeContainer {
+	width: 100%; float: left;
+}
+.vdunderline1 {
+	border: 1px solid rgb(61, 134, 198); width: 98%;
+}
+#vdheading {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamMedium; margin-left: 1%; white-space: nowrap; cursor: pointer;
+}
+#vdinnerdiv2 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-left: 1%; float: left;
+}
+#vdinnerdiv3 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-left: 1%; float: left;
+}
+#vdinnerdiv4 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-left: 1%; float: left;
+}
+.vdinnerdiv1 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-left: 1%; float: left;
+}
+.vdinnerdiv1 {
+	margin-top: 12px; margin-bottom: 15px;
+}
+#vdinnerdiv3 {
+	min-height: 300px;
+}
+#vdattach {
+	color: rgb(61, 134, 198); font-family: GothamMedium; margin-top: 10px; float: left;
+}
+#vdcontactinfo {
+	color: rgb(61, 134, 198); font-family: GothamMedium; margin-top: 10px; float: left;
+}
+#vddescribe {
+	color: rgb(61, 134, 198); font-family: GothamMedium; margin-top: 10px; float: left;
+}
+#vdnotify {
+	color: rgb(61, 134, 198); font-family: GothamMedium; margin-top: 10px; float: left;
+}
+#vddescribe {
+	margin-bottom: 10px;
+}
+#vdnotify {
+	margin-bottom: 10px;
+}
+#vdLegalEntityLabel {
+	text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; margin-top: 10px;
+}
+#endvddate {
+	width: 100%; float: left;
+}
+#vddesc_block {
+	width: 100%; float: left;
+}
+#vddisputedvalue {
+	width: 100%; float: left;
+}
+#vdemail_block {
+	width: 100%; float: left;
+}
+#vdlegalEntityBlock {
+	width: 100%; float: left;
+}
+#vdname_block {
+	width: 100%; float: left;
+}
+#vdstartvddate {
+	width: 100%; float: left;
+}
+#vdtelephone_block {
+	width: 100%; float: left;
+}
+#vdvdinvoice_block {
+	width: 100%; float: left;
+}
+#vdvdissue_block {
+	width: 100%; float: left;
+}
+#vdvdserviceid_block {
+	width: 100%; float: left;
+}
+#vdvdservicename_block {
+	width: 100%; float: left;
+}
+#reg_dwnarw {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#reg_dwnarw1 {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#reg_dwnarw2 {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#reg_dwnarw4 {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#vdLegalEntityLabel {
+	border: 1px solid rgb(228, 228, 228); overflow: hidden; float: left;
+}
+#vdvdissueValue {
+	border: 1px solid rgb(228, 228, 228); overflow: hidden; float: left;
+}
+#vdvdservicenameValue {
+	border: 1px solid rgb(228, 228, 228); overflow: hidden; float: left;
+}
+#choose1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; text-indent: 0.01px; overflow: hidden; font-family: GothamMedium; float: left; cursor: pointer; -webkit-appearance: none; -moz-appearnace: none;
+}
+#choose2 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; text-indent: 0.01px; overflow: hidden; font-family: GothamMedium; float: left; cursor: pointer; -webkit-appearance: none; -moz-appearnace: none;
+}
+#choose3 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; text-indent: 0.01px; overflow: hidden; font-family: GothamMedium; float: left; cursor: pointer; -webkit-appearance: none; -moz-appearnace: none;
+}
+#choose4 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; text-indent: 0.01px; overflow: hidden; font-family: GothamMedium; float: left; cursor: pointer; -webkit-appearance: none; -moz-appearnace: none;
+}
+#primaryContactNameId {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#primaryEmailId {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#primaryTelephoneId {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vddate {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vddescription {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vdinvoice {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vdissue {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vdserviceid {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vdservicename {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vdvaluedisLabel {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#vdvdEndDateLabel {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; float: left;
+}
+#primaryContactValId {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#primaryEmailValId {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#primaryTelephoneValId {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#text1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#text2 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#text3 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#text4 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#text5 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); height: 37px; font-family: GothamMedium; float: left;
+}
+#desc1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); font-family: GothamMedium; float: left;
+}
+#primaryContactValId {
+	width: 98%; margin-top: 7px;
+}
+#primaryEmailValId {
+	width: 98%; margin-top: 7px;
+}
+#primaryTelephoneValId {
+	margin-top: 7px;
+}
+#desc1 {
+	margin-bottom: 10px;
+}
+#enter1 {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-style: italic; float: left;
+}
+#entermultiple1 {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-style: italic; float: left;
+}
+#entermultiple2 {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-style: italic; float: left;
+}
+#vdprimarycontact {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-style: italic; float: left;
+}
+#notifyopenclose {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#notifyticket {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#enter1 {
+	margin-top: auto;
+}
+#email_1 {
+	float: left;
+}
+#name_1 {
+	float: left;
+}
+#telephone_1 {
+	float: left;
+}
+#vddesc_value {
+	float: left;
+}
+#vdendDateValue {
+	float: left;
+}
+#vdstartDateValue {
+	float: left;
+}
+#vdvaluedisValue {
+	float: left;
+}
+#vdvdserviceidValue {
+	float: left;
+}
+#calendar1 {
+	position: relative; cursor: pointer;
+}
+#calendar2 {
+	position: relative; cursor: pointer;
+}
+#choose {
+	border: 1px solid rgb(217, 217, 217); overflow: hidden; float: left;
+}
+#envelope1 {
+	float: left; cursor: pointer;
+}
+#attachment {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 26px; text-align: center; padding-top: 5px; clear: left; float: left;
+}
+#rightarrow {
+	text-align: center; color: rgb(113, 113, 113); padding-top: 5px; float: left;
+}
+#csign {
+	margin-top: 4px; float: right;
+}
+#csign1 {
+	margin-top: 4px; float: right;
+}
+#csign2 {
+	margin-top: 4px; float: right;
+}
+#scenery {
+	height: 31px; padding-top: 5px; margin-top: -1px; float: left;
+}
+#billingTCL {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#billingex {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#pdf {
+	text-align: center; color: rgb(113, 113, 113); float: left;
+}
+#troubleticket {
+	border: 1px solid rgb(113, 113, 113);
+}
+#envelope {
+	top: -30px; clear: left; float: left; position: relative;
+}
+#down {
+	top: -29px; float: left; position: relative;
+}
+#anna {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#john {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team1 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team2 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#showlist {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 130px; height: 37px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em; margin-top: 6px; margin-right: 2%; float: right;
+}
+#cancel:hover {
+	border: 1px solid rgb(0, 0, 0);
+}
+#showlist:hover {
+	border: 1px solid rgb(0, 0, 0);
+}
+#submit:hover {
+	border: 1px solid rgb(0, 0, 0);
+}
+#text10 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial;
+}
+#text11 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial;
+}
+#text11 {
+	margin-bottom: 10px;
+}
+#submit {
+	outline: rgb(175, 188, 36) solid 2px; border: 1px solid rgb(175, 188, 36); text-align: center !important; color: rgb(255, 255, 255); line-height: 1.7em; font-family: GothamMedium; font-size: 0.9em; float: right; white-space: nowrap; background-repeat: repeat-x; background-color: rgb(177, 188, 37); outline-offset: 3px;
+}
+#cancel {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em;
+}
+#select_drop1 {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 5px 0px 0px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); height: 30px; float: left; cursor: pointer; min-width: 60px; font-size-adjust: none; font-stretch: normal;
+}
+#select_drop2 {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; margin: 3px 0px 0px; padding: 0px 0px 0px 3px; border-radius: 5px; border: 1px solid rgb(169, 169, 169); width: 50px; height: 28px; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#of_page {
+	font: 14px/normal GothamMedium; margin: 10px 6px 0px 10px; color: rgb(51, 51, 51); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#total_page {
+	font: 14px/normal GothamMedium; margin: 10px 10px 0px 0px; color: rgb(51, 51, 51) !important; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#nxtpg {
+	color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; margin-top: 6px; cursor: pointer;
+}
+#backpg {
+	margin: 6px 10px 0px 0px; color: rgb(51, 51, 51); font-size: 1.75em; font-weight: 700; float: left; cursor: pointer;
+}
+#mainbuttoncontainer {
+	clear: right; margin-top: 10px; float: right;
+}
+@media screen and (min-width:1000px)
+{
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	padding: 0px !important; height: 18px;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	padding: 0px !important; height: 18px;
+}
+#COPFtextbox {
+	padding: 0px 0px 0px 8% !important; width: 77% !important; margin-left: -2px !important;
+}
+#ServiceIDbox {
+	padding: 0px 0px 0px 8% !important; width: 77% !important; margin-left: -2px !important;
+}
+#amounttextbox {
+	padding: 0px 0px 0px 8% !important; width: 77% !important; margin-left: -2px !important;
+}
+#cmsIDText {
+	padding: 0px 0px 0px 8% !important; width: 77% !important; margin-left: -2px !important;
+}
+#orgNumText {
+	padding: 0px 0px 0px 8% !important; width: 77% !important; margin-left: -2px !important;
+}
+#sapCodeId {
+	padding: 0px 0px 0px 8% !important; width: 77% !important; margin-left: -2px !important;
+}
+#downloadArchiveButton {
+	background: rgb(176, 188, 37) !important; padding: 0px !important; outline: rgb(175, 188, 36) double 7px !important; border: currentColor; width: 248px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; outline-offset: 0;
+}
+#invoice_table .additional-info .additional-info-list .account-summary > div {
+	width: 100%;
+}
+#invoice_table .additional-info .additional-info-list .account-summary > div > .summaryLabel {
+	width: 30%;
+}
+#invoice_table .additional-info .additional-info-list .account-summary > div > .summaryValue {
+	width: 50%; margin-left: 2%;
+}
+#filterimage {
+	font-size: 17px !important;
+}
+#download_icon {
+	left: 18px; top: 2px; color: rgb(255, 255, 255); font-size: 1em; position: relative;
+}
+#download_section {
+	margin: 15px 22px; float: right;
+}
+#norecord {
+	font: 14px/normal gothammedium; margin: 20px 0px 20px 45%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#search_icon {
+	left: 21px; top: 0px; color: rgb(61, 134, 198); position: relative;
+}
+.filters-container .dijitComboBox .dijitButtonNode {
+	padding: 2px 0px !important; font-size: 13px; margin-top: 2px; background-size: 11px;
+}
+.amount-container.wpfListColumn {
+	margin: 0px 5px 0px 0px; float: right;
+}
+.wpfListColumnItemRight {
+	width: 30%;
+}
+#invoice_table .additional-info .amount-container > div:nth-child(2) {
+	font-size: 1.7em; font-weight: 700;
+}
+#invoice_table .additional-info .amount-container > span {
+	font-size: 1.7em; font-weight: 700;
+}
+.inr_symbol {
+	margin: 2px 2% 0px 0px; clear: right; font-size: 17px !important; font-weight: 700 !important; float: right;
+}
+#ViewInvoiceDetailsLink_Hide {
+	margin-top: 16%; margin-right: 2%; float: right;
+}
+.wpfListColumnItemLeft {
+	text-align: center; margin-left: 2%;
+}
+#canceldiv {
+	float: right;
+}
+#facircle {
+	font-size: 1em; float: right;
+}
+#collapse_sym {
+	font-size: 1em; margin-top: 0px; float: right;
+}
+#exclamation_circle {
+	padding-right: 4%; font-size: 1em; cursor: default;
+}
+#fa_check {
+	cursor: default;
+}
+#applyfilterdiv {
+	float: right;
+}
+td > ul > li:nth-child(2) {
+	width: 32%; margin-left: 25%;
+}
+td > ul > li:nth-child(2) .account-summary {
+	width: 100%;
+}
+.lotusui30dojo .dijitInputField .dijitPlaceHolder {
+	padding: 0px !important;
+}
+.lotusui30dojo .dijitTextArea {
+	padding: 0px !important;
+}
+#invoice_table > tbody > tr {
+	font-size: 1.1em;
+}
+#FilterButtonid {
+	height: 50px; margin-top: 0px; margin-right: 0px; float: right;
+}
+#StatusBar1 {
+	width: 69%; font-size: 0.9em;
+}
+#StatusBar1 > p {
+	margin: 17px 0px 0px 2.2%; overflow: hidden; font-size: 0.99em; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#StatusBar2 {
+	width: 11%; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em; margin-top: 19px; margin-left: 1%; float: left;
+}
+#COPFtextbox {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#ServiceIDbox {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#amounttextbox {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#invoicetext {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#cmsIDText {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#orgNumText {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#sapCodeId {
+	border: 1px solid rgb(217, 217, 217); width: 85%; padding-left: 1%; font-family: GothamMedium; font-size: 1em;
+}
+#invoicetext {
+	padding: 0px 0px 0px 8% !important; border: 1px solid rgb(217, 217, 217); width: 77% !important; margin-left: -2px !important;
+}
+#from_date {
+	padding-right: 0px; font-size: 12px;
+}
+#frombillingdate {
+	padding-right: 0px; font-size: 12px;
+}
+#to_date {
+	padding-right: 0px; font-size: 12px;
+}
+#tobillingdate {
+	padding-right: 0px; font-size: 12px;
+}
+#invoicecalender {
+	border-style: solid; border-color: rgb(217, 217, 217); height: 35px; font-family: GothamMedium; font-size: 1em;
+}
+#statusdropdown {
+	border-style: solid; border-color: rgb(217, 217, 217); height: 35px; font-family: GothamMedium; font-size: 1em;
+}
+#svctext {
+	border-style: solid; border-color: rgb(217, 217, 217); height: 35px; font-family: GothamMedium; font-size: 1em;
+}
+#statusdropdown {
+	height: 35px;
+}
+#invoice_table > thead > tr > th {
+	width: 16.66%; cursor: pointer;
+}
+#invoice_table .additional-info .additional-info-list > li {
+	line-height: 1.4em; margin-top: 20px; float: left; display: inline-block; white-space: nowrap;
+}
+.wpfListColumnItemRight {
+	margin-right: 2%; float: right !important;
+}
+#invoice_table .additional-info .button {
+	margin: 4%; width: 220px; height: 26px; font-size: 0.8em; font-weight: 700;
+}
+#apply_filter {
+	margin-right: 7%; float: right;
+}
+.filters-container #cancelid {
+	margin: 26px 2% 0px 0px !important; font-size: 16px;
+}
+#show_all {
+	height: 26px !important; margin-left: 2%;
+}
+#hide_all {
+	margin: 0px 3% 0px 2%; overflow: hidden;
+}
+#filter_container {
+	width: 12%; float: right;
+}
+.filters-container > li {
+	clear: both;
+}
+#div2id {
+	border: 1px solid rgb(216, 216, 216); width: 100%; float: left;
+}
+.page-button-container .lotusPaging {
+	width: 37%; font-family: GothamMedium; font-size: 14px !important;
+}
+.lotusLeft {
+	padding-left: 15px; font-size: 14px;
+}
+.filters-container > li > div {
+	margin: 1% 1% 1% 1.8%; width: 30%; height: 103px; float: left; display: inline-block;
+}
+.filter-buttons {
+	border: currentColor; font-size: 14px !important;
+}
+#uparrow {
+	margin: -3px 0px 0px 10px; font-size: 1.8em; font-weight: 700; float: left;
+}
+#amtdiv {
+	width: 88%; text-align: right; margin-right: 32%;
+}
+#para4 {
+	text-align: right; right: 2%; position: relative;
+}
+#tablheaderdiv {
+	font-size: 1.1em;
+}
+#apply_filter {
+	width: 100%; font-size: 14px; margin-top: 20px;
+}
+#download_all {
+	width: 100%; font-size: 14px; margin-top: 20px;
+}
+#export_all {
+	width: 100%; font-size: 14px; margin-top: 20px;
+}
+#hide_all {
+	width: 100%; font-size: 14px; margin-top: 20px;
+}
+#show_all {
+	width: 100%; font-size: 14px; margin-top: 20px;
+}
+.show_allspan {
+	margin: 0px 3% 0px 16%; float: left;
+}
+#dwnarrow {
+	margin: 3px 3px 0px 0px; font-size: 14px; font-weight: 700; float: right;
+}
+.applyfilter_span {
+	margin: 0px 0px 0px 5%; float: left;
+}
+#applytick {
+	margin: 3px 0px 0px 31px; font-size: 14px; font-weight: 700; float: left;
+}
+.hideall_span {
+	margin: 1px 0px 0px 30px; float: left;
+}
+#Step1 > li:nth-child(4) > div:nth-child(4) {
+	float: right;
+}
+#Step1 > li:nth-child(4) > div:nth-child(5) {
+	float: right;
+}
+.filters-container > li:last-child > div {
+	width: 240px; height: 40px;
+}
+.filters-container > li > div > p {
+	margin: 11px 0px 0px 4%;
+}
+.filters-container > li > div > input[type=text] {
+	margin: 11px 0px 0px 4%; width: 87%; height: 31px; font-family: GothamMedium; display: inline-block;
+}
+.filters-container > li > div > select {
+	margin: 11px 0px 0px 4%; width: 87%; height: 31px; font-family: GothamMedium; display: inline-block;
+}
+.filters-container .calender-container {
+	margin: 15px 0px 0px 3.8%; width: 96%;
+}
+.filters-container .dijitTextBox .dijitInputField {
+	padding: 0px !important; font-family: GothamMedium !important; font-size: 11px; margin-top: 5px;
+}
+.dijitPlaceHolder {
+	font-size: 9px !important; margin-top: 0px !important; white-space: nowrap;
+}
+.filters-container .dijitTextBox {
+	border: 1px solid rgb(217, 217, 217); width: 33%; height: 30px;
+}
+.page-button-container #down_button_container {
+	margin: 0px 2% 16px 0px;
+}
+#DownloadInvoiceButton_Hide {
+	float: right; outline-offset: 0;
+}
+.open_questionsborder .wpfBlueButton {
+	background: rgb(255, 255, 255); margin: 10px 0px; outline: 0px; border: 2px solid rgb(251, 169, 30); width: 17%; height: 36px; color: rgb(61, 134, 198); padding-left: 20px !important; font-family: GothamMedium; font-size: 14px; font-weight: 700; cursor: pointer;
+}
+#OpenNoRecordstxt {
+	font: 14px/normal GothamMedium; margin: 40px 0px 20px 44.5%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#ResolvedNoRecordstxt {
+	font: 14px/normal GothamMedium; margin: 40px 0px 20px 44.5%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#open_title {
+	width: 165px; margin-top: 13px; margin-bottom: 13px; float: left;
+}
+#caret_Open {
+	color: rgb(61, 134, 198); padding-right: 2%; font-size: 1.4em; margin-left: 6%; float: left;
+}
+#open_ques {
+	color: rgb(61, 134, 198); font-size: 1.2em; float: left;
+}
+#billing_ques {
+	padding: 1%; width: 96.2%; color: rgb(255, 255, 255) !important; clear: left; margin-top: 30px; float: left; background-color: rgb(61, 134, 198);
+}
+.resolved_title {
+	width: 200px; clear: left; margin-top: 12px; float: left;
+}
+#caret_Resolved {
+	margin: 2px 1% 0px 4%; color: rgb(61, 134, 198); font-size: 1.4em; float: left;
+}
+#resolved_ques {
+	color: rgb(61, 134, 198); font-size: 1.2em; margin-top: 2px; margin-bottom: 10px; float: left;
+}
+#chat_font {
+	top: 20px; right: 16%; color: rgb(61, 134, 198); font-size: 14px; float: right; position: relative; cursor: pointer; pointer-events: none;
+}
+#billprefDialogContent {
+	overflow: visible;
+}
+div.ui-resizable.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog.billPrefdialog {
+	left: 2.5% !important; top: 60px !important; width: 95% !important; overflow: visible; z-index: 999; min-height: 542px;
+}
+#mandatoryFieldChangeBill {
+	font-family: GothamMedium; margin-top: 10px; float: left;
+}
+div.ui-resizable.ui-draggable.errorbillPrefdialog.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog {
+	z-index: 500;
+}
+#maindiv {
+	width: 100%;
+}
+#changebilling {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamLight; font-size: 2em; margin-top: 16px; float: left;
+}
+#hr1 {
+	border: 1px solid rgb(61, 134, 198); width: 99%; float: left;
+}
+#innerdiv1 {
+	border: 2px solid rgb(113, 113, 113); width: 97.7%; margin-top: 12px; margin-bottom: 15px; margin-left: 1%; float: left;
+}
+#changedetails {
+	color: rgb(61, 134, 198); padding-left: 24px; font-family: GothamMedium; font-size: 1.5em; font-style: normal; text-decoration: none; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+input#OtherRequest {
+	margin-top: 3px; margin-right: 5%; margin-left: -8%; float: left;
+}
+input#PaperlessBill {
+	outline: 0px; margin-top: 3px; margin-left: -4%; float: left;
+}
+p#confStmtHeading {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.6em; margin-top: 1px; margin-bottom: 0px; float: left;
+}
+hr#hrConfirmChangeBill {
+	border: 1px solid rgb(61, 134, 198); width: 100%; float: left;
+}
+#confStmt1 {
+	width: 77%; font-family: arial; font-size: 1.3em; margin-top: 14px; margin-left: 20%; float: left;
+}
+div#confirmDialogChangeBill {
+	height: auto !important;
+}
+#confStmt2 {
+	width: 77%; font-family: arial; font-size: 1.3em; margin-top: 15px; margin-left: 20%; float: left;
+}
+i#fa_closeDialogChangeBill {
+	overflow: visible; font-size: 2.5em; margin-top: -19px; margin-right: -2%; float: right; position: relative; z-index: 999;
+}
+input#changeBillDoneBtn {
+	border: 2px solid rgb(251, 169, 30); width: 31%; height: 40px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.1em; margin-top: 20px; margin-right: 0px; float: right; background-color: rgb(255, 255, 255);
+}
+div#innerdiv1bill {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113) !important; width: 99%; margin-top: 20px; margin-bottom: 8px; float: left;
+}
+#legalentity {
+	width: 21%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 10px; float: left;
+}
+#drop_down {
+	border: 1px solid rgb(217, 217, 217); width: 53%; height: 40px; overflow: hidden; margin-top: 8px; margin-left: 25%; float: left;
+}
+#angl_dwn {
+	border: 1px solid rgb(228, 228, 228); width: 75%; height: 40px; overflow: hidden; margin-left: 2%; float: left;
+}
+#ang2_dwn {
+	background: rgb(255, 255, 255); border: 1px solid rgb(228, 228, 228); width: 73%; height: 40px; overflow: hidden; padding-left: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 5px; margin-left: 2%; float: left;
+}
+#errMsgForNoServiceNms {
+	color: rgb(242, 27, 10); font-family: GothamMedium; margin-left: 25%; float: left;
+}
+i#down_1b {
+	color: rgb(61, 134, 198); margin-top: 14px; margin-left: -3%; float: left;
+}
+#RegLegalEntityTextBill {
+	border: currentColor; width: 100%; height: 40px; color: rgb(51, 51, 51); text-indent: 0.01px; overflow: hidden; padding-left: 3px; font-family: GothamMedium; font-size: 1em; font-weight: 400; float: left; cursor: pointer; -ms-appearance: none; -o-appearance: none;
+}
+#fa1 {
+	color: rgb(61, 134, 198); font-size: 1.4em; font-weight: 700; margin-top: -24px; margin-right: 3%; float: right;
+}
+.ui-widget-overlay {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: 999;
+}
+#fa2 {
+	top: -27px; right: 2%; color: rgb(61, 134, 198); font-size: 1.4em; font-weight: 700; float: right; position: relative;
+}
+#move {
+	text-align: right; color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 16px; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 21px; margin-left: 24%; float: left;
+}
+#changeBillForm .f16.flag-dropdown {
+	margin-top: 24px !important; margin-left: 25px; float: left; position: relative; cursor: pointer;
+}
+#shortexplanatory {
+	color: rgb(113, 113, 113); clear: left; font-family: Arial; font-size: 1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 4px; margin-left: 25%; float: left;
+}
+span#RegLegalEntityTextBoxBill {
+	margin-top: 10px; float: left;
+}
+#servicNamesBillDropDown {
+	border: 0px solid rgb(217, 217, 217); width: 100%; height: 40px; color: rgb(51, 51, 51); text-indent: 0.01px; clear: left; font-family: GothamMedium; font-size: 14px; float: left; -moz-appearance: none;
+}
+#descrip {
+	text-align: right; color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 1.1em; font-style: normal; font-weight: 400; margin-top: 13px; margin-left: 25%; float: left;
+}
+#descriptionbill {
+	margin: 13px 0px 0px 4% !important; border: 1px solid rgb(217, 217, 217); width: 42.6%; height: 90px; float: left; max-width: 98%; background-color: rgb(255, 255, 255);
+}
+#othreq {
+	color: rgb(51, 51, 51); clear: both; font-family: Arial; font-size: 1.2em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 15px; margin-left: 23.9%; float: left;
+}
+#please {
+	width: 53%; color: rgb(51, 51, 51); line-height: 20px; clear: left; font-family: Arial; font-size: 1.1em; font-style: normal; margin-left: 26%; float: left;
+}
+#changeBillForm #innerdiv2bill {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113) !important; width: 99%; height: 308px; float: left;
+}
+#span11 {
+	clear: left; margin-top: 5px; margin-left: 28%; float: left;
+}
+#descriptionbill_otherReq {
+	border: 1px solid rgb(217, 217, 217); width: 51.8%; height: 125px; margin-top: 12px; margin-bottom: 20px; margin-left: 26%; float: left; max-width: 98%; background-color: rgb(246, 246, 246);
+}
+#innerdiv2 {
+	border: 2px solid rgb(113, 113, 113); width: 97.7%; height: 50%; margin-left: 1%; float: left; min-height: 300px;
+}
+#primarycon {
+	color: rgb(51, 51, 51); line-height: 20px; clear: left; font-family: Arial; font-size: 1em; font-style: italic; font-weight: 400; text-decoration: none; margin-top: 10px; margin-left: 50px; float: left;
+}
+#coninform {
+	color: rgb(61, 134, 198); padding-left: 24px; font-family: GothamMedium; font-size: 1.5em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 30px; float: left;
+}
+#name11 {
+	width: 20%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1.1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 32px; float: left;
+}
+#telDiv {
+	width: 20%; text-align: right; clear: left; font-family: GothamMedium; font-size: 1.1em; margin-top: 29px; float: left;
+}
+#ChangeBillName {
+	border: 1px solid rgb(217, 217, 217); width: 43%; height: 40px; color: gray; font-family: GothamMedium; font-size: 0.9em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 24px; margin-right: 34%; float: right;
+}
+#email11 {
+	width: 20%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1.1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 34px; float: left;
+}
+#email12 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: -26px; margin-left: 266px; float: left;
+}
+#ChangeBillEmail {
+	border: 1px solid rgb(217, 217, 217); width: 43%; height: 40px; color: gray; font-family: GothamMedium; font-size: 0.9em; font-style: normal; margin-top: 9px; margin-right: 34%; float: right;
+}
+#ifenter {
+	color: rgb(51, 51, 51); font-family: Arial; font-size: 0.87em; font-style: italic; font-weight: 400; margin-left: 23%; float: left;
+}
+#tele11 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 25px; margin-left: 172px; float: left;
+}
+#tele12 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: -26px; margin-left: 266px; float: left;
+}
+#ChangeBillTelephone {
+	border: 1px solid rgb(217, 217, 217) !important; width: 20%; height: 35px; padding-left: 92px; font-family: GothamMedium; font-size: 1em; margin-top: 19px; margin-left: -90px; float: left;
+}
+#countryCode {
+	border: 0px solid currentColor !important; width: 81px; height: 27px; font-family: GothamMedium; font-size: 1em; margin-top: 24px; margin-left: -21px; float: left;
+}
+#changeBillButtons {
+	width: 100%; margin-top: 15px; margin-bottom: 10px; float: right;
+}
+#billprefChangebtn {
+	outline: rgb(175, 188, 36) solid 2px; border: 1px solid rgb(175, 188, 36); width: 20%; height: 31px; color: rgb(255, 255, 255); font-family: GothamMedium; font-size: 1em; margin-top: 12px; margin-right: 1.3%; float: right; background-color: rgb(177, 188, 37); outline-offset: 2px;
+}
+#billprefChangebtn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#cancelBillPref {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 16%; height: 37px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1em; font-weight: 400; margin-top: 8px; margin-right: 60px; margin-bottom: 14px; float: right;
+}
+#cancelBillPref:hover {
+	border-color: rgb(51, 51, 51);
+}
+#get_answer {
+	font: 20px/normal GothamMedium; color: rgb(61, 134, 198); margin-top: 10px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.heading {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 2em; margin-left: 1%; white-space: nowrap;
+}
+.innerdiv1 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-top: 12px; margin-bottom: 18px; margin-left: 2.5%; float: left;
+}
+#AskQnHeading {
+	color: rgb(61, 134, 198); padding-left: 2%; font-family: GothamMedium; font-size: 1.12em; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+#RegLegalEntity {
+	width: 24%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; margin-top: 10px; float: left;
+}
+#reg_block {
+	width: 100%; float: left;
+}
+#reg_dwnarw {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#reg_1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(228, 228, 228); width: 72%; height: 40px; overflow: hidden; margin-left: 2%; float: left;
+}
+#RegLegalEntityText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; width: 100%; height: 37px; text-indent: 0.01px; overflow: hidden; font-family: GothamMedium; font-size: 1em; float: left; cursor: pointer; -moz-appearnace: none;
+}
+#sub_block {
+	width: 100%; float: left;
+}
+#Subject {
+	width: 24%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; margin-top: 25px; float: left;
+}
+#sub_1 {
+	width: 72%; margin-left: 2%; float: left;
+}
+#SubjectText {
+	background: linear-gradient(white, rgb(246, 246, 246)); font: 1em/normal GothamMedium; border: 1px solid rgb(217, 217, 217); width: 99%; height: 40px; color: gray; padding-left: 1%; margin-top: 15px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#desc_block {
+	width: 100%; float: left;
+}
+#DescriptionText {
+	font: 1em/normal Arial; margin: 15px 0px; width: 100%; height: 100px; float: left; max-width: 102%; font-size-adjust: none; font-stretch: normal;
+}
+#Description {
+	width: 24%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; margin-top: 25px; float: left;
+}
+#desc1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); font-family: GothamMedium; float: left;
+}
+#myFormAskQn #innerdiv2 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-bottom: 20px; margin-left: 2.5%; float: left; min-height: 0px;
+}
+#attachment {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 26px; text-align: center; padding-top: 5px; clear: left; float: left;
+}
+#rightarrow {
+	text-align: center; color: rgb(113, 113, 113); padding-top: 5px; float: left;
+}
+#scenery {
+	height: 31px; padding-top: 5px; margin-top: -1px; float: left;
+}
+#csign {
+	margin-top: 4px; float: right;
+}
+#billingTCL {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#billingex {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#csign1 {
+	margin-top: 4px; float: right;
+}
+#pdf {
+	text-align: center; color: rgb(113, 113, 113); float: left;
+}
+#troubleticket {
+	border: 1px solid rgb(113, 113, 113);
+}
+#csign2 {
+	margin-top: 4px; float: right;
+}
+#dropfile {
+	margin: 5px 1%;
+}
+#email_block {
+	width: 100%; float: left;
+}
+#name_block {
+	width: 100%; float: left;
+}
+#telephone_block {
+	margin: 5px 0px 15px; width: 100%; float: left;
+}
+#envelope {
+	top: -30px; clear: left; float: left; position: relative;
+}
+#down {
+	top: -29px; float: left; position: relative;
+}
+#innerdiv4 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-bottom: 20px; margin-left: 1%; float: left;
+}
+#notify {
+	color: rgb(61, 134, 198); padding-left: 2%; font-family: GothamMedium; font-size: 1.12em; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+#notifyticket {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#john {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#showlist {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 130px; height: 37px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em; margin-top: 6px; margin-right: 14px; float: right;
+}
+#showlist:hover {
+	border: 1px solid rgb(0, 0, 0);
+}
+#text10 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial;
+}
+#notifyopenclose {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#text11 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial; margin-bottom: 10px;
+}
+#anna {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team1 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team2 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#inform {
+	width: 94%; color: rgb(51, 51, 51); font-family: Arial; font-size: 1em; font-style: normal; margin-top: 15px; margin-right: 6%; float: right;
+}
+#buttons {
+	margin: 15px 4% 15px 0px;
+}
+#wcmSubjectContent {
+	padding: 0px 0px 0px 2% !important; width: 100%; clear: left; float: left; box-sizing: border-box;
+}
+#submitAskAqn {
+	background: rgb(177, 188, 37); font: 1em/normal GothamMedium; outline: rgb(175, 188, 36) solid 2px; border: 2px solid rgb(255, 255, 255); width: 260px; height: 40px; color: rgb(255, 255, 255); cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#cancelAskAqn {
+	background: rgb(246, 246, 246); font: 1em/normal GothamMedium; margin: -2px 60px 0px 0px; border: 2px solid rgb(251, 169, 30); width: 145px; height: 30px; text-align: center; color: rgb(61, 134, 198); padding-top: 10px; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#contactsdisplayed {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.8em; font-style: italic; margin-top: 4px; margin-left: 27%; float: left;
+}
+#link {
+	color: rgb(61, 134, 198); clear: left; font-family: Arial; font-size: 0.8em; margin-top: -17px; margin-right: 4%; float: right;
+}
+#savecontacts {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.8em; font-style: italic; margin-top: 4px; margin-left: 27%; float: left;
+}
+#save {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.8em; font-style: italic; margin-top: -14px; margin-left: 29%; float: left;
+}
+#people {
+	width: 64%; color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.8em; font-style: italic; margin-top: 4px; margin-bottom: 10px; margin-left: 27%; float: left;
+}
+#ViewDispute .dijitDialogPaneContent {
+	background: rgb(255, 255, 255); padding: 15px 20px; width: 97% !important; height: 961px !important; position: relative;
+}
+#ViewDispute .dijitDialogTitleBar {
+	background: rgb(60, 60, 60); padding: 15px 20px; width: 97% !important;
+}
+#ViewDispute {
+	outline: 0px; border-radius: 3px; border: 3px solid rgba(2, 2, 2, 0.4); left: 2% !important; top: 10px !important; width: 96% !important; overflow: visible; box-shadow: 0px 0px 15px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .4); -moz-border-radius: 3px;
+}
+.vdinnerdiv1 {
+	width: 98% !important; clear: left !important; margin-top: 12px !important; margin-bottom: 15px !important; float: left !important;
+}
+.vdunderline1 {
+	border: 1px solid rgb(61, 134, 198); width: 98% !important; clear: left !important; margin-left: 1% !important; float: left !important;
+}
+span#vdheading {
+	font-family: GothamLight; font-size: 28px;
+}
+input#disputeNoValId {
+	clear: left; margin-left: 1%; float: left;
+}
+input#vdLegalEntityValue {
+	width: 70%; height: 30px; padding-left: 1%; margin-top: 16px; margin-left: 2%; float: left;
+}
+div#vdissue_block {
+	width: 100%; clear: left; float: left;
+}
+input#vdissueValue {
+	width: 70%; height: 30px; padding-left: 1%; margin-top: 10px; margin-left: 2%; float: left;
+}
+div#vdinvoice_block {
+	width: 100%; clear: left; float: left;
+}
+input#vdinvoiceValue {
+	width: 70%; height: 30px; padding-left: 1%; margin-top: 20px; margin-left: 2%; float: left;
+}
+input#vdserviceidValue {
+	width: 70%; height: 30px; padding-left: 1%; margin-top: 15px; margin-left: 2%; float: left;
+}
+input#vdservicenameValue {
+	width: 70%; height: 30px; padding-left: 1%; margin-top: 15px; margin-left: 2%; float: left;
+}
+div#vdenddate {
+	width: 100%; clear: left; float: left;
+}
+span#vdEndDateLabel {
+	width: 22%; text-align: right; clear: left; margin-top: 27px; float: left;
+}
+input#vddisputedvalue {
+	width: 20%; height: 30px; padding-left: 1%; clear: left; margin-top: 15px; margin-left: 24%; float: left;
+}
+#vdheading {
+	font-size: 1.5em;
+}
+#vddescribe {
+	clear: left; font-family: GothamMedium; font-size: 17px; margin-left: 2%; float: left;
+}
+#vdLegalEntityLabel {
+	border: currentColor; width: 22%; text-align: right; clear: left; font-family: GothamMedium; margin-top: 26px; float: left;
+}
+#reg_dwnarw {
+	font-size: 1em; margin-top: -24px;
+}
+#reg_dwnarw1 {
+	font-size: 1em; margin-top: -24px;
+}
+#reg_dwnarw2 {
+	font-size: 1em; margin-top: -24px;
+}
+#reg_dwnarw4 {
+	font-size: 1em; margin-top: -24px;
+}
+#reg_dwnarw {
+	margin-right: 3%;
+}
+#reg_dwnarw1 {
+	margin-right: 3%;
+}
+#reg_dwnarw2 {
+	margin-right: 3%;
+}
+#choose1 {
+	width: 100%; height: 37px; font-size: 1em;
+}
+#choose2 {
+	width: 100%; height: 37px; font-size: 1em;
+}
+#choose3 {
+	width: 100%; height: 37px; font-size: 1em;
+}
+#choose4 {
+	width: 100%; height: 37px; font-size: 1em;
+}
+#choose4 {
+	padding-left: 43px;
+}
+#vdissue {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 17px;
+}
+#vdvdissueValue {
+	width: 59.3%; margin-top: 10px; margin-left: 4%;
+}
+#vdinvoice {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 31px;
+}
+#vdvdinvoiceValue {
+	width: 60%; margin-left: 4%; float: left;
+}
+#text1 {
+	width: 98.5%; font-size: 1em; margin-top: 10px;
+}
+#entermultiple1 {
+	font-size: 1em; margin-top: 4px; margin-left: 34.5%;
+}
+#vdservicename {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 26px;
+}
+#vdvdservicenameValue {
+	width: 59.3%; margin-left: 4%;
+}
+#vdserviceid {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 29px;
+}
+#vdvdserviceidValue {
+	width: 60%; margin-left: 4%;
+}
+#text2 {
+	width: 98.5%; font-size: 1em; margin-top: 10px;
+}
+#entermultiple2 {
+	font-size: 1em; margin-top: 4px; margin-left: 34.5%;
+}
+#vddate {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 27px;
+}
+#vdstartDateValue {
+	width: 20%; height: 30px; padding-left: 1%; margin-top: 15px; margin-left: 2%; float: left;
+}
+#calendar1 {
+	left: 2%; top: 22px;
+}
+#text3 {
+	width: 98%; font-size: 1em; margin-top: -8px;
+}
+#vdvdEndDateLabel {
+	width: 30%; text-align: right; font-size: 1em; margin-top: 27px;
+}
+#vdendDateValue {
+	width: 20%; height: 30px; padding-left: 1%; margin-top: 15px; margin-left: 2%; float: left;
+}
+#calendar2 {
+	left: 2%; top: 26px;
+}
+#text4 {
+	width: 98%; font-size: 1em; margin-top: -2px;
+}
+#vdvaluedisLabel {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 27px;
+}
+#vdvaluedisValue {
+	width: 21%; height: 30px; margin-top: 17px; margin-left: 2%;
+}
+input#vdvaluedisCurr {
+	height: 30px; margin-top: 17px; margin-left: 2%; float: left;
+}
+#text5 {
+	width: 98%; font-size: 1em; margin-top: 17px;
+}
+#choose {
+	width: 21.4%; margin-top: 19px; margin-left: 26px;
+}
+#envelope1 {
+	margin-top: -27px; margin-left: 9px;
+}
+#reg_dwnarw4 {
+	margin-right: 2%;
+}
+#vddesc_value {
+	width: 70%; height: 30px; padding-left: 1%; margin-top: 15px; margin-left: 2%; float: left;
+}
+#vddescription {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 25px; margin-bottom: 32px;
+}
+#desc1 {
+	width: 97%; height: 123px; font-size: 1em; margin-top: 10px; margin-bottom: 10px;
+}
+#vdinnerdiv2 {
+	width: 98% !important; margin-bottom: 20px;
+}
+#vdattach {
+	font-size: 17px; margin-bottom: 12px; margin-left: 2%; float: left;
+}
+#attachment {
+	width: 3%; margin-top: 39px; margin-left: 2%;
+}
+#rightarrow {
+	width: 4%; height: 41px; clear: left; margin-top: -30px; margin-left: 4.5%;
+}
+#scenery {
+	width: 16%; text-align: center;
+}
+#csign {
+	margin-right: 3%;
+}
+#csign1 {
+	margin-right: 3%;
+}
+#billingex {
+	width: 19%; clear: left; margin-top: -50px; margin-left: 8%;
+}
+#billingTCL {
+	width: 23%; clear: left; margin-top: -50px; margin-left: 29%;
+}
+#pdf {
+	width: 19%; height: 40px; padding-top: 5px; margin-top: -5px; margin-left: 1%;
+}
+#troubleticket {
+	width: 25%; height: 27px; text-align: center; padding-top: 5px; clear: left; margin-top: -50px; margin-left: 53%; float: left;
+}
+#downarrow {
+	width: 4%; height: 41px; text-align: center; color: rgb(51, 51, 51); padding-top: 5px; margin-top: -3px; margin-left: 1%; float: left;
+}
+#dropfile {
+	border: dashed rgb(217, 217, 217); width: 20%; height: 22px; text-align: center; padding-top: 5px; margin-top: -50px; margin-right: 0.5%; float: right; background-color: rgb(255, 255, 255);
+}
+#vdinnerdiv3 {
+	width: 98% !important; margin-bottom: 20px;
+}
+#vdcontactinfo {
+	font-size: 17px; margin-left: 2%; float: left;
+}
+#vdprimarycontact {
+	font-size: 14px; margin-top: 10px; margin-left: 4.5%;
+}
+#name_1 {
+	width: 60%;
+}
+#primaryContactNameId {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 24px;
+}
+#primaryContactValId {
+	width: 70%; height: 30px; padding-left: 1%; font-size: 1em; margin-top: 15px; margin-left: 2%; float: left;
+}
+#email_1 {
+	width: 60%;
+}
+#primaryEmailId {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 28px;
+}
+#primaryEmailValId {
+	width: 70%; height: 30px; padding-left: 1%; font-size: 1em; margin-top: 15px; margin-left: 2%; float: left;
+}
+#enter1 {
+	font-size: 1em;
+}
+#telephone_1 {
+	width: 60%; margin-left: 4%;
+}
+#primaryTelephoneId {
+	width: 22%; text-align: right; font-size: 1em; margin-top: 28px;
+}
+#primaryTelephoneValId {
+	width: 70%; height: 30px; padding-left: 1%; font-size: 1em; margin-top: 17px; margin-left: 2%; float: left;
+}
+#envelope {
+	left: 2%;
+}
+#down {
+	left: 4%;
+}
+#vdinnerdiv4 {
+	margin-bottom: 20px;
+}
+#vdnotify {
+	padding-left: 2%; font-size: 1.12em;
+}
+#billexample {
+	font-size: 0.8em;
+}
+#notifyticket {
+	width: 13%; text-align: right; font-size: 0.9em; margin-top: 23px; margin-left: 10%;
+}
+#john {
+	width: 20%; margin-top: 8px; margin-left: 3%;
+}
+#book {
+	display: none;
+}
+#book1 {
+	display: none;
+}
+#bill10 {
+	padding-left: 7px; font-size: 0.8em;
+}
+#troubletic {
+	padding-right: 29px; font-size: 0.8em;
+}
+#text10 {
+	width: 65%; height: 50px; font-size: 1em; margin-top: 15px; margin-right: 10%; float: right;
+}
+#text11 {
+	width: 65%; height: 50px; font-size: 1em; margin-top: 15px; margin-right: 10%; float: right;
+}
+#notifyopenclose {
+	width: 13%; text-align: right; font-size: 0.9em; margin-top: 32px; margin-left: 10%;
+}
+#anna {
+	width: 20%; margin-top: 8px; margin-left: 3%;
+}
+#team1 {
+	width: 20%; margin-top: 8px; margin-left: 3%;
+}
+#team2 {
+	width: 20%; margin-top: 8px; margin-left: 3%;
+}
+#buttons {
+	clear: right; margin-top: 20px; margin-right: 40px; margin-bottom: 14px; float: right;
+}
+#submit {
+	width: 260px; height: 30px;
+}
+#cancel {
+	width: 145px; height: 40px; margin-right: 60px;
+}
+}
+@media screen and (max-width:999px) and (min-width:601px)
+{
+.hidden-m {
+	display: none;
+}
+#downloadArchiveButton {
+	background: rgb(176, 188, 37) !important; padding: 0px !important; outline: rgb(175, 188, 36) double 7px !important; border: currentColor; width: 260px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-weight: 700; outline-offset: 0;
+}
+#COPFtextbox {
+	width: 47.1% !important; padding-left: 3.5% !important; margin-top: -10px !important;
+}
+#ServiceIDbox {
+	width: 47.1% !important; padding-left: 3.5% !important; margin-top: -10px !important;
+}
+#amounttextbox {
+	width: 47.1% !important; padding-left: 3.5% !important; margin-top: -10px !important;
+}
+#invoicetext {
+	width: 47.1% !important; padding-left: 3.5% !important; margin-top: -10px !important;
+}
+#download_section {
+	margin: 0px 10px 20px 0px; font-size: 0.9em; float: right;
+}
+#download_icon {
+	left: 22px; color: rgb(246, 246, 246); font-size: 1em; position: relative;
+}
+#norecord {
+	font: 14px/normal gothammedium; margin: 20px 0px 20px 40%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.inr_symbol {
+	top: 2px; right: 25px; font-size: 15px !important; font-weight: 700 !important; float: right; position: relative;
+}
+#search_icon {
+	left: 1%; top: 18px; color: rgb(61, 134, 198); position: relative;
+}
+.filters-container .dijitComboBox .dijitButtonNode {
+	margin-top: 5px; margin-left: 1px; background-size: 11px;
+}
+.filters-container #cancelid {
+	font-size: 14px;
+}
+.wpfListColumnItemLeft {
+	text-align: center; margin-left: 2%;
+}
+#invoice_table .additional-info .amount-container > div:nth-child(2) {
+	font-size: 1.6em; font-weight: 700;
+}
+#invoice_table .additional-info .amount-container > span {
+	font-size: 1.6em; font-weight: 700;
+}
+.amount-container.wpfListColumn {
+	margin: 0px 39px 0px 0px; float: right;
+}
+.wpfListColumnItemRight {
+	width: 42%;
+}
+#ViewDispute {
+	margin: 11px 6% 0px 0px !important; width: 220px !important;
+}
+.account-summary.wpfListRight {
+	margin: 12px 0px 0px 15% !important; clear: left; float: left;
+}
+#summaryid {
+	margin: 0px 0px 0px 4% !important; float: left;
+}
+#collapse_sym {
+	font-size: 0.9em; margin-top: 1px; float: right;
+}
+#facircle {
+	font-size: 0.9em;
+}
+#exclamation_circle {
+	padding-right: 4%; font-size: 1em;
+}
+#invoice_table .payment-info {
+	font-size: 0.9em;
+}
+.applyfilter_span {
+	margin: 0px 0px 0px 19px; font-size: 11px !important; float: left;
+}
+.show_allspan {
+	font-size: 11px !important; float: left;
+}
+#export_span {
+	font-size: 0.8em !important;
+}
+#invoice_table .additional-info .button {
+	margin: 3% 10% 3% -5%; width: 100%; height: 26px; font-weight: 700;
+}
+#hs_amt {
+	padding-right: 6%;
+}
+.page-button-container .lotusPaging {
+	width: 100%; font-family: GothamMedium; font-size: 14px !important;
+}
+.filters-container .dijitTextBox {
+	border: 1px solid rgb(217, 217, 217) !important; width: 33%; height: 33px;
+}
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	height: 18px; font-size: 0.8em;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	height: 18px; font-size: 0.8em;
+}
+.lotusui30 .lotusInlinelist {
+	margin: 1px 0px 0px; padding-right: 0px !important;
+}
+#FilterButtonid {
+	height: 50px; margin-top: 0px; margin-right: 0px; float: right;
+}
+#invoice_table .additional-info .additional-info-list > li {
+	line-height: 1.4em; margin-top: 20px; float: left; display: inline-block; white-space: nowrap;
+}
+li:nth-child(4) {
+	margin-top: 9px;
+}
+#tablheaderdiv {
+	font-size: 1em;
+}
+.downloadspan_invoices {
+	padding-right: 4%; font-size: 0.9em;
+}
+#clearsvcicon {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon2 {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon3 {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon4 {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon6 {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon7 {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon8 {
+	margin-top: -33px; margin-right: 2%; float: right;
+}
+#clearsvcicon1 {
+	left: 7%; top: 10px; float: right; position: relative;
+}
+#clearsvcicon5 {
+	left: 7%; top: 10px; float: right; position: relative;
+}
+#StatusBar1 {
+	margin: 0px 0px 0px 1%; width: 59%; height: 100%; float: left;
+}
+#StatusBar1 > p {
+	margin: 17px 0px 0px 4.2%; overflow: hidden; font-size: 0.87em; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+td > ul > li:nth-child(2) {
+	clear: left; margin-top: 10px;
+}
+#DownloadInvoiceButton_Hide {
+	cursor: pointer; outline-offset: 0;
+}
+td > ul > li.wpfListColumnItemRight {
+	margin-top: -58px !important; float: right !important;
+}
+#ViewInvoiceDetailsLink_Hide {
+	margin: 75px 1% 0px 0px; right: 5.4%; float: right; position: absolute;
+}
+#DownloadInvoiceButton_Hide {
+	margin: 26px 5% 0px 0px !important; width: 220px !important; font-size: 0.9em !important; float: right;
+}
+#download_all {
+	font-size: 0.9em; margin-right: 9%; margin-bottom: 19px; float: right; white-space: nowrap;
+}
+#export_all {
+	width: 100%; font-size: 0.9em; margin-bottom: 11px; float: right; white-space: nowrap;
+}
+#show_all {
+	width: 100%; font-size: 0.89em; margin-left: 3%; float: left; white-space: nowrap;
+}
+#invoicecalender {
+	border: 1px solid rgb(217, 217, 217); width: 51%; height: 35px !important; font-family: GothamMedium; font-size: 1em;
+}
+#statusdropdown {
+	border: 1px solid rgb(217, 217, 217); width: 51%; height: 35px !important; font-family: GothamMedium; font-size: 1em;
+}
+#svctext {
+	border: 1px solid rgb(217, 217, 217); width: 51%; height: 35px !important; font-family: GothamMedium; font-size: 1em;
+}
+#COPFtextbox {
+	border: 1px solid rgb(217, 217, 217); height: 32px !important; font-family: GothamMedium; font-size: 1em;
+}
+#ServiceIDbox {
+	border: 1px solid rgb(217, 217, 217); height: 32px !important; font-family: GothamMedium; font-size: 1em;
+}
+#amounttextbox {
+	border: 1px solid rgb(217, 217, 217); height: 32px !important; font-family: GothamMedium; font-size: 1em;
+}
+#invoicetext {
+	border: 1px solid rgb(217, 217, 217); height: 32px !important; font-family: GothamMedium; font-size: 1em;
+}
+#uparrow {
+	margin: 2px 0px 0px; font-size: 16px !important; font-weight: 700; float: right;
+}
+#dwnarrow {
+	top: 2px; font-size: 16px; font-weight: 700; position: relative;
+}
+#hide_all {
+	margin-left: 4%;
+}
+#applytick {
+	left: 10px; top: 2px; font-size: 16px; font-weight: 700; position: relative;
+}
+#StatusBar2 {
+	width: 13%; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.86em; margin-top: 22px; float: left; white-space: nowrap;
+}
+#fa_cross {
+	color: rgb(51, 51, 51); font-size: 1.2em; margin-top: 18px; float: left;
+}
+#Payment Due {
+	font-size: 0.9em;
+}
+.lotusLeft {
+	margin: -2px 0px 0px;
+}
+#para1 {
+	white-space: nowrap;
+}
+#amtdiv {
+	width: 91%; text-align: right; font-size: 0.9em; white-space: nowrap;
+}
+#para4 {
+	text-align: right; right: 1.5%; margin-top: 8px; position: relative;
+}
+.hideall_span {
+	margin: 0px 0px 0px 9px; font-size: 11px; float: left;
+}
+.showall_span {
+	font-size: 11px;
+}
+#filter_container {
+	width: 20%;
+}
+#filterimage {
+	font-size: 17px !important;
+}
+.filters-container > li > div {
+	margin: 1%; width: 98%; height: 50px;
+}
+.filters-container > li:last-child > div {
+	width: 165px; height: 35px;
+}
+.filters-container > li > div > p {
+	margin: 1% 0px 0px 2%; width: 40%; float: left;
+}
+.filters-container > li > div > input[type=text] {
+	margin: 1.3% 3%; padding: 0px; width: 50%; height: 20px;
+}
+.filters-container > li > div > select {
+	margin: 1.3% 3%; padding: 0px; width: 50%; height: 20px;
+}
+.filters-container .calender-container {
+	margin: 1% 2% 0px 0px; width: 52%; display: inline-block;
+}
+.filters-container .dijitTextBox .dijitInputField {
+	padding: 0px !important; font-size: 11px; margin-top: 5px; white-space: nowrap;
+}
+.dijitPlaceHolder {
+	font-size: 9px !important;
+}
+#invoice_table > tbody > tr > td {
+	width: 19%;
+}
+#invoice_table > thead > tr > th {
+	width: 19%;
+}
+.open_questionsborder td.dojoxGridCell {
+	width: 20% !important; -ms-word-break: break-all;
+}
+.resolved_questionsborder td.dojoxGridCell {
+	width: 20% !important; -ms-word-break: break-all;
+}
+#header1 {
+	width: 20.5%; display: table-cell;
+}
+#header1Res {
+	width: 20.5%; display: table-cell;
+}
+#header2 {
+	display: none;
+}
+#header2Res {
+	display: none;
+}
+#header3 {
+	width: 20%; display: table-cell;
+}
+#header3Res {
+	width: 20%; display: table-cell;
+}
+#header4 {
+	width: 20%; display: table-cell;
+}
+#header4Res {
+	width: 20%; display: table-cell;
+}
+#header5 {
+	display: table-cell;
+}
+#header5Res {
+	display: table-cell;
+}
+#questions_table {
+	font: 0.75em/normal GothamMedium !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#resolved_questions_table {
+	font: 0.75em/normal GothamMedium !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+.open_questionsborder .wpfBlueButton {
+	background: rgb(255, 255, 255); outline: 0px; border: 2px solid rgb(251, 169, 30); width: 27%; height: 36px; color: rgb(61, 134, 198); padding-left: 20px !important; font-family: GothamMedium; font-size: 14px; font-weight: 700; margin-top: 2px; margin-right: 0px !important; cursor: pointer;
+}
+#OpenNoRecordstxt {
+	font: 14px/normal GothamMedium; margin: 40px 0px 20px 40%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#ResolvedNoRecordstxt {
+	font: 14px/normal GothamMedium; margin: 40px 0px 20px 40%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#chat_font {
+	top: 11px; right: 25%; color: rgb(61, 134, 198); font-size: 14px; float: right; position: relative;
+}
+#open_ques {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 16px; float: left;
+}
+#billing_ques {
+	color: rgb(61, 134, 198) !important; clear: left; margin-top: 30px; float: left;
+}
+#resolved_ques {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 16px; margin-top: 2px; float: left;
+}
+#caret_Open {
+	color: rgb(61, 134, 198); padding-right: 2%; font-size: 1.4em; margin-left: 6%; float: left;
+}
+#open_title {
+	width: 165px; margin-top: 14px; margin-bottom: 13px; float: left;
+}
+.resolved_title {
+	width: 200px; clear: left; margin-top: 12px; float: left;
+}
+#caret_Resolved {
+	margin: 2px 1% 0px 4%; color: rgb(61, 134, 198); font-size: 1.4em; float: left;
+}
+div.ui-resizable.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog.billPrefdialog {
+	left: 0.5% !important; top: 35px !important; width: 97.6% !important; overflow: visible; z-index: 400; min-height: 542px;
+}
+#billprefDialogContent {
+	overflow: visible;
+}
+#maindiv {
+	width: 100%;
+}
+#hr1 {
+	border: 1px solid rgb(61, 134, 198); width: 99.5%; margin-top: 0px; float: left;
+}
+#changebilling {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamLight; font-size: 1.5em; float: left;
+}
+hr {
+	width: 98%; color: rgb(0, 0, 0);
+}
+#drop_down {
+	border: 1px solid rgb(228, 228, 228); width: 61.9%; height: 35px; overflow: hidden; margin-top: 6px; margin-left: 35%; float: left;
+}
+#confirmDialogChangeBill {
+	height: auto !important;
+}
+#confStmtHeading {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.6em; margin-top: 1px; margin-bottom: 0px; float: left;
+}
+#hrConfirmChangeBill {
+	border: 1px solid rgb(61, 134, 198); width: 100%; float: left;
+}
+#confStmt1 {
+	width: 98%; font-family: arial; font-size: 1.3em; margin-top: 7px; margin-bottom: 0px; margin-left: 0px; float: left;
+}
+#confStmt2 {
+	width: 101%; font-family: arial; font-size: 1.3em; margin-top: 8px; margin-left: 0px; float: left;
+}
+input#changeBillDoneBtn {
+	border: 2px solid rgb(251, 169, 30); width: 31%; height: 40px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.1em; margin-top: 20px; margin-right: 0px; float: right; background-color: rgb(255, 255, 255);
+}
+#fa2 {
+	top: -28px; right: 2%; color: rgb(60, 134, 198); font-size: 20px; font-weight: 700; float: right; position: relative;
+}
+#innerdiv1 {
+	border: 2px solid rgb(113, 113, 113); width: 97.7%; margin-top: 16px; margin-left: 1.3%; float: left;
+}
+#changedetails {
+	text-align: right; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 16px; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 10px; margin-bottom: 10px; margin-left: 2%; float: left;
+}
+#legalentity {
+	text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 5px; margin-left: 4%; float: left;
+}
+#telDiv {
+	width: 33%; text-align: right; clear: left; font-family: GothamMedium; font-size: 0.8em; margin-top: 20px; float: left;
+}
+#RegLegalEntityTextBill {
+	padding: 6px; border: 0px solid rgb(217, 217, 217); width: 100%; height: 33px; color: rgb(51, 51, 51); text-indent: 0.01px; font-family: GothamMedium; font-size: 0.8em; float: left; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none;
+}
+#move {
+	color: rgb(51, 51, 51); font-family: Arial; font-size: 1.2em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 21px; margin-left: 31.7%; float: left;
+}
+#shortexplanatory {
+	width: 66%; color: rgb(51, 51, 51); font-family: Arial; font-size: 1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 2px; margin-left: 35.4%; float: left;
+}
+#servicNamesBillDropDown {
+	border: currentColor; width: 100%; height: 35px; color: rgb(51, 51, 51); overflow: hidden; padding-left: 3px; font-family: GothamMedium; font-size: 0.8em; font-weight: 400; float: left; cursor: pointer; -webkit-appearance: none;
+}
+#descrip {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 21px; margin-left: 35.3%; float: left;
+}
+#descriptionbill {
+	border: 1px solid rgb(217, 217, 217); width: 49.9%; height: 86px; margin-top: 21px; margin-left: 2.5%; float: left; max-width: 98%; background-color: rgb(255, 255, 255);
+}
+#OtherRequest {
+	left: -13%; top: 1px; position: relative;
+}
+#othreq {
+	color: rgb(51, 51, 51); font-family: Arial; font-size: 1.2em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 29px; margin-left: 32%; float: left;
+}
+#please {
+	width: 65%; color: rgb(51, 51, 51); font-family: arial; font-size: 1em; font-style: normal; font-weight: 400; margin-top: 8px; margin-left: 34.2%; float: left;
+}
+#span11 {
+	clear: left; margin-top: 5px; margin-left: 28%; float: left;
+}
+#descriptionbill_otherReq {
+	border: 1px solid rgb(217, 217, 217); width: 62.5%; height: 118px; margin-top: 8px; margin-bottom: 24px; margin-left: 34%; background-color: rgb(246, 246, 246);
+}
+#innerdiv2 {
+	border: 2px solid rgb(113, 113, 113); width: 97.7%; height: 50%; margin-top: 20px; margin-left: 1.3%; float: left; min-height: 300px;
+}
+#coninform {
+	width: 34%; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 16px; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 10px; margin-left: 2%; float: left;
+}
+#primarycon {
+	width: 40%; color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.87em; font-style: italic; font-weight: 400; text-decoration: none; margin-top: 11px; margin-left: 5%; float: left; white-space: nowrap;
+}
+#name11 {
+	width: 33%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 32px; float: left;
+}
+#ChangeBillName {
+	border: 1px solid rgb(217, 217, 217); width: 55%; height: 32px; color: gray; padding-left: 10px; font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; margin-top: 21px; margin-right: 8%; float: right;
+}
+#email11 {
+	width: 33%; text-align: right; color: rgb(51, 51, 51); font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 33px; float: left;
+}
+#email12 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: -26px; margin-left: 266px; float: left;
+}
+#fa_closeDialogChangeBill {
+	top: -17px; right: -3%; font-size: 36px; float: right; position: relative;
+}
+.f16.flag-dropdown {
+	margin-top: 18px !important; margin-left: 3%; float: left; position: relative; cursor: pointer;
+}
+#countryCode {
+	border: 0px solid currentColor !important; width: 63px; height: 27px; padding-top: 4px; font-family: GothamMedium; font-size: 1em; margin-top: 15px; margin-left: -32px; float: left;
+}
+#ChangeBillEmail {
+	border: 1px solid rgb(217, 217, 217); width: 55%; height: 35px; color: gray; padding-left: 8px; font-family: GothamMedium; font-size: 0.8em; font-weight: 400; text-decoration: none; margin-top: 12px; margin-right: 8%; float: right;
+}
+#ifenter {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.87em; font-style: italic; font-weight: 400; text-decoration: none; margin-left: 36%; float: left;
+}
+#tele11 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 25px; margin-left: 127px; float: left;
+}
+#tele12 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: -26px; margin-left: 266px; float: left;
+}
+#ChangeBillTelephone {
+	border: 1px solid rgb(217, 217, 217) !important; width: 20%; height: 36px; padding-left: 80px; font-family: GothamMedium; font-size: 1em; margin-top: 13px; margin-bottom: 11px; margin-left: -72px; float: left;
+}
+#changeBillButtons {
+	width: 100%; margin-top: 20px; margin-bottom: 20px; float: right;
+}
+#fa1 {
+	top: -24px; right: 2%; color: rgb(60, 134, 198); font-size: 1.3em; font-weight: 700; float: right; position: relative;
+}
+#angl_dwn {
+	border: 1px solid rgb(228, 228, 228); width: 65%; height: 33px; overflow: hidden; margin-top: 2px; margin-left: 4%; float: left;
+}
+#down_1b {
+	left: -3%; top: 18px; color: rgb(61, 134, 198); float: left; position: relative;
+}
+#ang2_dwn {
+	background: rgb(255, 255, 255); border: 1px solid rgb(228, 228, 228); width: 67.5%; height: 28px; overflow: hidden; padding-top: 10px; padding-left: 2%; font-family: GothamMedium; font-size: 0.8em; margin-top: 1px; margin-left: 4%; float: left;
+}
+#PaperlessBill {
+	left: -6%; top: 2px; position: relative;
+}
+#billprefChangebtn {
+	outline: rgb(175, 188, 36) solid 2px; border: 2px solid rgb(175, 188, 36); width: 236px; height: 27px; color: rgb(255, 255, 255); font-family: GothamMedium; font-size: 0.9em; margin-right: 12px; float: right; background-color: rgb(177, 188, 37); outline-offset: 2px;
+}
+#billprefChangebtn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#cancelBillPref {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 18%; height: 31px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em; font-weight: 400; margin-top: -1px; margin-right: 54px; float: right;
+}
+#cancelBillPref:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+#filecontainerAsk {
+	display: none;
+}
+#countryCodeAsk {
+	font: 13px/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#desc_1 {
+	width: 66%;
+}
+#heading {
+	font: 1.87em/normal GothamLight; font-size-adjust: none; font-stretch: normal;
+}
+#drop1 {
+	display: none;
+}
+#RegLegalEntityTextBox {
+	font: 0.87em/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+.heading {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.5em; margin-left: 1%; white-space: nowrap;
+}
+.innerdiv1 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-top: 12px; margin-bottom: 18px; margin-left: 2.5%; float: left;
+}
+#AskQnHeading {
+	color: rgb(61, 134, 198); padding-left: 4%; font-family: GothamMedium; font-size: 1em; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+#RegLegalEntity {
+	width: 32%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; margin-top: 10px; float: left;
+}
+#reg_block {
+	width: 100%; float: left;
+}
+#reg_dwnarw {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#reg_1 {
+	border: 1px solid rgb(228, 228, 228); width: 62%; overflow: hidden; margin-left: 2%; float: left; min-height: 37px;
+}
+#RegLegalEntityText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; width: 100%; height: 37px; text-indent: 0.01px; overflow: hidden; font-family: GothamMedium; font-size: 0.8em; float: left; cursor: pointer; -moz-appearnace: none;
+}
+#sub_block {
+	width: 100%; float: left;
+}
+#Subject {
+	width: 32%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; margin-top: 20px; float: left;
+}
+#sub_1 {
+	width: 62.6%; margin-left: 2%; float: left;
+}
+#SubjectText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); width: 98%; height: 37px; padding-left: 1%; font-family: GothamMedium; font-size: 0.8em; margin-top: 10px; float: left;
+}
+#desc_block {
+	width: 100%; float: left;
+}
+#DescriptionText {
+	margin: 10px 0px; width: 94%; height: 100px; text-indent: 5px; font-size: 13px; float: left; max-width: 99%;
+}
+#Description {
+	width: 32%; text-align: right; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; margin-top: 26px; float: left;
+}
+#desc1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); font-family: GothamMedium; float: left;
+}
+#myFormAskQn #innerdiv2 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-bottom: 18px; margin-left: 2.5%; float: left; min-height: 0px;
+}
+#attachment {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 26px; text-align: center; padding-top: 5px; clear: left; float: left;
+}
+#rightarrow {
+	text-align: center; color: rgb(113, 113, 113); padding-top: 5px; float: left;
+}
+#scenery {
+	height: 31px; padding-top: 5px; margin-top: -1px; float: left;
+}
+#billingex {
+	border: 1px solid rgb(113, 113, 113); height: 27px; padding-top: 5px; float: left;
+}
+#csign {
+	margin-top: 4px; float: right;
+}
+#billingTCL {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#csign1 {
+	margin-top: 4px; float: right;
+}
+#pdf {
+	text-align: center; color: rgb(113, 113, 113); float: left;
+}
+#troubleticket {
+	border: 1px solid rgb(113, 113, 113);
+}
+#csign2 {
+	margin-top: 3px; float: right;
+}
+#CntactInfoHeading {
+	font: 1em/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#cntDesc {
+	font-size: 0.8em;
+}
+#name_block {
+	width: 100%; float: left;
+}
+#CntName {
+	font-size: 0.8em;
+}
+#CntNameText {
+	width: 92%; font-size: 0.8em;
+}
+#email_block {
+	width: 100%; float: left;
+}
+#CntEmail {
+	font-size: 0.8em;
+}
+#CntEmailText {
+	width: 92%; font-size: 0.8em;
+}
+#telephone_block {
+	width: 100%; float: left;
+}
+#CntTelephone {
+	font-size: 0.8em;
+}
+#telephonetext {
+	width: 66%; font-size: 13px;
+}
+#attach {
+	font-size: 1em;
+}
+#envelope {
+	top: -30px; clear: left; float: left; position: relative;
+}
+#down {
+	top: -29px; float: left; position: relative;
+}
+#innerdiv4 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-bottom: 18px; margin-left: 1%; float: left;
+}
+#notify {
+	color: rgb(61, 134, 198); padding-left: 7%; font-family: GothamMedium; font-size: 1em; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+#notifyticket {
+	color: rgb(51, 51, 51); font-family: Arial; float: left;
+}
+#john {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#showlist {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 130px; height: 37px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em; margin-top: 6px; margin-right: 2%; float: right;
+}
+#showlist:hover {
+	border: 1px solid rgb(0, 0, 0);
+}
+#text10 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial;
+}
+#notifyopenclose {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#text11 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial; margin-bottom: 10px;
+}
+#anna {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team1 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team2 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#buttons {
+	margin: 20px 1% 20px 0px; width: 430px;
+}
+#submitAskAqn {
+	outline: rgb(175, 188, 36) solid 2px; border: 1px solid rgb(175, 188, 36); width: 250px; height: 31px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.7em; font-family: GothamMedium; font-size: 0.9em; float: left; white-space: nowrap; background-repeat: repeat-x; background-color: rgb(177, 188, 37); outline-offset: 3px;
+}
+#cancelAskAqn {
+	background: rgb(246, 246, 246); margin: -5px 3% 0px 0px; border: 2px solid rgb(251, 169, 30); width: 145px; height: 26px; text-align: center; color: rgb(61, 134, 198); padding-top: 10px; font-family: GothamMedium; font-size: 0.9em; float: left;
+}
+#contactsdisplayed {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.7em; font-style: italic; margin-top: 4px; margin-left: 25%; float: left;
+}
+#link {
+	color: rgb(61, 134, 198); clear: left; font-family: Arial; font-size: 0.7em; margin-top: 6px; margin-left: 25%; float: left;
+}
+#inform {
+	width: 85%; color: rgb(51, 51, 51); font-family: Arial; font-size: 1em; font-style: normal; margin-top: 15px; margin-right: 6%; float: right;
+}
+#savecontacts {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.7em; font-style: italic; margin-top: 8px; margin-left: 25%; float: left;
+}
+#save {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.7em; font-style: italic; margin-top: -14px; margin-left: 29%; float: left;
+}
+#people {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.7em; font-style: italic; margin-top: 4px; margin-bottom: 10px; margin-left: 25%; float: left;
+}
+.lotusui30dojo .dijitDialogCloseIcon {
+	top: -14px !important; width: 32px !important; height: 32px !important; right: -14px !important; position: absolute !important; z-index: 1; -ms-zoom: 1; background-image: url("images/ClosePopup32.png");
+}
+#ViewDispute .dijitDialogTitleBar {
+	padding: 0px; height: 0px !important;
+}
+#vdEndDateLabel {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 10px; float: left;
+}
+#vdserviceidValue {
+	width: 48%; height: 30px; margin-top: 8px; margin-left: 1%; float: left;
+}
+.lotusui30dojo .dijitDialogPaneContent {
+	background: rgb(255, 255, 255); padding: 15px 20px; width: 95% !important; height: 940px !important; position: relative;
+}
+.lotusui30dojo .dijitDialog {
+	outline: 0px; border-radius: 3px; border: 3px solid rgba(2, 2, 2, 0.4); top: 10px !important; width: 91% !important; overflow: visible; box-shadow: 0px 0px 15px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .4); -moz-border-radius: 3px;
+}
+#vdlegalEntityBlock {
+	width: 100%; float: left;
+}
+#vdheading {
+	font-size: 1.25em;
+}
+#vddisputedvalue {
+	width: 100%; margin-top: 8px; float: left;
+}
+#vddescribe {
+	font-family: GothamMedium; font-size: 16px; margin-left: 6%; float: left;
+}
+#vdLegalEntityLabel {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; float: left;
+}
+input#vdLegalEntityValue {
+	width: 48%; height: 30px; margin-left: 1%; float: left;
+}
+#reg_dwnarw {
+	font-size: 0.8em; margin-top: -24px;
+}
+#reg_dwnarw1 {
+	font-size: 0.8em; margin-top: -24px;
+}
+#reg_dwnarw2 {
+	font-size: 0.8em; margin-top: -24px;
+}
+#reg_dwnarw4 {
+	font-size: 0.8em; margin-top: -24px;
+}
+#reg_dwnarw {
+	margin-right: 3%;
+}
+#reg_dwnarw1 {
+	margin-right: 3%;
+}
+#reg_dwnarw2 {
+	margin-right: 3%;
+}
+#reg_dwnarw4 {
+	margin-right: 2%;
+}
+#choose1 {
+	width: 100%; height: 37px; font-size: 0.8em;
+}
+#choose2 {
+	width: 100%; height: 37px; font-size: 0.8em;
+}
+#choose3 {
+	width: 100%; height: 37px; font-size: 0.8em;
+}
+#choose4 {
+	width: 100%; height: 37px; font-size: 0.8em;
+}
+#choose4 {
+	padding-left: 43px;
+}
+#vdissue {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 12px; float: left;
+}
+#vdissueValue {
+	width: 48%; height: 30px; margin-left: 1%; float: left;
+}
+#vdinvoice_block {
+	width: 100%; margin-top: 12px; float: left;
+}
+#vdvdissueValue {
+	width: 59.3%; margin-top: 10px; margin-left: 4%;
+}
+#vdinvoice {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 12px; float: left;
+}
+#vdinvoiceValue {
+	width: 48%; height: 30px; margin-left: 1%; float: left;
+}
+#vdvdinvoiceValue {
+	width: 60%; margin-left: 4%; float: left;
+}
+#text1 {
+	width: 98.6%; font-size: 0.8em; margin-top: 10px;
+}
+#entermultiple1 {
+	font-size: 0.8em; margin-top: 4px; margin-left: 34.5%;
+}
+#vdservicenameValue {
+	width: 48%; height: 30px; margin-top: 6px; margin-left: 1%; float: left;
+}
+#vdservicename {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 15px; float: left;
+}
+#vdvdservicenameValue {
+	width: 59.3%; margin-left: 4%;
+}
+#vdserviceid {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 10px; float: left;
+}
+#vdvdserviceidValue {
+	width: 60%; margin-left: 4%;
+}
+#text2 {
+	width: 98.6%; font-size: 0.8em; margin-top: 10px;
+}
+#entermultiple2 {
+	font-size: 0.8em; margin-top: 4px; margin-left: 34.5%;
+}
+#vddate {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 10px; float: left;
+}
+#vdstartDateValue {
+	width: 48%; height: 30px; margin-top: 8px; margin-left: 1%; float: left;
+}
+#calendar1 {
+	left: 2%; top: 22px;
+}
+#text3 {
+	width: 98%; font-size: 0.8em; margin-top: -8px;
+}
+#vdvdEndDateLabel {
+	width: 30%; text-align: right; font-size: 0.8em; margin-top: 27px;
+}
+#vdendDateValue {
+	width: 48%; height: 30px; margin-top: 8px; margin-left: 1%; float: left;
+}
+#calendar2 {
+	left: 2%; top: 26px;
+}
+#text4 {
+	width: 98%; font-size: 0.8em; margin-top: -2px;
+}
+#vdvaluedisLabel {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 10px; float: left;
+}
+#vddesc_block {
+	margin-bottom: 15px;
+}
+#vdvaluedisCurr {
+	width: 22.5%; height: 30px; margin-left: 2%; float: left;
+}
+#vdvaluedisValue {
+	width: 22.5%; height: 30px; margin-left: 1%; float: left;
+}
+#text5 {
+	width: 98%; font-size: 0.8em; margin-top: 17px;
+}
+#choose {
+	width: 21.4%; margin-top: 19px; margin-left: 26px;
+}
+#envelope1 {
+	margin-top: -27px; margin-left: 9px;
+}
+#vddesc_value {
+	width: 48%; height: 60px; margin-left: 1%;
+}
+#vddescription {
+	border: currentColor; width: 46%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 10px; float: left;
+}
+#desc1 {
+	width: 97%; height: 123px; font-size: 0.8em; margin-top: 10px; margin-bottom: 10px;
+}
+#vdinnerdiv2 {
+	margin-bottom: 18px;
+}
+#vdattach {
+	font-size: 16px; margin-bottom: 10px; margin-left: 7%;
+}
+#attachment {
+	width: 3%; margin-top: 19px; margin-left: 1.2%;
+}
+#rightarrow {
+	width: 4%; height: 41px; clear: left; margin-top: -29px; margin-left: 4%;
+}
+#vdname_block {
+	width: 100%; float: left;
+}
+#scenery {
+	width: 16%; font-size: 0.9em; margin-left: 1%;
+}
+#billingex {
+	width: 25%; clear: left; margin-top: -50px; margin-left: 7%;
+}
+#billexample {
+	font-size: 0.8em; margin-top: 2px; margin-left: -5%; float: left;
+}
+#csign {
+	font-size: 0.9em;
+}
+#csign1 {
+	font-size: 0.9em;
+}
+#csign2 {
+	font-size: 0.9em;
+}
+#csign {
+	margin-right: 1%;
+}
+#csign1 {
+	margin-right: 1%;
+}
+#billingTCL {
+	width: 32%; clear: left; margin-top: -50px; margin-left: 33.1%;
+}
+#filetext {
+	font-size: 0.9em; margin-top: 5px; margin-left: 1%; float: left;
+}
+#bill10 {
+	font-size: 0.8em; margin-top: 3px; margin-left: 1%; float: left;
+}
+#pdf {
+	width: 19%; padding-top: 8px; font-size: 0.75em; margin-top: -5px; margin-left: -1%;
+}
+#troubleticket {
+	width: 33%; height: 27px; padding-top: 5px; clear: right; margin-top: -50px; margin-right: 0.5%; float: right;
+}
+#troubletic {
+	font-size: 0.8em; margin-top: 2px; float: left;
+}
+#downarrow {
+	display: none;
+}
+#dropfile {
+	display: none;
+}
+#vdinnerdiv3 {
+	margin-bottom: 18px;
+}
+#vdcontactinfo {
+	font-size: 16px; margin-left: 7%; float: left;
+}
+#vdprimarycontact {
+	font-size: 14px; margin-top: 10px; margin-left: 7%;
+}
+#name_1 {
+	width: 60%; margin-left: 4%;
+}
+#primaryContactNameId {
+	border: currentColor; width: 41%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 18px; float: left;
+}
+input#primaryContactValId {
+	width: 54%; margin-left: 1%; float: left;
+}
+#primaryContactValId {
+	font-size: 0.8em;
+}
+#email_1 {
+	width: 60%; margin-left: 4%;
+}
+#primaryEmailId {
+	border: currentColor; width: 41%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 18px; float: left;
+}
+#primaryEmailValId {
+	width: 54%; font-size: 0.8em; margin-left: 1%; float: left;
+}
+#enter1 {
+	font-size: 0.8em; margin-left: 35%;
+}
+#telephone_1 {
+	width: 60%; margin-left: 4%;
+}
+#primaryTelephoneId {
+	border: currentColor; width: 41%; text-align: right; font-family: GothamMedium; font-size: 14px; margin-top: 18px; float: left;
+}
+#primaryTelephoneValId {
+	width: 54%; margin-left: 1%; float: left;
+}
+#envelope {
+	left: 2%;
+}
+#down {
+	left: 4%;
+}
+#vdinnerdiv4 {
+	margin-bottom: 18px;
+}
+#vdnotify {
+	padding-left: 7%; font-size: 1em;
+}
+#notifyticket {
+	width: 16%; text-align: right; clear: left; font-size: 0.8em; margin-top: 23px; margin-left: 13%;
+}
+#john {
+	width: 30%; font-size: 0.9em; margin-top: 8px; margin-left: 4%;
+}
+#cross1 {
+	font-size: 1.2em;
+}
+#cross2 {
+	font-size: 1.2em;
+}
+#cross3 {
+	font-size: 1.2em;
+}
+#cross4 {
+	font-size: 1.2em;
+}
+#book {
+	display: none;
+}
+#book1 {
+	display: none;
+}
+#text10 {
+	height: 50px; clear: right;
+}
+#text11 {
+	height: 100px;
+}
+#text10 {
+	width: 64%; font-size: 0.8em; margin-top: 15px; margin-right: 6%; float: right;
+}
+#text11 {
+	width: 64%; font-size: 0.8em; margin-top: 15px; margin-right: 6%; float: right;
+}
+#notifyopenclose {
+	width: 18%; text-align: right; font-size: 0.8em; margin-top: 32px; margin-left: 11%;
+}
+#anna {
+	width: 30%; font-size: 0.9em; margin-top: 8px; margin-left: 4%;
+}
+#team1 {
+	width: 30%; font-size: 0.9em; margin-top: 8px; margin-left: 4%;
+}
+#team2 {
+	width: 30%; font-size: 0.9em; margin-top: 8px; margin-left: 4%;
+}
+#buttons {
+	clear: right; margin-top: 20px; margin-right: 4%; margin-bottom: 14px; float: right;
+}
+#submit {
+	width: 260px; height: 31px;
+}
+#cancel {
+	width: 145px; height: 40px; margin-right: 60px;
+}
+}
+@media screen and (max-width:600px)
+{
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	padding: 0px !important; height: 18px;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	padding: 0px !important; height: 18px;
+}
+.imageSortBilling {
+	left: 0px !important;
+}
+#arrowBack {
+	top: 3px !important; right: 5px !important; font-size: 18px !important;
+}
+.lotusLeft .dijitButtonNode.dijitInline.dijitReset {
+	margin: 0px 0px 0px 9px; padding: 2px 4px 4px !important; border: 1px solid rgb(170, 170, 170); width: 44px !important; font-size: 0.8em !important;
+}
+#billing_perioddiv {
+	height: 79px !important;
+}
+#COPFtextbox {
+	margin: 4px 0px 0px !important; width: 71% !important; color: rgb(51, 51, 51); padding-left: 7% !important; font-size: 1em !important;
+}
+#ServiceIDbox {
+	margin: 4px 0px 0px !important; width: 71% !important; color: rgb(51, 51, 51); padding-left: 7% !important; font-size: 1em !important;
+}
+#amounttextbox {
+	margin: 4px 0px 0px !important; width: 71% !important; color: rgb(51, 51, 51); padding-left: 7% !important; font-size: 1em !important;
+}
+#amountdiv {
+	height: 79px;
+}
+.lotusui30 button {
+	width: 56px !important;
+}
+.lotusui30 input {
+	width: 56px !important;
+}
+.lotusui30 select {
+	width: 56px !important;
+}
+.lotusui30dojo .dijitButton .dijitButtonNode {
+	font-size: 0.8em !important;
+}
+.lotusui30dojo .dijitComboButton .dijitButtonNode {
+	font-size: 0.8em !important;
+}
+.lotusui30dojo .dijitDropDownButton .dijitButtonNode {
+	font-size: 0.8em !important;
+}
+.lotusui30dojo .dijitToggleButton .dijitButtonNode {
+	font-size: 0.8em !important;
+}
+#arrowFront {
+	top: 3px !important; right: 6px !important; font-size: 18px !important;
+}
+#downloadArchiveButton {
+	background: rgb(176, 188, 37) !important; margin: 0px 4% 0px 0px !important; padding: 0px !important; outline: rgb(175, 188, 36) double 7px !important; border: currentColor; width: 227px !important; height: 26px; color: rgb(255, 255, 255) !important; font-family: GothamMedium; font-size: 0.9em; font-weight: 700; float: right; display: none; outline-offset: 0;
+}
+.hidden-xs {
+	display: none;
+}
+.per_page {
+	font: 12px/normal GothamMedium !important; margin: 11px 10px 0px 0px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#select_drop1 {
+	font: 500 0.7em/normal GothamMedium !important; min-width: 51px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#select_drop2 {
+	font: 500 0.7em/normal GothamMedium !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#of_page {
+	font: 12px/normal GothamMedium !important; margin: 11px 6px 0px 0px !important; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#total_page {
+	font: 12px/normal GothamMedium !important; margin: 11px 2px 0px 0px; font-size-adjust: none !important; font-stretch: normal !important;
+}
+#nxtpg {
+	margin: 9px 0px 0px; font-size: 1.25em !important;
+}
+#backpg {
+	margin: 9px 2px 0px 0px; font-size: 1.25em !important;
+}
+.downloadspan_invoices {
+	font-size: 0.8em; white-space: nowrap;
+}
+#download_section {
+	margin: 20px 0px; clear: right; font-size: 12px; float: right;
+}
+#download_icon {
+	left: 2%; top: 19px; color: rgb(246, 246, 246); font-size: 1em; position: relative;
+}
+#norecord {
+	font: 14px/normal gothammedium; margin: 20px 0px 20px 33%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#hs_amt {
+	font-size: 15px !important;
+}
+#search_icon {
+	left: 6%; top: 14px; color: rgb(61, 134, 198); clear: left; font-size: 0.87em; float: left; position: relative;
+}
+.filters-container .dijitComboBox .dijitButtonNode {
+	margin: 5px 0px 0px 1px; background-size: 11px;
+}
+.wpfListColumnItemLeft {
+	margin: 0px !important; width: 23% !important; text-align: center;
+}
+#summaryid {
+	margin: 0px 0px 0px 7% !important; font-size: 1.2em; float: left;
+}
+.account-summary.wpfListRight {
+	margin: 11px 0px 0px 17% !important; clear: left; float: left;
+}
+.amount-container.wpfListColumn {
+	margin: 0px 38px 0px 0px; float: right;
+}
+.inr_symbol {
+	clear: right; font-size: 17px !important; font-weight: 700 !important; margin-right: 0px; float: right;
+}
+#ViewDispute {
+	width: 220px !important;
+}
+#DownloadInvoiceButton_Hide {
+	width: 220px !important; float: right; outline-offset: 0;
+}
+#export_span {
+	font-size: 0.9em;
+}
+#collapse_sym {
+	font-size: 0.9em; margin-top: 1px; float: right;
+}
+#StatusBar1 > p {
+	margin: 17px 0px 0px 11%; overflow: hidden; font-family: Arial; font-size: 12px; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.filters-container #cancelid {
+	font-size: 14px;
+}
+#exclamation_circle {
+	padding-right: 8%; font-size: 0.9em;
+}
+.lotusRight {
+	text-align: right; font-family: GothamMedium !important; font-size: 0.9em !important; float: right;
+}
+.lotusui30 .lotusLeft {
+	margin: -3px 0px 0px !important; width: 119px !important; min-width: 122px !important;
+}
+#COPFtextbox {
+	border: 1px solid rgb(217, 217, 217); padding-left: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#ServiceIDbox {
+	border: 1px solid rgb(217, 217, 217); padding-left: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#amounttextbox {
+	border: 1px solid rgb(217, 217, 217); padding-left: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#invoicetext {
+	border: 1px solid rgb(217, 217, 217); padding-left: 1%; font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#invoicetext {
+	border: 1px solid rgb(217, 217, 217); width: 71% !important; height: 32px !important; color: rgb(51, 51, 51); padding-left: 7% !important; clear: left !important; font-family: GothamMedium; font-size: 1em !important; margin-top: -10px !important; margin-left: 4% !important; float: left !important;
+}
+#invoicecalender {
+	border-style: solid; border-color: rgb(217, 217, 217); font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#statusdropdown {
+	border-style: solid; border-color: rgb(217, 217, 217); font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#svctext {
+	border-style: solid; border-color: rgb(217, 217, 217); font-family: GothamMedium; font-size: 1em; margin-top: 0px;
+}
+#invoicecalender {
+	width: 79% !important; height: 36px !important;
+}
+#applytick {
+	left: 7px; top: 5px; color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; position: relative;
+}
+.applyfilter_span {
+	margin: 0px 0px 0px 14px; font-size: 10px; float: left; white-space: nowrap;
+}
+.filters-container > li > div > p {
+	font-size: 0.85em !important;
+}
+.lotusLeft {
+	margin: -2px 0px 0px;
+}
+.hideall_span {
+	font-size: 10px; white-space: nowrap;
+}
+.show_allspan {
+	font-size: 10px; white-space: nowrap;
+}
+#dwnarrow {
+	left: 4px; color: rgb(255, 255, 255); font-size: 12px; font-weight: 700; float: none !important; position: relative;
+}
+#para1 {
+	white-space: nowrap;
+}
+#invoice_table .payment-info {
+	width: 70%; font-size: 0.9em;
+}
+#export_button_container {
+	width: 50%;
+}
+#tablheaderdiv {
+	font-size: 1em;
+}
+#down_button_container {
+	width: 81%;
+}
+#fa_cross {
+	color: rgb(51, 51, 51); font-size: 1.2em; margin-top: 18px; margin-left: 4%; float: left;
+}
+#StatusBar2 {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.8em; margin-top: 16px; float: left; white-space: nowrap;
+}
+#FilterButtonid {
+	padding: 0px; border-radius: 12px; width: 100%; height: 50px; font-size: 0.75em; margin-top: 0px;
+}
+.icon_filterbtn {
+	font-size: 1em; margin-left: 1%;
+}
+.wpfListColumnItemRight {
+	margin: 20px 0px 0px 20px !important;
+}
+#ViewInvoiceDetailsLink_Hide {
+	margin: 0px; clear: right; font-size: 13px; float: right;
+}
+#invoice_table .additional-info .amount-container > div:nth-child(2) {
+	font-size: 1.5em; font-weight: 700;
+}
+#invoice_table .additional-info .amount-container > span {
+	font-size: 1.5em; font-weight: 700;
+}
+#div2id {
+	margin-top: 10px;
+}
+#widget_calendertext {
+	width: 30%; font-size: 0.75em;
+}
+#from_date {
+	font-size: 0.89em;
+}
+#frombillingdate {
+	font-size: 0.89em;
+}
+#to_date {
+	font-size: 0.89em;
+}
+#tobillingdate {
+	font-size: 0.89em;
+}
+#widget_calendertext1 {
+	width: 34%; font-size: 0.75em;
+}
+#filterimage {
+	font-size: 1em;
+}
+#facircle {
+	font-size: 12px;
+}
+#export_all {
+	width: 100%; font-size: 0.8em; margin-top: 20px; margin-right: 10%; float: right; white-space: nowrap;
+}
+#download_all {
+	width: 100%; margin-top: 22px; margin-bottom: 20px; float: right;
+}
+#billingperioddiv1 {
+	width: 99.7%;
+}
+#svcdiv1 {
+	width: 99.7%;
+}
+#InvoiceDate {
+	height: 79px;
+}
+#InvoiceID {
+	height: 79px;
+}
+#billingperioddiv1 {
+	height: 79px;
+}
+#billingzonediv {
+	height: 79px;
+}
+#paymentCal {
+	height: 79px;
+}
+#statusdiv {
+	height: 79px;
+}
+#svcdiv1 {
+	height: 79px;
+}
+.billingperiod_2 {
+	height: 79px;
+}
+#InvoiceID {
+	width: 99.7%;
+}
+#widget_calendertext2 {
+	width: 33%;
+}
+#widget_calendertext3 {
+	width: 33%;
+}
+#hide-button-container {
+	width: 100%; margin-bottom: 6px;
+}
+#show-button-container {
+	width: 100%; margin-bottom: 6px;
+}
+#hide_all {
+	width: 165px; text-align: center; margin-right: 3%; float: right;
+}
+#show_all {
+	width: 165px; text-align: center; margin-right: 3%; float: right;
+}
+.hide_allspan {
+	margin: 6% -3% 0px 0px; font-size: 0.9em;
+}
+#btnContainer {
+	width: 100%; clear: left; float: right;
+}
+#apply_filter {
+	width: 131px; height: 30px; margin-top: 18px; margin-right: 10%; float: right;
+}
+#Payment Due > span {
+	white-space: nowrap;
+}
+#uparrow {
+	left: 2px; top: 2px; font-size: 17px; font-weight: 700; float: none !important; position: relative;
+}
+#filter_container {
+	width: 24%;
+}
+#StatusBar1 {
+	width: 47%; font-size: 0.75em;
+}
+#clearsvcicon2 {
+	top: 11px; right: 5%; float: right; position: relative;
+}
+#clearsvcicon3 {
+	top: 11px; right: 5%; float: right; position: relative;
+}
+#clearsvcicon4 {
+	top: 11px; right: 5%; float: right; position: relative;
+}
+#clearsvcicon6 {
+	top: 11px; right: 5%; float: right; position: relative;
+}
+#clearsvcicon7 {
+	top: 11px; right: 5%; float: right; position: relative;
+}
+#clearsvcicon8 {
+	top: 11px; right: 5%; float: right; position: relative;
+}
+#clearsvcicon {
+	margin-top: 15px; margin-right: 5%; float: right;
+}
+#clearsvcicon1 {
+	margin-top: 7px; margin-right: -4%; float: right;
+}
+#clearsvcicon5 {
+	margin-top: 7px; margin-right: -4%; float: right;
+}
+.lotusui30dojo .dijitButton {
+	width: 35%; height: 21px; margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitComboButton {
+	width: 35%; height: 21px; margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitDropDownButton {
+	width: 35%; height: 21px; margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitToggleButton {
+	width: 35%; height: 21px; margin-right: 5px; margin-left: 0px;
+}
+.lotusui30 .lotusPaging .lotusInlinelist li.lotusFirst {
+	padding-left: 15px;
+}
+.lotusui30 .lotusPaging div {
+	padding-left: 15px;
+}
+.page-button-container #divpagination {
+	width: 244px !important;
+}
+.page-button-container .lotusPaging {
+	padding: 0px !important; width: 261px !important; font-size: 12px !important;
+}
+.lotusui30 .lotusPaging .lotusInlinelist li.lotusFirst {
+	font-size: 0.9em;
+}
+.lotusui30 .lotusPaging div {
+	font-size: 0.9em;
+}
+.filters-container > li > div > p {
+	margin: 2%;
+}
+.filters-container > li > div > input[type=text] {
+	margin: 2% 4%; width: 77%; height: 30px; display: inline-block;
+}
+.filters-container > li > div > select {
+	margin: 2% 4%; width: 77%; height: 30px; display: inline-block;
+}
+#svctext {
+	border: 1px solid rgb(217, 217, 217); width: 79% !important; height: 35px !important;
+}
+#statusdropdown {
+	width: 79% !important; height: 35px !important;
+}
+.filters-container > li:last-child {
+	margin-top: 4%;
+}
+.filters-container > li:last-child > div {
+	height: 36px;
+}
+.filters-container > li:last-child > div:first-child {
+	margin: 0px 0px 1%; width: 100%;
+}
+.filters-container > li:last-child > div:first-child > button {
+	margin: 0px 0px 0px 63%; width: 37%;
+}
+.filters-container > li #cancelid {
+	margin: 25px 97% 0px 0px; display: block;
+}
+.filters-container .calender-container {
+	margin: 2% 4%; width: 88%;
+}
+.filters-container .dijitTextBox {
+	border: 1px solid rgb(217, 217, 217);
+}
+.filters-container .dijitTextBox .dijitInputField {
+	padding: 0px !important; font-size: 11px; margin-top: 8px; white-space: nowrap;
+}
+.filters-container .dijitPlaceHolder {
+	font-size: 8px !important; margin-top: 0px !important;
+}
+#invoice_table > tbody > tr > td {
+	width: 33.33%; font-size: 11px; vertical-align: middle;
+}
+#invoice_table > thead > tr > th {
+	width: 33.33%; font-size: 11px; vertical-align: middle;
+}
+#invoice_table .additional-info .additional-info-list > li {
+	margin: 26px 0px 0px; width: 86%; line-height: 1.4em; clear: left; font-size: 0.9em; white-space: nowrap;
+}
+#invoice_table .additional-info .amount-container > div:first-child {
+	margin: 0px 8% 0px 11%;
+}
+#invoice_table .additional-info .button {
+	margin: 13px -3%; height: 26px; font-weight: 700;
+}
+.page-button-container > div#down-button-container {
+	margin: 0px 2%; width: 100%; display: block;
+}
+.page-button-container > div#export-button-container {
+	margin: 0px 2%; width: 100%; display: block;
+}
+.page-button-container .filter-buttons {
+	width: 40%; float: right;
+}
+#header1 {
+	padding: 0px 0px 5px 1%; width: 21%; display: table-cell;
+}
+#header1Res {
+	padding: 0px 0px 5px 1%; width: 21%; display: table-cell;
+}
+#header2 {
+	display: none;
+}
+#header2Res {
+	display: none;
+}
+#header3 {
+	width: 21%; display: table-cell;
+}
+#header3Res {
+	width: 21%; display: table-cell;
+}
+#header4 {
+	width: 20%; display: table-cell;
+}
+#header4Res {
+	width: 20%; display: table-cell;
+}
+#header5 {
+	display: table-cell; cursor: pointer;
+}
+#header5Res {
+	display: table-cell; cursor: pointer;
+}
+#questions_table {
+	font: 0.62em/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#resolved_questions_table {
+	font: 0.62em/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#updateBtn {
+	height: 30px;
+}
+.open_questionsborder td.dojoxGridCell {
+	font: 500 0.87em/normal GothamMedium; width: 20% !important; -ms-word-break: break-all; font-size-adjust: none; font-stretch: normal;
+}
+.resolved_questionsborder td.dojoxGridCell {
+	font: 500 0.87em/normal GothamMedium; width: 20% !important; -ms-word-break: break-all; font-size-adjust: none; font-stretch: normal;
+}
+.open_page {
+	width: 100%;
+}
+.resolved_page {
+	width: 100%;
+}
+.nxtopnque {
+	margin-right: 2%;
+}
+#nxtopnque {
+	font-size: 1.5em;
+}
+#openQuesPagNo {
+	margin: 2px 2% 0px 0px;
+}
+#current {
+	background: rgb(246, 246, 246); font: 500 0.9em/normal GothamMedium; padding: 0px 0px 0px 3px; border-radius: 5px; border: 1px solid currentColor; width: 50px; height: 28px; float: left; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#openQuestionsPerPage {
+	margin: 4px 10px 0px 3px;
+}
+.openRecordsPerPage {
+	margin: 2px 2px 0px 0px; height: 25px; min-width: 30px;
+}
+.backopnque {
+	margin: 1px 2% 0px 0px;
+}
+#backopnque {
+	font-size: 1.5em;
+}
+#billing_ques {
+	margin: 30px 0px 5px; color: rgb(61, 134, 198) !important; clear: left; font-size: 0.87em !important; float: left;
+}
+#OpenNoRecordstxt {
+	font: 14px/normal GothamMedium; margin: 40px 0px 20px 33%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#ResolvedNoRecordstxt {
+	font: 14px/normal GothamMedium; margin: 40px 0px 20px 33%; color: rgb(242, 27, 10); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#chat_font {
+	left: 25%; top: 16px; color: rgb(61, 134, 198); font-size: 10px; float: left; position: relative;
+}
+.open_questionsborder .wpfBlueButton {
+	background: rgb(255, 255, 255); font: 500 0.62em/normal GothamMedium; margin: 6px 2% 0px 0px; outline: 0px; border: 2px solid rgb(251, 169, 30); width: 80%; height: 30px; color: rgb(61, 134, 198); padding-left: 20px !important; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+#open_ques {
+	font: 0.87em/normal GothamMedium; margin: 2px 0px 0px; color: rgb(61, 134, 198); float: left; font-size-adjust: none; font-stretch: normal;
+}
+#resolved_ques {
+	font: 0.87em/normal GothamMedium; margin: 2px 0px 0px; color: rgb(61, 134, 198); float: left; font-size-adjust: none; font-stretch: normal;
+}
+.resolved_questionsborder {
+	margin: 0px 0px 20px;
+}
+#billingPreferencesHeading {
+	font: 400 14px/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#billingPreferencesText {
+	font: 400 14px/normal Arial; font-size-adjust: none; font-stretch: normal;
+}
+#BillingPrefLink {
+	margin: 10px;
+}
+#caret_Open {
+	color: rgb(61, 134, 198); padding-right: 2%; font-size: 1.4em; margin-left: 3%; float: left;
+}
+#open_title {
+	margin: 10px 0px; width: 50%; float: left;
+}
+#AskQuestion {
+	width: 50%; float: left;
+}
+.resolved_title {
+	width: 200px; clear: left; margin-top: 12px; float: left;
+}
+#caret_Resolved {
+	margin: 2px 1% 0px 4%; color: rgb(61, 134, 198); font-size: 1.4em; float: left;
+}
+.ui-resizable.ui-draggable.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog.billPrefdialog {
+	left: 2.5% !important; top: 57px !important; width: 94% !important; overflow: visible; z-index: 400; min-height: 542px;
+}
+#billprefDialogContent {
+	overflow: visible;
+}
+#maindiv {
+	width: 100%;
+}
+#hr1 {
+	border: 1px solid rgb(61, 134, 198); width: 101%; margin-bottom: 19px; margin-left: 0.2%; float: left;
+}
+#changebilling {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamLight; font-size: 1.5em; margin-top: 16px; margin-bottom: 6px; margin-left: 0.7%; float: left;
+}
+div#innerdiv1bill {
+	border: 2px solid rgb(113, 113, 113); width: 99%; padding-right: 2%; margin-top: 5px; margin-bottom: 8px; float: left; background-color: rgb(246, 246, 246);
+}
+i#fa_closeDialogChangeBill {
+	top: -19px; right: -5%; font-size: 1.8em; float: right; position: relative;
+}
+hr {
+	border: 1px solid rgb(61, 134, 198); width: 97.7%; margin-left: 1.3%;
+}
+#innerdiv1 {
+	border: 2px solid rgb(113, 113, 113); width: 95%; margin-top: 12px; margin-bottom: 15px; margin-left: 1%; float: left;
+}
+div#confirmDialogChangeBill {
+	height: auto !important;
+}
+p#confStmtHeading {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.6em; margin-top: 1px; margin-bottom: 0px; float: left;
+}
+hr#hrConfirmChangeBill {
+	border: 1px solid rgb(61, 134, 198); width: 100%; float: left;
+}
+p#confStmt1 {
+	width: 98%; font-family: arial; font-size: 1.3em; margin-top: 7px; margin-bottom: 0px; margin-left: 0px; float: left;
+}
+p#confStmt2 {
+	width: 101%; font-family: arial; font-size: 1.3em; margin-top: 8px; margin-left: 0px; float: left;
+}
+input#changeBillDoneBtn {
+	border: 2px solid rgb(251, 169, 30); width: 31%; height: 40px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.1em; margin-top: 20px; margin-right: 0px; float: right; background-color: rgb(255, 255, 255);
+}
+#PaperlessBill {
+	left: -5%; float: left; position: relative;
+}
+#changedetails {
+	color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.2em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 10px; margin-bottom: 10px; margin-left: 3%; float: left;
+}
+#angl_dwn {
+	border: 1px solid rgb(228, 228, 228); width: 90%; height: 33px; overflow: hidden; margin-top: 9px; margin-left: 6%; float: left;
+}
+#ang2_dwn {
+	border: 1px solid rgb(228, 228, 228); width: 94%; height: 30px; overflow: hidden; padding-top: 9px; padding-left: 2%; font-family: GothamMedium; font-size: 0.7em; margin-top: 8px; margin-left: 3%; float: left; background-color: rgb(255, 255, 255);
+}
+#fa1 {
+	top: -27px; right: 2%; color: rgb(60, 134, 198); font-size: 20px; font-weight: 700; float: right; position: relative;
+}
+#fa2 {
+	top: -28px; right: 2%; color: rgb(60, 134, 198); font-size: 20px; font-weight: 700; float: right; position: relative;
+}
+#drop_down {
+	border: 1px solid rgb(217, 217, 217); width: 87%; height: 33px; overflow: hidden; margin-top: 8px; margin-left: 11.5%; float: left;
+}
+#legalentity {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 5px; margin-left: 4%; float: left;
+}
+#RegLegalEntityTextBill {
+	padding: 6px; border: 0px solid rgb(217, 217, 217); width: 107%; height: 33px; color: rgb(51, 51, 51); text-indent: 0.01px; font-family: GothamMedium; font-size: 0.7em; float: left; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none;
+}
+#move {
+	color: rgb(51, 51, 51); font-family: Arial; font-size: 1.1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 11px; margin-left: 5.7%; float: left;
+}
+#shortexplanatory {
+	width: 84%; color: rgb(51, 51, 51); font-family: Arial; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 4px; margin-left: 11%; float: left;
+}
+#servicNamesBillDropDown {
+	border: currentColor; width: 100%; height: 34px; color: rgb(51, 51, 51); overflow: hidden; padding-left: 3px; font-family: GothamMedium; font-size: 0.8em; font-weight: 400; float: left; cursor: pointer; -webkit-appearance: none;
+}
+#descrip {
+	color: rgb(51, 51, 51); font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 6px; margin-left: 12%; float: left;
+}
+input#OtherRequest {
+	left: -5%; float: left; position: relative;
+}
+#descriptionbill {
+	border: 1px solid rgb(217, 217, 217); width: 86%; height: 86px; clear: left; margin-top: 13px; margin-left: 12%; float: left; background-color: rgb(255, 255, 255);
+}
+#othreq {
+	color: rgb(51, 51, 51); font-family: Arial; font-size: 1.1em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 16px; margin-left: 4.7%; float: left;
+}
+#please {
+	width: 83.7%; color: rgb(51, 51, 51); clear: left; font-family: arial; font-size: 0.87em; font-style: normal; font-weight: 400; margin-top: 5px; margin-left: 13%; float: left;
+}
+#span11 {
+	clear: left; margin-top: 5px; margin-left: 28%; float: left;
+}
+#changeBillForm #innerdiv2bill {
+	border: 2px currentColor; width: 101%; height: auto; float: left; background-color: rgb(246, 246, 246);
+}
+#descriptionbill_otherReq {
+	border: 1px solid rgb(217, 217, 217); width: 85%; height: 118px; margin-top: 8px; margin-bottom: 24px; margin-left: 13%; float: left; background-color: rgb(246, 246, 246);
+}
+#innerdiv2 {
+	border: 2px solid rgb(113, 113, 113); width: 95%; height: 50%; margin-left: 1%; float: left; min-height: 300px;
+}
+#coninform {
+	color: rgb(61, 134, 198); padding-left: 24px; font-family: GothamMedium; font-size: 1.2em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 22px; float: left;
+}
+#primarycon {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.87em; font-style: italic; font-weight: 400; text-decoration: none; margin-top: 3px; margin-left: 5%; float: left;
+}
+#errMsgForNoServiceNms {
+	color: rgb(242, 27, 10); font-family: GothamMedium; margin-left: 6%; float: left;
+}
+#name11 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 20px; margin-left: 5.5%; float: left;
+}
+#ChangeBillName {
+	border: 1px solid rgb(217, 217, 217); width: 87%; height: 40px; color: gray; clear: left; font-family: GothamMedium; font-size: 0.8em; margin-top: 4px; margin-left: 5%; float: left;
+}
+#email11 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 14px; margin-left: 5.5%; float: left;
+}
+#ChangeBillEmail {
+	border: 1px solid rgb(217, 217, 217); width: 87%; height: 40px; color: gray; clear: left; font-family: GothamMedium; font-size: 0.8em; margin-top: 1%; margin-left: 5%; float: left; background-color: rgb(255, 255, 255);
+}
+div.f16.flag-dropdown {
+	clear: left; margin-top: 9px; margin-left: 22px; float: left; cursor: pointer;
+}
+#ifenter {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.87em; font-style: italic; font-weight: 400; text-decoration: none; margin-top: 5px; margin-left: 5%; float: left;
+}
+#tele11 {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.8em; font-style: normal; font-weight: 400; text-decoration: none; margin-top: 3%; margin-left: 5.5%; float: left;
+}
+div#mandatoryFieldChangeBill {
+	margin-top: 10px;
+}
+#ChangeBillTelephone {
+	border: 1px solid rgb(217, 217, 217) !important; width: 54%; height: 36px; padding-left: 107px; font-family: GothamMedium; font-size: 1em; margin-top: 4px; margin-bottom: 11px; margin-left: -108px; float: left;
+}
+#countryCode {
+	border: currentColor; width: 82px; height: 31px; margin-top: 7px; margin-left: -15px; float: left;
+}
+#changeBillButtons {
+	width: 95%; clear: left; margin-top: 15px; margin-bottom: 20px; margin-left: 3px; float: left;
+}
+#billprefChangebtn {
+	outline: rgb(175, 188, 36) solid 2px; border: 1px solid rgb(175, 188, 36); width: 43%; height: 26px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.7em; font-family: GothamMedium; font-size: 0.8em; font-weight: 400; margin-top: 4px; float: right; background-repeat: repeat-x; background-color: rgb(177, 188, 37); outline-offset: 2px;
+}
+#billprefChangebtn:hover {
+	border: 2px solid rgb(51, 51, 51);
+}
+div#mandatoryFieldChangeBill {
+	font-family: GothamMedium; float: left;
+}
+#cancelBillPref {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 35%; height: 31px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.8em; font-weight: 400; margin-left: 0.5%; float: left;
+}
+#cancelBillPref:hover {
+	border-color: rgb(51, 51, 51);
+}
+#telDiv {
+	clear: left; font-family: GothamMedium; font-size: 0.9em; margin-top: 7px; margin-left: 4%; float: left;
+}
+#filecontainerAsk {
+	display: none;
+}
+#telephone_1 .intl-tel-input .flag-dropdown {
+	left: 5px !important; margin-top: 10px !important;
+}
+#drop1 {
+	display: none;
+}
+#confirmationStatus {
+	width: 98%;
+}
+#askAnotherQues {
+	font: 0.62em/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#doneBtn {
+	font: 0.62em/normal GothamMedium; font-size-adjust: none; font-stretch: normal;
+}
+#desc_1 {
+	margin: 8px 2%; width: 96%; clear: left;
+}
+#heading {
+	font: 1.25em/normal GothamLight; font-size-adjust: none; font-stretch: normal;
+}
+#RegLegalEntityTextBox {
+	font: 0.87em/normal GothamMedium; margin: 4px 0px 4px 1%; font-size-adjust: none; font-stretch: normal;
+}
+.heading {
+	text-align: left; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 1.25em; margin-left: 1%; white-space: nowrap;
+}
+.innerdiv1 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-top: 12px; margin-bottom: 15px; margin-left: 1%; float: left;
+}
+#describe {
+	color: rgb(61, 134, 198); padding-left: 7%; font-family: GothamMedium; font-size: 0.9em; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+#reg_block {
+	width: 100%; margin-left: 2%; float: left;
+}
+#RegLegalEntity {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; margin-top: 10px; margin-left: 5%; float: left;
+}
+#reg_1 {
+	border: 1px solid rgb(228, 228, 228); width: 88%; height: 37px; overflow: hidden; margin-top: 6px; margin-left: 4%; float: left;
+}
+#reg_dwnarw {
+	color: rgb(61, 134, 198); float: right; cursor: pointer;
+}
+#RegLegalEntityText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: currentColor; width: 100%; height: 28px; text-indent: 0.01px; overflow: hidden; padding-left: 3px; font-family: GothamMedium; font-size: 0.6em; float: left; cursor: pointer; -moz-appearnace: none;
+}
+#Subject {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; margin-top: 16px; margin-left: 5%; float: left;
+}
+#sub_block {
+	width: 100%; margin-left: 2%; float: left;
+}
+#sub_1 {
+	width: 88%; margin-left: 4%; float: left;
+}
+#SubjectText {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); width: 99%; height: 37px; padding-left: 1%; font-family: GothamMedium; font-size: 0.87em; margin-top: 7px; float: left;
+}
+#AskQnHeading {
+	color: rgb(61, 134, 198); padding-left: 7%; font-family: GothamMedium; font-size: 0.9em; margin-top: 10px; float: left;
+}
+#desc_block {
+	width: 100%; margin-left: 2%; float: left;
+}
+#DescriptionText {
+	font: 0.87em/normal GothamMedium; width: 90.8%; height: 100px; margin-left: 3%; float: left; max-width: 95%; font-size-adjust: none; font-stretch: normal;
+}
+#Description {
+	color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; margin-top: 16px; margin-left: 5%; float: left;
+}
+#desc1 {
+	background: linear-gradient(white, rgb(246, 246, 246)); border: 1px solid rgb(217, 217, 217); font-family: GothamMedium; margin-bottom: 10px; float: left;
+}
+#myFormAskQn #innerdiv2 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; clear: left; margin-bottom: 15px; margin-left: 1%; float: left; min-height: 0px;
+}
+#attach {
+	color: rgb(61, 134, 198); padding-left: 7%; font-family: GothamMedium; font-size: 0.9em !important; margin-top: 10px; float: left;
+}
+#attachment {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 26px; text-align: center; padding-top: 5px; clear: left; float: left;
+}
+#rightarrow {
+	text-align: center; color: rgb(113, 113, 113); padding-top: 5px; float: left;
+}
+#bill_block {
+	padding-left: 3%; clear: both; margin-top: -32px; margin-left: 17%; float: left;
+}
+#scenery {
+	height: 31px; padding-top: 5px; margin-top: -1px; float: left;
+}
+#csign {
+	margin-top: 4px; float: right;
+}
+#billingTCL {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#billingex {
+	border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#csign1 {
+	margin-top: 4px; float: right;
+}
+#pdf {
+	text-align: center; color: rgb(113, 113, 113); float: left;
+}
+#troubleticket {
+	border: 1px solid rgb(113, 113, 113);
+}
+#csign2 {
+	margin-top: 4px; float: right;
+}
+#innerdiv3 {
+	background: rgb(246, 246, 246); margin: 0px 0px 15px 1%; padding: 20px 5%; border: 2px solid rgb(113, 113, 113); width: 85%; height: auto; float: left; min-height: 310px;
+}
+#CntactInfoHeading {
+	margin: 0px; color: rgb(61, 134, 198); font-family: GothamMedium; font-size: 0.9em; float: left;
+}
+#cntDesc {
+	margin: 5px 0px 0px; color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.75em; font-style: italic; float: left;
+}
+#name_block {
+	width: 100%; float: left;
+}
+#name_1 {
+	margin: 0px; float: left;
+}
+#CntName {
+	font: 0.87em/normal GothamMedium; margin: 16px 0px 0px; text-align: left; color: rgb(51, 51, 51); clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#CntNameText {
+	background: linear-gradient(white, rgb(246, 246, 246)); margin: 7px 0px 0px 1%; border: 1px solid rgb(217, 217, 217); width: 100%; height: 37px; font-family: GothamMedium; font-size: 0.87em; float: left;
+}
+#email_block {
+	width: 100%; float: left;
+}
+#email_1 {
+	margin: 0px; float: left;
+}
+#CntEmail {
+	margin: 15px 0px 0px; text-align: left; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; float: left;
+}
+#CntEmailText {
+	background: linear-gradient(white, rgb(246, 246, 246)); margin: 7px 0px 0px 1%; border: 1px solid rgb(217, 217, 217); width: 100%; height: 37px; font-family: GothamMedium; font-size: 0.87em; float: left;
+}
+#enter1 {
+	font: italic 0.87em/normal Arial; margin: 5px 0px 0px 2%; color: rgb(51, 51, 51); clear: left; float: left; font-size-adjust: none; font-stretch: normal;
+}
+#telephone_block {
+	width: 100%; float: left;
+}
+#telephone_1 {
+	clear: left; margin-left: 3%; float: left;
+}
+#CntTelephone {
+	margin: 16px 0px 0px; text-align: left; color: rgb(51, 51, 51); clear: left; font-family: GothamMedium; font-size: 0.87em; float: left;
+}
+#telephone_block .pretty.intl-tel-input {
+	margin: 15px 0px 0px; clear: left;
+}
+#contactPhonereload {
+	margin: 6px 0px 0px -94px; width: 75%; float: left;
+}
+#telephonetext {
+	background: linear-gradient(white, rgb(246, 246, 246)); font: 0.87em/normal GothamMedium; margin: 7px 0px 0px; border: 1px solid rgb(217, 217, 217); height: 37px; float: left; font-size-adjust: none; font-stretch: normal;
+}
+.intl-tel-input .flag-dropdown {
+	left: 20px; margin-top: 12px; float: left; position: relative; cursor: pointer;
+}
+#envelope {
+	top: -30px; clear: left; float: left; position: relative;
+}
+#down {
+	top: -29px; float: left; position: relative;
+}
+#innerdiv4 {
+	background: rgb(246, 246, 246); border: 2px solid rgb(113, 113, 113); width: 95%; height: auto; margin-left: 1%; float: left;
+}
+#notify {
+	color: rgb(61, 134, 198); padding-left: 7%; font-family: GothamMedium; font-size: 0.9em; margin-top: 10px; margin-bottom: 10px; float: left;
+}
+#notifyticket {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#john {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#text10 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial;
+}
+#notifyopenclose {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; float: left;
+}
+#text11 {
+	background: rgb(255, 255, 255); color: rgb(51, 51, 51); font-family: Arial; margin-bottom: 10px;
+}
+#anna {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team1 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#team2 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); height: 27px; text-align: center; padding-top: 5px; float: left;
+}
+#submitAskAqn {
+	outline: rgb(175, 188, 36) solid 2px; border: 1px solid rgb(175, 188, 36); width: 55%; height: 29px; text-align: center !important; color: rgb(255, 255, 255); line-height: 1.7em; font-family: GothamMedium; font-size: 0.85em; margin-top: 4px; float: right; white-space: nowrap; background-repeat: repeat-x; background-color: rgb(177, 188, 37); outline-offset: 3px;
+}
+#cancelAskAqn {
+	background: rgb(246, 246, 246); border: 2px solid rgb(251, 169, 30); width: 35%; height: 24px; text-align: center; color: rgb(61, 134, 198); padding-top: 9px; font-family: GothamMedium; font-size: 0.85em; float: left;
+}
+#contactsdisplayed {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.6em; font-style: italic; margin-top: 4px; margin-left: 4%; float: left;
+}
+#link {
+	color: rgb(61, 134, 198); clear: left; font-family: Arial; font-size: 0.6em; margin-top: 10px; margin-left: 4%; float: left;
+}
+#savecontacts {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.6em; font-style: italic; margin-top: 10px; margin-left: 4%; float: left;
+}
+#save {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.6em; font-style: italic; margin-top: -15px; margin-left: 10%; float: left;
+}
+#people {
+	color: rgb(51, 51, 51); clear: left; font-family: Arial; font-size: 0.6em; font-style: italic; margin-top: 8px; margin-bottom: 10px; margin-left: 5%; float: left;
+}
+#attachlable {
+	display: none;
+}
+#fileFormatsdiv {
+	margin: 2px 0px 0px 1%;
+}
+#uploadDocuments {
+	margin: 10px 0px;
+}
+.upload-file-container {
+	width: auto; height: 50px; overflow: hidden; margin-top: 6px; margin-left: 6%; float: left; position: relative;
+}
+#drop1 {
+	margin: -94px 0px 0px 30%; width: 50%; float: left; min-height: 60px;
+}
+#drop2 {
+	margin: 7px; padding: 10px; border: 3px dashed rgb(113, 113, 113); width: 30%; height: 20px; float: left;
+}
+#content {
+	width: 100%; height: 100%;
+}
+.hoverClass {
+	background-color: rgb(0, 0, 255);
+}
+.dropClass {
+	background-color: green;
+}
+input#vdLegalEntityValue {
+	width: 89%; height: 30px; clear: left; margin-top: 4px; margin-left: 7%; float: left;
+}
+input#vdserviceidValue {
+	width: 89%; height: 30px; clear: left; margin-top: 4px; margin-left: 7%; float: left;
+}
+div#vdenddate {
+	width: 100%; float: left;
+}
+div#vdissue_block {
+	width: 100%; float: left;
+}
+div#vdstartdate {
+	width: 100%; float: left;
+}
+input#vdissueValue {
+	width: 89%; height: 30px; clear: left; margin-top: 4px; margin-left: 7%; float: left;
+}
+div#vdinvoice_block {
+	width: 100%; float: left;
+}
+input#vdservicenameValue {
+	width: 89%; height: 30px; clear: left; margin-top: 4px; margin-left: 7%; float: left;
+}
+div#vdserviceid_block {
+	width: 100%; float: left;
+}
+input#vdinvoiceValue {
+	width: 89%; height: 30px; clear: left; margin-top: 4px; margin-left: 7%; float: left;
+}
+div#vdservicename_block {
+	width: 100%; float: left;
+}
+#vdheading {
+	font-size: 18px;
+}
+#vddescribe {
+	font-size: 14px; margin-left: 7%;
+}
+#vdLegalEntityLabel {
+	border: currentColor; width: 44%; font-family: GothamMedium; font-size: 13px; margin-top: 10px; margin-left: 7%; float: left;
+}
+#reg_dwnarw {
+	font-size: 0.6em; margin-top: -16px; margin-right: 2%;
+}
+#reg_dwnarw1 {
+	font-size: 0.6em; margin-top: -16px; margin-right: 2%;
+}
+#reg_dwnarw2 {
+	font-size: 0.6em; margin-top: -16px; margin-right: 2%;
+}
+#reg_dwnarw4 {
+	font-size: 0.6em; margin-top: -25px; margin-right: 5%;
+}
+#choose1 {
+	width: 100%; height: 28px; padding-left: 3px; font-size: 0.6em;
+}
+#choose2 {
+	width: 100%; height: 28px; padding-left: 3px; font-size: 0.6em;
+}
+#choose3 {
+	width: 100%; height: 28px; padding-left: 3px; font-size: 0.6em;
+}
+#choose4 {
+	width: 100%; height: 43px; padding-left: 40%; font-size: 0.6em; margin-top: 0px;
+}
+#vdvdissue_block {
+	margin-left: 2%;
+}
+#vdissue {
+	border: currentColor; width: 44%; font-size: 13px; margin-top: 10px; margin-left: 7%; float: left;
+}
+#vdvdissueValue {
+	width: 88%; margin-top: 6px; margin-left: 5%;
+}
+#vdinvoice {
+	border: currentColor; width: 44%; font-size: 13px; margin-top: 12px; margin-left: 7%; float: left;
+}
+#vdvdinvoice_block {
+	margin-left: 2%;
+}
+#vdvdinvoiceValue {
+	width: 88%; float: left;
+}
+#text1 {
+	width: 98.6%; font-size: 0.6em; margin-top: 7px; margin-left: 7%;
+}
+#entermultiple1 {
+	font-size: 0.6em; margin-top: 2%; margin-left: 10%;
+}
+#vdvdservicename_block {
+	margin-left: 2%;
+}
+#vdservicename {
+	border: currentColor; width: 44%; font-size: 13px; margin-top: 12px; margin-left: 7%; float: left;
+}
+#vdvdservicenameValue {
+	width: 88%; margin-top: 6px; margin-left: 5%;
+}
+#vdserviceid {
+	border: currentColor; width: 44%; font-size: 13px; margin-top: 12px; margin-left: 7%; float: left;
+}
+#vdvdserviceid_block {
+	margin-left: 2%;
+}
+#vdvdserviceidValue {
+	width: 88%;
+}
+#text2 {
+	width: 98.6%; font-size: 0.6em; margin-top: 7px; margin-left: 7%;
+}
+#entermultiple2 {
+	font-size: 0.6em; margin-top: 2%; margin-left: 10%;
+}
+#calendar1 {
+	top: 19px; right: 70%;
+}
+#vdstartDateValue {
+	width: 45%; height: 30px; margin-top: 13px; float: left;
+}
+span#vdEndDateLabel {
+	border: currentColor; width: 34%; text-align: left; font-family: GothamMedium; font-size: 13px; margin-top: 23px; margin-left: 7%; float: left;
+}
+#vddate {
+	border: currentColor; width: 34%; text-align: left; font-size: 13px; margin-top: 23px; margin-left: 7%; float: left;
+}
+#text3 {
+	width: 75%; font-size: 0.6em; margin-top: 10px;
+}
+#calendar2 {
+	top: 19px; right: 70%;
+}
+#vdendDateValue {
+	width: 45%; height: 30px; margin-top: 13px; float: left;
+}
+#vdvdEndDateLabel {
+	width: 50%; text-align: left; font-size: 0.6em; margin-top: 16px; margin-left: 8%;
+}
+#text4 {
+	width: 75%; font-size: 0.8em; margin-top: 10px;
+}
+#vdvaluedisValue {
+	width: 45%; height: 30px; margin-top: 14px; float: left;
+}
+input#vdvaluedisCurr {
+	height: 30px; margin-top: 10px; margin-left: 41%; float: left;
+}
+#vdvaluedisLabel {
+	width: 34%; text-align: left; font-size: 13px; margin-top: 24px; margin-left: 7%;
+}
+#text5 {
+	width: 75%; font-size: 0.6em; margin-top: 10px;
+}
+#choose {
+	width: 30%; margin-top: 7px; margin-left: 58%;
+}
+#envelope1 {
+	font-size: 0.8em; margin-top: -30px; margin-left: 6px;
+}
+#vddesc_block {
+	margin-left: 2%;
+}
+#vddesc_value {
+	width: 89%; height: 110px; margin-top: 4px; margin-bottom: 15px; margin-left: 5%; float: left;
+}
+#vddescription {
+	font-size: 13px; margin-top: 16px; margin-left: 5%;
+}
+#desc1 {
+	padding: 6px; width: 93%; height: 113px; font-size: 0.6em; margin-top: 7px; margin-left: 7%;
+}
+#vdinnerdiv2 {
+	margin-bottom: 15px;
+}
+#vdattach {
+	font-size: 14px; margin-bottom: 10px; margin-left: 7%;
+}
+#attachment {
+	width: 6%; margin-top: 10px; margin-left: 4%;
+}
+#rightarrow {
+	margin-top: 12px; margin-left: 1%;
+}
+#vdbill_block {
+	padding-left: 3%; clear: both; margin-top: -32px; margin-left: 17%; float: left;
+}
+#scenery {
+	width: 27px; text-align: center;
+}
+#bill10 {
+	font-size: 0.6em;
+}
+#filetext {
+	width: 14%; height: 31px; text-align: center; padding-top: 5px; margin-top: -1px; float: left;
+}
+#billexample {
+	font-size: 0.6em;
+}
+#csign {
+	font-size: 0.9em; margin-right: 1%;
+}
+#csign1 {
+	font-size: 0.9em; margin-right: 1%;
+}
+#csign2 {
+	font-size: 0.9em; margin-right: 1%;
+}
+#billingex {
+	width: 76%;
+}
+#billingTCL {
+	width: 95%; margin-top: 12px;
+}
+#pdf {
+	width: 13%; height: 40px; padding-top: 5px; font-size: 0.9em;
+}
+#troubletic {
+	font-size: 0.6em;
+}
+#troubleticket {
+	width: 95%; height: 31px; text-align: center; margin-top: 12px; margin-bottom: 10px; float: left;
+}
+#downarrow {
+	display: none;
+}
+#dropfile {
+	display: none;
+}
+#vdinnerdiv3 {
+	margin-bottom: 15px;
+}
+#vdcontactinfo {
+	padding-left: 7%; font-family: GothamMedium; font-size: 14px;
+}
+#vdprimarycontact {
+	font-family: GothamMedium; font-size: 13px; margin-top: 8px; margin-left: 7%;
+}
+#vdname_block {
+	margin-left: 2%;
+}
+#name_1 {
+	width: 88%;
+}
+#primaryContactNameId {
+	font-family: GothamMedium; font-size: 13px; margin-top: 16px; margin-left: 5%;
+}
+#primaryContactValId {
+	margin-left: 5%;
+}
+#vdemail_block {
+	margin-left: 2%;
+}
+#email_1 {
+	width: 88%;
+}
+#primaryEmailId {
+	font-family: GothamMedium; font-size: 13px; margin-top: 16px; margin-left: 5%;
+}
+#primaryContactValId {
+	width: 89% !important; height: 30px !important; font-size: 0.6em; margin-top: 7px !important; margin-left: 5% !important; float: left !important;
+}
+#primaryEmailValId {
+	width: 89% !important; height: 30px !important; font-size: 0.6em; margin-top: 7px !important; margin-left: 5% !important; float: left !important;
+}
+#primaryEmailValId {
+	font-size: 0.6em; margin-left: 7%;
+}
+#enter1 {
+	font-size: 0.6em; margin-left: 10%;
+}
+#vdtelephone_block {
+	margin-left: 2%;
+}
+#telephone_1 {
+	width: 88%;
+}
+#primaryTelephoneId {
+	font-family: GothamMedium; font-size: 13px; margin-top: 16px; margin-left: 5%;
+}
+#primaryTelephoneValId {
+	width: 89%; height: 30px; clear: left; font-size: 0.6em; margin-left: 5%; float: left;
+}
+#envelope {
+	left: 11%;
+}
+#down {
+	left: 13%;
+}
+#vdinnerdiv4 {
+	margin-bottom: 15px;
+}
+#vdnotify {
+	padding-left: 7%; font-size: 0.9em;
+}
+#notifyticket {
+	font-size: 0.6em; margin-top: 10px; margin-left: 6%;
+}
+#john {
+	width: 47%; font-size: 0.6em; margin-top: 3px; margin-left: 2%;
+}
+#cross1 {
+	font-size: 1.5em;
+}
+#cross2 {
+	font-size: 1.5em;
+}
+#cross3 {
+	font-size: 1.5em;
+}
+#cross4 {
+	font-size: 1.5em;
+}
+#showlist {
+	display: none;
+}
+#book {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); left: 40%; top: 3px; width: 10%; height: 26px; text-align: center; padding-top: 5px; float: left; position: relative;
+}
+#book1 {
+	background: rgb(217, 217, 217); border: 1px solid rgb(113, 113, 113); left: 40%; top: 5px; width: 10%; height: 26px; text-align: center; padding-top: 5px; float: left; position: relative;
+}
+#text10 {
+	width: 94%; height: auto; clear: left; font-size: 1em; margin-top: 4px; margin-left: 4%; float: left;
+}
+#text11 {
+	width: 94%; height: auto; clear: left; font-size: 1em; margin-top: 4px; margin-left: 4%; float: left;
+}
+#notifyopenclose {
+	font-size: 0.6em; margin-top: 10px; margin-left: 6%;
+}
+#team1 {
+	width: 47%; font-size: 0.6em;
+}
+#team2 {
+	width: 47%; font-size: 0.6em;
+}
+#team2 {
+	margin-top: 7px; margin-left: 2%;
+}
+#team1 {
+	margin-top: -34px; margin-left: 51%;
+}
+#anna {
+	width: 47%; font-size: 0.6em; margin-top: 7px; margin-left: 2%;
+}
+#buttons {
+	width: 95%; clear: left; margin-top: 15px; margin-bottom: 20px; margin-left: 2%; float: left;
+}
+#submit {
+	width: 55%; height: 27px; margin-top: 4px;
+}
+#cancel {
+	width: 35%; height: 37px; float: left;
+}
+.lotusui30dojo .dijitDialog {
+	outline: 0px; border-radius: 3px; border: 3px solid rgba(2, 2, 2, 0.4); top: 10px !important; width: 97% !important; overflow: visible; box-shadow: 0px 0px 15px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, .4); -moz-box-shadow: 0 0 15px rgba(0, 0, 0, .4); -moz-border-radius: 3px;
+}
+.lotusui30dojo .dijitDialogCloseIcon {
+	top: -14px; width: 32px; height: 32px; right: -14px; position: absolute; z-index: 1; -ms-zoom: 1; background-image: url("images/ClosePopup32.png");
+}
+.vdunderline1 {
+	border: 1px solid rgb(61, 134, 198); width: 98%; margin-top: 5px; float: left;
+}
+}
+.billingMessageContainer {
+	padding: 10px 10px 15px 0px; overflow: hidden; clear: both;
+}
+#msg {
+	margin: 1% 1.6% 4% 0px; color: rgb(113, 113, 113); font-family: Arial; font-size: 12px; font-style: italic; float: right;
+}

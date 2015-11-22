@@ -1,0 +1,115 @@
+// create a test node off the browser screen to calculate high contrast mode
+var testNode = document.createElement("div");
+testNode.className = "highContrastTestNode";
+document.body.appendChild(testNode);
+// look at the computed style for the test node
+var styles = null;
+try {
+	styles = document.defaultView.getComputedStyle(testNode, "");
+} catch(e) {
+	styles = testNode.currentStyle;
+}
+var testImg = styles.backgroundImage;
+if ((styles.borderTopColor == styles.borderRightColor) || (testImg != null && (testImg == "none" || testImg == "url(invalid-url:)" ))) {
+	document.getElementsByTagName("body")[0].className+=" lotusImagesOff";
+}
+document.body.removeChild(testNode);(function(){
+if(!i$.isIE){
+i$.addOnLoad(function(){
+var _1=document.getElementsByTagName("SECTION");
+for(var i=0;i<_1.length;i++){
+if(i$.hasClass(_1[i],"a11yRegionTarget")){
+var _2=_1[i];
+var _3=null;
+var _4=_2.getElementsByTagName("SPAN");
+for(var j=0;j<_4.length;j++){
+if(i$.hasClass(_4[j],"a11yRegionLabel")){
+_3=_4[j];
+}
+}
+if(_3){
+var _5=_3;
+var _6=_2;
+var _7=null;
+while((_6=_6.parentNode)!=null){
+if(i$.hasClass(_6,"component-control")){
+var m=_6&&(_6.className||"").match(/id-([\S]+)/);
+_7=m&&m[1];
+break;
+}
+}
+if(_7){
+var _8="wpRegionId"+_7;
+_5.setAttribute("id",_8);
+_2.setAttribute("aria-labelledby",_8);
+}
+}
+}
+}
+});
+}
+})();
+
+/** Licensed Materials - Property of IBM, 5724-E76 and 5724-E77, (C) Copyright IBM Corp. 2009, 2010, 2011 - All Rights reserved.  **/
+(function(){if(ibmToolbarConfig.inManagedPages){var _1=false;var _2=i$.byId("utb-project-info");var _3=i$.byId("utb-project-btn");if(_2&&_3){var _4=function(_5){if(!_1){i$.removeClass(_3,"utb-select");i$.addClass(_3,"utb-loading");_1=i$.modules.loadDeferred().then(function(){i$.removeClass(_3,"utb-loading");i$.addClass(_3,"utb-select");i$.unbindDomEvt(_5);ibmToolbarConfig.openProjectMenu();},function(_6){if(_6[0].xhr.status==401){document.location.reload();}});}};var _7=i$.bindDomEvt(_2,"onkeydown",function(e){if(e.keyCode==13){_4(_7);}});var _8=i$.bindDomEvt(_2,"onclick",function(){_4(_8);});}}})();
+(function(){
+if(!i$.isIE){
+i$.addOnLoad(function(){
+var _1=document.createElement("div");
+var _2=ibmCfg.themeConfig.themeWebAppBaseURI;
+_1.style.cssText="border:1px solid;border-color:red green;position:absolute;height:5px;top:-999px;background-image:url(\""+_2+"/icons/blank.gif\");";
+document.body.appendChild(_1);
+var _3=null;
+try{
+_3=document.defaultView.getComputedStyle(_1,"");
+}
+catch(e){
+_3=_1.currentStyle;
+}
+var _4=_3.backgroundImage;
+if((_3.borderTopColor==_3.borderRightColor)||(_4!=null&&(_4=="none"||_4=="url(invalid-url:)"))){
+document.getElementsByTagName("body")[0].className+=" wpthemeImagesOff";
+}
+document.body.removeChild(_1);
+});
+}
+})();
+
+(function(){
+var _1=false;
+if(typeof wptheme==="undefined"||!wptheme){
+wptheme={};
+}
+i$.mash(wptheme,{togglePageMode:function(){
+return i$.modules.loadDeferred().then(function(){
+var _2=i$.fromPath("com.ibm.mashups"),_3=_2?com.ibm.mashups.builder.model.Factory.getRuntimeModel():null,_4=_2?com.ibm.mashups.enabler.user.Factory.getUserModel():null,_5=document.getElementsByTagName("body")[0],_6=function(_7){
+if(_2){
+com.ibm.mashups.services.ServiceManager.getService("eventService").broadcastEvent("com.ibm.mashups.builder.changePageMode",_7);
+_3.getCurrentPage().setPageMode(_7);
+}
+i$.fireEvent("wptheme/contextMenu/invalidate/all");
+};
+if((!_2&&!i$.hasClass(_5,"edit-mode"))||(_2&&_4.getAnonymousMode()!=com.ibm.mashups.enabler.user.AnonymousMode.ANONYMOUS&&_3.getCurrentPage().getPageMode()!="edit")){
+_6("edit");
+i$.addClass(_5,"edit-mode");
+if(!_1){
+if(!i$.isIE&&!i$.isOpera&&_2){
+window.onbeforeunload=function(){
+if(com.ibm.mashups.builder.model.Factory.getRuntimeModel().getCurrentPage().isDirty()){
+return com.ibm.mm.builder.coreWidgetsStrings.I_PAGE_SAVE_WARNING;
+}
+};
+}
+_1=true;
+}
+}else{
+_6("view");
+i$.removeClass(_5,"edit-mode");
+}
+},function(_8){
+console.log("Error going into edit mode. Most likely a session timeout. Refreshing. "+_8);
+window.location.reload();
+});
+}});
+})();
+

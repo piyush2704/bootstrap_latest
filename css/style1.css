@@ -1,0 +1,70 @@
+/*----------------------------------------------lft, right and clear for all html elements globally -----------------------------------------------  */  
+.lft{float:left;}
+.rght{float:right;}
+.clr{clear:both;}
+/*----------------------------------------------   
+Global Color code for  primary color for page elements(active or with focus) and links.(blue color) and sub heading text classes. -----------------------------------------------  */  
+.pg-lnk-txtColor{color: #3d86c6;}
+.sub-txt-Heading{font:2em gothamlight;}
+/*----------------------------------------------Heading sub level page titles -----------------------------------------------  */  
+.sub-lvl-txt-Heading{font:1.5em gothammedium;}
+/*----------------------------------------------Standard color for all texts and labels -----------------------------------------------  */  
+.pg-txt-lblColor{color: #333333;}
+.lblTxt,label,select{font:1em gothammedium;}
+.box-txtFnt{font:0.875em gothammedium;}
+/*----------------------------------------------Standard Headers with background blue and text with white color -----------------------------------------------  */ 
+ .bck-bdr-Header{background: #3D86C6;color: #fff;font:0.875em gothammedium;}
+/*----------------------------------------------ul li sublevel elements for all texts and labels -----------------------------------------------  */  
+.titleText li{font:0.875em gothammedium;list-style-type:disc;}
+/*----------------------------------------------Button CSS Default -----------------------------------------------  */  
+.btn-default-Submit-Dft>a {background: rgb(177, 188, 37);border: 1px solid #b0bc25;color: #fff;font:bold 14px "GothamMedium";margin:7px 0 0 40px;outline: 7px double #b0bc25;text-align: center;vertical-align: middle;padding: 6px 22px 6px 22px;cursor:pointer;text-decoration: none;}
+.btn-default-Submit-Dft>a:hover{border:1px solid #333;}
+.btnContainer-Dft{margin: 2% 2% 1% 0;}
+/**********************RMA Portal CSS **************/
+.wptheme1Col .wpthemeCol {width: 96%;margin: auto;}
+/** Heading CSS Classes**/
+.mainHeading-Dft{float: left;width: 100%;border-bottom: 2px solid #3d86c6;margin: 2% 0 1% 0;}
+.userHeading-Dft {margin:2% 0 1% 1%;	clear: left;float: left;}
+/** Body Content CSS **/
+/*added by Prasenjit starts*/
+#globaltableCnt { overflow-x: auto;}
+textarea.rght { width: 20.5% !important; padding: 6px 6px 6px 22px !important; border: 1px solid #D9D9D9; background: #F6F6F6; text-indent: 4px; white-space: nowrap; min-height: 60px;}
+/*added by Prasenjit ends*/
+.double-border{border-top: 2px solid grey;}
+.rowDiv-Dft{float: left;width: 98%;padding: 1%;border-bottom: 1px solid #D9D9D9;}
+.datePicker{font-size: 19px !important; position: relative;top: 4px;left: 21px;}
+.rowDiv-Dft>label{width: 65%;vertical-align: middle;}
+.rowDiv-Dft>span>input[type="text"]{width: 20.5% !important;padding: 6px 6px 6px 22px !important;}
+.rowDiv-Dft>span>select,.rowDiv-Dft>span>input[type="text"]{padding: 5px;width: 23%;border: 1px solid #D9D9D9;background: #F6F6F6;text-indent: 4px;white-space: nowrap; }
+.titleText{margin: 1% 0 1% 2%;}
+.titleText li{padding:0.2% 0 0.2% 0;margin:0.8% 0 0 2%;}
+#firstRow-Dft{width: 100%;margin: 0px 0px 2% 0px;}
+.divBlock-Dft{width: 40%;margin: 0% 0 1% 2%;border: 1px solid #ccc;height:120px;}
+.divBlock-Dft p{padding:1%;margin:1% 0 2% 0;float:left;}
+.divBlock-Dft>span{width: 99%;padding: 3px;margin: 0px;}
+#footer-img {height: 50px;background-image: url('../css/Footer_img.png');background-repeat: no-repeat;background-size: 100% 50px;}
+.guideLnk a:link{text-align:center;margin:0 0 0 1%;padding:0 0 1% 0;text-decoration:underline;}
+li.guideLnk{list-style-type:none}
+/*----------------------------------------------Common Table CSS -----------------------------------------------  */ 
+.table-grid-Cnt {text-align: left;border-collapse: collapse;font: 0.875em GothamMedium;}
+.table-grid-Cnt,.table-grid-Cnt tr,.table-grid-Cnt>tbody,.table-grid-Cnt>thead{width: 100%;margin-top: 5px;}
+.table-grid-Cnt>thead>tr {height: 36px;border-bottom: 2px solid #3d86c6;}
+.table-grid-Cnt tbody tr:nth-child(4n-1),.table-grid-Cnt tbody tr:nth-child(4n-2){background: #f6f6f6;}
+.table-grid-Cnt tbody tr:nth-child(4n),.table-grid-Cnt tbody tr:nth-child(4n+1){background: #fff}
+.table-grid-Cnt>tbody>tr>td,.table-grid-Cnt>thead>tr>th {padding: 0 1%;vertical-align: middle}
+.table-grid-Cnt>thead>tr>th {color: #3d86c6;padding-top: 4px;cursor: pointer}
+.table-row-even,.table-row-odd {	height: 48px;}
+.table-grid-Cnt .payment-info {width: 75%;}
+.table-grid-Cnt .table-row-even:hover,.table-grid-Cnt .table-row-odd:hover{background-color: #cfe7ff}
+.table-grid-Cnt .table-additional-row-odd,.table-grid-Cnt .table-row-odd {background: #f6f6f6}
+.table-grid-Cnt .table-additional-row-even,.table-grid-Cnt .table-row-even{background: #fff}
+.table-grid-Cnt .additional-info ul {width: 100%;padding: 0}
+#globaltableCnt {border: 1px solid #d8d8d8;width: 100%;margin:1% 0;float:left;}
+
+/************table related css **********/
+#collapse_sym{display:none;}
+
+
+
+
+

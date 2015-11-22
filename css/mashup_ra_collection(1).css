@@ -1,0 +1,4050 @@
+.dijitReset {
+	font: inherit; margin: 0px; padding: 0px; border: 0px currentColor; color: inherit; font-size-adjust: inherit; font-stretch: inherit;
+}
+.dijit_a11y .dijitReset {
+	-moz-appearance: none;
+}
+.dijitInline {
+	padding: 0px; border: 0px currentColor; vertical-align: middle; display: inline-block;
+}
+.dijitHidden {
+	display: none !important;
+}
+.dijitVisible {
+	display: block !important; position: relative;
+}
+.dijitInputContainer {
+	overflow: hidden; float: none !important; position: relative;
+}
+.dj_ie input.dijitTextBox {
+	font-size: 100%;
+}
+.dj_ie .dijitTextBox input {
+	font-size: 100%;
+}
+.dijitTextBox .dijitSpinnerButtonContainer {
+	text-align: center; float: right;
+}
+.dijitTextBox .dijitArrowButtonContainer {
+	text-align: center; float: right;
+}
+.dijitTextBox .dijitValidationContainer {
+	text-align: center; float: right;
+}
+.dijitTextBox input.dijitInputField {
+	padding-right: 0px !important; padding-left: 0px !important;
+}
+.dijitTextBox .dijitValidationContainer {
+	display: none;
+}
+.dijitInlineTable {
+	padding: 0px; border: 0px currentColor; display: inline-block; box-sizing: content-box; -moz-box-sizing: content-box;
+}
+.dijitTeeny {
+	line-height: 1px; font-size: 1px;
+}
+.dijitOffScreen {
+	left: 50%; top: -10000px; visibility: hidden; position: absolute;
+}
+.dijitPopup {
+	margin: 0px; padding: 0px; border: 0px currentColor; position: absolute; background-color: transparent;
+}
+.dijit_a11y .dijitPopup {
+	background-color: white !important;
+}
+.dijit_a11y .dijitPopup div {
+	background-color: white !important;
+}
+.dijit_a11y .dijitPopup table {
+	background-color: white !important;
+}
+.dijit_a11y .dijitTooltipContainer {
+	background-color: white !important;
+}
+.dijitPositionOnly {
+	padding: 0px !important; border: 0px currentColor !important; width: auto !important; height: auto !important; background-image: none !important; background-color: transparent !important;
+}
+.dijitNonPositionOnly {
+	margin: 0px !important; vertical-align: middle !important; float: none !important; position: static !important;
+}
+.dijitBackgroundIframe {
+	margin: 0px; padding: 0px; border: 0px currentColor; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: -1;
+}
+.dijitDisplayNone {
+	display: none !important;
+}
+.dijitContainer {
+	overflow: hidden;
+}
+.dijit_a11y * {
+	background-image: none !important;
+}
+.dijit_a11y .dijitIcon {
+	display: none;
+}
+.dijit_a11y div.dijitArrowButtonInner {
+	display: none;
+}
+.dijit_a11y span.dijitArrowButtonInner {
+	display: none;
+}
+.dijit_a11y img.dijitArrowButtonInner {
+	display: none;
+}
+.dijit_a11y .dijitCalendarIncrementControl {
+	display: none;
+}
+.dijitSpinner div.dijitArrowButtonInner {
+	display: block;
+}
+.dijit_a11y .dijitA11ySideArrow {
+	display: inline !important; cursor: pointer;
+}
+.dijit_a11y .dijitCalendarDateLabel {
+	padding: 1px;
+}
+.dijit_a11y .dijitCalendarSelectedDate .dijitCalendarDateLabel {
+	border-width: 1px; border-style: dotted !important; padding: 0px;
+}
+.dijit_a11y .dijitCalendarDateTemplate {
+	padding-bottom: 0.1em !important;
+}
+.dijit_a11y .dijit * {
+	background: white !important; color: black !important;
+}
+.dijit_a11y .dijitButtonNode {
+	border: outset black !important;
+}
+.dijit_a11y .dijitTextBoxReadOnly .dijitInputField {
+	border: outset rgb(153, 153, 153) !important; color: rgb(153, 153, 153) !important;
+}
+.dijit_a11y .dijitTextBoxReadOnly .dijitButtonNode {
+	border: outset rgb(153, 153, 153) !important; color: rgb(153, 153, 153) !important;
+}
+.dijitButtonNode * {
+	vertical-align: middle;
+}
+.dijitButtonNode .dijitArrowButtonInner {
+	background: no-repeat center; width: 12px; height: 12px; direction: ltr;
+}
+.dijitLeft {
+	background-repeat: no-repeat;
+}
+.dijitStretch {
+	white-space: nowrap; background-repeat: repeat-x;
+}
+.dijitRight {
+	background-position: right top; background-repeat: no-repeat;
+}
+.dijitToggleButton {
+	margin: 0.2em;
+}
+.dijitButton {
+	margin: 0.2em;
+}
+.dijitDropDownButton {
+	margin: 0.2em;
+}
+.dijitComboButton {
+	margin: 0.2em;
+}
+.dijitButtonContents {
+	display: block;
+}
+td.dijitButtonContents {
+	display: table-cell;
+}
+.dijitButtonNode img {
+	vertical-align: middle;
+}
+table.dijitComboButton {
+	margin: 0px; padding: 0px; border: 0px currentColor; border-collapse: collapse;
+}
+.dijitToolbar .dijitComboButton {
+	border-collapse: separate;
+}
+.dijitToolbar .dijitToggleButton {
+	margin: 0px;
+}
+.dijitToolbar .dijitButton {
+	margin: 0px;
+}
+.dijitToolbar .dijitDropDownButton {
+	margin: 0px;
+}
+.dijitToolbar .dijitComboButton {
+	margin: 0px;
+}
+.dijitToolbar .dijitButtonContents {
+	padding: 1px 2px;
+}
+.dj_ie .dijitComboButton {
+	margin-bottom: -3px;
+}
+.dj_webkit .dijitToolbar .dijitDropDownButton {
+	padding-left: 0.3em;
+}
+.dijitButtonNode {
+	margin: 0px; border: 1px solid gray; text-align: center; line-height: normal; vertical-align: middle; white-space: nowrap;
+}
+.dj_webkit .dijitSpinner .dijitSpinnerButtonContainer {
+	line-height: inherit;
+}
+.dijitTextBox .dijitButtonNode {
+	border-width: 0px;
+}
+.dijitButtonNode {
+	cursor: pointer;
+}
+.dijitButtonNode * {
+	cursor: pointer;
+}
+.dj_ie .dijitButtonNode {
+	-ms-zoom: 1;
+}
+.dj_ie .dijitButtonNode button {
+	overflow: visible;
+}
+div.dijitArrowButton {
+	float: right;
+}
+.dijitTextBox {
+	border: 1px solid black; width: 15em; vertical-align: middle;
+}
+.dijitTextBoxReadOnly {
+	color: gray;
+}
+.dijitTextBoxDisabled {
+	color: gray;
+}
+.dj_webkit .dijitTextBoxDisabled input {
+	color: rgb(238, 238, 238);
+}
+.dj_webkit textarea.dijitTextAreaDisabled {
+	color: rgb(51, 51, 51);
+}
+.dj_gecko .dijitTextBoxReadOnly input {
+	-moz-user-input: none;
+}
+.dj_gecko .dijitTextBoxDisabled input {
+	-moz-user-input: none;
+}
+.dijitPlaceHolder {
+	left: 0px; top: 0px; color: rgb(170, 170, 170); font-style: italic; position: absolute;
+}
+.dijitTimeTextBox {
+	width: 8em;
+}
+.dijitTextBox input:focus {
+	
+}
+.dijitTextBoxFocused {
+	
+}
+.dijitTextBox input {
+	float: left;
+}
+.dijitInputInner {
+	border: 0px currentColor !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; margin-right: 0px !important; margin-left: 0px !important; vertical-align: middle !important; background-color: transparent !important;
+}
+.dijit_a11y .dijitTextBox input {
+	margin: 0px !important;
+}
+.dijitTextBoxError input.dijitValidationInner {
+	height: auto !important; text-align: left !important; text-indent: -1em !important; direction: ltr !important;
+}
+.dijitTextBox input.dijitArrowButtonInner {
+	height: auto !important; text-align: left !important; text-indent: -1em !important; direction: ltr !important;
+}
+.dj_ie .dijitTextBox input {
+	line-height: normal; -ms-overflow-y: visible;
+}
+.dj_ie input.dijitTextBox {
+	line-height: normal; -ms-overflow-y: visible;
+}
+.dj_ie7 .dijitTextBox input.dijitValidationInner {
+	line-height: 86%;
+}
+.dj_ie7 .dijitTextBox input.dijitArrowButtonInner {
+	line-height: 86%;
+}
+.dj_ie6 .dijitTextBox input {
+	line-height: 100%;
+}
+.dj_ie6 input.dijitTextBox {
+	line-height: 100%;
+}
+.dj_iequirks .dijitTextBox input.dijitValidationInner {
+	line-height: 100%;
+}
+.dj_iequirks .dijitTextBox input.dijitArrowButtonInner {
+	line-height: 100%;
+}
+.dj_iequirks .dijitTextBox input.dijitSpinnerButtonInner {
+	line-height: 100%;
+}
+.dj_iequirks .dijitTextBox input.dijitInputInner {
+	line-height: 100%;
+}
+.dj_iequirks input.dijitTextBox {
+	line-height: 100%;
+}
+.dijit_a11y input.dijitValidationInner {
+	width: 1em !important; text-indent: 0px !important;
+}
+.dijit_a11y input.dijitArrowButtonInner {
+	width: 1em !important; text-indent: 0px !important;
+}
+.dijitTextBoxError .dijitValidationContainer {
+	display: inline; cursor: default;
+}
+.dijitSpinner .dijitSpinnerButtonContainer {
+	border-width: 0px 0px 0px 1px !important;
+}
+.dijitComboBox .dijitArrowButtonContainer {
+	border-width: 0px 0px 0px 1px !important;
+}
+.dijitSpinner .dijitSpinnerButtonContainer .dijitButtonNode {
+	border-width: 0px;
+}
+.dj_ie .dijit_a11y .dijitSpinner .dijitSpinnerButtonContainer .dijitButtonNode {
+	clear: both;
+}
+.dijit_a11y .dijitTextBox .dijitValidationContainer {
+	border-width: 0px 0px 0px 1px !important; border-style: solid !important; border-color: black !important;
+}
+.dijit_a11y .dijitTextBox .dijitSpinnerButtonContainer {
+	border-width: 0px 0px 0px 1px !important; border-style: solid !important; border-color: black !important;
+}
+.dijit_a11y .dijitComboBox .dijitArrowButtonContainer {
+	border-width: 0px 0px 0px 1px !important; border-style: solid !important; border-color: black !important;
+}
+.dj_ie .dijitToolbar .dijitComboBox {
+	vertical-align: middle;
+}
+.dijitTextBox .dijitSpinnerButtonContainer {
+	width: 1em; overflow: hidden; position: relative !important;
+}
+.dijitSpinner .dijitSpinnerButtonInner {
+	width: 1em; visibility: hidden !important; -ms-overflow-x: hidden;
+}
+.dijitComboBox .dijitButtonNode {
+	border-width: 0px;
+}
+.dijitSpinnerButtonContainer .dijitButtonNode {
+	border-width: 0px;
+}
+.dijit_a11y .dijitSpinnerButtonContainer .dijitButtonNode {
+	border: 0px currentColor !important;
+}
+.dijit_a11y .dijitTextBox .dijitSpinnerButtonContainer {
+	width: 1em !important;
+}
+.dijit_a11y .dijitSpinner .dijitArrowButtonInner {
+	width: 1em !important;
+}
+.dijit_a11y .dijitSpinnerButtonContainer input {
+	width: 1em !important;
+}
+.dijit_a11y .dijitSpinner .dijitArrowButtonInner {
+	margin: 0px auto !important;
+}
+.dj_ie .dijit_a11y .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	width: 1.4em !important; padding-right: 0.3em !important; padding-left: 0.3em !important; margin-right: 0.3em !important; margin-left: 0.3em !important;
+}
+.dj_ie7 .dijit_a11y .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	width: 1em !important; padding-right: 0em !important; padding-left: 0em !important;
+}
+.dj_ie6 .dijit_a11y .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	width: 1em !important; margin-right: 0.1em !important; margin-left: 0.1em !important;
+}
+.dj_iequirks .dijit_a11y .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	width: 2em !important; margin-right: 0px !important; margin-left: 0px !important;
+}
+.dijitSpinner .dijitSpinnerButtonContainer .dijitArrowButton {
+	padding: 0px; left: 0px; width: 100%; height: 50%; right: auto; bottom: auto; float: none; position: absolute !important;
+}
+.dj_iequirks .dijitSpinner .dijitSpinnerButtonContainer .dijitArrowButton {
+	width: auto;
+}
+.dijit_a11y .dijitSpinnerButtonContainer .dijitArrowButton {
+	overflow: visible !important;
+}
+.dijitSpinner .dijitSpinnerButtonContainer .dijitDownArrowButton {
+	top: 50%; border-top-width: 1px !important;
+}
+.dijitSpinner .dijitSpinnerButtonContainer .dijitUpArrowButton {
+	top: 0px;
+}
+.dijitSpinner .dijitArrowButtonInner {
+	margin: auto; height: 100% !important; -ms-overflow-x: hidden;
+}
+.dj_iequirks .dijitSpinner .dijitArrowButtonInner {
+	height: auto !important;
+}
+.dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	transform-origin: left top; width: 100%; padding-top: 0px; padding-right: 0px !important; padding-bottom: 0px; padding-left: 0px !important; transform: scale(0.5); -moz-transform: scale(0.5); -moz-transform-origin: center top; -webkit-transform: scale(0.5); -webkit-transform-origin: center top; -o-transform: scale(0.5); -o-transform-origin: center top;
+}
+.dj_ie .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	-ms-zoom: 50%;
+}
+.dijitSpinner .dijitSpinnerButtonContainer .dijitArrowButtonInner {
+	overflow: hidden;
+}
+.dijit_a11y .dijitSpinner .dijitSpinnerButtonContainer .dijitArrowButton {
+	width: 100%;
+}
+.dj_iequirks .dijit_a11y .dijitSpinner .dijitSpinnerButtonContainer .dijitArrowButton {
+	width: 1em;
+}
+.dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	visibility: hidden;
+}
+.dijit_a11y .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	vertical-align: top; visibility: visible;
+}
+.dijit_a11y .dijitSpinnerButtonContainer {
+	width: 1em;
+}
+.dijit_a11y .dijitSpinnerButtonContainer .dijitButtonNode {
+	border-width: 1px 0px 0px; border-style: solid !important;
+}
+.dijitCheckBox {
+	background-position: center; padding: 0px; border: 0px currentColor; width: 16px; height: 16px; overflow: hidden; background-repeat: no-repeat;
+}
+.dijitRadio {
+	background-position: center; padding: 0px; border: 0px currentColor; width: 16px; height: 16px; overflow: hidden; background-repeat: no-repeat;
+}
+.dijitCheckBoxInput {
+	background-position: center; padding: 0px; border: 0px currentColor; width: 16px; height: 16px; overflow: hidden; background-repeat: no-repeat;
+}
+.dijitCheckBox input {
+	margin: 0px; padding: 0px; display: block;
+}
+.dijitRadio input {
+	margin: 0px; padding: 0px; display: block;
+}
+.dijitCheckBoxInput {
+	opacity: 0.01;
+}
+.dj_ie .dijitCheckBoxInput {
+	
+}
+.dijit_a11y .dijitCheckBox {
+	width: auto !important; height: auto !important;
+}
+.dijit_a11y .dijitRadio {
+	width: auto !important; height: auto !important;
+}
+.dijit_a11y .dijitCheckBoxInput {
+	width: auto; height: auto; filter:; opacity: 1;
+}
+.dijitProgressBarEmpty {
+	border: 1px solid black; overflow: hidden; position: relative; z-index: 0;
+}
+.dijitProgressBarFull {
+	top: 0px; width: 100%; overflow: hidden; position: absolute; z-index: -1;
+}
+.dj_ie6 .dijitProgressBarFull {
+	height: 1.6em;
+}
+.dijitProgressBarTile {
+	margin: 0px; padding: 0px; left: 0px; top: 0px; width: auto; height: auto; right: 0px; bottom: 0px; overflow: hidden; position: absolute; background-attachment: fixed; background-color: rgb(170, 170, 170);
+}
+.dijit_a11y .dijitProgressBarTile {
+	border-width: 2px; border-style: solid; background-color: transparent !important;
+}
+.dj_ie6 .dijitProgressBarTile {
+	height: 1.6em; position: static;
+}
+.dijitProgressBarIndeterminate .dijitProgressBarLabel {
+	visibility: hidden;
+}
+.dijitProgressBarIndeterminate .dijitProgressBarTile {
+	
+}
+.dijitProgressBarIndeterminateHighContrastImage {
+	display: none;
+}
+.dijit_a11y .dijitProgressBarIndeterminate .dijitProgressBarIndeterminateHighContrastImage {
+	margin: 0px; padding: 0px; top: 0px; width: 100%; height: auto; bottom: 0px; display: block; position: absolute;
+}
+.dijitProgressBarLabel {
+	width: 100%; text-align: center; display: block; position: static; background-color: transparent !important;
+}
+.dijitTooltip {
+	left: 50%; top: -10000px; overflow: visible; display: block; position: absolute; z-index: 2000;
+}
+.dijitTooltipContainer {
+	background: rgb(184, 181, 181); border: 2px solid black; color: black; font-size: small;
+}
+.dijitTooltipFocusNode {
+	padding: 2px;
+}
+.dijitTooltipConnector {
+	position: absolute;
+}
+.dijit_a11y .dijitTooltipConnector {
+	display: none;
+}
+.dijitTooltipData {
+	display: none;
+}
+.dijitLayoutContainer {
+	overflow: hidden; display: block; position: relative;
+}
+body .dijitAlignTop {
+	overflow: hidden; position: absolute;
+}
+body .dijitAlignBottom {
+	overflow: hidden; position: absolute;
+}
+body .dijitAlignLeft {
+	overflow: hidden; position: absolute;
+}
+body .dijitAlignRight {
+	overflow: hidden; position: absolute;
+}
+body .dijitAlignClient {
+	position: absolute;
+}
+.dijitBorderContainer {
+	overflow: hidden; position: relative;
+}
+.dijitBorderContainerNoGutter {
+	overflow: hidden; position: relative;
+}
+.dijitBorderContainerPane {
+	position: absolute !important; z-index: 2;
+}
+.dijitBorderContainerNoGutterPane {
+	position: absolute !important; z-index: 2;
+}
+.dijitBorderContainer > .dijitTextArea {
+	resize: none;
+}
+.dijitGutter {
+	font-size: 1px; position: absolute;
+}
+.dijitSplitter {
+	border: 0px solid gray; overflow: hidden; position: absolute; z-index: 10; background-color: rgb(255, 255, 255);
+}
+.dj_ie .dijitSplitter {
+	z-index: 1;
+}
+.dijitSplitterActive {
+	z-index: 11 !important;
+}
+.dijitSplitterCover {
+	left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; z-index: -1;
+}
+.dijitSplitterCoverActive {
+	z-index: 3 !important;
+}
+.dj_ie .dijitSplitterCover {
+	background: white;
+}
+.dijitSplitterH {
+	height: 7px; border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: 1px; border-bottom-width: 1px; border-top-style: none; border-bottom-style: none; cursor: ns-resize;
+}
+.dijitSplitterV {
+	width: 7px; border-right-color: currentColor; border-left-color: currentColor; border-right-width: 1px; border-left-width: 1px; border-right-style: none; border-left-style: none; cursor: ew-resize;
+}
+.dijitSplitContainer {
+	overflow: hidden; display: block; position: relative;
+}
+.dj_ff3 .dijit_a11y div.dijitSplitter:focus {
+	outline-width: 2px; outline-style: dotted;
+}
+.dijitSplitPane {
+	position: absolute;
+}
+.dijitSplitContainerSizerH {
+	border-width: 1px; border-style: solid; border-color: threedhighlight threedshadow threedshadow threedhighlight; margin: 0px; font-size: 1px; position: absolute; cursor: w-resize; background-color: threedface;
+}
+.dijitSplitContainerSizerV {
+	border-width: 1px; border-style: solid; border-color: threedhighlight threedshadow threedshadow threedhighlight; margin: 0px; font-size: 1px; position: absolute; cursor: w-resize; background-color: threedface;
+}
+.dijitSplitContainerSizerH .thumb {
+	top: 49%; overflow: hidden; position: absolute;
+}
+.dijitSplitterV .dijitSplitterThumb {
+	top: 49%; overflow: hidden; position: absolute;
+}
+.dijitSplitContainerSizerV .thumb {
+	left: 49%; position: absolute;
+}
+.dijitSplitterH .dijitSplitterThumb {
+	left: 49%; position: absolute;
+}
+.dijitSplitterShadow {
+	margin: 0px; font-size: 1px; opacity: 0.5; background-color: threedshadow; -moz-opacity: 0.5;
+}
+.dijitSplitContainerVirtualSizerH {
+	margin: 0px; font-size: 1px; opacity: 0.5; background-color: threedshadow; -moz-opacity: 0.5;
+}
+.dijitSplitContainerVirtualSizerV {
+	margin: 0px; font-size: 1px; opacity: 0.5; background-color: threedshadow; -moz-opacity: 0.5;
+}
+.dj_ie .dijitSplitterV {
+	cursor: w-resize;
+}
+.dijitSplitContainerVirtualSizerH {
+	cursor: w-resize;
+}
+.dj_ie .dijitSplitterH {
+	cursor: n-resize;
+}
+.dijitSplitContainerSizerV {
+	cursor: n-resize;
+}
+.dijitSplitContainerVirtualSizerV {
+	cursor: n-resize;
+}
+.dijit_a11y .dijitSplitterH {
+	border-top-color: rgb(211, 211, 211) !important; border-bottom-color: rgb(211, 211, 211) !important; border-top-width: 1px !important; border-bottom-width: 1px !important; border-top-style: solid !important; border-bottom-style: solid !important;
+}
+.dijit_a11y .dijitSplitterV {
+	border-right-color: rgb(211, 211, 211) !important; border-left-color: rgb(211, 211, 211) !important; border-right-width: 1px !important; border-left-width: 1px !important; border-right-style: solid !important; border-left-style: solid !important;
+}
+.dijitContentPane {
+	overflow: auto; display: block;
+}
+.dijitContentPaneSingleChild {
+	overflow: hidden;
+}
+.dijitTitlePane {
+	overflow: hidden; display: block;
+}
+.dijitTitlePaneTitle {
+	cursor: pointer;
+}
+.dijitFixedOpen {
+	cursor: default;
+}
+.dijitTitlePaneTitle * {
+	vertical-align: middle;
+}
+.dijitTitlePane .dijitArrowNodeInner {
+	display: none;
+}
+.dijit_a11y .dijitTitlePane .dijitArrowNodeInner {
+	font-family: monospace; display: inline !important;
+}
+.dijit_a11y .dijitTitlePane .dijitArrowNode {
+	display: none;
+}
+.dj_ie6 .dijitTitlePaneContentOuter {
+	-ms-zoom: 1;
+}
+.dj_ie6 .dijitTitlePane .dijitTitlePaneTitle {
+	-ms-zoom: 1;
+}
+.dijitColorPalette {
+	background: rgb(255, 255, 255); border: 1px solid rgb(153, 153, 153); position: relative;
+}
+img.dijitColorPaletteUnder {
+	left: 0px; top: 0px; position: absolute;
+}
+.dijitColorPalette .dijitPaletteTable {
+	padding: 2px 3px 3px; outline: 0px; overflow: hidden; border-collapse: separate; position: relative;
+}
+.dj_ie6 .dijitColorPalette .dijitPaletteTable {
+	margin: 2px 3px 3px; padding: 0px;
+}
+.dj_ie7 .dijitColorPalette .dijitPaletteTable {
+	margin: 2px 3px 3px; padding: 0px;
+}
+.dj_iequirks .dijitColorPalette .dijitPaletteTable {
+	margin: 2px 3px 3px; padding: 0px;
+}
+.dijitColorPalette .dijitPaletteCell {
+	width: 20px; height: 20px; text-align: center; font-size: 1px; vertical-align: middle;
+}
+.dijitColorPalette .dijitPaletteImg {
+	border: 1px solid rgb(153, 153, 153); width: 16px; height: 14px; vertical-align: middle; cursor: default;
+}
+.dj_iequirks .dijitColorPalette .dijitPaletteImg {
+	margin: 1px;
+}
+.dijitPaletteTable td {
+	padding: 0px;
+}
+.dijitColorPalette .dijitPaletteCellHover .dijitPaletteImg {
+	border: 1px solid rgb(0, 0, 0);
+}
+.dijitColorPalette .dijitPaletteCellActive .dijitPaletteImg {
+	border: 2px solid rgb(0, 0, 0);
+}
+.dijitColorPalette .dijitPaletteCellSelected .dijitPaletteImg {
+	border: 2px solid rgb(0, 0, 0);
+}
+.dijit_a11y .dijitColorPalette .dijitPaletteTable {
+	background-color: transparent !important;
+}
+.dijit_a11y .dijitColorPalette .dijitPaletteTable * {
+	background-color: transparent !important;
+}
+.dj_gecko .dijit_a11y .dijitColorPalette .dijitPaletteCellFocused .dijitPaletteImg {
+	margin: -1px; border: 3px dotted rgb(0, 0, 0);
+}
+.dijit_a11y .dijitColorPalette .dijitPaletteCellHover .dijitPaletteImg {
+	border: 2px solid rgb(0, 0, 0) !important;
+}
+.dijitAccordionContainer {
+	border-top-color: currentColor !important; border-right-color: rgb(183, 183, 183); border-bottom-color: rgb(183, 183, 183); border-left-color: rgb(183, 183, 183); border-top-width: 0px !important; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: none !important; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+.dijitAccordionTitle {
+	cursor: pointer;
+}
+.dijitAccordionTitleSelected {
+	cursor: default;
+}
+.dijitAccordionTitle .arrowTextUp {
+	font-size: 0.65em; font-weight: normal !important; display: none;
+}
+.dijitAccordionTitle .arrowTextDown {
+	font-size: 0.65em; font-weight: normal !important; display: none;
+}
+.dijit_a11y .dijitAccordionTitle .arrowTextUp {
+	display: inline;
+}
+.dijit_a11y .dijitAccordionTitleSelected .arrowTextDown {
+	display: inline;
+}
+.dijit_a11y .dijitAccordionTitleSelected .arrowTextUp {
+	display: none;
+}
+.dj_ie6 .dijitAccordionTitle {
+	-ms-zoom: 1;
+}
+.dj_iequirks .dijitAccordionTitle {
+	-ms-zoom: 1;
+}
+.dijitCalendarContainer {
+	width: auto;
+}
+.dijitCalendarContainer th {
+	padding: 0px;
+}
+.dijitCalendarContainer td {
+	padding: 0px;
+}
+.dijitCalendarNextYear {
+	margin: 0px 0px 0px 0.55em;
+}
+.dijitCalendarPreviousYear {
+	margin: 0px 0.55em 0px 0px;
+}
+.dijitCalendarIncrementControl {
+	vertical-align: middle;
+}
+.dijitCalendarIncrementControl {
+	cursor: pointer;
+}
+.dijitCalendarDateTemplate {
+	cursor: pointer;
+}
+.dijitCalendarMonthLabel {
+	cursor: pointer;
+}
+.dijitCalendarPreviousYear {
+	cursor: pointer;
+}
+.dijitCalendarNextYear {
+	cursor: pointer;
+}
+.dijitCalendarDisabledDate {
+	color: gray; text-decoration: line-through; cursor: default;
+}
+.dijitSpacer {
+	height: 1px; overflow: hidden; visibility: hidden; position: relative;
+}
+.dijitMenu {
+	border: 1px solid black; background-color: white;
+}
+.dijitMenuTable {
+	border-width: 0px; border-collapse: collapse; background-color: white;
+}
+.dj_webkit .dijitMenuTable td[colspan='2'] {
+	border-right-color: currentColor; border-right-width: medium; border-right-style: hidden;
+}
+.dijitMenuItem {
+	padding: 0.1em 0.2em; text-align: left; white-space: nowrap; cursor: pointer;
+}
+.dijitMenuPassive .dijitMenuItemHover {
+	color: white; background-color: black;
+}
+.dijitMenuItemSelected {
+	color: white; background-color: black;
+}
+.dijitMenuItemIcon {
+	background-repeat: no-repeat;
+}
+.dijitMenuExpand {
+	background-repeat: no-repeat;
+}
+.dijitMenuItemDisabled * {
+	cursor: default; opacity: 0.5;
+}
+.dj_ie .dijit_a11y .dijitMenuItemDisabled {
+	color: gray !important;
+}
+.dj_ie .dijit_a11y .dijitMenuItemDisabled td {
+	color: gray !important;
+}
+.dj_ie .dijitMenuItemDisabled * {
+	color: gray !important;
+}
+.dj_ie .dijitMenuItemDisabled td {
+	color: gray !important;
+}
+.dijitMenuItemLabel {
+	vertical-align: middle; position: relative;
+}
+.dijit_a11y .dijitMenuItemSelected {
+	border: 1px dotted black !important;
+}
+.dj_ff3 .dijit_a11y .dijitMenuItem td {
+	
+}
+.dijit_a11y .dijitMenuItemSelected .dijitMenuItemLabel {
+	border-width: 1px; border-style: solid;
+}
+.dj_ie8 .dijit_a11y .dijitMenuItemLabel {
+	position: static;
+}
+.dijitMenuExpandA11y {
+	display: none;
+}
+.dijit_a11y .dijitMenuExpandA11y {
+	display: inline;
+}
+.dijitMenuSeparator td {
+	padding: 0px; border: 0px currentColor;
+}
+.dijitMenuSeparatorTop {
+	margin: 3px 0px 0px; height: 50%; font-size: 1px;
+}
+.dijitMenuSeparatorBottom {
+	margin: 0px 0px 3px; height: 50%; font-size: 1px;
+}
+.dijitCheckedMenuItemIconChar {
+	vertical-align: middle; visibility: hidden;
+}
+.dijitCheckedMenuItemChecked .dijitCheckedMenuItemIconChar {
+	visibility: visible;
+}
+.dijit_a11y .dijitCheckedMenuItemIconChar {
+	display: inline !important;
+}
+.dijit_a11y .dijitCheckedMenuItemIcon {
+	display: none;
+}
+.dj_ie .dijit_a11y .dijitMenuBar .dijitMenuItem {
+	margin: 0px;
+}
+.dijitStackController .dijitToggleButtonChecked * {
+	cursor: default;
+}
+.dijitTabContainerNoLayout {
+	width: 100%;
+}
+.dijitTabContainerBottom-tabs {
+	overflow: visible !important;
+}
+.dijitTabContainerTop-tabs {
+	overflow: visible !important;
+}
+.dijitTabContainerLeft-tabs {
+	overflow: visible !important;
+}
+.dijitTabContainerRight-tabs {
+	overflow: visible !important;
+}
+.dijitTabContainerBottom-container {
+	border: 1px solid black; overflow: hidden; z-index: 0;
+}
+.dijitTabContainerTop-container {
+	border: 1px solid black; overflow: hidden; z-index: 0;
+}
+.dijitTabContainerLeft-container {
+	border: 1px solid black; overflow: hidden; z-index: 0;
+}
+.dijitTabContainerRight-container {
+	border: 1px solid black; overflow: hidden; z-index: 0;
+}
+.nowrapTabStrip {
+	width: 50000px; display: block; position: relative;
+}
+.dijitTabListWrapper {
+	overflow: hidden;
+}
+.dijit_a11y .tabStripButton img {
+	display: none;
+}
+.dijitTabContainerTop-tabs {
+	border-bottom-color: black; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dijitTabContainerTop-container {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.dijitTabContainerLeft-tabs {
+	border-right-color: black; border-right-width: 1px; border-right-style: solid; float: left;
+}
+.dijitTabContainerLeft-container {
+	border-left-color: currentColor; border-left-width: 0px; border-left-style: none;
+}
+.dijitTabContainerBottom-tabs {
+	border-top-color: black; border-top-width: 1px; border-top-style: solid;
+}
+.dijitTabContainerBottom-container {
+	border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.dijitTabContainerRight-tabs {
+	border-left-color: black; border-left-width: 1px; border-left-style: solid; float: left;
+}
+.dijitTabContainerRight-container {
+	border-right-color: currentColor; border-right-width: 0px; border-right-style: none;
+}
+div.dijitTabDisabled {
+	cursor: auto;
+}
+.dj_ie div.dijitTabDisabled {
+	cursor: auto;
+}
+.dijitTab {
+	white-space: nowrap; position: relative; z-index: 3; cursor: pointer;
+}
+.dijitTab * {
+	vertical-align: middle;
+}
+.dijitTabChecked {
+	cursor: default;
+}
+.dijitTabContainerTop-tabs .dijitTab {
+	top: 1px;
+}
+.dijitTabContainerBottom-tabs .dijitTab {
+	top: -1px;
+}
+.dijitTabContainerLeft-tabs .dijitTab {
+	left: 1px;
+}
+.dijitTabContainerRight-tabs .dijitTab {
+	left: -1px;
+}
+.dijitTabContainerTop-tabs .dijitTab {
+	display: inline-block;
+}
+.dijitTabContainerBottom-tabs .dijitTab {
+	display: inline-block;
+}
+.dijitTabInnerDiv {
+	position: relative;
+}
+.tabStripButton {
+	z-index: 12;
+}
+.dijitTabButtonDisabled .tabStripButton {
+	display: none;
+}
+.dijitTabCloseButton {
+	margin-left: 1em;
+}
+.dijitTabCloseText {
+	display: none;
+}
+.dijit_a11y .dijitTabCloseButton {
+	border: thin dotted currentColor; width: auto !important; height: auto !important; background-image: none !important;
+}
+.dijit_a11y .dijitTabCloseButtonHover {
+	border: thin solid currentColor;
+}
+.dijit_a11y .dijitTabCloseText {
+	display: inline;
+}
+.dijit_a11y .dijitTabChecked {
+	border-style: dashed !important;
+}
+.dijit_a11y .dijitTabInnerDiv {
+	border-left-color: currentColor !important; border-left-width: medium !important; border-left-style: none !important;
+}
+.dijitTabPane {
+	border: currentColor !important;
+}
+.dijitStackContainer-child {
+	border: currentColor !important;
+}
+.dijitAccordionContainer-child {
+	border: currentColor !important;
+}
+.dijitInlineEditBoxDisplayMode {
+	border: 1px solid transparent; cursor: text;
+}
+.dijit_a11y .dijitInlineEditBoxDisplayMode {
+	border: currentColor;
+}
+.dj_ie6 .dijitInlineEditBoxDisplayMode {
+	border: currentColor;
+}
+.dijitInlineEditBoxDisplayModeHover {
+	border: 1px solid black; background-color: rgb(226, 235, 242);
+}
+.dijit_a11y .dijitInlineEditBoxDisplayModeHover {
+	border: 1px solid black; background-color: rgb(226, 235, 242);
+}
+.dj_ie6 .dijitInlineEditBoxDisplayModeHover {
+	border: 1px solid black; background-color: rgb(226, 235, 242);
+}
+.dijitInlineEditBoxDisplayModeDisabled {
+	cursor: default;
+}
+.dijitTreeIndent {
+	width: 19px;
+}
+.dijitTreeRow {
+	white-space: nowrap;
+}
+.dijitTreeContent {
+	white-space: nowrap;
+}
+.dijitTreeRow img {
+	vertical-align: middle;
+}
+.dijitTreeContent {
+	cursor: default;
+}
+.dijitExpandoText {
+	display: none;
+}
+.dijit_a11y .dijitExpandoText {
+	border-width: thin; border-style: solid; padding-right: 10px; padding-left: 10px; font-family: monospace; display: inline; cursor: pointer;
+}
+.dijitTreeLabel {
+	margin: 0px 4px;
+}
+.dijitDialog {
+	overflow: hidden; position: absolute; z-index: 999;
+}
+.dijitDialogTitleBar {
+	cursor: move;
+}
+.dijitDialogFixed .dijitDialogTitleBar {
+	cursor: default;
+}
+.dijitDialogCloseIcon {
+	cursor: pointer;
+}
+.dijitDialogUnderlayWrapper {
+	left: 0px; top: 0px; display: none; position: absolute; z-index: 998;
+}
+.dijitDialogUnderlay {
+	background: rgb(238, 238, 238); opacity: 0.5;
+}
+.dj_ie .dijitDialogUnderlay {
+	
+}
+.dijit_a11y .dijitSpinnerButtonContainer {
+	opacity: 1 !important; background-color: white !important;
+}
+.dijit_a11y .dijitDialog {
+	opacity: 1 !important; background-color: white !important;
+}
+.dijitDialog .closeText {
+	display: none; position: absolute;
+}
+.dijit_a11y .dijitDialog .closeText {
+	display: inline;
+}
+.dijitSliderMoveable {
+	vertical-align: middle; display: block; position: absolute !important; z-index: 99;
+}
+.dijitSliderMoveableH {
+	right: 0px;
+}
+.dijitSliderMoveableV {
+	right: 50%;
+}
+.dijit_a11y div.dijitSliderImageHandle {
+	margin: 0px; padding: 0px; border: 8px solid gray; width: 0px; height: 0px; position: relative !important; cursor: pointer;
+}
+.dijitSliderImageHandle {
+	margin: 0px; padding: 0px; border: 8px solid gray; width: 0px; height: 0px; position: relative !important; cursor: pointer;
+}
+.dj_iequirks .dijit_a11y .dijitSliderImageHandle {
+	font-size: 0px;
+}
+.dj_ie7 .dijitSliderImageHandle {
+	overflow: hidden;
+}
+.dj_ie7 .dijit_a11y .dijitSliderImageHandle {
+	overflow: visible;
+}
+.dijit_a11y .dijitSliderFocused .dijitSliderImageHandle {
+	border: 4px solid rgb(0, 0, 0); width: 8px; height: 8px;
+}
+.dijitSliderImageHandleV {
+	top: -8px; right: -50%;
+}
+.dijitSliderImageHandleH {
+	left: 50%; top: -5px; vertical-align: top;
+}
+.dijitSliderBar {
+	border-style: solid; border-color: black; cursor: pointer;
+}
+.dijitSliderBarContainerV {
+	height: 100%; position: relative; z-index: 1;
+}
+.dijitSliderBarContainerH {
+	position: relative; z-index: 1;
+}
+.dijitSliderBarH {
+	border-width: 1px 0px; height: 4px;
+}
+.dijitSliderBarV {
+	border-width: 0px 1px; width: 4px;
+}
+.dijitSliderProgressBar {
+	z-index: 1; background-color: red;
+}
+.dijitSliderProgressBarV {
+	height: 0%; text-align: left; vertical-align: top; position: static !important;
+}
+.dijitSliderProgressBarH {
+	width: 0%; overflow: visible; vertical-align: middle; position: absolute !important;
+}
+.dijitSliderRemainingBar {
+	overflow: hidden; z-index: 1; background-color: transparent;
+}
+.dijitSliderRemainingBarV {
+	height: 100%; text-align: left;
+}
+.dijitSliderRemainingBarH {
+	width: 100% !important;
+}
+.dijitSliderBumper {
+	overflow: hidden; z-index: 1;
+}
+.dijitSliderBumperV {
+	border-width: 0px 1px; width: 4px; height: 8px;
+}
+.dijitSliderBumperH {
+	border-width: 1px 0px; width: 8px; height: 4px;
+}
+.dijitSliderBottomBumper {
+	background-color: red;
+}
+.dijitSliderLeftBumper {
+	background-color: red;
+}
+.dijitSliderTopBumper {
+	background-color: transparent;
+}
+.dijitSliderRightBumper {
+	background-color: transparent;
+}
+.dijitSliderDecoration {
+	text-align: center;
+}
+.dijitSliderV td {
+	position: relative;
+}
+.dijitSliderDecorationH {
+	width: 100%;
+}
+.dijitSliderDecorationV {
+	height: 100%;
+}
+.dijitSliderButton {
+	margin: 0px; padding: 0px; font-family: monospace; display: block;
+}
+.dijit_a11y .dijitSliderButtonInner {
+	visibility: visible !important;
+}
+.dijitSliderButtonContainer {
+	height: 0px; text-align: center;
+}
+.dijitSliderButtonContainer * {
+	cursor: pointer;
+}
+.dijitSlider .dijitButtonNode {
+	padding: 0px; display: block;
+}
+.dijitRuleContainer {
+	overflow: visible; position: relative;
+}
+.dijitRuleContainerV {
+	height: 100%; text-align: left; line-height: 0; float: left;
+}
+.dj_opera .dijitRuleContainerV {
+	line-height: 2%;
+}
+.dj_ie .dijitRuleContainerV {
+	line-height: normal;
+}
+.dj_gecko .dijitRuleContainerV {
+	margin: 0px 0px 1px;
+}
+.dijitRuleMark {
+	border: 1px solid black; height: 100%; line-height: 0; position: absolute;
+}
+.dijitRuleMarkH {
+	width: 0px; border-top-width: 0px !important; border-bottom-width: 0px !important; border-left-width: 0px !important;
+}
+.dijitRuleLabelContainer {
+	position: absolute;
+}
+.dijitRuleLabelContainerH {
+	text-align: center; display: inline-block;
+}
+.dijitRuleLabelH {
+	left: -50%; position: relative;
+}
+.dijitRuleLabelV {
+	overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.dijitRuleMarkV {
+	left: 0px; width: 100%; height: 0px; border-right-width: 0px !important; border-bottom-width: 0px !important; border-left-width: 0px !important;
+}
+.dj_ie .dijitRuleLabelContainerV {
+	margin-top: -0.55em;
+}
+.dijit_a11y .dijitSliderReadOnly {
+	opacity: 0.6;
+}
+.dijit_a11y .dijitSliderDisabled {
+	opacity: 0.6;
+}
+.dj_ie .dijit_a11y .dijitSliderReadOnly .dijitSliderBar {
+	
+}
+.dj_ie .dijit_a11y .dijitSliderDisabled .dijitSliderBar {
+	
+}
+.dijit_a11y .dijitSlider .dijitSliderButtonContainer div {
+	margin: 0px 4px; width: auto; height: auto; line-height: 1em; font-family: monospace; font-size: 1em;
+}
+.dijit_a11y .dijitButtonContents .dijitButtonText {
+	display: inline !important;
+}
+.dijit_a11y .dijitTab .tabLabel {
+	display: inline !important;
+}
+.dijitTextArea {
+	width: 100%; -ms-overflow-y: auto;
+}
+[cols].dijitTextArea {
+	width: auto;
+}
+.dj_ie .dijitTextAreaCols {
+	width: auto;
+}
+.dijitToolbarSeparator {
+	margin: 0px; padding: 0px 1px; width: 5px; height: 18px;
+}
+.dijitIEFixedToolbar {
+	position: absolute;
+}
+.dijitEditor {
+	display: block;
+}
+.dijitEditorDisabled {
+	color: gray;
+}
+.dijitEditorReadOnly {
+	color: gray;
+}
+.dijitTimePickerItemInner {
+	padding: 2px 8px; border: 0px currentColor; text-align: center;
+}
+.dijitTimePickerTick {
+	border-bottom-color: gray; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dijitTimePickerMarker {
+	border-bottom-color: gray; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dijitTimePicker .dijitDownArrowButton {
+	border-top-color: currentColor !important; border-top-width: medium !important; border-top-style: none !important;
+}
+.dijitTimePickerTick {
+	color: rgb(204, 204, 204);
+}
+.dijitTimePickerMarker {
+	color: black; background-color: rgb(204, 204, 204);
+}
+.dijitTimePickerItemSelected {
+	color: rgb(51, 51, 51); font-weight: bold; background-color: rgb(183, 205, 238);
+}
+.dijitTimePickerItemHover {
+	color: white; cursor: pointer; background-color: gray;
+}
+.dijit_a11y .dijitTimePickerItemSelected .dijitTimePickerItemInner {
+	border: 4px solid black;
+}
+.dijit_a11y .dijitTimePickerItemHover .dijitTimePickerItemInner {
+	border: 4px dashed black;
+}
+.dijitToggleButtonIconChar {
+	display: none !important;
+}
+.dijit_a11y .dijitToggleButton .dijitToggleButtonIconChar {
+	display: inline !important; visibility: hidden;
+}
+.dj_ie6 .dijitToggleButtonIconChar {
+	font-family: "Arial Unicode MS";
+}
+.dj_ie6 .tabStripButton .dijitButtonText {
+	font-family: "Arial Unicode MS";
+}
+.dijit_a11y .dijitToggleButtonChecked .dijitToggleButtonIconChar {
+	display: inline !important; visibility: visible !important;
+}
+.dijitArrowButtonChar {
+	display: none !important;
+}
+.dijit_a11y .dijitArrowButtonChar {
+	display: inline !important;
+}
+.dijit_a11y .dijitDropDownButton .dijitArrowButtonInner {
+	display: none !important;
+}
+.dijit_a11y .dijitComboButton .dijitArrowButtonInner {
+	display: none !important;
+}
+.dijitSelect {
+	margin: 0.2em; border-collapse: collapse;
+}
+.dj_ie .dijitSelect {
+	vertical-align: middle;
+}
+.dj_ie7 .dijitSelect {
+	vertical-align: middle;
+}
+.dj_iequirks .dijitSelect {
+	vertical-align: middle;
+}
+.dj_ie8 .dijitSelect .dijitButtonText {
+	vertical-align: top;
+}
+.dijitToolbar .dijitSelect {
+	margin: 0px;
+}
+.dj_webkit .dijitToolbar .dijitSelect {
+	padding-left: 0.3em;
+}
+.dijit_a11y .dijitSelectDisabled .dijitButtonNode {
+	border: outset rgb(153, 153, 153) !important; color: rgb(153, 153, 153) !important;
+}
+.dijitSelect .dijitButtonContents {
+	padding: 0px; text-align: left; white-space: nowrap;
+}
+.dijitSelectFixedWidth .dijitButtonContents {
+	width: 100%;
+}
+.dijitSelectMenu .dijitMenuItemIcon {
+	display: none;
+}
+.dj_ie6 .dijitSelectMenu .dijitMenuItemLabel {
+	position: static;
+}
+.dj_ie7 .dijitSelectMenu .dijitMenuItemLabel {
+	position: static;
+}
+.dijitSelectLabel * {
+	vertical-align: baseline;
+}
+.dijitSelectSelectedOption * {
+	font-weight: bold;
+}
+.dijitSelectMenu {
+	border-width: 1px;
+}
+.dijitSelectMenu .dijitMenuTable {
+	margin: 0px; background-color: transparent;
+}
+.dijitForceStatic {
+	position: static !important;
+}
+.dijitReadOnly * {
+	cursor: default;
+}
+.dijitDisabled * {
+	cursor: default;
+}
+.dijitReadOnly {
+	cursor: default;
+}
+.dijitDisabled {
+	cursor: default;
+}
+.dijitIconSave {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconPrint {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconCut {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconCopy {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconClear {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconDelete {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconUndo {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconEdit {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconNewTask {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconEditTask {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconEditProperty {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconTask {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconFilter {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconConfigure {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconSearch {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconApplication {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconBookmark {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconChart {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconConnector {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconDatabase {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconDocuments {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconMail {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitLeaf {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconFile {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconFunction {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconKey {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconPackage {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconSample {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconTable {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconUsers {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitFolderClosed {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconFolderClosed {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitFolderOpened {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconFolderOpen {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dijitIconError {
+	width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled.png");
+}
+.dj_ie6 .dijitIconSave {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconPrint {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconCut {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconCopy {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconClear {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconDelete {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconUndo {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconEdit {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconNewTask {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconEditTask {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconEditProperty {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconTask {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconFilter {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconConfigure {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconSearch {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconApplication {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconBookmark {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconChart {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconConnector {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconDatabase {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconDocuments {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconMail {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitLeaf {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconFile {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconFunction {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconKey {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconPackage {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconSample {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconTable {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconUsers {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitFolderClosed {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconFolderClosed {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitFolderOpened {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconFolderOpen {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dj_ie6 .dijitIconError {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActEnabled8bit.png");
+}
+.dijitDisabled .dijitIconSave {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconPrint {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconCut {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconCopy {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconClear {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconDelete {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconUndo {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconEdit {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconNewTask {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconEditTask {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconEditProperty {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconTask {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconFilter {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconConfigure {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconSearch {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconApplication {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconBookmark {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconChart {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconConnector {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconDatabase {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconDocuments {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconMail {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitLeaf {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconFile {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconFunction {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconKey {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconPackage {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconSample {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconTable {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconUsers {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitFolderClosed {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconFolderClosed {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitFolderOpened {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconFolderOpen {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitDisabled .dijitIconError {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/commonIconsObjActDisabled.png");
+}
+.dijitIconSave {
+	background-position: 0px;
+}
+.dijitIconPrint {
+	background-position: -16px;
+}
+.dijitIconCut {
+	background-position: -32px;
+}
+.dijitIconCopy {
+	background-position: -48px;
+}
+.dijitIconClear {
+	background-position: -64px;
+}
+.dijitIconDelete {
+	background-position: -80px;
+}
+.dijitIconUndo {
+	background-position: -96px;
+}
+.dijitIconEdit {
+	background-position: -112px;
+}
+.dijitIconNewTask {
+	background-position: -128px;
+}
+.dijitIconEditTask {
+	background-position: -144px;
+}
+.dijitIconEditProperty {
+	background-position: -166px;
+}
+.dijitIconTask {
+	background-position: -176px;
+}
+.dijitIconFilter {
+	background-position: -192px;
+}
+.dijitIconConfigure {
+	background-position: -208px;
+}
+.dijitIconSearch {
+	background-position: -224px;
+}
+.dijitIconError {
+	background-position: -496px;
+}
+.dijitIconApplication {
+	background-position: -240px;
+}
+.dijitIconBookmark {
+	background-position: -256px;
+}
+.dijitIconChart {
+	background-position: -272px;
+}
+.dijitIconConnector {
+	background-position: -288px;
+}
+.dijitIconDatabase {
+	background-position: -304px;
+}
+.dijitIconDocuments {
+	background-position: -320px;
+}
+.dijitIconMail {
+	background-position: -336px;
+}
+.dijitIconFile {
+	background-position: -352px;
+}
+.dijitLeaf {
+	background-position: -352px;
+}
+.dijitIconFunction {
+	background-position: -368px;
+}
+.dijitIconKey {
+	background-position: -384px;
+}
+.dijitIconPackage {
+	background-position: -400px;
+}
+.dijitIconSample {
+	background-position: -416px;
+}
+.dijitIconTable {
+	background-position: -432px;
+}
+.dijitIconUsers {
+	background-position: -448px;
+}
+.dijitIconFolderClosed {
+	background-position: -464px;
+}
+.dijitFolderClosed {
+	background-position: -464px;
+}
+.dijitIconFolderOpen {
+	background-position: -480px;
+}
+.dijitFolderOpened {
+	background-position: -480px;
+}
+.lotusui30dojo table.dojoTabular {
+	margin: 0px 1.5em; border: 1px solid rgb(204, 204, 204); border-collapse: collapse; border-spacing: 0;
+}
+.lotusui30dojo .dojoTabular th {
+	text-align: center; font-weight: bold;
+}
+.lotusui30dojo table.dojoTabular thead {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(204, 204, 204); background-color: rgb(239, 239, 239);
+}
+.lotusui30dojo table.dojoTabular tfoot {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(204, 204, 204); background-color: rgb(239, 239, 239);
+}
+.lotusui30dojo table.dojoTabular thead tr th {
+	padding: 0.25em 0.5em;
+}
+.lotusui30dojo table.dojoTabular thead tr td {
+	padding: 0.25em 0.5em;
+}
+.lotusui30dojo table.dojoTabular tbody tr td {
+	padding: 0.25em 0.5em;
+}
+.lotusui30dojo table.dojoTabular tfoot tr td {
+	padding: 0.25em 0.5em;
+}
+.lotusui30dojo .dijitPopup {
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.25); -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.lotusui30dojo .dijitTooltipDialogPopup {
+	box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
+}
+.lotusui30dojo .dijitComboBoxHighlightMatch {
+	background-color: rgb(171, 214, 255);
+}
+.lotusui30dojo .dijitFocusedLabel {
+	outline: rgb(102, 102, 102) dotted 1px;
+}
+.lotusui30dojo .dijitContentPaneLoading {
+	background: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/loading.gif") no-repeat left; padding-top: 2px; padding-left: 25px;
+}
+.lotusui30dojo .dijitContentPaneError {
+	background: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/error.png") no-repeat top; padding-left: 25px;
+}
+.lotusui30dojo .dojoDndItemBefore {
+	border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+.lotusui30dojo .dojoDndItemAfter {
+	border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+.lotusui30dojo .dojoDndItemOver {
+	cursor: pointer;
+}
+.lotusui30dojo table.dojoDndAvatar {
+	border: 1px solid rgb(204, 204, 204); border-collapse: collapse; box-shadow: 0px 1px 5px rgba(0,0,0,0.25); background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+.lotusui30dojo .dojoDndAvatarHeader td {
+	height: 20px; padding-left: 21px;
+}
+.lotusui30dojo .dojoDndMove .dojoDndAvatarHeader {
+	background-position: 2px -122px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/dnd.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dojoDndCopy .dojoDndAvatarHeader {
+	background-position: 2px -122px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/dnd.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dojoDndAvatarItem td {
+	padding: 5px;
+}
+.lotusui30dojo .dojoDndMove .dojoDndAvatarHeader {
+	background-position: 2px -103px; background-color: rgb(255, 227, 224);
+}
+.lotusui30dojo .dojoDndCopy .dojoDndAvatarHeader {
+	background-position: 2px -68px; background-color: rgb(255, 227, 224);
+}
+.lotusui30dojo .dojoDndMove .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+	background-position: 2px -33px; background-color: rgb(236, 249, 223);
+}
+.lotusui30dojo .dojoDndCopy .dojoDndAvatarCanDrop .dojoDndAvatarHeader {
+	background-position: 2px 2px; background-color: rgb(236, 249, 223);
+}
+.lotusui30dojo .dijitSpinner .dijitSpinnerButtonContainer {
+	border-width: 0px !important;
+}
+.lotusui30dojo .dijitSpinner .dijitSpinnerButtonContainer .dijitDownArrowButton {
+	border-top-width: 0px !important;
+}
+.lotusui30dojo .dijitComboBox .dijitArrowButtonContainer {
+	border-width: 0px !important; padding: 2px 2px 2px 0px;
+}
+.lotusui30dojo .dijitTextBoxError .dijitValidationContainer {
+	background-position: center; border-width: 0px 0px 0px 1px; border-style: solid; border-color: rgb(212, 100, 100); width: 9px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/error.png"); background-repeat: no-repeat; background-color: rgb(227, 53, 46);
+}
+.lotusui30dojo .dijitTextBoxError .dijitValidationIcon {
+	width: 0px; background-color: transparent !important;
+}
+.lotusui30dojo .dijitTextArea {
+	padding: 1px;
+}
+.lotusui30dojo .dijitInputField .dijitPlaceHolder {
+	padding: 1px;
+}
+.lotusui30dojo .dijitTextBox {
+	border-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitTextBox .dijitButtonNode {
+	border-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitTextBox {
+	padding: 0px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTextBoxError {
+	border-color: rgb(212, 100, 100);
+}
+.lotusui30dojo .dijitTextBoxError .dijitButtonNode {
+	border-color: rgb(212, 100, 100);
+}
+.lotusui30dojo .dijitTextBoxError {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTextBoxError .dijitInputContainer {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTextBoxFocused {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTextBoxFocused .dijitInputContainer {
+	background: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTextBoxErrorFocused {
+	border-color: rgb(212, 100, 100);
+}
+.lotusui30dojo .dijitTextBoxErrorFocused .dijitButtonNode {
+	border-color: rgb(212, 100, 100);
+}
+.lotusui30dojo .dijitTextBoxDisabled {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTextBoxDisabled .dijitButtonNode {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTextBoxDisabled {
+	color: rgb(102, 102, 102); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitComboBox .dijitArrowButtonInner {
+	background-position: -35px 53%; margin: 0px; padding: 1px; border: 0px solid rgb(255, 255, 255); width: 16px; height: 100%; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/smallcommonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitTextBox .dijitInputInner {
+	padding: 3px 0px;
+}
+.lotusui30dojo .dijitTextBox .dijitValidationContainer {
+	padding: 3px 0px;
+}
+.lotusui30dojo .dijitComboBoxHover .dijitArrowButtonInner {
+	background-position: -70px 53%;
+}
+.lotusui30dojo .dijitComboBoxFocused .dijitButtonNode {
+	background-position: 0px -177px; padding: 2px 2px 2px 0px;
+}
+.lotusui30dojo .dijitComboBoxFocused .dijitArrowButtonInner {
+	background-position: -70px 53%; border: 0px currentColor;
+}
+.dj_ff3 .lotusui30dojo .dijitInputField input[type='hidden'] {
+	width: 0px; height: 0px; display: none;
+}
+.dj_ie6 .lotusui30dojo .dijitTextBox {
+	background-image: none;
+}
+.dj_ie6 .lotusui30dojo .dijitComboBox .dijitButtonNode {
+	background-image: none;
+}
+.dj_borderbox .lotusui30dojo .dijitComboBox .dijitHasDropDownOpen .dijitArrowButtonInner {
+	width: 18px;
+}
+.dj_borderbox .lotusui30dojo .dijitComboBoxFocused .dijitHasDropDownOpen .dijitArrowButtonInner {
+	width: 16px;
+}
+.lotusui30dojo .dijitButton {
+	margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitDropDownButton {
+	margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitComboButton {
+	margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitToggleButton {
+	margin-right: 5px; margin-left: 0px;
+}
+.lotusui30dojo .dijitButton .dijitButtonNode {
+	padding: 2px 6px 4px; border-radius: 2px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); font-size: 0.9em; font-weight: bold; background-color: rgb(250, 250, 250); -moz-border-radius: 2px;
+}
+.lotusui30dojo .dijitDropDownButton .dijitButtonNode {
+	padding: 2px 6px 4px; border-radius: 2px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); font-size: 0.9em; font-weight: bold; background-color: rgb(250, 250, 250); -moz-border-radius: 2px;
+}
+.lotusui30dojo .dijitComboButton .dijitButtonNode {
+	padding: 2px 6px 4px; border-radius: 2px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); font-size: 0.9em; font-weight: bold; background-color: rgb(250, 250, 250); -moz-border-radius: 2px;
+}
+.lotusui30dojo .dijitToggleButton .dijitButtonNode {
+	padding: 2px 6px 4px; border-radius: 2px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); font-size: 0.9em; font-weight: bold; background-color: rgb(250, 250, 250); -moz-border-radius: 2px;
+}
+.lotusui30dojo .dijitDropDownButton .dijitButtonNode {
+	padding-right: 4px;
+}
+.lotusui30dojo .dijitComboButton .dijitArrowButton {
+	padding: 4px 2px; border-left-width: 0px;
+}
+.lotusui30dojo .dijitDisabled .dijitButtonText {
+	color: rgb(176, 176, 176);
+}
+.lotusui30dojo .dijitArrowButtonInner {
+	background-position: -52px 53%; margin: 0px auto; width: 12px; height: 15px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/smallbuttonArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitLeftArrowButton .dijitArrowButtonInner {
+	background-position: -77px 53%;
+}
+.lotusui30dojo .dijitRightArrowButton .dijitArrowButtonInner {
+	background-position: -26px 53%;
+}
+.lotusui30dojo .dijitUpArrowButton .dijitArrowButtonInner {
+	background-position: 0px 53%;
+}
+.lotusui30dojo .dijitDisabled .dijitArrowButtonInner {
+	background-position: -152px 53%;
+}
+.lotusui30dojo .dijitDisabled .dijitLeftArrowButton .dijitArrowButtonInner {
+	background-position: -177px 53%;
+}
+.lotusui30dojo .dijitDisabled .dijitRightArrowButton .dijitArrowButtonInner {
+	background-position: -126px 53%;
+}
+.lotusui30dojo .dijitDisabled .dijitUpArrowButton .dijitArrowButtonInner {
+	background-position: -100px 53%;
+}
+.lotusui30dojo .dijitButtonText {
+	padding: 2px; text-align: center;
+}
+.lotusui30dojo .dijitButtonHover .dijitButtonNode {
+	border-color: rgb(102, 102, 102);
+}
+.lotusui30dojo .dijitDropDownButtonHover .dijitButtonNode {
+	border-color: rgb(102, 102, 102);
+}
+.lotusui30dojo .dijitComboButton .dijitButtonNodeHover {
+	border-color: rgb(102, 102, 102);
+}
+.lotusui30dojo .dijitComboButton .dijitDownArrowButtonHover {
+	border-color: rgb(102, 102, 102);
+}
+.lotusui30dojo .dijitButtonDisabled .dijitButtonNode {
+	border: 1px solid rgb(204, 204, 204); color: rgb(176, 176, 176); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitDropDownButtonDisabled .dijitButtonNode {
+	border: 1px solid rgb(204, 204, 204); color: rgb(176, 176, 176); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitComboButtonDisabled .dijitButtonNode {
+	border: 1px solid rgb(204, 204, 204); color: rgb(176, 176, 176); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitToggleButtonDisabled .dijitButtonNode {
+	border: 1px solid rgb(204, 204, 204); color: rgb(176, 176, 176); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitComboButtonDisabled .dijitArrowButton {
+	border-left-width: 0px;
+}
+.lotusui30dojo table.dijitComboButton {
+	margin-bottom: 0px; border-collapse: separate;
+}
+.lotusui30dojo .dijitComboButton .dijitStretch {
+	border-radius: 2px 0px 0px 2px; -moz-border-radius: 2px 0 0 2px;
+}
+.lotusui30dojo .dijitComboButton .dijitArrowButton {
+	border-radius: 0px 2px 2px 0px; -moz-border-radius: 0 2px 2px 0;
+}
+.lotusui30dojo .dijitCheckBoxInput {
+	opacity: 1;
+}
+.lotusui30dojo .dijitCheckBoxIcon {
+	margin: 0px 2px 0px 0px; padding: 0px; width: 15px; height: 16px;
+}
+.lotusui30dojo .dijitToggleButton .dijitCheckBoxIcon {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/checkmarkNoBorder.png");
+}
+.dj_ie6 .lotusui30dojo .dijitToggleButton .dijitCheckBoxIcon {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/checkmarkNoBorder.gif");
+}
+.lotusui30dojo .dijitToggleButton .dijitCheckBoxIcon {
+	background-position: -15px;
+}
+.lotusui30dojo .dijitToggleButtonChecked .dijitCheckBoxIcon {
+	background-position: 0px;
+}
+.lotusui30dojo .dijitToggleButtonCheckedDisabled .dijitCheckBoxIcon {
+	background-position: -33px;
+}
+.lotusui30dojo .dijitCheckBoxInput {
+	opacity: 1;
+}
+.lotusui30dojo .dijitSelect .dijitButtonText {
+	padding: 0px 5px 2px;
+}
+.lotusui30dojo .dijitSelect {
+	margin: 0px; border: 1px solid rgb(170, 170, 170); border-collapse: separate; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitSelect .dijitButtonContents {
+	border: 0px solid rgb(170, 170, 170) !important;
+}
+.lotusui30dojo .dijitSelect .dijitArrowButton {
+	border-width: medium 0px 0px; border-style: none solid solid; border-color: currentColor rgb(255, 255, 255) rgb(255, 255, 255); padding: 0px;
+}
+.lotusui30dojo .dijitSelect .dijitArrowButton .dijitArrowButtonInner {
+	background-position: -35px 50%; width: 16px; height: 16px; display: block; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/smallcommonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSelectHover .dijitArrowButton .dijitArrowButtonInner {
+	background-position: -70px 50%;
+}
+.lotusui30dojo .dijitSelectFocused {
+	border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSelectFocused .dijitButtonContents {
+	border-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSelectFocused .dijitArrowButton {
+	background-position: 0px -177px; padding: 0px; border: currentColor;
+}
+.lotusui30dojo .dijitSelectFocused .dijitArrowButton .dijitArrowButtonInner {
+	background-position: -70px 50%; margin-bottom: 1px;
+}
+.lotusui30dojo .dijitSelectDisabled {
+	border: 1px solid rgb(204, 204, 204); color: rgb(102, 102, 102); background-image: none; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSelectDisabled .dijitArrowButton {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSelectMenu td.dijitMenuItemIconCell {
+	display: none;
+}
+.lotusui30dojo .dijitSelectMenu td.dijitMenuArrowCell {
+	display: none;
+}
+.lotusui30dojo .dijitSelectMenu td.dijitMenuItemLabel {
+	padding-right: 5px; padding-left: 5px;
+}
+.lotusui30dojo .dijitSelectMenu .dijitMenuSeparatorTop {
+	border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lotusui30dojo .dijitTabPaneWrapper {
+	background: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabPaneWrapper {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTabContainerTop-tabs {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTabContainerBottom-tabs {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTabContainerLeft-tabs {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTabContainerRight-tabs {
+	border-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTabListContainer-top {
+	left: 0px !important; top: 0px !important; height: 2.91em !important; overflow: visible; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 1;
+}
+.lotusui30dojo .dijitTabListContainer-bottom {
+	height: 2.91em !important; overflow: visible; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; position: relative; z-index: 1;
+}
+.lotusui30dojo .dijitTabListWrapper {
+	top: auto !important; height: 2.91em !important; bottom: -1px !important;
+}
+.dj_ie6 .lotusui30dojo .dijitTabListWrapper {
+	bottom: -3px !important;
+}
+.lotusui30dojo .dijitTabContainerBottomStrip {
+	top: -1px !important; bottom: auto !important;
+}
+.lotusui30dojo .dijitTabContainerBottomNone {
+	top: -1px !important; bottom: auto !important;
+}
+.lotusui30dojo .tabStripButton-top {
+	top: auto !important; height: 1.33em !important; bottom: -1px !important;
+}
+.dj_ie6 .lotusui30dojo .tabStripButton-top {
+	bottom: -2px !important;
+}
+.lotusui30dojo .tabStripButton-bottom {
+	top: -1px !important; height: 1.33em !important; bottom: auto !important;
+}
+.lotusui30dojo .dijitTabContainerTop-tabs {
+	margin: 0px; padding: 0px; border: 0px currentColor; bottom: 0px; position: absolute;
+}
+.lotusui30dojo .dijitTab * {
+	vertical-align: baseline;
+}
+.lotusui30dojo .dijitTabCloseButton {
+	background: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/layout/images/tabClose.png") no-repeat; margin: -2px -3px -3px 1px; width: 16px; height: 1.25em; -ms-zoom: 1; opacity: 0.25;
+}
+.dj_ie8 .lotusui30dojo .dijitTabCloseButton {
+	margin-bottom: -5px;
+}
+.lotusui30dojo .dijitTabCloseButtonHover {
+	opacity: 0.4;
+}
+.lotusui30dojo .dijitTabCloseButtonActive {
+	opacity: 0.4;
+}
+.lotusui30dojo .dijitTabSpacer {
+	display: none;
+}
+.lotusui30dojo .dijitTabInnerDiv {
+	color: rgb(34, 34, 34); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabHover .dijitTabInnerDiv {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabActive .dijitTabInnerDiv {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabChecked .dijitTabInnerDiv {
+	color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabContent {
+	color: rgb(16, 92, 182);
+}
+.lotusui30dojo .dijitTabHover .dijitTabContent {
+	border-color: rgb(204, 204, 204); color: rgb(5, 56, 107);
+}
+.lotusui30dojo .dijitTabActive .dijitTabContent {
+	border-color: rgb(204, 204, 204); color: rgb(5, 56, 107);
+}
+.lotusui30dojo .dijitTabChecked .dijitTabContent {
+	border-color: rgb(170, 170, 170); color: rgb(0, 0, 0); font-weight: bold;
+}
+.lotusui30dojo .tabStripButton .dijitTabInnerDiv {
+	background-color: transparent;
+}
+.lotusui30dojo .tabStripButton .dijitTabContent {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTab {
+	padding: 0px; border-radius: 0px; border: 1px solid rgb(204, 204, 204); top: auto; bottom: 0px; margin-right: 2px; background-color: rgb(255, 255, 255); -moz-border-radius: 0;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerTop-tabs .dijitTab {
+	top: 3px;
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTabChecked {
+	border-color: rgb(170, 170, 170) rgb(170, 170, 170) rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTabContent {
+	padding: 6px 8px 4px; line-height: 1em; display: block;
+}
+.dj_ie6 .lotusui30dojo .dijitTabContainerTop-tabs .dijitTabContent {
+	padding-top: 4px; padding-bottom: 5px;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerTop-tabs .dijitTabContent {
+	padding-top: 4px; padding-bottom: 5px;
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTabChecked .dijitTabContent {
+	padding-top: 6px; padding-bottom: 4px;
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTabInnerDiv {
+	background-position: bottom; box-shadow: 0px -1px 1px rgba(0,0,0,0.04); background-repeat: repeat-x; -webkit-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04); -moz-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04);
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTabChecked .dijitTabInnerDiv {
+	background-image: none;
+}
+.lotusui30dojo .dijitTabContainerTop-tabs .dijitTabChecked .dijitTabContent {
+	background-repeat: repeat-x;
+}
+.lotusui30dojo .dijitTabContainerBottom-tabs {
+	margin: 0px; padding: 0px; border: 0px currentColor; top: 0px; overflow: hidden !important; position: absolute;
+}
+.lotusui30dojo .dijitTabContainerBottom-tabs .dijitTab {
+	padding: 0px; border: 1px solid rgb(204, 204, 204); top: auto; margin-right: 2px; background-color: rgb(255, 255, 255); -moz-border-radius: 0 0 0 0;
+}
+.lotusui30dojo .dijitTabContainerBottom-tabs .dijitTabContent {
+	padding: 5px 8px 7px 4px; line-height: 1em; display: block;
+}
+.dj_ie .lotusui30dojo .dijitTabContainerBottom-tabs .dijitTabContent {
+	padding-top: 6px; padding-bottom: 6px;
+}
+.dj_ie6 .lotusui30dojo .dijitTabContainerBottom-tabs .dijitTabContent {
+	padding-top: 4px; padding-bottom: 5px;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerBottom-tabs .dijitTabContent {
+	padding-top: 4px; padding-bottom: 5px;
+}
+.lotusui30dojo .dijitTabContainerBottom-tabs .dijitTabChecked {
+	border-color: rgb(255, 255, 255) rgb(170, 170, 170) rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitTabContainerLeft {
+	overflow: visible; white-space: nowrap;
+}
+.lotusui30dojo .dijitTabContainerLeft-tabs {
+	border: 0px currentColor; vertical-align: top; float: left; display: inline-block; position: relative; z-index: 1000;
+}
+.lotusui30dojo .dijitTabContainerLeft-tabs .dijitTab {
+	border: 1px solid rgb(204, 204, 204); left: auto; margin-bottom: 2px; white-space: nowrap; background-color: white;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerLeft-tabs .dijitTabInnerDiv {
+	-ms-zoom: 1;
+}
+.lotusui30dojo .dijitTabContainerLeft-tabs .dijitTabContent {
+	padding: 4px;
+}
+.lotusui30dojo .dijitTabContainerLeft-tabs .dijitTabChecked {
+	border-color: rgb(170, 170, 170) rgb(255, 255, 255) rgb(170, 170, 170) rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitTabContainerLeft-container {
+	left: -1px !important; width: auto !important; overflow: visible; border-left-color: rgb(204, 204, 204); border-left-width: 1px; border-left-style: solid; display: inline-block; white-space: normal; position: relative; z-index: -1;
+}
+.dj_ie6 .lotusui30dojo .dijitTabContainerLeft-container {
+	left: -4px !important;
+}
+.dj_ie6 .lotusui30dojo .dijitTabContainerLeft-child {
+	width: auto !important;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerLeft-child {
+	width: auto !important;
+}
+.lotusui30dojo .dijitTabContainerRight {
+	overflow: visible;
+}
+.lotusui30dojo .dijitTabContainerRight-tabs {
+	border: 0px currentColor; margin-left: -1px; vertical-align: top; float: left; display: inline-block; position: relative; z-index: 1000;
+}
+.lotusui30dojo .dijitTabContainerRight-tabs .dijitTab {
+	border: 1px solid rgb(204, 204, 204); left: auto; margin-bottom: 2px; white-space: nowrap; background-color: white;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerRight-tabs .dijitTabInnerDiv {
+	-ms-zoom: 1;
+}
+.lotusui30dojo .dijitTabContainerRight-tabs .dijitTabContent {
+	padding: 4px;
+}
+.lotusui30dojo .dijitTabContainerRight-tabs .dijitTabChecked {
+	border-color: rgb(170, 170, 170) rgb(170, 170, 170) rgb(170, 170, 170) rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabContainerRight-container {
+	border-right-color: rgb(204, 204, 204); border-right-width: 1px; border-right-style: solid;
+}
+.dj_ie6 .lotusui30dojo .dijitTabContainerRight-child {
+	width: auto !important;
+}
+.dj_ie7 .lotusui30dojo .dijitTabContainerRight-child {
+	width: auto !important;
+}
+.lotusui30dojo .tabStripButton {
+	padding: 4px 3px; border: 1px solid rgb(204, 204, 204); background-color: rgb(244, 244, 244);
+}
+.lotusui30dojo .dijitTabStripIcon {
+	background: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/buttonArrows.png") no-repeat -75px 50%; margin: 0px auto; width: 15px; height: 15px;
+}
+.lotusui30dojo .dijitTabStripSlideRightIcon {
+	background-position: -24px 50%;
+}
+.lotusui30dojo .dijitTabStripMenuIcon {
+	background-position: -51px 50%;
+}
+.lotusui30dojo .dijitTabContainerNested .dijitTabListWrapper {
+	height: auto;
+}
+.lotusui30dojo .dijitTabContainerNested .dijitTabContainerTop-container {
+	
+}
+.lotusui30dojo .dijitTabContainerNested .dijitTabContainerTop-tabs {
+	padding: 10px 10px 5px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lotusui30dojo .dijitTabContainerTabListNested .dijitTab {
+	border: 0px currentColor; margin-right: 2px;
+}
+.lotusui30dojo .dijitTabContainerTabListNested .dijitTabContent {
+	padding: 6px 8px 6px 4px;
+}
+.lotusui30dojo .dijitTabContainerTabListNested .dijitTab .dijitTabInnerDiv {
+	border: currentColor; top: 0px;
+}
+.lotusui30dojo .dijitTabContainerTabListNested .dijitTabHover .tabLabel {
+	text-decoration: none;
+}
+.lotusui30dojo .dijitTabContainerTabListNested .dijitTabChecked .dijitTabContent {
+	padding: 6px 8px 6px 4px; border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitTabContainerTabListNested .dijitTabChecked .tabLabel {
+	text-decoration: none; background-image: none;
+}
+.lotusui30dojo .dijitTabPaneWrapperNested {
+	border: currentColor;
+}
+.lotusui30dojo .dijitDialog {
+	border-radius: 3px; border: 3px solid rgba(2, 2, 2, 0.4); overflow: visible; box-shadow: 0px 0px 15px rgba(0,0,0,0.4); -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4); -moz-border-radius: 3px;
+}
+.lotusui30dojo .dijitDialogPaneContent {
+	background: rgb(255, 255, 255); padding: 15px 20px; font-family: GothamMedium; font-size: 12px; position: relative;
+}
+.lotusui30dojo .dijitDialogPaneActionBar {
+	text-align: right; padding-top: 15px; margin-top: 15px; border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+.lotusui30dojo .dijitDialogPaneActionBar .dijitButton {
+	margin: 0px 0px 0px 10px;
+}
+.lotusui30dojo .dijitDialogTitleBar {
+	background: -ms-linear-gradient(rgb(255, 255, 255) 0%, rgb(61, 134, 198) 100%) rgb(60, 60, 60); padding: 15px 20px; font-family: GothamMedium; font-size: 14px; font-weight: bold;
+}
+.lotusui30dojo .dijitDialogCloseIcon {
+	top: -14px; width: 32px; height: 32px; right: -14px; display: block; position: absolute; -ms-zoom: 1; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/ClosePopup32.png");
+}
+.dijit_a11y .dijitDialog .dijitDialogCloseIcon {
+	top: 5px; width: auto; height: auto; right: 15px;
+}
+.lotusui30dojo .dijitTooltip {
+	overflow: hidden;
+}
+.lotusui30dojo .dijitTooltipDialog {
+	overflow: hidden;
+}
+.lotusui30dojo .dijitTooltipAbove {
+	padding: 5px; margin-left: -5px;
+}
+.lotusui30dojo .dijitTooltipBelow {
+	padding: 5px; margin-left: -5px;
+}
+.lotusui30dojo .dijitTooltipContainer {
+	padding: 10px; border: 1px solid rgb(204, 204, 204); box-shadow: 0px 2px 5px #eeeeee; background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 2px 5px #eeeeee; -moz-box-shadow: 0 2px 5px #eeeeee;
+}
+.dj_ie6 .lotusui30dojo .dijitTooltipContainer {
+	background-image: none;
+}
+.lotusui30dojo .dijitTooltipLeft {
+	padding-right: 5px;
+}
+.lotusui30dojo .dijitTooltipLeft .dijitTooltipConnector {
+	width: 16px; height: 14px; right: 0px; bottom: 3px;
+}
+.lotusui30dojo .dijitTooltipRight {
+	padding-left: 5px;
+}
+.lotusui30dojo .dijitTooltipRight .dijitTooltipConnector {
+	background-position: -48px 0px; left: 0px; width: 16px; height: 14px; bottom: 3px;
+}
+.lotusui30dojo .dijitDialogUnderlay {
+	background: rgb(0, 0, 0); -ms-zoom: 1; opacity: 0.4;
+}
+.lotusui30dojo .lotusSimpleDialog .dijitDialogTitleBar {
+	padding: 0px;
+}
+.lotusui30dojo .lotusSimpleDialog .dijitDialogTitle {
+	display: none;
+}
+.lotusui30dojo .lotusSimpleDialog .dijitDialogCloseIcon {
+	z-index: 10000;
+}
+.lotusui30dojo .lotusSimpleDialog .dijitDialogPaneContent {
+	padding: 0px; width: auto !important; height: auto !important;
+}
+.lotusui30dojo .lotusSimpleDialog .dijitDialogPaneContentArea {
+	margin: 0px; padding: 0px;
+}
+.lotusui30dojo .lotusAltDialogHeader .dijitDialogTitleBar {
+	background: rgb(66, 68, 72); padding-top: 10px; padding-bottom: 10px; border-bottom-color: rgb(17, 17, 17); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lotusui30dojo .lotusAltDialogHeader .dijitDialogPaneContent {
+	color: rgb(51, 51, 51); font-family: GothamMedium; font-size: 12px; font-weight: bold;
+}
+.lotusui30dojo .dijitAccordionContainer {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitAccordionInnerContainer {
+	margin: 0px 15px 15px;
+}
+.lotusui30dojo .dijitAccordionTitle {
+	padding: 4px 5px 6px; border-radius: 3px 3px 0px 0px; border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); font-weight: bold; box-shadow: 0px 3px 5px #eeeeee; background-color: rgb(244, 244, 244); -webkit-box-shadow: #eeeeee 0 3px 5px; -moz-box-shadow: #eeeeee 0 3px 5px; -moz-border-radius: 3px 3px 0 0;
+}
+.dj_ie .lotusui30dojo .dijitAccordionTitle {
+	padding-top: 5px; padding-bottom: 5px;
+}
+.dj_ie6 .lotusui30dojo .dijitAccordionTitle {
+	padding-top: 6px; padding-bottom: 7px;
+}
+.dj_ie7 .lotusui30dojo .dijitAccordionTitle {
+	padding-top: 6px; padding-bottom: 7px;
+}
+.lotusui30dojo .dijitAccordionContainer .dijitAccordionContainer-child {
+	border-width: 0px 1px 1px !important; border-style: none solid solid !important; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204) !important; margin: 0px; padding: 5px 10px; box-shadow: 0px 3px 5px #eeeeee; background-color: rgb(255, 255, 255); -webkit-box-shadow: #eeeeee 0px 3px 5px; -moz-box-shadow: #eeeeee 0px 3px 5px;
+}
+.lotusui30dojo .dijitContentPane {
+	padding: 8px;
+}
+.lotusui30dojo .dijitTabContainerTop-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabContainerLeft-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabContainerBottom-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTabContainerRight-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitAccordionContainer-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitSplitContainer-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitBorderContainer-dijitContentPane {
+	padding: 8px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitCalendar {
+	border: 1px solid rgb(170, 170, 170); text-align: center; box-shadow: 0px 2px 5px #eeeeee; background-color: rgb(255, 255, 255); -webkit-box-shadow: 0 2px 5px #eeeeee; -moz-box-shadow: 0 2px 5px #eeeeee;
+}
+.dj_ie6 .lotusui30dojo .dijitCalendar {
+	background-image: none;
+}
+.lotusui30dojo .dijitCalendar img {
+	border: currentColor;
+}
+.lotusui30dojo .dijitCalendarHover {
+	border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitCalendarActive {
+	border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitCalendarMonthContainer th {
+	padding: 5px 0px; text-align: center; vertical-align: middle;
+}
+.dj_ie6 .lotusui30dojo .dijitCalendarMonthContainer th {
+	padding: 6px 0px 7px;
+}
+.dj_ie7 .lotusui30dojo .dijitCalendarMonthContainer th {
+	padding: 6px 0px 7px;
+}
+.lotusui30dojo .dijitCalendarMonthLabelSpacer {
+	display: none;
+}
+.lotusui30dojo .dijitCalendarMonthLabel {
+	color: rgb(0, 0, 0); font-size: 1.09em; display: block;
+}
+.lotusui30dojo .dijitCalendarIncrementControl {
+	width: 18px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/calendarArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitCalendarIncrease {
+	background-position: -18px 0px;
+}
+.lotusui30dojo .dijitCalendarArrowHover .dijitCalendarDecrease {
+	background-position: -36px 0px;
+}
+.lotusui30dojo .dijitCalendarArrowActive .dijitCalendarDecrease {
+	background-position: -36px 0px;
+}
+.lotusui30dojo .dijitCalendarArrowHover .dijitCalendarIncrease {
+	background-position: -55px 0px;
+}
+.lotusui30dojo .dijitCalendarArrowActive .dijitCalendarIncrease {
+	background-position: -55px 0px;
+}
+.lotusui30dojo .dijitA11ySideArrow {
+	display: none;
+}
+.lotusui30dojo .dijitDayLabels th {
+	padding: 0px 4px; text-align: center; font-weight: bold;
+}
+.lotusui30dojo .dijitCalendarDayLabelTemplate {
+	padding: 0px 3px 2px; text-align: center; color: rgb(153, 153, 153); font-size: 0.9em;
+}
+.lotusui30dojo .dijitCalendarDateTemplate {
+	text-align: center; letter-spacing: 0.05em; padding-top: 0px; font-size: 0.9em; font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.dj_ie6 .lotusui30dojo .dijitCalendarDateTemplate {
+	background-image: none;
+}
+.lotusui30dojo .dijitCalendarPreviousMonth {
+	color: rgb(153, 153, 153); font-weight: normal;
+}
+.lotusui30dojo .dijitCalendarNextMonth {
+	color: rgb(153, 153, 153); font-weight: normal;
+}
+.lotusui30dojo .dijitCalendarDateTemplate .dijitCalendarDateLabel {
+	padding: 2px 5px; border: 1px solid rgb(255, 255, 255); color: rgb(0, 0, 0); text-decoration: none; display: block;
+}
+.dj_ie6 .lotusui30dojo .dijitCalendarDateTemplate .dijitCalendarDateLabel {
+	padding: 4px 5px;
+}
+.dj_ie7 .lotusui30dojo .dijitCalendarDateTemplate .dijitCalendarDateLabel {
+	padding: 4px 5px;
+}
+.lotusui30dojo .dijitCalendarPreviousMonth .dijitCalendarDateLabel {
+	border-color: rgb(255, 255, 255); color: rgb(153, 153, 153);
+}
+.lotusui30dojo .dijitCalendarNextMonth .dijitCalendarDateLabel {
+	border-color: rgb(255, 255, 255); color: rgb(153, 153, 153);
+}
+.lotusui30dojo .dijitCalendarYearContainer {
+	vertical-align: middle;
+}
+.lotusui30dojo .dijitCalendarYearControl {
+	padding: 1px 2px 2px;
+}
+.lotusui30dojo .dijitCalendarYearLabel {
+	margin: 0px; padding: 2px 0px 0px;
+}
+.lotusui30dojo .dijitCalendarYearLabel span {
+	vertical-align: middle;
+}
+.lotusui30dojo .dijitCalendarSelectedYear {
+	padding: 0px 3px;
+}
+.lotusui30dojo .dijitCalendarNextYear {
+	padding: 1px 6px; color: rgb(153, 153, 153); font-size: 0.9em;
+}
+.lotusui30dojo .dijitCalendarPreviousYear {
+	padding: 1px 6px; color: rgb(153, 153, 153); font-size: 0.9em;
+}
+.lotusui30dojo .dijitCalendarSelectedYear {
+	color: rgb(0, 0, 0); font-size: 0.9em;
+}
+.lotusui30dojo .dijitCalendarHoveredDate .dijitCalendarDateLabel {
+	border: 1px solid rgb(238, 238, 238); color: rgb(0, 0, 0); transition-duration: 0.2s; background-color: rgb(238, 238, 238); -webkit-transition-duration: 0.2s; -moz-transition-duration: 0.2s;
+}
+.lotusui30dojo .dijitCalendarNextYearHover {
+	color: rgb(0, 0, 0);
+}
+.lotusui30dojo .dijitCalendarPreviousYearHover {
+	color: rgb(0, 0, 0);
+}
+.lotusui30dojo .dijitCalendarSelectedDate .dijitCalendarDateLabel {
+	border-color: rgb(204, 204, 204); color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitCalendarDisabledDate .dijitCalendarDateLabel {
+	border-color: transparent; color: rgb(153, 153, 153); text-decoration: line-through; background-color: transparent;
+}
+.lotusui30dojo .dijitCalendarMonthMenu {
+	border-color: rgb(170, 170, 170); left: 0px; top: 20px !important; text-align: center; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitCalendarMonthMenu .dijitCalendarMonthLabel {
+	padding: 2px 0px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.lotusui30dojo .dijitCalendarMonthMenu .dijitMenuItemHover {
+	border-width: 1px 0px; border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.dj_ie .lotusui30dojo .dijitCalendarMonthMenu .dijitMenuItemHover {
+	padding-top: 2px; padding-bottom: 2px; margin-top: 0px;
+}
+.lotusui30dojo .dijitMenuBar {
+	margin: 0px; padding: 0px; border: 1px solid rgb(204, 204, 204); background-color: rgb(244, 244, 244);
+}
+.lotusui30dojo .dijitMenu {
+	border: 1px solid rgb(170, 170, 170); margin-top: -1px; background-repeat: repeat-y; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitMenuBar .dijitMenuItem {
+	background-position: 0px 100px; margin: -1px -2px; padding: 5px 10px 7px; color: rgb(34, 34, 34);
+}
+.dj_ie .lotusui30dojo .dijitMenuBar .dijitMenuItem {
+	padding-top: 6px; padding-bottom: 6px; margin-right: 0px; margin-left: -1px;
+}
+.dj_ie6 .lotusui30dojo .dijitMenuBar .dijitMenuItem {
+	padding-top: 7px; padding-bottom: 8px;
+}
+.dj_ie7 .lotusui30dojo .dijitMenuBar .dijitMenuItem {
+	padding-top: 7px; padding-bottom: 8px;
+}
+.lotusui30dojo .dijitMenuTable {
+	padding: 0px; border-collapse: separate; border-spacing: 0 0;
+}
+.lotusui30dojo .dijitMenuPassive {
+	position: relative;
+}
+.lotusui30dojo .dijitCalendar .dijitMenuPassive {
+	position: absolute;
+}
+.lotusui30dojo .dijitMenuItem td {
+	padding: 1px;
+}
+.lotusui30dojo .dijitMenuPassive .dijitMenuItemHover {
+	padding: 4px 9px 6px 8px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); margin-left: -1px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitMenuPassive .dijitMenuItemSelected {
+	padding: 4px 9px 6px 8px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); margin-left: -1px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitCalendar .dijitMenuPassive .dijitMenuItemHover {
+	margin-left: 0px;
+}
+.dj_ie .lotusui30dojo .dijitMenuPassive .dijitMenuItemHover {
+	padding-left: 9px;
+}
+.dj_ie .lotusui30dojo .dijitMenuPassive .dijitMenuItemSelected {
+	padding-left: 9px;
+}
+.lotusui30dojo .dijitMenuActive .dijitMenuItemHover {
+	padding: 4px 9px 6px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitMenuActive .dijitMenuItemSelected {
+	padding: 4px 9px 6px; border: 1px solid rgb(170, 170, 170); color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);
+}
+.dj_ie .lotusui30dojo .dijitMenuActive .dijitMenuItemHover {
+	padding-top: 5px; padding-bottom: 5px; margin-top: -1px;
+}
+.dj_ie .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected {
+	padding-top: 5px; padding-bottom: 5px; margin-top: -1px;
+}
+.dj_ie .lotusui30dojo .dijitMenuPassive .dijitMenuItemHover {
+	padding-top: 5px; padding-bottom: 5px; margin-top: -1px;
+}
+.dj_ie .lotusui30dojo .dijitMenuPassive .dijitMenuItemSelected {
+	padding-top: 5px; padding-bottom: 5px; margin-top: -1px;
+}
+.dj_ie7 .lotusui30dojo .dijitMenuPassive .dijitMenuItemHover {
+	padding-top: 6px; padding-bottom: 7px;
+}
+.dj_ie7 .lotusui30dojo .dijitMenuPassive .dijitMenuItemSelected {
+	padding-top: 6px; padding-bottom: 7px;
+}
+.dj_ie7 .lotusui30dojo .dijitMenuActive .dijitMenuItemHover {
+	padding-top: 6px; padding-bottom: 7px;
+}
+.dj_ie7 .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected {
+	padding-top: 6px; padding-bottom: 7px;
+}
+.dj_ie6 .lotusui30dojo .dijitMenuPassive .dijitMenuItemHover {
+	top: -1px; padding-top: 7px; padding-bottom: 6px;
+}
+.dj_ie6 .lotusui30dojo .dijitMenuPassive .dijitMenuItemSelected {
+	top: -1px; padding-top: 7px; padding-bottom: 6px;
+}
+.dj_ie6 .lotusui30dojo .dijitMenuActive .dijitMenuItemHover {
+	top: -1px; padding-top: 7px; padding-bottom: 6px;
+}
+.dj_ie6 .lotusui30dojo .dijitMenuActive .dijitMenuItemSelected {
+	top: -1px; padding-top: 7px; padding-bottom: 6px;
+}
+.lotusui30dojo .dijitMenuPopup .dijitMenuActive .dijitMenuItemHover {
+	border: 0px solid white; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitMenuPopup .dijitMenuActive .dijitMenuItemSelected {
+	border: 0px solid white; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitMenuActive .dijitMenuItemActive {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo td.dijitMenuItemIconCell {
+	margin: 0px 4px; padding: 0px 4px;
+}
+.lotusui30dojo td.dijitMenuItemLabel {
+	padding-top: 4px; padding-bottom: 4px;
+}
+.dj_ie6 .lotusui30dojo td.dijitMenuItemLabel {
+	padding-top: 5px; padding-bottom: 6px;
+}
+.dj_ie7 .lotusui30dojo td.dijitMenuItemLabel {
+	padding-top: 5px; padding-bottom: 6px;
+}
+.lotusui30dojo .dijitMenuExpand {
+	background-position: -14px 0px; width: 7px; height: 7px; margin-right: 3px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/spriteArrows.png");
+}
+.lotusui30dojo .dijitMenuItemDisabled .dijitMenuItemIconCell {
+	opacity: 1;
+}
+.lotusui30dojo .dijitMenuSeparatorTop {
+	height: auto; margin-top: 0px; margin-bottom: -1px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lotusui30dojo .dijitMenuSeparatorBottom {
+	height: auto; margin-bottom: 1px;
+}
+.lotusui30dojo .dijitCheckedMenuItemIconChar {
+	display: none;
+}
+.lotusui30dojo .dijitCheckedMenuItemIcon {
+	width: 15px; height: 15px;
+}
+.lotusui30dojo .dijitCheckedMenuItemChecked .dijitCheckedMenuItemIcon {
+	background-position: 0px 50%; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/checkboxRadioButtonStates.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitComboBoxMenu {
+	margin-left: 0px; background-image: none;
+}
+.lotusui30dojo .dijitComboBoxMenu .dijitMenuItem {
+	border-color: rgb(255, 255, 255); padding: 2px 0px; text-indent: 6px;
+}
+.lotusui30dojo .dijitComboBoxMenu .dijitMenuItemSelected {
+	color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitComboBoxMenuActive .dijitMenuItemSelected {
+	background-position: 0px -177px; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitMenuPreviousButton {
+	font-style: italic;
+}
+.lotusui30dojo .dijitMenuNextButton {
+	font-style: italic;
+}
+.lotusui30dojo .dijitRuleMark {
+	border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderBar {
+	border-style: solid; outline: 1px;
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderBar {
+	border-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderBar {
+	border-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderBar {
+	border-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitRuleLabelsContainerH {
+	padding: 2px 0px;
+}
+.lotusui30dojo .dijitSlider .dijitSliderProgressBarH {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSlider .dijitSliderLeftBumper {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSlider .dijitSliderRemainingBarH {
+	border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSlider .dijitSliderRightBumper {
+	border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderRightBumper {
+	border-right-color: rgb(238, 238, 238); border-right-width: 1px; border-right-style: solid;
+}
+.lotusui30dojo .dijitSliderLeftBumper {
+	border-left-color: rgb(238, 238, 238); border-left-width: 1px; border-left-style: solid;
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderProgressBarH {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderLeftBumper {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderProgressBarH {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderLeftBumper {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderRemainingBarH {
+	border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderRightBumper {
+	border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderRemainingBarH {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderRightBumper {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderRemainingBarH {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderRightBumper {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderProgressBarH {
+	background-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderLeftBumper {
+	background-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitRuleLabelsContainerV {
+	padding: 0px 2px;
+}
+.lotusui30dojo .dijitSlider .dijitSliderProgressBarV {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSlider .dijitSliderBottomBumper {
+	border-color: rgb(170, 170, 170); background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSlider .dijitSliderRemainingBarV {
+	border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSlider .dijitSliderTopBumper {
+	border-color: rgb(238, 238, 238); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderBottomBumper {
+	border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lotusui30dojo .dijitSliderTopBumper {
+	border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderProgressBarV {
+	background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderBottomBumper {
+	background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderProgressBarV {
+	background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderBottomBumper {
+	background-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderRemainingBarV {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderHover .dijitSliderTopBumper {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderRemainingBarV {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderTopBumper {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderRemainingBarV {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderTopBumper {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderProgressBarV {
+	background-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderBottomBumper {
+	background-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitSliderImageHandleH {
+	border: 0px currentColor; width: 18px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/sliderThumbs.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSliderProgressBarH .dijitSliderThumbHover {
+	background-position: -36px 0px;
+}
+.lotusui30dojo .dijitSliderProgressBarH .dijitSliderThumbActive {
+	background-position: -36px 0px;
+}
+.lotusui30dojo .dijitSliderReadOnly .dijitSliderImageHandleH {
+	
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderImageHandleH {
+	
+}
+.lotusui30dojo .dijitSliderImageHandleV {
+	background-position: -289px 0px; border: 0px currentColor; width: 18px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/sliderThumbs.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSliderFocused .dijitSliderImageHandleV {
+	background-position: -325px 0px;
+}
+.lotusui30dojo .dijitSliderProgressBarV .dijitSliderThumbHover {
+	background-position: -325px 0px;
+}
+.lotusui30dojo .dijitSliderProgressBarV .dijitSliderThumbActive {
+	background-position: -325px 0px;
+}
+.lotusui30dojo .dijitSliderReadOnly .dijitSliderImageHandleV {
+	background-position: -289px 0px;
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderImageHandleV {
+	background-position: -289px 0px;
+}
+.lotusui30dojo .dijitSliderButtonContainerH {
+	padding: 1px 3px 1px 2px;
+}
+.lotusui30dojo .dijitSliderButtonContainerV {
+	padding: 3px 1px 2px;
+}
+.lotusui30dojo .dijitSliderDecrementIconH {
+	font-size: 1px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/commonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSliderIncrementIconH {
+	font-size: 1px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/commonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSliderDecrementIconV {
+	font-size: 1px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/commonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSliderIncrementIconV {
+	font-size: 1px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/commonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitSliderDecrementIconH {
+	width: 9px; height: 12px;
+}
+.lotusui30dojo .dijitSliderIncrementIconH {
+	width: 9px; height: 12px;
+}
+.lotusui30dojo .dijitSliderDecrementIconV {
+	width: 12px; height: 9px;
+}
+.lotusui30dojo .dijitSliderIncrementIconV {
+	width: 12px; height: 9px;
+}
+.lotusui30dojo .dijitSliderDecrementIconH {
+	background-position: -357px 50%;
+}
+.lotusui30dojo .dijitSliderActive .dijitSliderDecrementIconH {
+	background-position: -393px 50%;
+}
+.lotusui30dojo .dijitSliderButtonContainerH .dijitSliderDecrementButtonHover {
+	background-position: -393px 50%;
+}
+.lotusui30dojo .dijitSliderIncrementIconH {
+	background-position: -251px 50%;
+}
+.lotusui30dojo .dijitSliderActive .dijitSliderIncrementIconH {
+	background-position: -283px 50%;
+}
+.lotusui30dojo .dijitSliderButtonContainerH .dijitSliderIncrementButtonHover {
+	background-position: -283px 50%;
+}
+.lotusui30dojo .dijitSliderDecrementIconV {
+	background-position: -38px 50%;
+}
+.lotusui30dojo .dijitSliderActive .dijitSliderDecrementIconV {
+	background-position: -73px 50%;
+}
+.lotusui30dojo .dijitSliderButtonContainerV .dijitSliderIncrementButtonHover {
+	background-position: -73px 50%;
+}
+.lotusui30dojo .dijitSliderIncrementIconV {
+	background-position: -143px 49%;
+}
+.lotusui30dojo .dijitSliderButtonContainerV .dijitSliderDecrementButtonHover {
+	background-position: -178px 49%;
+}
+.lotusui30dojo .dijitSliderActive .dijitSliderIncrementIconV {
+	background-position: -178px 49%;
+}
+.lotusui30dojo .dijitSliderButtonInner {
+	visibility: hidden;
+}
+.lotusui30dojo .dijitSliderReadOnly * {
+	color: rgb(153, 153, 153);
+}
+.lotusui30dojo .dijitSliderDisabled * {
+	color: rgb(153, 153, 153);
+}
+.lotusui30dojo .dijitSliderReadOnly .dijitSliderDecrementIconH {
+	background-position: -321px 50%;
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderDecrementIconH {
+	background-position: -321px 50%;
+}
+.lotusui30dojo .dijitSliderReadOnly .dijitSliderIncrementIconH {
+	background-position: -215px 50%;
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderIncrementIconH {
+	background-position: -215px 50%;
+}
+.lotusui30dojo .dijitSliderReadOnly .dijitSliderDecrementIconV {
+	background-position: -3px 49%;
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderDecrementIconV {
+	background-position: -3px 49%;
+}
+.lotusui30dojo .dijitSliderReadOnly .dijitSliderIncrementIconV {
+	background-position: -107px 49%;
+}
+.lotusui30dojo .dijitSliderDisabled .dijitSliderIncrementIconV {
+	background-position: -107px 49%;
+}
+.lotusui30dojo .dijitColorPalette {
+	background: rgb(255, 255, 255); padding: 3px; border-radius: 0px; border: 1px solid rgb(170, 170, 170); box-shadow: 0px 2px 5px #eeeeee; -webkit-box-shadow: 0 2px 5px #eeeeee; -moz-box-shadow: 0 2px 5px #eeeeee; -moz-border-radius: 0;
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteImg {
+	border: 1px solid rgb(255, 255, 255); width: 12px; height: 12px; cursor: pointer;
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteCellHover .dijitPaletteImg {
+	border: 1px solid rgb(0, 0, 0);
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteCell {
+	padding: 3px; width: 14px; height: 14px; line-height: 0;
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteCellActive {
+	padding: 2px;
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteCellSelected {
+	padding: 2px;
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteCellActive .dijitPaletteImg {
+	border: 2px solid rgb(0, 0, 0);
+}
+.lotusui30dojo .dijitColorPalette .dijitPaletteCellSelected .dijitPaletteImg {
+	border: 2px solid rgb(0, 0, 0);
+}
+.lotusui30dojo img.dijitColorPaletteUnder {
+	left: 3px; top: 3px;
+}
+.dj_ie6 .lotusui30dojo img.dijitColorPaletteUnder {
+	top: 1px;
+}
+.dj_ie7 .lotusui30dojo img.dijitColorPaletteUnder {
+	top: 1px;
+}
+.lotusui30dojo .dijitInlineEditBoxDisplayMode {
+	border: 1px solid transparent;
+}
+.lotusui30dojo .dijitInlineEditBoxDisplayModeHover {
+	border: 1px solid rgb(204, 204, 204); background-color: rgb(250, 250, 250);
+}
+.dj_ie6 .lotusui30dojo .dijitInlineEditBoxDisplayMode {
+	border: currentColor;
+}
+.lotusui30dojo .dijitProgressBar {
+	margin: 2px 0px;
+}
+.lotusui30dojo .dijitProgressBarEmpty {
+	background: rgb(255, 255, 255); border-color: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitProgressBarTile {
+	background: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitProgressBarFull {
+	margin: 0px -1px; border-right-color: rgb(170, 170, 170); border-left-color: rgb(170, 170, 170); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid;
+}
+.lotusui30dojo .dijitProgressBarLabel {
+	color: rgb(34, 34, 34);
+}
+.lotusui30dojo .dijitProgressBarIndeterminate .dijitProgressBarTile {
+	background: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/progressBarAnim.gif") left top rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTimePicker .dijitButtonNode {
+	padding: 0px; border-radius: 0px; -moz-border-radius: 0;
+}
+.lotusui30dojo .dijitTimePicker {
+	border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.dj_ie6 .lotusui30dojo .dijitTimePicker {
+	border-top-width: 2px;
+}
+.lotusui30dojo .dijitTimePickerItem {
+	background: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerItem {
+	background-image: none;
+}
+.lotusui30dojo .dijitTimePickerTick {
+	color: rgb(153, 153, 153); font-size: 0.9em; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTimePickerMarker {
+	color: rgb(0, 0, 0); font-size: 0.9em; font-weight: bold; white-space: nowrap; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitTimePickerTickHover {
+	color: rgb(0, 0, 0); border-top-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTimePickerMarkerHover {
+	color: rgb(0, 0, 0); border-top-color: rgb(238, 238, 238); border-bottom-color: rgb(238, 238, 238); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTimePickerMarkerSelected {
+	color: rgb(0, 0, 0); border-top-color: rgb(204, 204, 204) !important; border-bottom-color: rgb(204, 204, 204) !important; border-top-width: 1px !important; border-bottom-width: 1px !important; border-top-style: solid !important; border-bottom-style: solid !important; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitTimePickerTickSelected {
+	color: rgb(0, 0, 0); border-top-color: rgb(204, 204, 204) !important; border-bottom-color: rgb(204, 204, 204) !important; border-top-width: 1px !important; border-bottom-width: 1px !important; border-top-style: solid !important; border-bottom-style: solid !important; background-color: rgb(238, 238, 238);
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerTickHover {
+	position: relative; -ms-zoom: 1;
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerMarkerHover {
+	position: relative; -ms-zoom: 1;
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerMarkerSelected {
+	position: relative; -ms-zoom: 1;
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerTickSelected {
+	position: relative; -ms-zoom: 1;
+}
+.lotusui30dojo .dijitTimePickerTick .dijitTimePickerItemInner {
+	margin: 0px; padding: 1px;
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerTick .dijitTimePickerItemInner {
+	padding: 3px 1px;
+}
+.dj_ie7 .lotusui30dojo .dijitTimePickerTick .dijitTimePickerItemInner {
+	padding: 3px 1px;
+}
+.dj_ie6 .lotusui30dojo .dijitTimePickerMarker .dijitTimePickerItemInner {
+	padding: 3px 1px;
+}
+.dj_ie7 .lotusui30dojo .dijitTimePickerMarker .dijitTimePickerItemInner {
+	padding: 3px 1px;
+}
+.lotusui30dojo .dijitTimePicker .dijitButtonNode {
+	border-color: rgb(255, 255, 255); border-right-width: medium; border-left-width: medium; border-right-style: none; border-left-style: none; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTimePicker .dijitArrowButtonInner {
+	background-position: -140px 45%; height: 100%; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/commonFormArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitTimePicker .dijitDownArrowButton .dijitArrowButtonInner {
+	background-position: -35px 45%;
+}
+.lotusui30dojo .dijitTimePicker .dijitUpArrowHover {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTimePicker .dijitDownArrowHover {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitTimePicker .dijitUpArrowHover .dijitArrowButtonInner {
+	background-position: -175px 45%;
+}
+.lotusui30dojo .dijitTimePicker .dijitDownArrowHover .dijitArrowButtonInner {
+	background-position: -70px 45%;
+}
+.lotusui30dojo .dijitBorderContainer {
+	padding: 5px; border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSplitContainer-child {
+	border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitBorderContainer-child {
+	border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitBorderContainer-dijitTabContainerTop {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitBorderContainer-dijitTabContainerBottom {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitBorderContainer-dijitTabContainerLeft {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitBorderContainer-dijitTabContainerRight {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitBorderContainer-dijitAccordionContainer {
+	border: 0px currentColor;
+}
+.lotusui30dojo .dijitBorderContainer-dijitBorderContainer {
+	padding: 5px; border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSplitterH {
+	border: 0px currentColor; height: 5px;
+}
+.lotusui30dojo .dijitGutterH {
+	border: 0px currentColor; height: 5px;
+}
+.lotusui30dojo .dijitSplitterH .dijitSplitterThumb {
+	background: rgb(170, 170, 170); top: 2px; width: 19px; height: 1px;
+}
+.lotusui30dojo .dijitSplitterV {
+	border: 0px currentColor; width: 5px;
+}
+.lotusui30dojo .dijitGutterV {
+	border: 0px currentColor; width: 5px;
+}
+.lotusui30dojo .dijitSplitterV .dijitSplitterThumb {
+	background: rgb(170, 170, 170); left: 2px; width: 1px; height: 19px;
+}
+.lotusui30dojo .dijitSplitterHHover {
+	background: rgb(238, 238, 238); margin: 0px; font-size: 1px; opacity: 1;
+}
+.lotusui30dojo .dijitSplitterHHover .dijitSplitterThumb {
+	background: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSplitterVHover {
+	background: rgb(238, 238, 238); margin: 0px; font-size: 1px; opacity: 1;
+}
+.lotusui30dojo .dijitSplitterVHover .dijitSplitterThumb {
+	background: rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitSplitterHActive {
+	margin: 0px; font-size: 1px; border-top-color: rgb(170, 170, 170); border-top-width: medium; border-top-style: none; opacity: 0.6; background-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitSplitterVActive {
+	margin: 0px; font-size: 1px; opacity: 0.6; background-color: rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitTreeNode {
+	-ms-zoom: 1;
+}
+.lotusui30dojo .dijitTreeNode {
+	cursor: pointer;
+}
+.lotusui30dojo .dijitTreeNode * {
+	cursor: pointer;
+}
+.lotusui30dojo .dijitTreeIsRoot {
+	background-image: none;
+}
+.lotusui30dojo .dijitTreeRow {
+	margin: 0px 1px; padding: 2px 0px 4px;
+}
+.lotusui30dojo .dijitTreeNode .dojoDndItemBefore {
+	margin: 0px 1px; padding: 2px 0px 4px;
+}
+.lotusui30dojo .dijitTreeNode .dojoDndItemAfter {
+	margin: 0px 1px; padding: 2px 0px 4px;
+}
+.dj_ie .lotusui30dojo .dijitTreeRow {
+	padding-top: 4px;
+}
+.dj_ie6 .lotusui30dojo .dijitTreeRow {
+	background-image: none;
+}
+.lotusui30dojo .dijitTreeRowHover {
+	margin: 0px; padding: 1px 0px 3px; border: 1px solid rgb(238, 238, 238); color: rgb(0, 0, 0); cursor: pointer; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitTreeRowActive {
+	margin: 0px; padding: 1px 0px 3px; border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitTreeRowSelected {
+	margin: 0px; padding: 1px 0px 3px; border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitTreeRowSelected .dijitTreeRowHover {
+	margin: 0px; padding: 1px 0px 3px; border: 1px solid rgb(204, 204, 204); color: rgb(0, 0, 0); background-color: rgb(238, 238, 238);
+}
+.dj_ie .lotusui30dojo .dijitTreeRowSelected {
+	padding-top: 3px;
+}
+.dj_ie .lotusui30dojo .dijitTreeRowHover {
+	padding-top: 3px;
+}
+.dj_ie .lotusui30dojo .dijitTreeRowActive {
+	padding-top: 3px;
+}
+.lotusui30dojo .dijitTreeExpando {
+	background-position: -35px 0px; width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/treeExpandImages.png");
+}
+.lotusui30dojo .dijitTreeRowHover .dijitTreeExpandoOpened {
+	background-position: -53px 0px;
+}
+.lotusui30dojo .dijitTreeExpandoClosed {
+	background-position: 1px 0px;
+}
+.lotusui30dojo .dijitTreeRowHover .dijitTreeExpandoClosed {
+	background-position: -17px 0px;
+}
+.lotusui30dojo .dijitTreeExpandoLeaf {
+	background-image: none;
+}
+.lotusui30dojo .dijitTreeExpandoLoading {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/loadingAnimation.gif");
+}
+.lotusui30dojo .dijitTreeNode .dojoDndItemBefore {
+	border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: medium; border-bottom-width: medium; border-top-style: none; border-bottom-style: none;
+}
+.lotusui30dojo .dijitTreeNode .dojoDndItemAfter {
+	border-top-color: currentColor; border-bottom-color: currentColor; border-top-width: medium; border-bottom-width: medium; border-top-style: none; border-bottom-style: none;
+}
+.lotusui30dojo .dijitTreeNode .dojoDndItemBefore .dijitTreeContent {
+	border-top-color: rgb(170, 170, 170); border-top-width: 1px; border-top-style: solid;
+}
+.lotusui30dojo .dijitTreeNode .dojoDndItemAfter .dijitTreeContent {
+	border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.lotusui30dojo .dijitToolbar {
+	padding: 2px 0px 2px 4px; border-bottom-color: rgb(170, 170, 170); border-bottom-width: 1px; border-bottom-style: solid; -ms-zoom: 1; background-color: rgb(250, 250, 250);
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar {
+	padding-top: 1px; padding-bottom: 3px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitTextBox {
+	position: relative;
+}
+.lotusui30dojo .dijitToolbar label {
+	padding: 0px 3px 0px 6px;
+}
+.lotusui30dojo .dijitToolbar .dijitButtonNode {
+	padding: 2px; border-radius: 0px; border: 0px currentColor; -moz-border-radius: 0;
+}
+.dj_ie .lotusui30dojo .dijitToolbar .dijitButtonNode {
+	background-color: transparent;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitButtonNode {
+	
+}
+.lotusui30dojo .dijitToolbar .dijitComboBox .dijitButtonNode {
+	padding: 2px 2px 2px 0px;
+}
+.lotusui30dojo .dijitToolbar .dijitComboButton {
+	padding: 1px;
+}
+.lotusui30dojo .dijitToolbar .dijitButtonHover .dijitButtonNode {
+	padding: 1px; border: 1px solid rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode {
+	padding: 1px; border: 1px solid rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitToolbar .dijitToggleButtonHover .dijitButtonNode {
+	padding: 1px; border: 1px solid rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitToolbar .dijitComboButtonHover .dijitButtonNode {
+	padding: 2px;
+}
+.lotusui30dojo .dijitToolbar .dijitComboButtonHover .dijitDownArrowButton {
+	padding: 2px;
+}
+.lotusui30dojo .dijitToolbar .dijitComboButtonHover {
+	padding: 0px; border: 1px solid rgb(204, 204, 204);
+}
+.lotusui30dojo .dijitToolbar .dijitButtonActive .dijitButtonNode {
+	padding: 1px; border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode {
+	padding: 1px; border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitToolbar .dijitToggleButtonActive .dijitButtonNode {
+	padding: 1px; border: 1px solid rgb(170, 170, 170); background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitToolbar .dijitComboButtonActive {
+	padding: 0px; border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitToolbar .dijitComboButtonActive .dijitButtonNode {
+	padding: 2px; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitToolbar .dijitComboButton .dijitDownArrowButtonActive {
+	background-color: rgb(125, 190, 250);
+}
+.lotusui30dojo .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode {
+	border-color: rgb(102, 102, 102); padding: 1px; background-color: rgb(255, 255, 255);
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitButtonHover .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitDropDownButtonHover .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitButtonNodeHover {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitDownArrowButtonHover {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitToggleButtonHover .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitButtonActive .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitDropDownButtonActive .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitButtonNodeActive {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitDownArrowButtonActive {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitToggleButtonActive .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.lotusui30dojo .dijitToolbar .dijitToggleButtonChecked .dijitButtonNode {
+	border-width: 1px; border-style: solid; margin: 0px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitButtonNodeHover {
+	padding: 1px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitDownArrowButtonHover {
+	padding: 1px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitButtonNodeActive {
+	padding: 1px;
+}
+.dj_ie6 .lotusui30dojo .dijitToolbar .dijitComboButton .dijitDownArrowButtonActive {
+	padding: 1px;
+}
+.lotusui30dojo .dijitToolbarSeparator {
+	background: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/editorIcons.png");
+}
+.lotusui30dojo .dijitDisabled .dijitToolbar {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitEditorIFrameContainer {
+	padding: 5px 10px;
+}
+.lotusui30dojo .dijitEditorIFrame {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitEditor {
+	border: 1px solid rgb(170, 170, 170);
+}
+.lotusui30dojo .dijitEditor .dijitEditorIFrameContainer {
+	background-color: rgb(255, 255, 255);
+}
+.dj_ie6 .lotusui30dojo .dijitEditor .dijitEditorIFrameContainer {
+	background-image: none;
+}
+.lotusui30dojo .dijitEditor .dijitButton {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitButton .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitButtonDisabled .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitDropDownButtonDisabled .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitToggleButton .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitDropDownButton .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitComboButtonDisabled .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditor .dijitToggleButtonDisabled .dijitButtonNode {
+	background-image: none !important; background-color: transparent !important;
+}
+.lotusui30dojo .dijitEditorFocused .dijitEditorIFrameContainer {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitEditorFocused .dijitEditorIFrameContainer .dijitEditorIFrame {
+	background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitEditorDisabled {
+	border: 1px solid rgb(204, 204, 204); color: rgb(102, 102, 102); background-color: rgb(238, 238, 238) !important;
+}
+.lotusui30dojo .dijitEditorDisabled .dijitEditorIFrameContainer {
+	background-color: rgb(238, 238, 238) !important;
+}
+.lotusui30dojo .dijitEditorDisabled .dijitEditorIFrameContainer .dijitEditorIFrame {
+	background-color: rgb(238, 238, 238) !important;
+}
+.lotusui30dojo .dijitDisabled .dijitEditorIFrame {
+	background-image: none; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitDisabled .dijitEditorIFrameContainer {
+	background-image: none; background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitEditorIcon {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/editorIcons.png");
+}
+.lotusui30dojo .dijitDisabled .dijitEditorIcon {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/editorIcons.png");
+}
+.lotusui30dojo .dijitDisabled .dijitEditorIcon {
+	-ms-zoom: 1; opacity: 0.5;
+}
+.dijitEditorIcon {
+	width: 18px; height: 18px; text-align: center; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/editorIconsEnabled.png"); background-repeat: no-repeat;
+}
+.dijitDisabled .dijitEditorIcon {
+	background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/icons/images/editorIconsDisabled.png");
+}
+.dijitEditorIconSep {
+	background-position: 0px;
+}
+.dijitEditorIconBackColor {
+	background-position: -18px;
+}
+.dijitEditorIconBold {
+	background-position: -36px;
+}
+.dijitEditorIconCancel {
+	background-position: -54px;
+}
+.dijitEditorIconCopy {
+	background-position: -72px;
+}
+.dijitEditorIconCreateLink {
+	background-position: -90px;
+}
+.dijitEditorIconCut {
+	background-position: -108px;
+}
+.dijitEditorIconDelete {
+	background-position: -126px;
+}
+.dijitEditorIconForeColor {
+	background-position: -144px;
+}
+.dijitEditorIconHiliteColor {
+	background-position: -162px;
+}
+.dijitEditorIconIndent {
+	background-position: -180px;
+}
+.dijitEditorIconInsertHorizontalRule {
+	background-position: -198px;
+}
+.dijitEditorIconInsertImage {
+	background-position: -216px;
+}
+.dijitEditorIconInsertOrderedList {
+	background-position: -234px;
+}
+.dijitEditorIconInsertTable {
+	background-position: -252px;
+}
+.dijitEditorIconInsertUnorderedList {
+	background-position: -270px;
+}
+.dijitEditorIconItalic {
+	background-position: -288px;
+}
+.dijitEditorIconJustifyCenter {
+	background-position: -306px;
+}
+.dijitEditorIconJustifyFull {
+	background-position: -324px;
+}
+.dijitEditorIconJustifyLeft {
+	background-position: -342px;
+}
+.dijitEditorIconJustifyRight {
+	background-position: -360px;
+}
+.dijitEditorIconListBulletOutdent {
+	background-position: -396px;
+}
+.dijitEditorIconListBulletIndent {
+	background-position: -414px;
+}
+.dijitEditorIconListNumIndent {
+	background-position: -432px;
+}
+.dijitEditorIconListNumOutdent {
+	background-position: -450px;
+}
+.dijitEditorIconOutdent {
+	background-position: -468px;
+}
+.dijitEditorIconPaste {
+	background-position: -486px;
+}
+.dijitEditorIconRedo {
+	background-position: -504px;
+}
+.dijitEditorIconRemoveFormat {
+	background-position: -522px;
+}
+.dijitEditorIconSave {
+	background-position: -558px;
+}
+.dijitEditorIconSpace {
+	background-position: -576px;
+}
+.dijitEditorIconStrikethrough {
+	background-position: -594px;
+}
+.dijitEditorIconSubscript {
+	background-position: -612px;
+}
+.dijitEditorIconSuperscript {
+	background-position: -630px;
+}
+.dijitEditorIconUnderline {
+	background-position: -648px;
+}
+.dijitEditorIconUndo {
+	background-position: -666px;
+}
+.dijitEditorIconWikiword {
+	background-position: -684px;
+}
+.dijitEditorIconTabIndent {
+	background-position: -702px;
+}
+.dijitEditorIconSelectAll {
+	background-position: -720px;
+}
+.dijitEditorIconUnlink {
+	background-position: -738px;
+}
+.dijitEditorIconFullScreen {
+	background-position: -756px;
+}
+.dijitEditorIconViewSource {
+	background-position: -774px;
+}
+.dijitEditorIconPrint {
+	background-position: -792px;
+}
+.dijitEditorIconNewPage {
+	background-position: -810px;
+}
+.lotusui30dojo .dijitTitlePane {
+	overflow: visible;
+}
+.lotusui30dojo .dijitTitlePaneTitle {
+	padding: 0px 7px 3px; border-radius: 3px 3px 0px 0px; border: 1px solid rgb(204, 204, 204); min-height: 17px; box-shadow: 0px 3px 5px #eeeeee; background-image: none; background-color: rgb(244, 244, 244); -webkit-box-shadow: #eeeeee 0 3px 5px; -moz-box-shadow: #eeeeee 0 3px 5px; -moz-border-radius: 3px 3px 0 0;
+}
+.dj_ie6 .lotusui30dojo .dijitTitlePaneTitle {
+	padding-top: 6px; padding-bottom: 5px;
+}
+.dj_ie7 .lotusui30dojo .dijitTitlePaneTitle {
+	padding-top: 6px; padding-bottom: 5px;
+}
+.lotusui30dojo .dijitTitlePaneTitleFocus {
+	padding-bottom: 2px; margin-top: 3px;
+}
+.lotusui30dojo .dijitTitlePane .dijitArrowNode {
+	width: 7px; height: 8px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/images/spriteArrows.png"); background-repeat: no-repeat;
+}
+.lotusui30dojo .dijitTitlePane .dijitOpen .dijitArrowNode {
+	
+}
+.lotusui30dojo .dijitTitlePane .dijitClosed .dijitArrowNode {
+	background-position: -14px 0px;
+}
+.lotusui30dojo .dijitTitlePaneFocused .dijitTitlePaneTextNode {
+	color: rgb(0, 0, 0);
+}
+.lotusui30dojo .dijitTitlePaneContentOuter {
+	background: rgb(255, 255, 255); border-width: medium 1px 1px; border-style: none solid solid; border-color: currentColor rgb(204, 204, 204) rgb(204, 204, 204); box-shadow: 0px 3px 5px #eeeeee; -webkit-box-shadow: #eeeeee 0 3px 5px; -moz-box-shadow: #eeeeee 0 3px 5px;
+}
+.lotusui30dojo .dijitTitlePaneContentInner {
+	padding: 5px 10px;
+}
+.lotusui30dojo .dijitTitlePaneTextNode {
+	color: rgb(34, 34, 34); font-weight: bold; margin-right: 4px; margin-left: 4px; vertical-align: text-top;
+}
+.lotusui30dojo .dijitSpinnerButtonContainer {
+	padding: 0px 2px; width: auto; overflow: hidden;
+}
+.lotusui30dojo .dijitSpinnerButtonContainer .dijitSpinnerButtonInner {
+	border-width: 1px 0px; border-style: solid none;
+}
+.lotusui30dojo .dijitSpinner .dijitArrowButton {
+	width: auto; overflow: hidden;
+}
+.dj_iequirks .lotusui30dojo .dijitSpinner .dijitArrowButton {
+	overflow: visible;
+}
+.lotusui30dojo .dijitSpinner .dijitSpinnerButtonInner {
+	width: 15px;
+}
+.lotusui30dojo .dijitSpinner .dijitArrowButtonInner {
+	background-position: -139px 75%; margin: -1px 0px; padding: 2px 2px 0px; border: 0px solid rgb(255, 255, 255); width: 15px; display: block; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/dijitTheme/lotusui30dojo/form/images/smallcommonFormArrows.png"); background-repeat: no-repeat;
+}
+.dj_iequirks .lotusui30dojo .dijitSpinner .dijitArrowButtonInner {
+	width: 19px;
+}
+.lotusui30dojo .dijitSpinner .dijitDownArrowButton .dijitArrowButtonInner {
+	background-position: -34px;
+}
+.lotusui30dojo .dijitSpinner .dijitArrowButtonInner .dijitInputField {
+	padding: 0px;
+}
+.lotusui30dojo .dijitSpinner .dijitUpArrowButtonHover .dijitArrowButtonInner {
+	background-position: -174px 75%;
+}
+.lotusui30dojo .dijitSpinner .dijitDownArrowButtonHover .dijitArrowButtonInner {
+	background-position: -69px;
+}
+.lotusui30dojo .dijitSpinnerFocused {
+	background-image: none; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitSpinner .dijitDownArrowButtonActive {
+	background-position: 0px -177px;
+}
+.lotusui30dojo .dijitSpinner .dijitUpArrowButtonActive {
+	background-position: 0px -177px;
+}
+.lotusui30dojo .dijitSpinner .dijitUpArrowButtonActive .dijitArrowButtonInner {
+	padding: 1px; border: 0px currentColor; margin-right: 2px; margin-bottom: 1px;
+}
+.lotusui30dojo .dijitSpinner .dijitDownArrowButtonActive .dijitArrowButtonInner {
+	padding: 1px; border: 0px currentColor; margin-right: 2px; margin-bottom: 1px;
+}
+.lotusui30dojo .dijitSpinner .dijitUpArrowButtonActive .dijitArrowButtonInner {
+	background-position: -174px 75%;
+}
+.lotusui30dojo .dijitSpinner .dijitDownArrowButtonActive .dijitArrowButtonInner {
+	background-position: -69px;
+}
+.lotusui30dojo .dijitSpinnerDisabled .dijitArrowButtonInner {
+	background-color: rgb(238, 238, 238);
+}
+.lotusui30dojo .dijitSpinnerDisabled .dijitUpArrowButton .dijitArrowButtonInner {
+	background-position: -139px 75%;
+}
+.lotusui30dojo .dijitSpinnerDisabled .dijitDownArrowButton .dijitArrowButtonInner {
+	background-position: -34px;
+}
+.dj_ie7 .lotusui30dojo .dijitSpinner {
+	overflow: visible;
+}
+.lotusDojoThemeVersion {
+	margin: 3px 0px 1px !important; padding: 2011px 10px 4px 1323px !important;
+}
+.lotusui30dojo .dijitButton .dijitButtonNode {
+	padding: 2px 6px 4px; border-radius: 2px; border: 2px solid rgb(251, 169, 30); color: rgb(61, 134, 198); font-family: GothamMediem; font-size: 12px; font-weight: normal; background-color: rgb(255, 255, 255);
+}
+.lotusui30dojo .dijitButtonText {
+	padding: 2px; border: currentColor; text-align: center;
+}
+.utb-clearing {
+	clear: both;
+}
+.utb-left {
+	float: left;
+}
+.utb-right {
+	float: right;
+}
+.wpthemeHeader .wpthemeNavContainer1 {
+	padding: 3px 0px;
+}
+.utb-ellipsis {
+	width: 95%; overflow: hidden; white-space: nowrap; -ms-text-overflow: ellipsis; -moz-binding: url(/wps/themeModules/modules/pagebuilder/css/bindings.xml);
+}
+.utb-project-info {
+	padding: 2px 27px 2px 13px; color: white; float: left;
+}
+.lotusui_ie8 .utb-project-info {
+	max-width: 320px;
+}
+.utb-project-quicklink {
+	padding: 2px 5px; text-align: right; color: white; line-height: 33px; font-size: 0.9em; border-right-color: rgba(255, 255, 255, 0.15); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.lotusui_ie8 .utb-project-quicklink {
+	border-right-color: rgb(75, 75, 75); border-right-width: 1px; border-right-style: solid;
+}
+.lotusui_ie7 .utb-project-quicklink {
+	border-right-color: rgb(75, 75, 75); border-right-width: 1px; border-right-style: solid;
+}
+.utb-project-quicklink a {
+	padding: 8px 12px; color: white; text-decoration: none;
+}
+.utb-project-quicklink a:hover {
+	color: white; text-decoration: none; background-color: rgba(255, 255, 255, 0.25);
+}
+.utb-project-quicklink a:focus {
+	color: white; text-decoration: none; background-color: rgba(255, 255, 255, 0.25);
+}
+.lotusui_ie8 .utb-project-info {
+	overflow: hidden;
+}
+.utb-project-info .utb-name {
+	width: auto; font-size: 1.1em; position: relative; max-width: 300px;
+}
+.utb-project-info .utb-project-label {
+	width: auto; color: rgb(204, 204, 204);
+}
+.utb-project-info:hover .utb-project-label {
+	color: rgb(238, 238, 238);
+}
+.utb-project-info .utb-select {
+	left: 102%; top: 5px; color: white !important; text-decoration: none !important; position: absolute; cursor: pointer;
+}
+.utb-project-info .utb-loading {
+	left: 102%; top: 5px; color: white !important; text-decoration: none !important; position: absolute; cursor: pointer;
+}
+.utb-project-info .utb-loading {
+	top: 2px;
+}
+.lotusui_ie7 .utb-project-info .utb-select {
+	float: none;
+}
+.utb-hover-link.utb-project-info:hover {
+	cursor: pointer; background-color: rgba(255, 255, 255, 0.25);
+}
+.utb-project-info:hover .utb-select img {
+	background-position: 0px -183px; background-image: url("/wps/themeModules/modules/pagebuilder/css/images/pagebuilderSprite.png"); background-repeat: no-repeat;
+}
+.utb-project-info .utb-select:focus img {
+	background-position: 0px -183px; background-image: url("/wps/themeModules/modules/pagebuilder/css/images/pagebuilderSprite.png"); background-repeat: no-repeat;
+}
+.utb-project-info .utb-select img {
+	width: 11px; height: 6px;
+}
+.utb-project-info .utb-loading img {
+	background-position: 0px -26px; width: 16px; height: 16px; background-image: url("/wps/themeModules/modules/pagebuilder/css/images/pagebuilderSprite.png");
+}
+.pagebuilderSprite {
+	display: inline-block; background-image: url("/wps/themeModules/modules/pagebuilder/css/images/pagebuilderSprite.png"); background-repeat: no-repeat;
+}
+.utb-project-info .utb-desc {
+	width: auto; color: rgb(221, 221, 221); line-height: 1.2em; font-size: 0.9em; max-width: 300px;
+}
+.utb-hover-link.utb-project-info:hover .utb-desc {
+	color: rgb(238, 238, 238);
+}
+.utb-project-info .utb-project-name {
+	width: auto; padding-left: 5px; font-weight: bold;
+}
+.utb-published-site.utb-project-name {
+	padding-left: 0px;
+}
+.edit-mode .utb-view.utb-desc {
+	display: none;
+}
+.utb-edit.utb-desc {
+	display: none;
+}
+.edit-mode .utb-edit.utb-desc {
+	display: block;
+}
+.utb-view.utb-desc {
+	display: block;
+}
+.utb-project-menu-container {
+	position: absolute; z-index: 1000; cursor: auto;
+}
+.utb-projectMenu {
+	text-align: left; color: rgb(0, 0, 0); position: absolute; cursor: default; background-color: rgb(255, 255, 255);
+}
+.lotusNavMenu.utb-projectMenu .utb-hoverConnector {
+	left: 75px; top: -31px; width: 250px; height: 31px; position: absolute; cursor: pointer;
+}
+.lotusui30 .lotusNavMenu.utb-projectMenu .lotusNavMenuConnector {
+	left: 117px; top: 20px;
+}
+.utb-projectMenu ul.utb-menu {
+	margin: 0px; padding: 0px; border: 0px currentColor; width: 200px; display: table; list-style-type: none;
+}
+.utb-projectMenu .utb-publishedSite {
+	background-color: rgb(245, 245, 245);
+}
+.utb-projectMenu .utb-publishedSite .utb-menu {
+	width: 100%;
+}
+.utb-projectMenu .utb-publishedSite .utb-menu li.utb-menuItem {
+	padding: 6px 15px 8px 30px;
+}
+.utb-projectMenu .utb-publishedSite a.utb-publishedSiteLink {
+	padding-right: 10px; font-size: 1.1em; font-weight: normal; text-decoration: none; float: left;
+}
+.lotusui_ie7 .utb-projectMenu .utb-publishedSite .lotusInlinelist {
+	width: 60%;
+}
+.utb-projectMenu .utb-menu li.utb-menuItem {
+	padding: 3px 15px 5px 30px; display: block; white-space: nowrap;
+}
+.utb-projectMenu .utb-menu li.utb-labelMenuItem {
+	padding: 3px 15px 5px 30px; display: block; white-space: nowrap;
+}
+.utb-projectMenu .utb-labelMenuItem {
+	cursor: text;
+}
+.utb-projectMenu .utb-menu .utb-headerMenuItem {
+	width: 169px; height: 20px; color: rgb(102, 102, 102); padding-top: 7px !important; font-size: 1.1em; background-repeat: no-repeat;
+}
+.utb-projectMenu .utb-favoriteProjects.utb-menu .utb-headerMenuItem {
+	background-position: 8px 9px;
+}
+.utb-projectMenu .utb-recentProjects.utb-menu .utb-headerMenuItem {
+	background-position: 8px -43px;
+}
+.utb-projectMenu .utb-recentProjects.utb-menu {
+	border-right-color: rgb(238, 238, 238); border-right-width: 1px; border-right-style: solid;
+}
+.utb-projectMenu a.utb-projectLink {
+	font-weight: bold; text-decoration: none; cursor: pointer;
+}
+.utb-projectMenu a.utb-publishedSiteLink {
+	font-weight: bold; text-decoration: none; cursor: pointer;
+}
+.utb-projectMenu .utb-menu li.utb-selectedMenuItem {
+	background-position: 8px -1209px; background-image: url("/wps/themeModules/modules/oneui/v3.0.1/images/lotusSprite-8bit.png"); background-repeat: no-repeat;
+}
+.utb-projectMenu a.utb-projectLink {
+	color: rgb(0, 0, 0);
+}
+.utb-projectMenu a.utb-projectLink:link {
+	color: rgb(0, 0, 0);
+}
+.utb-projectMenu a.utb-projectLink:visited {
+	color: rgb(0, 0, 0);
+}
+.utb-projectMenu a.utb-publishedSiteLink {
+	color: rgb(0, 0, 0);
+}
+.utb-projectMenu a.utb-publishedSiteLink:link {
+	color: rgb(0, 0, 0);
+}
+.utb-projectMenu a.utb-publishedSiteLink:visited {
+	color: rgb(0, 0, 0);
+}
+.utb-projectMenu .utb-menu li.utb-menuItem > div {
+	padding-top: 1px;
+}
+.utb-projectMenu .utb-menu li.utb-menuItem:hover {
+	cursor: pointer; background-color: rgb(225, 244, 249);
+}
+.utb-projectMenu .utb-menu li.utb-menuItem:focus {
+	cursor: pointer; background-color: rgb(225, 244, 249);
+}
+.utb-projectMenu .utb-menu li.utb-menuItem:active {
+	cursor: pointer; background-color: rgb(225, 244, 249);
+}
+.utb-projectMenu .utb-menu li.utb-menuItem:hover .lotusInlinelist a {
+	color: rgb(16, 92, 182);
+}
+.utb-projectMenu .utb-menu li.utb-menuItem:focus .lotusInlinelist a {
+	color: rgb(16, 92, 182);
+}
+.utb-projectMenu .utb-menu li.utb-menuItem:active .lotusInlinelist a {
+	color: rgb(16, 92, 182);
+}
+.utb-projectMenu .utb-projectLinks .lotusInlinelist a {
+	color: rgb(16, 92, 182);
+}
+.utb-projectMenu .lotusInlinelist a {
+	color: rgb(136, 136, 136); font-size: 0.9em; text-decoration: none;
+}
+.utb-projectMenu .lotusInlinelist span {
+	color: rgb(136, 136, 136); font-size: 0.9em; text-decoration: none;
+}
+.utb-projectMenu .lotusInlinelist a:hover {
+	text-decoration: underline;
+}
+.utb-projectMenu .lotusInlinelist a:focus {
+	text-decoration: underline;
+}
+.utb-projectMenu .lotusInlinelist a:active {
+	text-decoration: underline;
+}
+.utb-projectMenu .utb-projectLinks {
+	padding: 6px 15px 8px 30px; color: rgb(102, 102, 102); background-color: rgb(245, 245, 245);
+}
+.utb-projectMenu .utb-projectLinks .utb-projectTitle {
+	font-size: 1.1em;
+}
+.utb-projectMenu .utb-projectLinks .utb-right {
+	line-height: 3em;
+}
+.utb-projectMenu .utb-loading {
+	background-position: 8px 5px;
+}
+.utb-projectMenu .utb-projectLinks .utb-loading {
+	background-position: 10px 0px;
+}
+.utb-resource-selector .lotusFormField {
+	padding: 12px 20px 5px;
+}
+.utb-resource-selector .lotusFormField label {
+	font-size: 1.3em; font-weight: normal;
+}
+.utb-resource-selector .lotusFormField .lotusBtnImg {
+	padding-top: 0px; padding-left: 0px;
+}
+.utb-resource-selector .lotusWarning {
+	top: 0px; margin-top: 0px; margin-left: 0px;
+}
+.utb-resource-selector .lotusSort {
+	margin-left: 2px;
+}
+.utb-resource-selector .utb-selector-table {
+	-ms-overflow-x: hidden; -ms-overflow-y: auto; max-height: 340px;
+}
+.utb-resource-selector .utb-selector-table .lotusTable {
+	width: auto; min-width: 385px;
+}
+.lotusui_ie7 .utb-resource-selector .utb-selector-table {
+	min-width: 360px;
+}
+.commentDialog .lotusDialog .lotusDialogContent {
+	padding-top: 20px;
+}
+.commentDialog .lotusDialog .lotusDialogContent .commentHeadline {
+	padding: 0px 0px 5px; color: rgb(85, 85, 85); font-size: 1.5em; font-weight: normal;
+}
+.commentDialog .lotusDialog .lotusDialogContent .projectName {
+	padding: 5px 0px; color: rgb(34, 34, 34); font-size: 1.5em; font-style: italic; margin-top: 0px;
+}
+.commentDialog .lotusDialog .lotusDialogContent .dialogText {
+	color: rgb(68, 68, 68); padding-top: 20px; padding-bottom: 5px; font-size: 1.15em; margin-bottom: 0px; display: block;
+}
+.commentDialog .lotusDialog .lotusDialogContent .commentOptional {
+	color: rgb(136, 136, 136); font-size: 0.87em;
+}
+.commentDialog .lotusDialog .lotusDialogContent .commentText {
+	width: 375px; height: 130px; overflow: hidden; resize: both;
+}
+.commentDialog .lotusDialog .lotusDialogFooter {
+	margin: 0px 20px;
+}
