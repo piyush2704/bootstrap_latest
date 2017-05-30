@@ -1,0 +1,210 @@
+-------------------------------------------HTML-------------------------------------------------------------
+<div id="other_formats" class="panel panel_chrome">
+				<div class="panel_header">
+					<h3>Other Formats</h3>
+				</div>
+				<div class="panel_content">
+					<table summary="A table listing various other formats for this product">
+						<thead>
+						<tr>
+							<th scope="col"></th>
+							<th scope="col" class="site amount"><span>price</span></th>
+							<th scope="col" class="market_place amount"><span>New from</span></th>
+							<th scope="col" class="market_place amount"><span>Used from</span></th>
+							<th scope="col" class="market_place amount"><span>Edit</span></th>
+							<th scope="col" class="market_place amount"><span>Delete</span></th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr class="active" *ngFor="let tableData of Data">
+							<th scope="col"><a href="#">{{tableData.type}}</a></th>
+							<td scope="col" class="site amount"><span>{{tableData.price}}</span></td>
+							<td scope="col" class="market_place amount"><span>{{tableData.newForm}}</span></td>
+							<td scope="col" class="market_place amount"><span>{{tableData.usedFrom}}</span></td>
+							<td scope="col" class="market_place amount" (click)="_edit(tableData)"><span>E</span></td>
+							<td scope="col" class="market_place amount" (click)="_delete(tableData)"><span>D</span></td>
+						</tr>
+
+
+						</tbody>
+					</table>
+				</div>
+        <form id="form" #dataForm ="ngForm" (ngSubmit)= "save(dataForm)">
+          <div class="formData">
+              <div class="form-group">
+                  <input type="text" class="form-control" (ngModel)= "type" name="type" required [value]="loadData.type">
+                  <p *ngIf="dataForm.controls.type?.invalid && dataForm.controls.type?.touched" class="alert alert-danger">Please input the value</p>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" (ngModel)= "price" name="price" [value]="loadData.price" required>
+                    <p *ngIf="dataForm.controls.price?.invalid && dataForm.controls.price?.touched" class="alert alert-danger">Please input the value</p>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" class="form-control" (ngModel)= "newForm" [value]="loadData.newForm" name="newForm" required>
+                      <p *ngIf="dataForm.controls.newForm?.invalid && dataForm.controls.newForm?.touched" class="alert alert-danger">Please input the value</p>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" (ngModel)= "usedFrom" [value]="loadData.usedFrom" name="usedFrom" required>
+                        <p *ngIf="dataForm.controls.usedFrom?.invalid && dataForm.controls.usedFrom?.touched" class="alert alert-danger">Please input the value</p>
+                      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+    </form>
+			</div>
+
+
+----------------------------------------------------------------CSS--------------------------------------------------------
+.panel.panel_chrome
+{
+  border: 1px solid #ccc;
+  width: 70%;
+  margin: 10%;
+position: relative;}
+  .panel_header {
+  background-color: #d9d9d9;
+  padding: 1px 0px 7px 15px;
+}
+table {
+  background-color: transparent;
+width: 100%;
+position: absolute;
+top:0px;
+
+border-top: none;
+}
+tr{
+  height:40px;
+  border:1px solid #ccc;
+}
+thead tr
+{
+  border:none;
+}
+thead tr th
+{
+  text-align: left;
+  padding: 32px 0px 13px 0px;
+  border-right:none;
+
+}
+
+thead th:nth-child(2) span {
+
+  background-color: #ffddcc;
+  border: 1px solid #ff884d;
+  padding: 28% 9% 9% 51%;
+  border-radius: 5px;
+  border-right: none;
+}
+thead th:nth-child(3) span,thead th:nth-child(4) span {
+
+  background-color: #ccc;
+    border: 1px solid grey;
+    padding: 28% 9% 9% 40%;
+    border-radius: 5px;
+}
+tr th:nth-child(1){
+  width:35%;
+}
+tr th:nth-child(2),tr th:nth-child(3),tr th:nth-child(4){
+  width:17%;
+}
+
+tr th:nth-child(5),tr th:nth-child(6){
+  width:3%;
+}
+tbody td:nth-child(2) span
+{
+  border-left: 1px solid #ff884d;
+  border-right:none;
+  padding:0px 10px 0px 0px;
+  padding: 20px;
+
+}
+tbody td:nth-child(3) span,tbody td:nth-child(4) span
+{
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+
+
+}
+
+tbody td:nth-child(2), tbody td:nth-child(3),tbody td:nth-child(4)
+{
+  border-bottom: 2px dashed #ccc;
+
+}
+tbody td:nth-child(2) span
+{
+  padding-left:10px;
+}
+.formData .form-group
+{
+  display:inline-block;
+}
+.formData
+{
+    margin-top: 25%;
+}
+.formData .form-group:nth-child(1)
+{
+  width:30%;
+}
+-------------------------------------------------------------TS-------------------------------------------------------------
+import { Component ,AfterViewInit ,ViewChild,ElementRef } from '@angular/core';
+import { FormGroup,FormControl }            from '@angular/forms';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: "app/app.component.html",
+  styleUrls:['app/app.component.scss']
+})
+export class AppComponent  {
+
+constructor(private elementRef: ElementRef) { }
+_editFlag= false;
+loadData=null;
+      Data =[{
+              type:"Hardcover",
+              price:"R 300.00",
+              newForm:"R 334.99",
+              usedFrom:"269.99",
+              },
+              {
+              type:"PaperBack",
+              price:"R 300.00",
+              newForm:"R 334.99",
+              usedFrom:"269.99",
+              },
+              {
+              type:"Audio,CD,Audiobook",
+              price:"R 300.00",
+              newForm:"R 334.99",
+              usedFrom:"269.99",
+              },
+              {
+              type:"Unknown Binding",
+              price:"R 300.00",
+              newForm:"R 334.99",
+              usedFrom:"269.99",
+            }];
+           _edit(e)
+          {
+            this._editFlag= true;
+            console.log(e);
+            this.loadData = e;
+          }
+          _delete(e)
+          {
+
+          }
+          save(e)
+          {
+          if(e.valid && !this._editFlag)
+          {
+            this.Data.push(e.value);
+            console.log(e);
+            }
+          }
+}
+}
